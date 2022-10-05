@@ -12,6 +12,10 @@ AllCops:
 Style/StringLiterals:
   Enabled: false
 
+Metrics/BlockLength:
+  AllowedMethods:
+    - configure_blacklight
+
 
 Gemspec/DeprecatedAttributeAssignment: # new in 1.30
   Enabled: true

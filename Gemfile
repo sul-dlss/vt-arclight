@@ -6,6 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
+gem 'blacklight', github: 'projectblacklight/blacklight', branch: 'main'
 gem "rails", "~> 7.0.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
@@ -44,9 +45,6 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Use Sass to process CSS
-# gem "sassc-rails"
-
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
@@ -77,4 +75,9 @@ group :development, :test do
   gem 'rspec-rails', '~> 6.0.0.rc1'
   gem "rubocop-rails", "~> 2.16", require: false
   gem "rubocop-rspec", "~> 2.13", require: false
+  gem "solr_wrapper", ">= 0.3"
 end
+
+gem "bootstrap", "~> 5.1"
+gem "rsolr", ">= 1.0", "< 3"
+gem "sassc-rails", "~> 2.1"
