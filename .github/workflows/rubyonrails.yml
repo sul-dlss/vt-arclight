@@ -13,7 +13,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    # services:
+    services:
+      solr:
+        image: solr:9
+        # options: -cloud -noprompt -f
+        # command: bin/solr -cloud -noprompt -f
+        ports:
+          - "8983:8983"
       # postgres:
       #   image: postgres:11-alpine
       #   ports:
@@ -38,6 +44,14 @@ jobs:
       # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
+      - name: Setup solr
+        run: >
+            cd solr/conf &&
+            zip -1 -r solr_config.zip ./* &&
+            curl -H "Content-type:application/octet-stream" --data-binary
+            @solr_config.zip "http://localhost:8983/api/cluster/configs/solrconfig" &&
+            curl "http://localhost:8983/api/cluster/configs?omitHeader=true" &&
+            curl -H 'Content-type: application/json' http://localhost:8983/api/cores -d '{create: {name: blacklight-core, configSet: solrconfig}}'
       # Add or replace test runners here
       - name: Run tests
         run: bin/rake
