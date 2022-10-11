@@ -72,7 +72,7 @@ group :test do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 6.0.0.rc1'
+  gem 'rspec-rails', '~> 6.0'
   gem "rubocop-rails", "~> 2.16", require: false
   gem "rubocop-rspec", "~> 2.13", require: false
   gem "solr_wrapper", ">= 0.3"
