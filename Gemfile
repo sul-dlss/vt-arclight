@@ -87,5 +87,6 @@ end
 gem 'arclight', github: 'projectblacklight/arclight'
 gem "blacklight-locale_picker"
 gem "bootstrap", "~> 5.1"
+gem "pg", "~> 1.4"
 gem "rsolr", ">= 1.0", "< 3"
 gem "sassc-rails", "~> 2.1"
