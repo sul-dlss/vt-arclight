@@ -7,7 +7,7 @@ set :repo_url, "https://github.com/sul-dlss/nta-arclight.git"
 ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call unless ENV['DEPLOY']
 
 # Default deploy_to directory is /var/www/application-name
-set :deploy_to, "/opt/app/nta-arclight/nta-arclight"
+set :deploy_to, "/opt/app/nta/nta"
 
 # Default value for :linked_files is []
 set :linked_files, %w[public/robots.txt config/database.yml config/blacklight.yml]
