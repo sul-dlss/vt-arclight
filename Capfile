@@ -32,7 +32,7 @@ require 'capistrano/bundler'
 require 'capistrano/rails'
 require 'capistrano/passenger'
 require 'dlss/capistrano'
-require 'capistrano/sitemap_generator'
+# require 'capistrano/sitemap_generator'
 require 'capistrano/shared_configs'
 
 # Load custom tasks from `lib/capistrano/tasks` if you have any defined
