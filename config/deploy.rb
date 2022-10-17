@@ -10,7 +10,7 @@ ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call unless ENV['D
 set :deploy_to, "/opt/app/nta/nta"
 
 # Default value for :linked_files is []
-set :linked_files, %w[public/robots.txt config/database.yml config/blacklight.yml]
+set :linked_files, %w[config/database.yml config/blacklight.yml]
 
 # Default value for linked_dirs is []
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets vendor/bundle config/settings]
