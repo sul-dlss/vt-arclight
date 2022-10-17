@@ -2,6 +2,7 @@
 
 class SearchBuilder < Blacklight::SearchBuilder
   include Blacklight::Solr::SearchBuilderBehavior
+  include Arclight::SearchBehavior
 
   ##
   # @example Adding a new step to the processor chain

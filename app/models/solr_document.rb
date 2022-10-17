@@ -3,6 +3,7 @@
 # Represent a single document returned from Solr
 class SolrDocument
   include Blacklight::Solr::Document
+  include Arclight::SolrDocument
 
   # self.unique_key = 'id'
 
