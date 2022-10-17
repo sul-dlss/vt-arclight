@@ -78,6 +78,12 @@ group :development, :test do
   gem "solr_wrapper", ">= 0.3"
 end
 
+group :deployment do
+  gem 'capistrano-passenger'
+  gem 'capistrano-rails'
+  gem 'dlss-capistrano'
+end
+
 gem "bootstrap", "~> 5.1"
 gem "rsolr", ">= 1.0", "< 3"
 gem "sassc-rails", "~> 2.1"
