@@ -9,9 +9,6 @@ ruby "3.1.2"
 gem 'blacklight', github: 'projectblacklight/blacklight', branch: 'main'
 gem "rails", "~> 7.0.4"
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
-
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -86,6 +83,6 @@ end
 
 gem 'arclight', github: 'projectblacklight/arclight'
 gem "blacklight-locale_picker"
-gem "bootstrap", "~> 5.1"
+gem "cssbundling-rails", "~> 1.1"
+gem "propshaft", "~> 0.6.4"
 gem "rsolr", ">= 1.0", "< 3"
-gem "sassc-rails", "~> 2.1"
