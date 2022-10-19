@@ -241,13 +241,12 @@ GEM
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
+    pg (1.4.4)
     propshaft (0.6.4)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
       rack
       railties (>= 7.0.0)
-    pg (1.4.4)
-    popper_js (2.11.6)
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
@@ -415,8 +414,8 @@ DEPENDENCIES
   dlss-capistrano
   importmap-rails
   jbuilder
-  propshaft (~> 0.6.4)
   pg (~> 1.4)
+  propshaft (~> 0.6.4)
   puma (~> 5.0)
   rails (~> 7.0.4)
   rsolr (>= 1.0, < 3)
