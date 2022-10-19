@@ -10,6 +10,11 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+arclight@1.0.0-pre.1:
+  version "1.0.0-pre.1"
+  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.0.0-pre.1.tgz#c3ed8b254047a8199f2c45855a6435b1ce0bd58b"
+  integrity sha512-cvub64ak/Gx4E7GIU+cewnyQZW3z4WWARHAXRIaelz0lq+hrorF5HwqKfcHj8X2303+yhBTi6j64vem6gAhRmw==
+
 asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
