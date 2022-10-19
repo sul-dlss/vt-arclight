@@ -85,4 +85,6 @@ gem 'arclight', github: 'projectblacklight/arclight'
 gem "blacklight-locale_picker"
 gem "cssbundling-rails", "~> 1.1"
 gem "propshaft", "~> 0.6.4"
+gem "bootstrap", "~> 5.1"
+gem "pg", "~> 1.4"
 gem "rsolr", ">= 1.0", "< 3"
