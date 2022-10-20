@@ -1,0 +1,32 @@
+version: '3.6'
+
+services:
+  web:
+    build: .
+    volumes:
+      - ./:/app
+      - node_modules:/app/node_modules
+    working_dir: /app
+    ports:
+      - 3000:3000
+    environment:
+      NODE_ENV: development
+      RAILS_LOG_TO_STDOUT: 'true'
+      # SOLR_URL: http://solr:8983/solr/nta-arclight
+      # Docker doesn't allow rails server to remove PID on shutdown
+      PID_FILE: /dev/null
+    depends_on:
+      - db
+    # To allow yarn --watch from Procfile.dev to continue after stdin is closed
+    tty: true
+
+  db:
+    image: postgres:11 # aligns the pg version with what is supported by dor-services-app
+    environment:
+      - POSTGRES_PASSWORD=sekret
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+volumes:
+  node_modules:
+  postgres-data:
