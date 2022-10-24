@@ -1,5 +1,22 @@
 // Entry point for your Sass build
-@import 'variables';
+@import 'palette';
+
+// See https://github.com/projectblacklight/blacklight/issues/2848
+$table-border-color: $silver-sand;
+
+@import 'bootstrapVariables';
 @import 'bootstrap/scss/bootstrap';
+@import 'bootstrapOverrides';
 @import 'blacklight-frontend/app/assets/stylesheets/blacklight/blacklight';
 @import 'arclight/app/assets/stylesheets/arclight/application';
+
+.al-masthead, .navbar-search {
+  background-color: $stanford-fog-light;
+}
+
+.al-masthead + .navbar-search {
+  border: 0; // overriding the style from arclight
+}
+.navbar-search {
+  padding-bottom: 1rem;
+}
