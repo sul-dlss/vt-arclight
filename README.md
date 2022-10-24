@@ -14,6 +14,10 @@ First start solr.
 ```shell
 bundle exec solr_wrapper
 ```
+Index all the data in the `/data` folder. NOTE: for test purposes we are saying that NTA data is part of `sul-spec` repository because it is a required field, this will change.
+```shell
+rake arclight:index_dir DIR=data REPOSITORY_ID=sul-spec           
+```
 
 ## Start the app
 
