@@ -20,4 +20,12 @@
   > .container {
     justify-content: space-around;  // center the search box
   }
+
+  .search_field {
+    flex: none;
+  }
+
+  auto-complete {
+    flex: auto;
+  }
 }
