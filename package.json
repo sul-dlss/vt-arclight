@@ -2,7 +2,7 @@
   "name": "app",
   "private": "true",
   "dependencies": {
-    "arclight": "1.0.0-pre.1",
+    "arclight": "^1.0.0-pre.1",
     "blacklight-frontend": "^7.25.0",
     "bootstrap": "^5.2.2",
     "sass": "^1.55.0"
