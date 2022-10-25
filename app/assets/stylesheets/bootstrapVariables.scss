@@ -1,0 +1,34 @@
+// Colors
+$primary: $stanford-cardinal;
+$danger: $stanford-digital-red;
+$info: $stanford-digital-blue;
+$success: $stanford-fog;
+$dark: $stanford-cardinal;
+
+// Links
+$link-color: $stanford-cardinal;
+$link-decoration: none; // no underline
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+
+// Modals
+$modal-content-bg: $whisper;
+$modal-backdrop-bg: white;
+$modal-backdrop-opacity: 0.8;
+
+// Tables
+$table-border-color: $silver-sand;
+$table-group-separator-color: $silver-sand;
+
+// Breadcrumbs
+$breadcrumb-divider: quote(">");
+
+// Navbar
+$navbar-padding-y: 0;
+$navbar-dark-color: white;
+$nav-link-padding-y: 0.3rem;
+
+// Forms
+$form-text-color: black; // Better contrast for accessability
