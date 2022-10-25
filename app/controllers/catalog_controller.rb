@@ -63,7 +63,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.index.constraints_component = Arclight::ConstraintsComponent
     config.index.document_presenter_class = Arclight::IndexPresenter
     config.add_results_document_tool :arclight_bookmark_control, partial: 'arclight_bookmark_control'
-    config.index.search_bar_component = Arclight::SearchBarComponent
+    config.index.search_bar_component = Blacklight::SearchBarComponent
     config.index.document_actions.delete(:bookmark)
     # config.index.thumbnail_field = 'thumbnail_path_ss'
 
