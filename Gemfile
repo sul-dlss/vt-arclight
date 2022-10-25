@@ -84,6 +84,8 @@ end
 gem 'arclight', github: 'projectblacklight/arclight'
 gem "blacklight-locale_picker"
 gem "cssbundling-rails", "~> 1.1"
+gem "devise", "~> 4.8"
+gem "devise-guests", "~> 0.8"
 gem "pg", "~> 1.4"
 gem "propshaft", "~> 0.6.4"
 gem "rsolr", ">= 1.0", "< 3"
