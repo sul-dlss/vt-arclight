@@ -1,9 +1,5 @@
 // Entry point for your Sass build
 @import 'palette';
-
-// See https://github.com/projectblacklight/blacklight/issues/2848
-$table-border-color: $silver-sand;
-
 @import 'bootstrapVariables';
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrapOverrides';
