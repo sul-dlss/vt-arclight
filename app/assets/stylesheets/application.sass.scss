@@ -7,6 +7,10 @@
 @import 'arclight/app/assets/stylesheets/arclight/application';
 @import 'sulFooter';
 
+.search-widgets {
+  width: auto; // Allows the pagination to drop onto the same line as the sort and per page widgets
+}
+
 .al-masthead, .navbar-search {
   background-color: $stanford-fog-light;
 }
