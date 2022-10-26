@@ -7,6 +7,13 @@
 @import 'arclight/app/assets/stylesheets/arclight/application';
 @import 'sulFooter';
 
+
+.blacklight-catalog-show {
+  .constraints-container {
+    display: none; // Never show "back to search" or "start over" on an item show page.
+  }
+}
+
 .al-masthead, .navbar-search {
   background-color: $stanford-fog-light;
 }
