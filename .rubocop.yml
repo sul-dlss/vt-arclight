@@ -17,6 +17,9 @@ Metrics/BlockLength:
   AllowedMethods:
     - configure_blacklight
 
+RSpec/MultipleExpectations:
+  Max: 5
+
 Gemspec/DeprecatedAttributeAssignment: # new in 1.30
   Enabled: true
 Gemspec/RequireMFA: # new in 1.23
