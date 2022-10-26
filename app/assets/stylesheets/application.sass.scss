@@ -6,6 +6,10 @@
 @import 'blacklight-frontend/app/assets/stylesheets/blacklight/blacklight';
 @import 'arclight/app/assets/stylesheets/arclight/application';
 
+#main-container {
+  @extend .mt-4;
+}
+
 .al-masthead, .navbar-search {
   background-color: $stanford-fog-light;
 }
