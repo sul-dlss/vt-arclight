@@ -14,6 +14,19 @@
 .al-masthead + .navbar-search {
   border: 0; // overriding the style from arclight
 }
+
 .navbar-search {
   padding-bottom: 1rem;
+
+  > .container {
+    justify-content: space-around;  // center the search box
+  }
+
+  .search_field {
+    flex: none;
+  }
+
+  auto-complete {
+    flex: auto;
+  }
 }
