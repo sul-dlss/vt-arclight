@@ -1,3 +1,6 @@
 en:
   blacklight:
     application_name: 'Stanford | Libraries'
+    search:
+      facets:
+        title: Find items by…

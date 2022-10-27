@@ -17,6 +17,10 @@ $logo-width: 200px;
 @import 'arclight/app/assets/stylesheets/arclight/application';
 @import 'sulFooter';
 
+#main-container {
+  @extend .mt-4;
+}
+
 .al-masthead, .navbar-search {
   background-color: $stanford-fog-light;
 }
