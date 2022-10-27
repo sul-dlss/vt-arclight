@@ -21,6 +21,10 @@ $logo-width: 200px;
   @extend .mt-4;
 }
 
+.search-widgets {
+  width: auto; // Allows the pagination to drop onto the same line as the sort and per page widgets
+}
+
 .al-masthead, .navbar-search {
   background-color: $stanford-fog-light;
 }
