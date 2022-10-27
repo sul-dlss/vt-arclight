@@ -17,4 +17,11 @@ namespace :nta do
       f.puts xml
     end
   end
+
+  desc 'Index all files in the /data directory'
+  task index: :environment do
+    ENV['DIR'] ||= 'data'
+    ENV['REPOSITORY_ID'] ||= 'icj'
+    Rake::Task['arclight:index_dir'].invoke
+  end
 end

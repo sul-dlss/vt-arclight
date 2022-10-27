@@ -44,13 +44,9 @@ vault kv get puppet/application/nta/stage/aspace_password
     ```shell
      ASPACE_URL=http://spec-as-stage.stanford.edu:8089 ASPACE_USER=<xxx> ASPACE_PASSWORD=<xxx> rake nta:download_resource\[2,mt839rq8746\]  
      ```
-3. Index the file. You can either index the entire `/data` directory or a single file. For now we are indexing under `sul-spec` but again this is subject to change in development.
+3. Index the file.
     ```shell
-     DIR=data REPOSITORY_ID=sul-spec rake arclight:index_dir       
-    ```
-    Or a single file:
-    ```shell
-    FILE=data/mt839rq8746.xml REPOSITORY_ID=sul-spec rake arclight:index         
+     rake nta:index_dir       
     ```
 ## Start the app
 
