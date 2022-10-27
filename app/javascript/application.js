@@ -4,10 +4,8 @@ import "controllers"
 import bootstrap from "bootstrap"
 window.bootstrap = bootstrap // Required for Blacklight 7 so it can manage the modals
 import "blacklight"
-  import $ from "jquery"
-  window.$ = $ // required by arclight
-  window.jQuery = $ // required by arclight/responsive_truncator.js
-  import "arclight"
+import "arclight"
+
 import dialogPolyfill from "dialog-polyfill"
 Blacklight.onLoad(() => {
   var dialog = document.querySelector('dialog');
