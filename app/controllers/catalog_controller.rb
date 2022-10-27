@@ -44,13 +44,13 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       'collection.rows': 1
     }
 
-    config.add_results_document_tool(:bookmark, partial: 'bookmark_control', if: :render_bookmarks_control?)
+    config.add_results_document_tool(:bookmark, partial: 'bookmark_control')
 
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)
     config.add_results_collection_tool(:view_type_group)
 
-    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', if: :render_bookmarks_control?)
+    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark')
     config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
 
     # solr field configuration for search results/index views
@@ -397,5 +397,10 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
 
     # Group header values
     config.add_group_header_field 'abstract_or_scope', accessor: true, truncate: true, helper_method: :render_html_tags
+  end
+
+  # Override Blacklight so that the "Login" link doesn't display
+  def has_user_authentication_provider?
+    false
   end
 end
