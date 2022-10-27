@@ -3,10 +3,27 @@
 @import 'bootstrapVariables';
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrapOverrides';
+
+$logo-image: url(StanfordLibraries-logo-whitetext.svg);
 @import 'blacklight-frontend/app/assets/stylesheets/blacklight/blacklight';
+
+$logo-width: 200px;
+.navbar-logo {
+  background-size: $logo-width 55px;
+  width: $logo-width;
+  flex: 0 0 $logo-width;
+}
+
 @import 'arclight/app/assets/stylesheets/arclight/application';
 @import 'sulFooter';
 
+#main-container {
+  @extend .mt-4;
+}
+
+.search-widgets {
+  width: auto; // Allows the pagination to drop onto the same line as the sort and per page widgets
+}
 
 .blacklight-catalog-show {
   .constraints-container {

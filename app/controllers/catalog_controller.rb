@@ -46,7 +46,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
 
     config.add_results_document_tool(:bookmark, partial: 'bookmark_control', if: :render_bookmarks_control?)
 
-    config.add_results_collection_tool(:group_toggle)
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)
     config.add_results_collection_tool(:view_type_group)
@@ -70,6 +69,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # solr field configuration for document/show views
     # config.show.title_field = 'title_display'
     config.show.document_component = Arclight::DocumentComponent
+    config.show.breadcrumb_component = BreadcrumbHierarchyComponent
     config.show.embed_component = Arclight::EmbedComponent
     config.show.display_type_field = 'level_ssm'
     # config.show.thumbnail_field = 'thumbnail_path_ss'

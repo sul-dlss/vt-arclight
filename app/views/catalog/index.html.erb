@@ -1,0 +1,19 @@
+<% # this view overrides the Arclight provided view so that we can see the home page text %>
+
+<% content_for(:sidebar) do %>
+  <%= render 'search_sidebar' %>
+<% end %>
+
+
+<% unless has_search_parameters? %>
+  <%# if there are no input/search related params, display the "home" partial -%>
+  <%= render 'home' %>
+  <%= render 'shared/sitelinks_search_box' %>
+<% else %>
+  <%# override upstream to override the search results header, similar to https://github.com/projectblacklight/blacklight/pull/2831 %>
+  <% content_for(:container_header, flush: true) do -%>
+    <%= render 'search_results_header' %>
+    <%= render 'constraints' %>
+  <% end %>
+  <%= render 'search_results' %>
+<% end %>
