@@ -28,6 +28,21 @@ main {
   @extend .mt-4;
 }
 
+// Ported upstream as https://github.com/projectblacklight/blacklight/pull/2856
+.search-autocomplete-wrapper {
+  position: relative;
+  display: inline-block;
+
+  ul {
+    @extend .dropdown-menu;
+    display: block;
+    width: 100%;
+
+    li {
+      @extend .dropdown-item;
+    }
+  }
+}
 .search-widgets {
   width: auto; // Allows the pagination to drop onto the same line as the sort and per page widgets
 }
