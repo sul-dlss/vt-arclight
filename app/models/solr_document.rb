@@ -19,4 +19,10 @@ class SolrDocument
   # and Blacklight::Document::SemanticFields#to_semantic_values
   # Recommendation: Use field names from Dublin Core
   use_extension(Blacklight::Document::DublinCore)
+
+  # Suppress the display of extent badge when there is only one item
+  def extent
+    result = super
+    return result if result != '1 item(s)'
+  end
 end
