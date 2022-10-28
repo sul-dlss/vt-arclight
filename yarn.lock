@@ -11,9 +11,9 @@ anymatch@~3.1.2:
     picomatch "^2.0.4"
 
 arclight@^1.0.0-pre.1:
-  version "1.0.0-pre.2"
-  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.0.0-pre.2.tgz#4675059f4c6039e8580e16b84e2766149e029f89"
-  integrity sha512-lCiZkuj50efWyeXUgdKbhunQtNpTv73eg1wUp3UzQndXcnhx3VuhX0VX467ph38Ry2o07qmh2OJeAZ2WlsYWAg==
+  version "1.0.0-pre.3"
+  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.0.0-pre.3.tgz#916cf33e644812295e5dd1ad4bf42f258cd99784"
+  integrity sha512-jGdqNB2IPSeqGRPL+ZZMp3ktoUhKkR5lGCG8TE8xqXs1VQlozo3/1i3jVptNkubaCYjCfMixU7NYNV4YQ+B3pQ==
 
 asynckit@^0.4.0:
   version "0.4.0"
