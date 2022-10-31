@@ -1,6 +1,9 @@
 en:
   arclight:
     masthead_heading: Taube Archive of the International Military Tribunal (IMT) at Nuremberg (1945-1946)
+    views:
+      show:
+        embedded_content: Digital content
   routes:
     about: About
     inventory: Content inventory
