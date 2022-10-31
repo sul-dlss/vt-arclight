@@ -14,11 +14,40 @@ First start solr.
 ```shell
 bundle exec solr_wrapper
 ```
-Index all the data in the `/data` folder. NOTE: for test purposes we are saying that NTA data is part of `sul-spec` repository because it is a required field, this will change.
+
+## Index data from NTA records stored in ArchivesSpace
+
+### Required environment variables
+Making requests to the ArchivesSpace endpoints via rake task requires that certain environment variables are set. Locally you can pass them on the command line or set them up another way. On staging and production servers, they are stored and accessible.
+- `ASPACE_URL`
+- `ASPACE_USER`
+- `ASPACE_PASSWORD`
+
+You can get the values of Vault by running the following (stage example):
 ```shell
-rake arclight:index_dir DIR=data REPOSITORY_ID=sul-spec           
+vault kv get puppet/application/nta/stage/aspace_url
+vault kv get puppet/application/nta/stage/aspace_user
+vault kv get puppet/application/nta/stage/aspace_password
 ```
 
+### Requesting data and indexing it
+1. Find out the ID of the Resource and its Resository that you want in ArchivesSpace. Repository refers to internal SUL organization. For now we assume the Reposiotry ID is `2`, for Special Collections. This is subject to change in development. 
+
+    "Resource" is the name for top level containers in ArchivesSpace. The Resource ID is the permanent identifier we use for the NTA collection. It's the same as the PURL and won't change: `mt839rq8746`
+
+2. Download the NTA EAD for a specific Resource. This will download EAD to our `/data` folder with the Resource ID as the filename, e.g. `/data/mt839rq8746.xml`. You can use the following command. When trying to pass arguments to a rake task in the form of `[arg1,arg2]`, it seems my zsh shell requires escaping the brackets:
+    ```shell
+    rake nta:download_resource\[2,mt839rq8746\]           
+    ```
+
+    Locally with passing env variables, the command could like like this:
+    ```shell
+     ASPACE_URL=http://spec-as-stage.stanford.edu:8089 ASPACE_USER=<xxx> ASPACE_PASSWORD=<xxx> rake nta:download_resource\[2,mt839rq8746\]  
+     ```
+3. Index the file.
+    ```shell
+     rake nta:index_dir       
+    ```
 ## Start the app
 
 ### Locally
