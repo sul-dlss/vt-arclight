@@ -46,7 +46,7 @@ vault kv get puppet/application/nta/stage/aspace_password
      ```
 3. Index the file.
     ```shell
-     rake nta:index_dir       
+     rake nta:index 
     ```
 ## Start the app
 
