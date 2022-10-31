@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: aaf9865d790ba21d8e5765a0ac23e2745f42018e
+  revision: 29d268a0e04d3560984c22f7f2cef6eb0767df7d
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 9e9fb1559880e9867e1b91e108dddf1e1d2d4646
+  revision: 66708bbb8aee981cbcbab4d6540614b97820547c
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -245,7 +245,7 @@ GEM
       timeout
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
-    net-smtp (0.3.2)
+    net-smtp (0.3.3)
       net-protocol
     net-ssh (7.0.1)
     nio4r (2.5.8)
@@ -421,7 +421,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yell (2.2.2)
-    zeitwerk (2.6.1)
+    zeitwerk (2.6.3)
 
 PLATFORMS
   x86_64-darwin-20
