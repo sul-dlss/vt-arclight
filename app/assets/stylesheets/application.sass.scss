@@ -5,15 +5,8 @@
 @import 'bootstrapOverrides';
 
 $logo-image: url(StanfordLibraries-logo-whitetext.svg);
-@import 'blacklight-frontend/app/assets/stylesheets/blacklight/blacklight';
-
 $logo-width: 200px;
-.navbar-logo {
-  background-size: $logo-width 55px;
-  width: $logo-width;
-  flex: 0 0 $logo-width;
-}
-
+@import 'blacklight-frontend/app/assets/stylesheets/blacklight/blacklight';
 @import 'arclight/app/assets/stylesheets/arclight/application';
 @import 'sulFooter';
 
