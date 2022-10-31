@@ -1,9 +1,10 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 9af84fe7261bc61566931f767777dc1dc740799e
+  revision: aaf9865d790ba21d8e5765a0ac23e2745f42018e
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
+      gretel
       rails (~> 7.0)
       traject (~> 3.0)
       traject_plus (~> 2.0)
@@ -174,6 +175,9 @@ GEM
       rake
     globalid (1.0.0)
       activesupport (>= 5.0)
+    gretel (4.4.0)
+      actionview (>= 5.1, < 7.1)
+      railties (>= 5.1, < 7.1)
     hashdiff (1.0.1)
     hashie (5.0.0)
     http (5.1.0)
