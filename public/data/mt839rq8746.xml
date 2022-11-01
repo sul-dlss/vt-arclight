@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ead audience="internal" xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" audience="internal" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511">
     <eadid>mt839rq8746</eadid>
     <filedesc>
       <titlestmt>
-        <titleproper>
-          Guide to the Taube Archive of the International Military Tribunal (IMT) at Nuremberg
-          <num>mt839rq8746</num>
-        </titleproper>
+        <titleproper>Guide to the Taube Archive of the International Military Tribunal (IMT) at Nuremberg <num>mt839rq8746</num></titleproper>
       </titlestmt>
       <publicationstmt>
         <publisher>Department of Special Collections and University Archives</publisher>
@@ -16,19 +13,12 @@
           <addressline>557 Escondido Mall</addressline>
           <addressline>Stanford 94305-6064</addressline>
           <addressline>specialcollections@stanford.edu</addressline>
-          <addressline>
-            URL:
-            <extptr xlink:href="http://library.stanford.edu/spc" xlink:show="new" xlink:title="http://library.stanford.edu/spc" xlink:type="simple" />
-          </addressline>
+          <addressline>URL: <extptr xlink:href="http://library.stanford.edu/spc" xlink:show="new" xlink:title="http://library.stanford.edu/spc" xlink:type="simple"/></addressline>
         </address>
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>
-        This finding aid was produced using ArchivesSpace on
-        <date>2022-10-31 14:33:50 -0700</date>
-        .
-      </creation>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2022-11-01 11:48:13 -0700</date>.</creation>
       <langusage>English</langusage>
       <descrules>Describing Archives: A Content Standard</descrules>
     </profiledesc>
@@ -12736,8 +12726,8 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:16:28+00:00</physfacet>
                 </physdesc>
-                <container id="aspace_9232e2b7d04dac6998dfe55d17c15b72" label="Audio [Disc No. 1732A]" type="box">Unknown</container>
-                <container id="aspace_e21dd270d0436751b3b88d38c3404054" parent="aspace_9232e2b7d04dac6998dfe55d17c15b72" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_b99819baaabbabb2cdbd4be64cadb073" label="Audio [Disc No. 1732A]" type="box">Unknown</container>
+                <container id="aspace_dfb0f994fbf1c11bffcc684ccdabae83" parent="aspace_b99819baaabbabb2cdbd4be64cadb073" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/mn513gx2686" xlink:show="new" xlink:title="Defense for Hess. Part 1" xlink:type="simple">
                   <daodesc>
                     <p>Defense for Hess. Part 1</p>
@@ -12758,8 +12748,8 @@
                   <physfacet>1899-12-31T00:15:58+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_5e3b7bf545c88e0535488da73f5fcb89">Sound</physdesc>
-                <container id="aspace_bdeea74d77b22b7b1c5563d36d28693f" label="Audio [Disc No. 1733A]" type="box">Unknown</container>
-                <container id="aspace_b694268fa214597a633672d567801223" parent="aspace_bdeea74d77b22b7b1c5563d36d28693f" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_6411e76f7804c05e29793a69a1c7fe22" label="Audio [Disc No. 1733A]" type="box">Unknown</container>
+                <container id="aspace_c408cc65417e0d31b9d01eb6255647d6" parent="aspace_6411e76f7804c05e29793a69a1c7fe22" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/qy942cp7947" xlink:show="new" xlink:title="Defense for Hess. Part 2" xlink:type="simple">
                   <daodesc>
                     <p>Defense for Hess. Part 2</p>
@@ -12789,8 +12779,8 @@
                   <physfacet>1899-12-31T00:15:36+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_9a87410b51ed58b3747ac7791e9d4bcd">Sound</physdesc>
-                <container id="aspace_63acdf1aa1765ae3929e1609f17a9658" label="Audio [Disc No. 2151A]" type="box">Unknown</container>
-                <container id="aspace_9c6f9c34c75cab281e2007e2a3331dde" parent="aspace_63acdf1aa1765ae3929e1609f17a9658" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_facb11eb0d3ec1ce86323701bb12a13b" label="Audio [Disc No. 2151A]" type="box">Unknown</container>
+                <container id="aspace_61970f66a0d93ce4848b664826c60b45" parent="aspace_facb11eb0d3ec1ce86323701bb12a13b" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/gc375qw7079" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 12" xlink:type="simple">
                   <daodesc>
                     <p>Continuation by defendant Schacht. Part 12</p>
@@ -12811,8 +12801,8 @@
                   <physfacet>1899-12-31T00:15:23+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_229a645c543ff9431ff7454f49dc0724">Sound</physdesc>
-                <container id="aspace_0755b5398b80268c99427973d71eee4e" label="Audio [Disc No. 2152A]" type="box">Unknown</container>
-                <container id="aspace_8ff60a3fa06d60d14f5f6105c78124a4" parent="aspace_0755b5398b80268c99427973d71eee4e" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_b5a08f5558823c9f4cee86d2868daa12" label="Audio [Disc No. 2152A]" type="box">Unknown</container>
+                <container id="aspace_2015b06330a5c7a813b137f9fd82fdd4" parent="aspace_b5a08f5558823c9f4cee86d2868daa12" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/rz871hs8249" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 13" xlink:type="simple">
                   <daodesc>
                     <p>Continuation by defendant Schacht. Part 13</p>
@@ -12833,8 +12823,8 @@
                   <physfacet>1899-12-31T00:04:12+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_13a808707e25672ddfffb4963236ad24">Sound</physdesc>
-                <container id="aspace_bdd33204e8e47ffa6ab3d82cbdf9a106" label="Audio [Disc No. 2153A]" type="box">Unknown</container>
-                <container id="aspace_d47bfee6c4f4e351bc95947ea0fbab4d" parent="aspace_bdd33204e8e47ffa6ab3d82cbdf9a106" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_c2de37502533fc8cf7572ebeb1ca517c" label="Audio [Disc No. 2153A]" type="box">Unknown</container>
+                <container id="aspace_5794fb696d6999d5cc1e85978d006439" parent="aspace_c2de37502533fc8cf7572ebeb1ca517c" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/sp244gd2801" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 14" xlink:type="simple">
                   <daodesc>
                     <p>Continuation by defendant Schacht. Part 14</p>
