@@ -9,16 +9,16 @@
 #               - Pass a size_accessor key to pull the size of
 #                 the file from an accessor in the solr document
 #
-sample_unitid:
-  pdf:
-    href: 'http://example.com/sample.pdf'
-    size: '1.23MB'
+mt839rq8746:
+  # pdf:
+  #   href: 'http://example.com/sample.pdf'
+  #   size: '1.23MB'
   ead:
-    href: 'http://example.com/sample.xml'
-    size: 123456
+    href: '/data/mt839rq8746.xml'
+    # size: 123456
     # size_accessor: 'level'
 default:
-  disabled: true
+  disabled: false
   pdf:
     template: 'http://example.com/%{unitid}.pdf'
   ead:
