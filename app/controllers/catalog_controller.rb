@@ -71,6 +71,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.show.document_component = Arclight::DocumentComponent
     config.show.breadcrumb_component = BreadcrumbHierarchyComponent
     config.show.embed_component = Arclight::EmbedComponent
+    config.show.access_component = Arclight::AccessComponent
     config.show.display_type_field = 'level_ssm'
     # config.show.thumbnail_field = 'thumbnail_path_ss'
     config.show.document_presenter_class = Arclight::ShowPresenter
@@ -82,6 +83,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       access_field
     ]
 
+    # The access section for a collection
     config.show.context_access_tab_items = %i[
       terms_field
       cite_field
@@ -94,12 +96,9 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       component_indexed_terms_field
     ]
 
-    config.show.component_access_tab_items = %i[
-      component_terms_field
-      cite_field
-      in_person_field
-      contact_field
-    ]
+    # Do not display access section for components because
+    # all NTA components have the same access status as the collection as a whole.
+    config.show.component_access_tab_items = []
 
     ##
     # Collection Context
