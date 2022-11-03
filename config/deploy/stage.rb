@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-server 'nta-stage-a.stanford.edu', user: 'nta', roles: %w[web db app]
-server 'nta-stage-b.stanford.edu', user: 'nta', roles: %w[web app]
+server 'vt-stage-a.stanford.edu', user: 'vt', roles: %w[web db app]
+server 'vt-stage-b.stanford.edu', user: 'vt', roles: %w[web app]
 
 Capistrano::OneTimeKey.generate_one_time_key!
 set :rails_env, 'production'

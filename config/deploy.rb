@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-set :application, "nta-arclight"
-set :repo_url, "https://github.com/sul-dlss/nta-arclight.git"
+set :application, "vt-arclight"
+set :repo_url, "https://github.com/sul-dlss/vt-arclight.git"
 
 # Default branch is :master so we need to update to main
 if ENV['DEPLOY']
@@ -11,7 +11,7 @@ else
 end
 
 # Default deploy_to directory is /var/www/application-name
-set :deploy_to, "/opt/app/nta/nta"
+set :deploy_to, "/opt/app/vt/vt"
 
 # Default value for :linked_files is []
 set :linked_files, %w[config/database.yml config/blacklight.yml]
