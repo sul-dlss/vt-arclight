@@ -12,7 +12,6 @@ services:
     environment:
       NODE_ENV: development
       RAILS_LOG_TO_STDOUT: 'true'
-      # SOLR_URL: http://solr:8983/solr/nta-arclight
       # Docker doesn't allow rails server to remove PID on shutdown
       PID_FILE: /dev/null
     depends_on:
