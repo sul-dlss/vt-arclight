@@ -5,10 +5,10 @@ Rails.application.routes.draw do
   mount Blacklight::Engine => '/'
   mount Arclight::Engine => '/'
 
-  root to: "catalog#index"
+  root to: "virtual_tribunals#index"
   concern :searchable, Blacklight::Routes::Searchable.new
 
-  resource :catalog, only: [:index], as: 'catalog', path: '/catalog', controller: 'catalog' do
+  resource :catalog, only: [:index], as: 'catalog', path: '/nuremberg', controller: 'catalog' do
     concerns :searchable
   end
 
