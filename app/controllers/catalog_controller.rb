@@ -84,7 +84,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     ]
 
     # The access section for a collection
-    config.show.context_access_tab_items = %i[
+    config.show.collection_access_items = %i[
       terms_field
       cite_field
       in_person_field
@@ -98,7 +98,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
 
     # Do not display access section for components because
     # all NTA components have the same access status as the collection as a whole.
-    config.show.component_access_tab_items = []
+    config.show.component_access_items = []
 
     ##
     # Collection Context
