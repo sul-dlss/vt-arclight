@@ -2,7 +2,7 @@
 
 require 'fileutils'
 
-namespace :nta do
+namespace :vt do
   # "Resource" is the name for top level containers in ArchivesSpace
   desc 'Download EAD for a Resource in ArchivesSpace to the /data directory'
   task :download_resource, %i[repository_id resource_id] => :environment do |_task, args|
