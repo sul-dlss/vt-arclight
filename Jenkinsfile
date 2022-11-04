@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    PROJECT = 'sul-dlss/nta-arclight'
+    PROJECT = 'sul-dlss/vt-arclight'
   }
 
   stages {
@@ -23,7 +23,7 @@ pipeline {
           export DEPLOY=1
 
           # Load RVM
-          rvm use 3.1.2@nta-arclight --create
+          rvm use 3.1.2@vt-arclight --create
           gem install bundler
 
           bundle install --without production
@@ -68,7 +68,7 @@ pipeline {
           export REVISION=$TAG_NAME
 
           # Load RVM
-          rvm use 3.1.2@nta-arclight --create
+          rvm use 3.1.2@vt-arclight --create
           gem install bundler
 
           bundle install --without production
