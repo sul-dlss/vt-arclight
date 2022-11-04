@@ -135,17 +135,17 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # :index_range can be an array or range of prefixes that will be used to create the navigation
     #  (note: It is case sensitive when searching values)
 
-    config.add_facet_field 'collection_sim', label: 'Collection', limit: 10
-    config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
-    config.add_facet_field 'creators_ssim', label: 'Creator', show: false
-    config.add_facet_field 'date_range_sim', label: 'Date range', range: true
+    # config.add_facet_field 'collection_sim', label: 'Collection', limit: 10
+    # config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
+    # config.add_facet_field 'creators_ssim', label: 'Creator', show: false
+    config.add_facet_field 'date_range_sim', label: 'Year'
     config.add_facet_field 'level_sim', label: 'Level', limit: 10
-    config.add_facet_field 'names_ssim', label: 'Names', limit: 10
-    config.add_facet_field 'repository_sim', label: 'Repository', limit: 10
-    config.add_facet_field 'geogname_sim', label: 'Place', limit: 10
-    config.add_facet_field 'places_ssim', label: 'Places', show: false
-    config.add_facet_field 'access_subjects_ssim', label: 'Subject', limit: 10
-    config.add_facet_field 'component_level_isim', show: false
+    # config.add_facet_field 'names_ssim', label: 'Names', limit: 10
+    # config.add_facet_field 'repository_sim', label: 'Repository', limit: 10
+    # config.add_facet_field 'geogname_sim', label: 'Place', limit: 10
+    # config.add_facet_field 'places_ssim', label: 'Places', show: false
+    # config.add_facet_field 'access_subjects_ssim', label: 'Subject', limit: 10
+    # config.add_facet_field 'component_level_isim', show: false
 
     # Note that parent_ssim is an array of all ancestor nodes, including the parent
     # parent_ssi is just the immediate parent; it's used in queries for context nav
@@ -168,9 +168,9 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, collection_context: true,
                                                 repository_context: true, helper_method: :render_html_tags
 
-    config.add_facet_field 'has_online_content_ssim', label: 'Access', query: {
-      online: { label: 'Online access', fq: 'has_online_content_ssim:true' }
-    }
+    # config.add_facet_field 'has_online_content_ssim', label: 'Access', query: {
+    #   online: { label: 'Online access', fq: 'has_online_content_ssim:true' }
+    # }
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
