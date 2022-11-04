@@ -7,6 +7,8 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
   include Blacklight::LocalePicker::Concern
 
   configure_blacklight do |config|
+    config.logo_link = 'https://library.stanford.edu/'
+
     ## Class for sending and receiving requests from a search index
     # config.repository_class = Blacklight::Solr::Repository
     #
