@@ -29,7 +29,6 @@ main {
   ul {
     @extend .dropdown-menu;
     display: block;
-    width: 100%;
 
     li {
       @extend .dropdown-item;
