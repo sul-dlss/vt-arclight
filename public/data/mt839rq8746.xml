@@ -18,7 +18,7 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>This finding aid was produced using ArchivesSpace on <date>2022-11-01 11:48:13 -0700</date>.</creation>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2022-11-07 09:46:17 -0800</date>.</creation>
       <langusage>English</langusage>
       <descrules>Describing Archives: A Content Standard</descrules>
     </profiledesc>
@@ -42,7 +42,7 @@
       <physdesc altrender="whole">
         <extent altrender="materialtype spaceoccupied">398 item(s)</extent>
       </physdesc>
-      <unitdate calendar="gregorian" era="ce" normal="1945-11-20/1946-10-01" type="inclusive">(1945-46)</unitdate>
+      <unitdate calendar="gregorian" era="ce" normal="1945-11-20/1946-10-01" type="inclusive">1945-46</unitdate>
     </did>
     <controlaccess>
       <subject source="lcsh">Nuremberg War Crime Trials, Nuremberg, Germany, 1946-1949</subject>
@@ -12402,6 +12402,47 @@
             </odd>
           </c>
         </c>
+        <c id="aspace_c1298b56d43b0b671dae9aefcb23a3a2" level="subseries">
+          <did>
+            <unittitle>January 1946</unittitle>
+            <unitid>Jan1946</unitid>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_6ae53648f97f063a16f2f2a87c5242c2" level="item">
+            <did>
+              <unittitle>Folder 1: Official Court Transcript, 17 January 1946 M</unittitle>
+              <unitid>H-5085</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <physfacet>50 pages</physfacet>
+              </physdesc>
+              <physdesc id="aspace_5348e6053ad55a655621bffcee2088e1">Text</physdesc>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yc337kj7425" xlink:show="new" xlink:title="Folder 1: Official Court Transcript, 17 January 1946 M" xlink:type="simple">
+                <daodesc>
+                  <p>Folder 1: Official Court Transcript, 17 January 1946 M</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c>
+          <c id="aspace_2111160c1c939b603bffeadf858e39e8" level="item">
+            <did>
+              <unittitle>Folder 2: Official Court Transcript, 17 January 1946 A</unittitle>
+              <unitid>H-5086</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <physfacet>77 pages</physfacet>
+              </physdesc>
+              <physdesc id="aspace_9085066550dabb2b3c33367ddc9168a9">Text</physdesc>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/xy032hx7889" xlink:show="new" xlink:title="Folder 2: Official Court Transcript, 17 January 1946 A" xlink:type="simple">
+                <daodesc>
+                  <p>Folder 2: Official Court Transcript, 17 January 1946 A</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c>
+        </c>
         <c id="aspace_e8d849d3881e6018e2a551bceb823235" level="subseries">
           <did>
             <unittitle>August 1946</unittitle>
@@ -12469,47 +12510,6 @@
               <head>General</head>
               <p>Volume</p>
             </odd>
-          </c>
-        </c>
-        <c id="aspace_c1298b56d43b0b671dae9aefcb23a3a2" level="subseries">
-          <did>
-            <unittitle>January 1946</unittitle>
-            <unitid>Jan1946</unitid>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
-            </physdesc>
-          </did>
-          <c id="aspace_6ae53648f97f063a16f2f2a87c5242c2" level="item">
-            <did>
-              <unittitle>Folder 1: Official Court Transcript, 17 January 1946 M</unittitle>
-              <unitid>H-5085</unitid>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
-                <physfacet>50 pages</physfacet>
-              </physdesc>
-              <physdesc id="aspace_5348e6053ad55a655621bffcee2088e1">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yc337kj7425" xlink:show="new" xlink:title="Folder 1: Official Court Transcript, 17 January 1946 M" xlink:type="simple">
-                <daodesc>
-                  <p>Folder 1: Official Court Transcript, 17 January 1946 M</p>
-                </daodesc>
-              </dao>
-            </did>
-          </c>
-          <c id="aspace_2111160c1c939b603bffeadf858e39e8" level="item">
-            <did>
-              <unittitle>Folder 2: Official Court Transcript, 17 January 1946 A</unittitle>
-              <unitid>H-5086</unitid>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
-                <physfacet>77 pages</physfacet>
-              </physdesc>
-              <physdesc id="aspace_9085066550dabb2b3c33367ddc9168a9">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/xy032hx7889" xlink:show="new" xlink:title="Folder 2: Official Court Transcript, 17 January 1946 A" xlink:type="simple">
-                <daodesc>
-                  <p>Folder 2: Official Court Transcript, 17 January 1946 A</p>
-                </daodesc>
-              </dao>
-            </did>
           </c>
         </c>
       </c>
@@ -12726,8 +12726,8 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:16:28+00:00</physfacet>
                 </physdesc>
-                <container id="aspace_b99819baaabbabb2cdbd4be64cadb073" label="Audio [Disc No. 1732A]" type="box">Unknown</container>
-                <container id="aspace_dfb0f994fbf1c11bffcc684ccdabae83" parent="aspace_b99819baaabbabb2cdbd4be64cadb073" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_c0f45f77afaa932cd4cd47271051f251" label="Audio [Disc No. 1732A]" type="box">Unknown</container>
+                <container id="aspace_a10d70745a9369f9108af39f116b0227" parent="aspace_c0f45f77afaa932cd4cd47271051f251" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/mn513gx2686" xlink:show="new" xlink:title="Defense for Hess. Part 1" xlink:type="simple">
                   <daodesc>
                     <p>Defense for Hess. Part 1</p>
@@ -12748,8 +12748,8 @@
                   <physfacet>1899-12-31T00:15:58+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_5e3b7bf545c88e0535488da73f5fcb89">Sound</physdesc>
-                <container id="aspace_6411e76f7804c05e29793a69a1c7fe22" label="Audio [Disc No. 1733A]" type="box">Unknown</container>
-                <container id="aspace_c408cc65417e0d31b9d01eb6255647d6" parent="aspace_6411e76f7804c05e29793a69a1c7fe22" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_a0a4f59a637426f6766ea988ed0c7b43" label="Audio [Disc No. 1733A]" type="box">Unknown</container>
+                <container id="aspace_a21a11bcf8d2b53a5be97dda81c0947c" parent="aspace_a0a4f59a637426f6766ea988ed0c7b43" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/qy942cp7947" xlink:show="new" xlink:title="Defense for Hess. Part 2" xlink:type="simple">
                   <daodesc>
                     <p>Defense for Hess. Part 2</p>
@@ -12779,8 +12779,8 @@
                   <physfacet>1899-12-31T00:15:36+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_9a87410b51ed58b3747ac7791e9d4bcd">Sound</physdesc>
-                <container id="aspace_facb11eb0d3ec1ce86323701bb12a13b" label="Audio [Disc No. 2151A]" type="box">Unknown</container>
-                <container id="aspace_61970f66a0d93ce4848b664826c60b45" parent="aspace_facb11eb0d3ec1ce86323701bb12a13b" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_095de7209ee20e244ce2ee6b88a360b7" label="Audio [Disc No. 2151A]" type="box">Unknown</container>
+                <container id="aspace_ccf2c0a7fbb5e5b86377dffd67630a1f" parent="aspace_095de7209ee20e244ce2ee6b88a360b7" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/gc375qw7079" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 12" xlink:type="simple">
                   <daodesc>
                     <p>Continuation by defendant Schacht. Part 12</p>
@@ -12801,8 +12801,8 @@
                   <physfacet>1899-12-31T00:15:23+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_229a645c543ff9431ff7454f49dc0724">Sound</physdesc>
-                <container id="aspace_b5a08f5558823c9f4cee86d2868daa12" label="Audio [Disc No. 2152A]" type="box">Unknown</container>
-                <container id="aspace_2015b06330a5c7a813b137f9fd82fdd4" parent="aspace_b5a08f5558823c9f4cee86d2868daa12" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_787bccf099fa57aaf2bc3073534df0e9" label="Audio [Disc No. 2152A]" type="box">Unknown</container>
+                <container id="aspace_41cb909120c139757195333ada90c874" parent="aspace_787bccf099fa57aaf2bc3073534df0e9" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/rz871hs8249" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 13" xlink:type="simple">
                   <daodesc>
                     <p>Continuation by defendant Schacht. Part 13</p>
@@ -12823,8 +12823,8 @@
                   <physfacet>1899-12-31T00:04:12+00:00</physfacet>
                 </physdesc>
                 <physdesc id="aspace_13a808707e25672ddfffb4963236ad24">Sound</physdesc>
-                <container id="aspace_c2de37502533fc8cf7572ebeb1ca517c" label="Audio [Disc No. 2153A]" type="box">Unknown</container>
-                <container id="aspace_5794fb696d6999d5cc1e85978d006439" parent="aspace_c2de37502533fc8cf7572ebeb1ca517c" type="disc">Electrical transcription boxes</container>
+                <container id="aspace_dcc91151a9dea8f66b6eb6501ad30220" label="Audio [Disc No. 2153A]" type="box">Unknown</container>
+                <container id="aspace_8a10b9d1792a16530ba61f29e69f7ecd" parent="aspace_dcc91151a9dea8f66b6eb6501ad30220" type="disc">Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/sp244gd2801" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 14" xlink:type="simple">
                   <daodesc>
                     <p>Continuation by defendant Schacht. Part 14</p>
