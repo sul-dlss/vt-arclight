@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 5136aecedc8ab2d6af07548f0a4b56d9457f4740
+  revision: c900e0ded9dc366bd5ee077747a62444be604cfd
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 925bde1e1192294004b538e0283c8b7484769e61
+  revision: 598369c1c91c5d0b44498bd7db235e8f7c636ecd
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -421,7 +421,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yell (2.2.2)
-    zeitwerk (2.6.5)
+    zeitwerk (2.6.6)
 
 PLATFORMS
   x86_64-darwin-20
