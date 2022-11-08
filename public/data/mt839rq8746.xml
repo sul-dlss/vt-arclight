@@ -18,7 +18,7 @@
       </publicationstmt>
     </filedesc>
     <profiledesc>
-      <creation>This finding aid was produced using ArchivesSpace on <date>2022-11-07 09:46:17 -0800</date>.</creation>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2022-11-08 13:12:52 -0800</date>.</creation>
       <langusage>English</langusage>
       <descrules>Describing Archives: A Content Standard</descrules>
     </profiledesc>
@@ -11499,7 +11499,7 @@
           </c>
         </c>
       </c>
-      <c id="aspace_225a601809fe22d06e3df8853854dd4a" level="series">
+      <c id="aspace_b335b77c56d400db33039ea75cfb2470" level="series">
         <did>
           <unittitle>Final pleas and clemency pleas</unittitle>
           <unitid>FinalPleas</unitid>
@@ -11507,15 +11507,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_7f54b0e7a221a1af8383c6caca85334b">
+        <acqinfo id="aspace_91b19641d0a3a0f27b16be29fb267064">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_3c1e88cac59e431cb9ac143f7ffc2387">
+        <scopecontent id="aspace_a740e144c0ea2d920dda60bc9bdf5fc1">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_feca95c669cb921660313b44a1bbface" level="subseries">
+        <c id="aspace_f63decc6362feeec9da44e086cad2722" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -11523,7 +11523,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_b4aa6aca12d0c0d5b35cf586ba2eed47" level="item">
+          <c id="aspace_d606e6524d98a281053aa4e71590011e" level="item">
             <did>
               <unittitle>FRANK Clemency Plea, 4 Oct 1946</unittitle>
               <unitid>H-2766</unitid>
@@ -11532,23 +11532,25 @@
                 <extent altrender="carrier">15 pages (German), 14 pages (English), 16 pages (French), 15 pages (Russian)</extent>
                 <physfacet>63 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_ef8460575a5b7a857c2eb933d10a9665">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/qr099jv2232" xlink:show="new" xlink:title="FRANK Clemency Plea, 4 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-04T00:00:00+00:00/1946-10-04T00:00:00+00:00" type="inclusive">1946-10-04T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_7a2b35b62fa7dcd5bb7e339a02539fb9">Text</physdesc>
+              <container id="aspace_a61669d8e4c0e039a2b8c300378ff143" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/qr099jv2232" xlink:show="new" xlink:title="FRANK Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>FRANK Clemency Plea, 4 Oct 1946</p>
+                  <p>FRANK Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_a7da65b43f2828e9c2e37a7f5c3b73fe">
+            <arrangement id="aspace_9b21fa7a2e9b8c074160374a494db4c9">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_b7e6c2f934faf88d9e9a3d30d05423e1">
+            <odd id="aspace_891d0a0fa6c5e1330bfdb8e5799abb40">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_d62a697a2ba57b38e1e4424d7c0b7825" level="item">
+          <c id="aspace_ca32fc26ca1ba8b20c7a4bef07a3db3a" level="item">
             <did>
               <unittitle>FRICK Clemency Plea, 4 Oct 1946</unittitle>
               <unitid>H-2767</unitid>
@@ -11557,23 +11559,25 @@
                 <extent altrender="carrier">2 pages (German), 2 pages (English), 4 pages (French), 2 pages (Russian)</extent>
                 <physfacet>13 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_2d8f2f24080f2882a15c399415f67f62">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/pt360jb3991" xlink:show="new" xlink:title="FRICK Clemency Plea, 4 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-04T00:00:00+00:00/1946-10-04T00:00:00+00:00" type="inclusive">1946-10-04T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_3809d3817042ff3c47c27ee6fa4ea4e1">Text</physdesc>
+              <container id="aspace_0210f4b430b2ece0932588a67f7a0788" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/pt360jb3991" xlink:show="new" xlink:title="FRICK Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>FRICK Clemency Plea, 4 Oct 1946</p>
+                  <p>FRICK Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_30a2d8ad6d8ecff16d006bf952bd7c4f">
+            <arrangement id="aspace_8faa2988e66777585615159db29bf4ea">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_31d8c34ef2f44c508d67e0f818986ec0">
+            <odd id="aspace_025980c29974c78fb8ea96f4f460f000">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_db80b53cbe0bfcd21d374497cd3f02ef" level="item">
+          <c id="aspace_9a5f38fb69291b8a86feb51cf5d5c9fb" level="item">
             <did>
               <unittitle>FUNK Clemency Plea, 4 Oct 1946</unittitle>
               <unitid>H-2768</unitid>
@@ -11582,23 +11586,25 @@
                 <extent altrender="carrier">6 pages (German), 6 pages (English), 11 pages (French), 12 pages (Russian)</extent>
                 <physfacet>38 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_630e8d15c325e2a646a5f00628c8944c">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/fp933yz5221" xlink:show="new" xlink:title="FUNK Clemency Plea, 4 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-04T00:00:00+00:00/1946-10-04T00:00:00+00:00" type="inclusive">1946-10-04T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_75ec14f308a7a8a97f122dbbfa0ba6af">Text</physdesc>
+              <container id="aspace_6b0bfb6d94540431a808a892b1e150d7" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/fp933yz5221" xlink:show="new" xlink:title="FUNK Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>FUNK Clemency Plea, 4 Oct 1946</p>
+                  <p>FUNK Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_dc4d4aaa9f12dee881e2e8ebc33959c0">
+            <arrangement id="aspace_405af28d63fa4e3774eecb54fa59614f">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_5986939f437979a2dca124b1208c8a25">
+            <odd id="aspace_195b0cf8f2f6dcaeed2e31801d7efeb5">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_70127fab52117e6d2319195910a3acf0" level="item">
+          <c id="aspace_0f0ea68f953ef8536dd9bcb24ba927e5" level="item">
             <did>
               <unittitle>GOERING Clemency Plea, 4 Oct 1946</unittitle>
               <unitid>H-2769</unitid>
@@ -11607,23 +11613,25 @@
                 <extent altrender="carrier">4 pages (German), 8 pages (English), 7 pages (French), 4 pages (Russian)</extent>
                 <physfacet>26 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_49b3fb6e30dd5ae2f450cdb33c8e4213">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yp664zj2213" xlink:show="new" xlink:title="GOERING Clemency Plea, 4 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-04T00:00:00+00:00/1946-10-04T00:00:00+00:00" type="inclusive">1946-10-04T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_9008c8d32714737bab0bfc07bdc262f2">Text</physdesc>
+              <container id="aspace_6acba58c24e1c9fab170309952f2ab1e" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yp664zj2213" xlink:show="new" xlink:title="GOERING Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>GOERING Clemency Plea, 4 Oct 1946</p>
+                  <p>GOERING Clemency Plea, 4 Oct 1946, 1946-10-04T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_7e0e3c20ad6fc1aade764ed3f3f16840">
+            <arrangement id="aspace_9b0497d65779962351e41d7976ad8323">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_6b8488ea60a3de7f048d0f4431503200">
+            <odd id="aspace_0bfa2cded40d8038a649f4fc84e90689">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_860c48cb28ed4a46a7967aa9c3d8f568" level="item">
+          <c id="aspace_a550585ed47ce573a38d99be5a863d3e" level="item">
             <did>
               <unittitle>HESS Clemency Plea with attachments, 4 Oct 1946</unittitle>
               <unitid>H-2770</unitid>
@@ -11632,23 +11640,25 @@
                 <extent altrender="carrier">62 pages (German), 97 pages (English), 87 pages (French), 62 pages (Russian)</extent>
                 <physfacet>311 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_33e6d214a4f10a50868ec5c760f28254">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/sr554fm0653" xlink:show="new" xlink:title="HESS Clemency Plea with attachments, 4 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-04T00:00:00+00:00/1946-10-04T00:00:00+00:00" type="inclusive">1946-10-04T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_0b8be16001c4e3f0c28a092f9c4f1709">Text</physdesc>
+              <container id="aspace_74b697f2d8ba45eb7360f3117c3dd37f" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/sr554fm0653" xlink:show="new" xlink:title="HESS Clemency Plea with attachments, 4 Oct 1946, 1946-10-04T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>HESS Clemency Plea with attachments, 4 Oct 1946</p>
+                  <p>HESS Clemency Plea with attachments, 4 Oct 1946, 1946-10-04T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_84768f3f8ddca43a644cfdbf94ffceb2">
+            <arrangement id="aspace_5dfe4d359df03e4be89488025e6a24dc">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_800a58a3093f84ae8a63a112b8316123">
+            <odd id="aspace_d1a0f9c3492b3b2c8c84f361e9c22d21">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_1b7c39823a32c2639cabadf70615f7d4" level="item">
+          <c id="aspace_f74668c7577f06e8df9f3e6f56f2ef93" level="item">
             <did>
               <unittitle>JODL Clemency Pleas with attachments, 4 and 5 Oct 1946</unittitle>
               <unitid>H-2771</unitid>
@@ -11657,23 +11667,26 @@
                 <extent altrender="carrier">15 pages (German, 7 pages of the German Plea is quotation in English), 13 pages (English), 26 pages (French), 19 pages (Russian)</extent>
                 <physfacet>76 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_e9632caf9dd3c9c78e9e6be67ea3084a">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/dc386hz4427" xlink:show="new" xlink:title="JODL Clemency Pleas with attachments, 4 and 5 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-04T00:00:00+00:00/1946-10-04T00:00:00+00:00" type="inclusive">1946-10-04T00:00:00+00:00</unitdate>
+              <unitdate normal="1946-10-05T00:00:00+00:00/1946-10-05T00:00:00+00:00" type="inclusive">1946-10-05T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_2883269d9f89a8d12305c67cc68b7367">Text</physdesc>
+              <container id="aspace_8e8d23f46c7a0b916fa135901022c851" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/dc386hz4427" xlink:show="new" xlink:title="JODL Clemency Pleas with attachments, 4 and 5 Oct 1946, 1946-10-04T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>JODL Clemency Pleas with attachments, 4 and 5 Oct 1946</p>
+                  <p>JODL Clemency Pleas with attachments, 4 and 5 Oct 1946, 1946-10-04T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_6424be7932f11f66c3cc085b6a65a317">
+            <arrangement id="aspace_ad126b6fee1636af4464332aa56bf932">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_a2068e6a00e34bab3ad349c675517c1d">
+            <odd id="aspace_a44d6316ee717c5a4cac336cab7c843e">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_89186dd6fdfe0620e7b4d9317b189a5f" level="item">
+          <c id="aspace_d158d83500c17ccc7d7f3b21be291e1d" level="item">
             <did>
               <unittitle>KEITEL Clemency Plea, 5 Oct 1946</unittitle>
               <unitid>H-2772</unitid>
@@ -11682,23 +11695,25 @@
                 <extent altrender="carrier">3 pages (German), 2 pages (English), 3 pages (French), 3 pages (Russian)</extent>
                 <physfacet>14 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_50a873ce7c1f909e142336822bd60843">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/fs868ty5418" xlink:show="new" xlink:title="KEITEL Clemency Plea, 5 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-05T00:00:00+00:00/1946-10-05T00:00:00+00:00" type="inclusive">1946-10-05T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_f302e7c00d7caa94a085abf9f715fd16">Text</physdesc>
+              <container id="aspace_8e01347a68d6b4fb017857853349cdf3" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/fs868ty5418" xlink:show="new" xlink:title="KEITEL Clemency Plea, 5 Oct 1946, 1946-10-05T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>KEITEL Clemency Plea, 5 Oct 1946</p>
+                  <p>KEITEL Clemency Plea, 5 Oct 1946, 1946-10-05T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_488694d8c4517dd656fa4485a61ccce9">
+            <arrangement id="aspace_9e63b70488fee5a5ed9267ffa2c01956">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_808c83eaf234f5b019614ccc96adbef4">
+            <odd id="aspace_2073564324936d0d6b05e4f8f77bd68d">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_2a8e693c30adc28813c6afcf0c0a457e" level="item">
+          <c id="aspace_3ec514d8627b3ff59dc272e6b1b3255b" level="item">
             <did>
               <unittitle>VON NEURATH Clemency Plea, 5 Oct 1946</unittitle>
               <unitid>H-2773</unitid>
@@ -11707,25 +11722,27 @@
                 <extent altrender="carrier">2 pages (German), 2 pages (English), 3 pages (French), 2 pages (Russian)</extent>
                 <physfacet>12 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_fc2f56381f19c656be4407cf805b454e">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/wy257tq6248" xlink:show="new" xlink:title="VON NEURATH Clemency Plea, 5 Oct 1946" xlink:type="simple">
+              <unitdate normal="1946-10-05T00:00:00+00:00/1946-10-05T00:00:00+00:00" type="inclusive">1946-10-05T00:00:00+00:00</unitdate>
+              <physdesc id="aspace_6f0b3a54695c62da62d2326d6deb501b">Text</physdesc>
+              <container id="aspace_22619a3eedd0437f3e6fb4452cb36ef9" label="Mixed Materials" type="box">16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/wy257tq6248" xlink:show="new" xlink:title="VON NEURATH Clemency Plea, 5 Oct 1946, 1946-10-05T00:00:00+00:00" xlink:type="simple">
                 <daodesc>
-                  <p>VON NEURATH Clemency Plea, 5 Oct 1946</p>
+                  <p>VON NEURATH Clemency Plea, 5 Oct 1946, 1946-10-05T00:00:00+00:00</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_26af9ce5bea67d76f59647d398822f8d">
+            <arrangement id="aspace_38456cd1bbe7827dae263e747ce04160">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches in English have various titles on the cover page, such as: Final Argument, Closing Statement, Final Statement, Final Speech.</p>
             </arrangement>
-            <odd id="aspace_d30104149965e77dd422285076c2f631">
+            <odd id="aspace_c56cad42b7ac208205d0f09369698000">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
         </c>
       </c>
-      <c id="aspace_c37421322955da3d75c801d4aee4577d" level="series">
+      <c id="aspace_ddfbe2153bdfdf29c9f72b47a61e54c3" level="series">
         <did>
           <unittitle>Empty folders</unittitle>
           <unitid>Empty</unitid>
@@ -11733,15 +11750,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_f6e4899d992a4896ad5af7cde7279347">
+        <acqinfo id="aspace_7629695a34c5858d46b5d289b14ae7d8">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_4cdd0ef76cc47945c79be5ecd5df6dd1">
+        <scopecontent id="aspace_1b33d4544e2a34224dc57fd1e8410248">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_ff7f5ef6e73021ef8e1146fb43581661" level="subseries">
+        <c id="aspace_a89915bb5bcb1110d19746ffafbf3072" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -11749,7 +11766,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_e789ef501c7c3c992372f08c5a1bd0aa" level="item">
+          <c id="aspace_f60d331442adbc1cb23e482f0bb5344b" level="item">
             <did>
               <unittitle>[Official Court Transcript, 12 July 1946]</unittitle>
               <unitid>H-0614</unitid>
@@ -11758,23 +11775,25 @@
                 <extent altrender="carrier">The contents are missing. (Apparently the contents of folder should have been 12 July 1946 Transcript, French text.)</extent>
                 <physfacet>2 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_92b750f0be0562bda4a0ac1470802210">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/zw031pj2507" xlink:show="new" xlink:title="[Official Court Transcript, 12 July 1946]" xlink:type="simple">
+              <unitdate normal="1946-07-12/1946-07-12" type="inclusive">1946-07-12</unitdate>
+              <physdesc id="aspace_b9a986d4d74aa7912b93b32bfb1dc14e">Text</physdesc>
+              <container id="aspace_3e7b042909c5f243f58ec469fbd17966" label="Mixed Materials" type="box">5</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/zw031pj2507" xlink:show="new" xlink:title="[Official Court Transcript, 12 July 1946], 1946-07-12" xlink:type="simple">
                 <daodesc>
-                  <p>[Official Court Transcript, 12 July 1946]</p>
+                  <p>[Official Court Transcript, 12 July 1946], 1946-07-12</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_781a62ea9b5be0f1be845e4d1973555d">
+            <arrangement id="aspace_6d1d020cc8b5fa4e4cc859ff0b8803c4">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO FRENCH TRANSCRIPTS: 1) The majority of the French transcripts are typewritten (with frequent manuscript notes). An occasional transcript session or portion of session is mimeographed. 2) It will be noted that the pagination is haphazard: sometimes pages are numbered session by session, sometimes merely identified according to each Court Reporter's "take". For purpose of this inventory, unnumbered pages were counted manually. This of course does not always establish what pages, if any, may be missing.</p>
             </arrangement>
-            <odd id="aspace_b9a490180f1a852f0bbd9c02ed9231a1">
+            <odd id="aspace_e5f51d288bc62a014e7666b115e6bcc4">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_d52251c6d5d5f4e81642072fe25993a7" level="item">
+          <c id="aspace_f7fa850f0504f1713d8e4c98f5194bcd" level="item">
             <did>
               <unittitle>Defense Exhibit FRANK No. 10</unittitle>
               <unitid>H-1620</unitid>
@@ -11783,23 +11802,24 @@
                 <extent altrender="carrier">Empty Folder, Notation on folder indicates that Frank Exhibit No. 10 is entire "Frank Diary", Frank Document Books 2-4</extent>
                 <physfacet>3 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_5685a9e3f416aa2e68563fcf7bc097fc">Text</physdesc>
+              <physdesc id="aspace_0cc65112e8ae77ccd780f3a039d52845">Text</physdesc>
+              <container id="aspace_74ef70344d5ae8f57d939fbdb861b149" label="Mixed Materials" type="box">14</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/nr686jh4056" xlink:show="new" xlink:title="Defense Exhibit FRANK No. 10" xlink:type="simple">
                 <daodesc>
                   <p>Defense Exhibit FRANK No. 10</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_fad0f2e8c134d7659e636d7113daab9a">
+            <arrangement id="aspace_f32b1efc67c62ca9c4a9996aea68d0a2">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO EXHIBITS: In instances where an exhibit is loose in a folder, the pages of such exhibit have been counted manually</p>
             </arrangement>
-            <odd id="aspace_9869d9d3699e74c50c82eaf102207f4e">
+            <odd id="aspace_d18a0383d5c41b0088838db50f46f804">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_1135c03ffb0cf68864c6148ea5fd548a" level="item">
+          <c id="aspace_926f7010857f40aed95e2c6a17b99af8" level="item">
             <did>
               <unittitle>USA Exhibit 173</unittitle>
               <unitid>H-2434</unitid>
@@ -11808,23 +11828,24 @@
                 <extent altrender="carrier">Note: Folder contains only two certificates, indicating that USA Exhibit 173 is Microfilm of Document 2233-PS-A (Frank Diary)</extent>
                 <physfacet>5 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_8676005ac468f17372766a94f0b0d955">Text</physdesc>
+              <physdesc id="aspace_47d77c62a7b2b718aaa0b4b2e393362a">Text</physdesc>
+              <container id="aspace_a174e4026d4965adc5a218070efc368b" label="Mixed Materials" type="box">16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/vc301rr6861" xlink:show="new" xlink:title="USA Exhibit 173" xlink:type="simple">
                 <daodesc>
                   <p>USA Exhibit 173</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_18b409a3f6aafa7ebd53a502fa55f0a3">
+            <arrangement id="aspace_b8c98aed08e77a4bbd33cea01fc1a5f8">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO EXHIBITS: In instances where an exhibit is loose in a folder, the pages of such exhibit have been counted manually</p>
             </arrangement>
-            <odd id="aspace_4e72d8c9e5de7a96c82cee5eee13a9a1">
+            <odd id="aspace_9d5db97a6924fd3a2b54bf5b5debcc80">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_8c09bd1b7b1d4eb982fd1d9f8700d6d3" level="item">
+          <c id="aspace_6ae86abd622a7c9e9e6ab7234cef45a9" level="item">
             <did>
               <unittitle>USA Exhibit 174</unittitle>
               <unitid>H-2435</unitid>
@@ -11833,23 +11854,24 @@
                 <extent altrender="carrier">Note: Folder contains only two certificates, indicating that USA Exhibit 174 is Microfilm of Document 2233-PS-B (Frank Diary)</extent>
                 <physfacet>5 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_f8f1e48d5aeaed1d778d91d2a143bcbc">Text</physdesc>
+              <physdesc id="aspace_a43ae6340c578e360f67c58e876f0e69">Text</physdesc>
+              <container id="aspace_e45a03af03dbac5f5315990bd93eb883" label="Mixed Materials" type="box">16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/td183rv5419" xlink:show="new" xlink:title="USA Exhibit 174" xlink:type="simple">
                 <daodesc>
                   <p>USA Exhibit 174</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_ae0ba749f626e192573d456ff355dfe6">
+            <arrangement id="aspace_c526871ad4f6a20e25e30ef478df3419">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO EXHIBITS: In instances where an exhibit is loose in a folder, the pages of such exhibit have been counted manually</p>
             </arrangement>
-            <odd id="aspace_e6bc9f57e5731e802910a737af57812e">
+            <odd id="aspace_dc1b733f80bb9feef2fdcdcbf0cf9404">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_c54b05d997b78fb58b9c01b8979a9e8c" level="item">
+          <c id="aspace_0e62a27706f5b56f4ac979ec995bfc0c" level="item">
             <did>
               <unittitle>Empty folder with notation "203 Not Used"</unittitle>
               <unitid>H-2464</unitid>
@@ -11857,25 +11879,26 @@
                 <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                 <physfacet>2 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_226e3acdb76264abd797f61206e3e278">Text</physdesc>
+              <physdesc id="aspace_5294817462513e599ea4a5a5e64666f4">Text</physdesc>
+              <container id="aspace_6056f8310372b6f840dd6db6dac74444" label="Mixed Materials" type="box">16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/tm867dj5066" xlink:show="new" xlink:title="Empty folder with notation &quot;203 Not Used&quot;" xlink:type="simple">
                 <daodesc>
                   <p>Empty folder with notation "203 Not Used"</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_95c0bfc347b6d9f245035277902f1057">
+            <arrangement id="aspace_1ce16e522234ab1752a17a9872790f6b">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO EXHIBITS: In instances where an exhibit is loose in a folder, the pages of such exhibit have been counted manually</p>
             </arrangement>
-            <odd id="aspace_c1ae9024b4c2c10482f7704b2416cb46">
+            <odd id="aspace_f0d355262632957ef5d84a22a5be8c6c">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
         </c>
       </c>
-      <c id="aspace_266e1ffea0c5bc9b12c219c0056739cd" level="series">
+      <c id="aspace_871f58f8fee00d472e87d2e89b7ee7d0" level="series">
         <did>
           <unittitle>Lists, indices, and miscellaneous</unittitle>
           <unitid>Lists</unitid>
@@ -11883,15 +11906,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_da592336c085e61a3ef851924cd9f5a9">
+        <acqinfo id="aspace_308b5763854d8520018f7d93ad3dbe12">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_9670cadcd8953a787eb76faa0709ce1e">
+        <scopecontent id="aspace_93e948b454bb585f52e477b6a3f60311">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_e0d42de941fb2d42a1232cf9ce64c59f" level="subseries">
+        <c id="aspace_26fdade78e8ccf432281f57bbbe1e306" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -11899,7 +11922,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_28e3f68cd591f50e7089ea960dbc443c" level="item">
+          <c id="aspace_88ed24a2a86b82a16ccb020450ef8627" level="item">
             <did>
               <unittitle>List of exhibits as submitted by British Prosecution to the IMT</unittitle>
               <unitid>H-0907</unitid>
@@ -11908,19 +11931,20 @@
                 <extent altrender="carrier">33 pages</extent>
                 <physfacet>34 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_551001590fbee946e93ddea0e45fd445">Text</physdesc>
+              <physdesc id="aspace_1163d3063d401bd9c40692823d9ff046">Text</physdesc>
+              <container id="aspace_ccf5349dcb31dcc56c52302bdd2f5b29" label="Mixed Materials" type="box">7</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/fb442mf3001" xlink:show="new" xlink:title="List of exhibits as submitted by British Prosecution to the IMT" xlink:type="simple">
                 <daodesc>
                   <p>List of exhibits as submitted by British Prosecution to the IMT</p>
                 </daodesc>
               </dao>
             </did>
-            <odd id="aspace_252f9a04328844661419568fb9261858">
+            <odd id="aspace_618ef1b18a0e2f4a9d92db0438979698">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_99ad462764f870fdd21e1e6588a07411" level="item">
+          <c id="aspace_97692687437e5f2dfaf004e764a24e5b" level="item">
             <did>
               <unittitle>SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20</unittitle>
               <unitid>H-1408</unitid>
@@ -11929,24 +11953,26 @@
                 <extent altrender="carrier">(a) (German), (b) List, 15 pages (German), (c) (German and English)</extent>
                 <physfacet>67 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_d1440afdc5896a842d85416f284385fb">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/rd446qt2267" xlink:show="new" xlink:title="SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20" xlink:type="simple">
+              <unitdate normal="1946-08-02/1946-08-02" type="inclusive">1946-08-02</unitdate>
+              <physdesc id="aspace_0b280aac6d2a3f06676d6f6df87c5568">Text</physdesc>
+              <container id="aspace_7ca94c682e1e0fa93a2e82d1e90d9ab9" label="Mixed Materials" type="box">12</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/rd446qt2267" xlink:show="new" xlink:title="SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20, 1946-08-02" xlink:type="simple">
                 <daodesc>
-                  <p>SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20</p>
+                  <p>SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20, 1946-08-02</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_c59a04ceb1c0e966c2f8aac13d9ac228">
+            <arrangement id="aspace_e3b6b3b8437b8f7342241f6f702f8517">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO AFFIDAVITS: The affidavits in this box presumably relate to the defense of the accused organizations. For classification as to which were exhibits, etc., detailed scrutiny of the affidavits together with related portions of the record will of course be required. The majority of these affidavits are signed originals.</p>
             </arrangement>
-            <odd id="aspace_b2b67c6e563768ca7d252cb700549fa2">
+            <odd id="aspace_7442eb566070119d5f43a525d1290387">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
         </c>
-        <c id="aspace_c1a8267de6ce3e4e2342b889fc8fe474" level="subseries">
+        <c id="aspace_fb48d21c41f614577f3528da0f4e8385" level="subseries">
           <did>
             <unittitle>Packages</unittitle>
             <unitid>Packages</unitid>
@@ -11954,7 +11980,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_d7003fcfbc6cb8b9a265a856a7916733" level="item">
+          <c id="aspace_70c16a48486765d428320a4a2f0e9dc6" level="item">
             <did>
               <unittitle>International Military Tribunal, Nuremberg, Germany, 1945-1946</unittitle>
               <unitid>H-0654</unitid>
@@ -11963,19 +11989,20 @@
                 <extent altrender="carrier">114 printed pamphlets</extent>
                 <physfacet>16 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_e7d773c029f8cc0d25fcd7ba6d1666b9">Text</physdesc>
+              <physdesc id="aspace_37a039f0a38448dbf357c8d4042abc3b">Text</physdesc>
+              <container id="aspace_320997bd58a4f0844095b34e2819057a" label="Mixed Materials" type="box">5</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/ph041rx8314" xlink:show="new" xlink:title="International Military Tribunal, Nuremberg, Germany, 1945-1946" xlink:type="simple">
                 <daodesc>
                   <p>International Military Tribunal, Nuremberg, Germany, 1945-1946</p>
                 </daodesc>
               </dao>
             </did>
-            <odd id="aspace_d75e0a2a7c65a5b816dcd9075375cb9c">
+            <odd id="aspace_d2b48e0f5581ca89e8fc86539ea44657">
               <head>General</head>
               <p>Package</p>
             </odd>
           </c>
-          <c id="aspace_43690ff30b128caca3f0cc3025e9bf73" level="item">
+          <c id="aspace_b141140589b5984d4efa0f85d7820390" level="item">
             <did>
               <unittitle>303 Loose sheets, Index to Electric transcriptions of International Military Tribunal, Case 1.</unittitle>
               <unitid>H-1218</unitid>
@@ -11984,20 +12011,21 @@
                 <extent altrender="carrier">3 copies, numbered, pp. 1-101 each</extent>
                 <physfacet>305 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_d8a860a30586f3425aaddb80e5aa58a9">Text</physdesc>
+              <physdesc id="aspace_394a5bc6841d96d427062f58bde6b1d9">Text</physdesc>
+              <container id="aspace_009d25ce57ba037683424a9dfaa17713" label="Mixed Materials" type="box">10</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/vc421jh1418" xlink:show="new" xlink:title="303 Loose sheets, Index to Electric transcriptions of International Military Tribunal, Case 1." xlink:type="simple">
                 <daodesc>
                   <p>303 Loose sheets, Index to Electric transcriptions of International Military Tribunal, Case 1.</p>
                 </daodesc>
               </dao>
             </did>
-            <odd id="aspace_76d65bc83fadbaa13b739d63614247ee">
+            <odd id="aspace_283f77cf9e8e699b044ff8308a5dc9ed">
               <head>General</head>
               <p>Package</p>
             </odd>
           </c>
         </c>
-        <c id="aspace_f0a2cce41505c884af8a805bb85bf99d" level="subseries">
+        <c id="aspace_28d8567c7dcbe667d678f2de111cc9a0" level="subseries">
           <did>
             <unittitle>Volume</unittitle>
             <unitid>Volume</unitid>
@@ -12005,7 +12033,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_b76fd894afaa0eb5a184dd7c11fa924d" level="item">
+          <c id="aspace_9fbaf42051ae33e18bbcb620a54c0f68" level="item">
             <did>
               <unittitle>Inventory of the International Military Tribunal Archives, Nuremberg, as transferred to International Court of Justice, The Hague</unittitle>
               <unitid>H-0000</unitid>
@@ -12014,40 +12042,41 @@
                 <extent altrender="carrier">Note from the ICJ Registry: the IMT Inventory was added to the Archives by the ICJ Registry. It has no "H" number but has been assigned H-0000 as a unique identifier. A total of 415 pages, 4 unnumbered pages, pp. a-b, pp. 1-409</extent>
                 <physfacet>415 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_dd5ec88e4f35b5ecff76344bb3def55c">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/hj785rz1466" xlink:show="new" xlink:title="Inventory of the International Military Tribunal Archives, Nuremberg, as transferred to International Court of Justice, The Hague" xlink:type="simple">
+              <unitdate normal="1950-05-06/1950-05-06" type="inclusive">1950-05-06</unitdate>
+              <physdesc id="aspace_a906f33463f023e6f31cd6fa77bf5981">Text</physdesc>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/hj785rz1466" xlink:show="new" xlink:title="Inventory of the International Military Tribunal Archives, Nuremberg, as transferred to International Court of Justice, The Hague, 1950-05-06" xlink:type="simple">
                 <daodesc>
-                  <p>Inventory of the International Military Tribunal Archives, Nuremberg, as transferred to International Court of Justice, The Hague</p>
+                  <p>Inventory of the International Military Tribunal Archives, Nuremberg, as transferred to International Court of Justice, The Hague, 1950-05-06</p>
                 </daodesc>
               </dao>
             </did>
-            <odd id="aspace_c3546dede91b22cab618ed76fea5ff9a">
+            <odd id="aspace_bfbd4bf143235c2f3ccf085d66bf11bc">
               <head>General</head>
               <p>Volume</p>
             </odd>
-            <scopecontent id="aspace_be8fac1332b94a040bcb40f99f839650">
+            <scopecontent id="aspace_9c2e6d26c02e3c97f1f644e761c79fe1">
               <head>Scope and Contents</head>
               <p>IMT</p>
             </scopecontent>
           </c>
         </c>
       </c>
-      <c id="aspace_7d490bf56f5795a4b38603342f108877" level="series">
+      <c id="aspace_f16f01c0332a6ba61fbcfa988bcd2c44" level="series">
         <did>
           <unittitle>Minutes of tribunal meetings</unittitle>
           <origination label="Creator">
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_53a4771f96b76005547d39d76673efad">
+        <acqinfo id="aspace_ae5f2be62439429043166a6c7f443e71">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_f36c57a065e931ce26f328973116bbdc">
+        <scopecontent id="aspace_3e1e9d0179a1c898b827e4ec569ba52c">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_b6525d61abd0dbfae90fb879f901ac4b" level="subseries">
+        <c id="aspace_6fd2e53bab6609f594a03e81130e5f20" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -12055,7 +12084,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_9ca88acdadd621ab907d34926b8b6d27" level="item">
+          <c id="aspace_b1674f341754598b20879c9887c4314a" level="item">
             <did>
               <unittitle>Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946, Nos. 1-100</unittitle>
               <unitid>H-2786</unitid>
@@ -12064,21 +12093,22 @@
                 <physfacet>219 pages</physfacet>
               </physdesc>
               <unitdate normal="1945-10-09/1946-10-01" type="inclusive">1945-10-09-1946-10-01</unitdate>
-              <physdesc id="aspace_ac07a538043e303acdb39ffdbcba21ec">Text</physdesc>
+              <physdesc id="aspace_bcad8291e6ba244825163b5e2bec0af4">Text</physdesc>
+              <container id="aspace_5694afed6e6b825eb934825b6fa689c3" label="Mixed Materials" type="box">16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/gk247nn1558" xlink:show="new" xlink:title="Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946, Nos. 1-100, 1945-10-09 - 1946-10-01" xlink:type="simple">
                 <daodesc>
                   <p>Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946, Nos. 1-100, 1945-10-09 - 1946-10-01</p>
                 </daodesc>
               </dao>
             </did>
-            <odd id="aspace_b44a0695134b44789f53c3fc23b30957">
+            <odd id="aspace_7e209e9b716f5c7d6bef4989f658434f">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
         </c>
       </c>
-      <c id="aspace_99d7d58037ac57b924f5a856949a286c" level="series">
+      <c id="aspace_175e22bbc05c3ecb9cf8a22699d1e188" level="series">
         <did>
           <unittitle>Official commission transcripts</unittitle>
           <unitid>Commission</unitid>
@@ -12086,15 +12116,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_a99fd668819be42da0a653d7fd1f01b2">
+        <acqinfo id="aspace_3b6b677395941333c545ede1d4b73b2c">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_9b8bf78261e850e9a5a73cb2adf87712">
+        <scopecontent id="aspace_aed8cce0ca40b210e5e9ee0486370506">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_5a536bcf9bdc0b17257573188695b3f6" level="subseries">
+        <c id="aspace_e3e669beb1d47ae8135af87c18ee3cf9" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -12102,7 +12132,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_05980218d91113954a99fd72ffc214ea" level="item">
+          <c id="aspace_446b803db0d9d8a9513e18df0648e448" level="item">
             <did>
               <unittitle>Official Commission Transcript, Albert KESSELRING, 3 July 1946</unittitle>
               <unitid>H-1091</unitid>
@@ -12111,23 +12141,25 @@
                 <extent altrender="carrier">Mimeograph, pp. 3901-3937</extent>
                 <physfacet>38 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_1c154f008f1cf60deec8f69114baeef8">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/wn023rg8425" xlink:show="new" xlink:title="Official Commission Transcript, Albert KESSELRING, 3 July 1946" xlink:type="simple">
+              <unitdate normal="1946-07-03/1946-07-03" type="inclusive">1946-07-03</unitdate>
+              <physdesc id="aspace_68a7ab6de02a5c8a90f2aed80e9d4318">Text</physdesc>
+              <container id="aspace_c7eafc645d29098a3469fba2df32c481" label="Mixed Materials" type="box">8</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/wn023rg8425" xlink:show="new" xlink:title="Official Commission Transcript, Albert KESSELRING, 3 July 1946, 1946-07-03" xlink:type="simple">
                 <daodesc>
-                  <p>Official Commission Transcript, Albert KESSELRING, 3 July 1946</p>
+                  <p>Official Commission Transcript, Albert KESSELRING, 3 July 1946, 1946-07-03</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_a731cae99f7ad010dc79f0393c5f1223">
+            <arrangement id="aspace_6895ecccb09a36ca7e7e05f9841c3878">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: Box 8 contains the Official Transcript of the Commissions appointed by the IMT for the hearing of witnesses or the presentation of Affidavits relating to the accused organizations. The inventory below indicates either the name of the witness or the accused organization.</p>
             </arrangement>
-            <odd id="aspace_6d58c6e3929d254714a179839855b3f3">
+            <odd id="aspace_f16e350bfb14c6aadafc9113136cb3ea">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_7dd9ec24a3feb27e09de9ce9c818119f" level="item">
+          <c id="aspace_9543c8e6ae086aceeecaad327d606f94" level="item">
             <did>
               <unittitle>Official Commission Transcript, Kurt BADER (withdrawn), 20 May 1946</unittitle>
               <unitid>H-1092</unitid>
@@ -12136,23 +12168,25 @@
                 <extent altrender="carrier">(a) Typescript, pp. 1-25 (in duplicate)</extent>
                 <physfacet>53 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_7076614c8e62598d0f6c4208755f2aad">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/cy972hb8524" xlink:show="new" xlink:title="Official Commission Transcript, Kurt BADER (withdrawn), 20 May 1946" xlink:type="simple">
+              <unitdate normal="1946-05-20/1946-05-20" type="inclusive">1946-05-20</unitdate>
+              <physdesc id="aspace_76a16c9ac15648b3430bebe8cb766546">Text</physdesc>
+              <container id="aspace_5ce1f8788f2f4763bf1f92778aef5fd1" label="Mixed Materials" type="box">8</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/cy972hb8524" xlink:show="new" xlink:title="Official Commission Transcript, Kurt BADER (withdrawn), 20 May 1946, 1946-05-20" xlink:type="simple">
                 <daodesc>
-                  <p>Official Commission Transcript, Kurt BADER (withdrawn), 20 May 1946</p>
+                  <p>Official Commission Transcript, Kurt BADER (withdrawn), 20 May 1946, 1946-05-20</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_5a06b33b920d21392006f1256a531999">
+            <arrangement id="aspace_6dc949c231bcdf26754e23211ecc89c5">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: Box 8 contains the Official Transcript of the Commissions appointed by the IMT for the hearing of witnesses or the presentation of Affidavits relating to the accused organizations. The inventory below indicates either the name of the witness or the accused organization.</p>
             </arrangement>
-            <odd id="aspace_28482b14d5a277043329574b76c62d30">
+            <odd id="aspace_248be637089b661596424166fc445d6a">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_7ed72c635457535e80ce81a0c727a4bb" level="item">
+          <c id="aspace_7a717cec366cd9072e70b88751d5694e" level="item">
             <did>
               <unittitle>31 Summaries of Commission Transcripts - Folder No. 1</unittitle>
               <unitid>H-1093</unitid>
@@ -12161,23 +12195,24 @@
                 <extent altrender="carrier">Totalling 110 pages</extent>
                 <physfacet>111 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_d9cd581318280fae0dccca94a873687a">Text</physdesc>
+              <physdesc id="aspace_af616f8be41cc216ba40886ab5417e4e">Text</physdesc>
+              <container id="aspace_64d4b39fa64e0d88187c5bee8fda486f" label="Mixed Materials" type="box">8</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/zc579fx9501" xlink:show="new" xlink:title="31 Summaries of Commission Transcripts - Folder No. 1" xlink:type="simple">
                 <daodesc>
                   <p>31 Summaries of Commission Transcripts - Folder No. 1</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_35fdbbbcf6d820f830cd0369b9e80fef">
+            <arrangement id="aspace_2d9aedd1a4ad583de02aa6ed2380223c">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: Box 8 contains the Official Transcript of the Commissions appointed by the IMT for the hearing of witnesses or the presentation of Affidavits relating to the accused organizations. The inventory below indicates either the name of the witness or the accused organization.</p>
             </arrangement>
-            <odd id="aspace_86722cd312c1c9d84acc696082689353">
+            <odd id="aspace_7b12322ded0ebcffbc09158783e08268">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_64a8af273d01601c39686eee2f23f529" level="item">
+          <c id="aspace_45e80716ab930b1f0411c5e106e353a0" level="item">
             <did>
               <unittitle>26 Summaries of Commission Transcripts - Folder No. 2</unittitle>
               <unitid>H-1094</unitid>
@@ -12186,23 +12221,24 @@
                 <extent altrender="carrier">Totalling 109 pages</extent>
                 <physfacet>110 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_9fa3f7bce5e52218e97c34fdf79baecd">Text</physdesc>
+              <physdesc id="aspace_726784a48b86e545ab178b4c9e9ee4b6">Text</physdesc>
+              <container id="aspace_cf3e1f005a2b6026b38729db01c9ae93" label="Mixed Materials" type="box">8</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/zx506wf4865" xlink:show="new" xlink:title="26 Summaries of Commission Transcripts - Folder No. 2" xlink:type="simple">
                 <daodesc>
                   <p>26 Summaries of Commission Transcripts - Folder No. 2</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_eee01243930d29c46e219bc907e3bce7">
+            <arrangement id="aspace_1420698bcedc4f9a0176e31e6d6cc224">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: Box 8 contains the Official Transcript of the Commissions appointed by the IMT for the hearing of witnesses or the presentation of Affidavits relating to the accused organizations. The inventory below indicates either the name of the witness or the accused organization.</p>
             </arrangement>
-            <odd id="aspace_af0007b87c2116411d3d803774617a07">
+            <odd id="aspace_2fb48c99cb30c9b9a51df0753be67262">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_ad49d85e39343ff911863b6e05f2f160" level="item">
+          <c id="aspace_bb5502795712f5732e41551db1c4df9e" level="item">
             <did>
               <unittitle>34 Summaries of Commission Transcripts - Folder No. 3</unittitle>
               <unitid>H-1095</unitid>
@@ -12211,23 +12247,24 @@
                 <extent altrender="carrier">Totalling 110 pages</extent>
                 <physfacet>111 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_8d1b193c00013430c97bfe74f2c11a58">Text</physdesc>
+              <physdesc id="aspace_05c4c4172233958de7985e710b4adda6">Text</physdesc>
+              <container id="aspace_e2209685995bed096232349bb180a211" label="Mixed Materials" type="box">8</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/xr530xd5812" xlink:show="new" xlink:title="34 Summaries of Commission Transcripts - Folder No. 3" xlink:type="simple">
                 <daodesc>
                   <p>34 Summaries of Commission Transcripts - Folder No. 3</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_d1229cce1e6f98a7930ff9d855978f28">
+            <arrangement id="aspace_92e79b6b4387aed33eb07627386c78f2">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: Box 8 contains the Official Transcript of the Commissions appointed by the IMT for the hearing of witnesses or the presentation of Affidavits relating to the accused organizations. The inventory below indicates either the name of the witness or the accused organization.</p>
             </arrangement>
-            <odd id="aspace_23a9752f8c05ec9fc506d15f63d6a924">
+            <odd id="aspace_78e72a2dbadcb5f55137c4d16c128657">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_bccb3ce909f086fa0d8f1f8d7fcf2135" level="item">
+          <c id="aspace_a33f1ce7cc39f10f2cd223b0f9861197" level="item">
             <did>
               <unittitle>Official Commission Transcript, Kurt VON RUNDSTEDT, General Staff &amp; OKW</unittitle>
               <unitid>H-5194</unitid>
@@ -12236,23 +12273,28 @@
                 <extent altrender="carrier">18 Jun 1946 pp. 1332-1341 (English), 18 June 1946 pp. 1050-1057 (German), 19 June 1946 pp. 1342-1394 (English), 20 June 1946 pp. 1369-1416 (German), 21 June 1946 pp. 1333-1356 (German)</extent>
                 <physfacet>147 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_7bf8f02d3dceba62ac266fea86d54a94">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/wt418cg1534" xlink:show="new" xlink:title="Official Commission Transcript, Kurt VON RUNDSTEDT, General Staff &amp; OKW" xlink:type="simple">
+              <unitdate normal="1946-06-18/1946-06-18" type="inclusive">1946-06-18</unitdate>
+              <unitdate normal="1946-06-19/1946-06-19" type="inclusive">1946-06-19</unitdate>
+              <unitdate normal="1946-06-20/1946-06-20" type="inclusive">1946-06-20</unitdate>
+              <unitdate normal="1946-06-21/1946-06-21" type="inclusive">1946-06-21</unitdate>
+              <physdesc id="aspace_bd628ecaa1c731ad201f533b35bf2dfb">Text</physdesc>
+              <container id="aspace_3536eb072e267ad31be810293a3c96da" label="Mixed Materials" type="box">27</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/wt418cg1534" xlink:show="new" xlink:title="Official Commission Transcript, Kurt VON RUNDSTEDT, General Staff &amp; OKW, 1946-06-18" xlink:type="simple">
                 <daodesc>
-                  <p>Official Commission Transcript, Kurt VON RUNDSTEDT, General Staff &amp; OKW</p>
+                  <p>Official Commission Transcript, Kurt VON RUNDSTEDT, General Staff &amp; OKW, 1946-06-18</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_600330c6e37fb19c497174e5a0ea75cb">
+            <arrangement id="aspace_88dd0ebab1162a19ca18631f2e6b8edf">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: The following items relate to testimony heard before the Commissions, grouped according to name of witness and organizations (For English text of Commission Transcripts, see Box 8, Items H-908 through H-1095.)</p>
             </arrangement>
-            <odd id="aspace_49c61db0b8bc1db0f71098f49dd2967c">
+            <odd id="aspace_47e855f988486675bf4e61b9fe3e6e14">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_49635869205d2e851cdadc1148db976b" level="item">
+          <c id="aspace_66e4ff2ad0d5efa5acdd8b60284608f9" level="item">
             <did>
               <unittitle>Official Commission Transcript, Walter ALBATH, Gestapo (1), 10-11 June 1946</unittitle>
               <unitid>H-5196</unitid>
@@ -12260,23 +12302,24 @@
                 <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                 <physfacet>35 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_85be67f58b26cd9516991d2b89817ede">Text</physdesc>
+              <physdesc id="aspace_8686e3ce2d456168fd1ddf59a78432ad">Text</physdesc>
+              <container id="aspace_0832ca44dd71180b66a9a43103b4fa2b" label="Mixed Materials" type="box">27</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/tj222qh0277" xlink:show="new" xlink:title="Official Commission Transcript, Walter ALBATH, Gestapo (1), 10-11 June 1946" xlink:type="simple">
                 <daodesc>
                   <p>Official Commission Transcript, Walter ALBATH, Gestapo (1), 10-11 June 1946</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_b316e56c0121a617d33a73d9f8005c0f">
+            <arrangement id="aspace_239d35a167ea20e47a2da656193f6a49">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: The following items relate to testimony heard before the Commissions, grouped according to name of witness and organizations (For English text of Commission Transcripts, see Box 8, Items H-908 through H-1095.)</p>
             </arrangement>
-            <odd id="aspace_5add91113cb378715ffebae895844b0a">
+            <odd id="aspace_79933699881967760b3cedf50a68ce94">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_30ff15b257aafea775104fa18992e786" level="item">
+          <c id="aspace_d1eff34b0c813877b473de8654bba774" level="item">
             <did>
               <unittitle>Official Commission Transcript, Walter ALBATH, Gestapo, 10 June 1946, 11 June 1946</unittitle>
               <unitid>H-5197</unitid>
@@ -12285,23 +12328,26 @@
                 <extent altrender="carrier">10 June 1946 pp. 612-619, 11 June 1946 pp. 894-918</extent>
                 <physfacet>35 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_4cd13710f79420743e5f8213022cad48">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yy589zv3354" xlink:show="new" xlink:title="Official Commission Transcript, Walter ALBATH, Gestapo, 10 June 1946, 11 June 1946" xlink:type="simple">
+              <unitdate normal="1946-06-10/1946-06-10" type="inclusive">1946-06-10</unitdate>
+              <unitdate normal="1946-06-11/1946-06-11" type="inclusive">1946-06-11</unitdate>
+              <physdesc id="aspace_e03fa1df54736f01b4002bf6b82c64a5">Text</physdesc>
+              <container id="aspace_317405aa9542c60c1d03238defc67a53" label="Mixed Materials" type="box">27</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yy589zv3354" xlink:show="new" xlink:title="Official Commission Transcript, Walter ALBATH, Gestapo, 10 June 1946, 11 June 1946, 1946-06-10" xlink:type="simple">
                 <daodesc>
-                  <p>Official Commission Transcript, Walter ALBATH, Gestapo, 10 June 1946, 11 June 1946</p>
+                  <p>Official Commission Transcript, Walter ALBATH, Gestapo, 10 June 1946, 11 June 1946, 1946-06-10</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_774ad77189fb6fc231d8e2ca40dd27ce">
+            <arrangement id="aspace_3df3c91da4dd79f95a7ad9afbc5c1a29">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: The following items relate to testimony heard before the Commissions, grouped according to name of witness and organizations (For English text of Commission Transcripts, see Box 8, Items H-908 through H-1095.)</p>
             </arrangement>
-            <odd id="aspace_f504962f3da2c42d06c91b6198870070">
+            <odd id="aspace_bb4d525995f1fa34a99326febe1e9ee4">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_a87769c6804303ade68639976fb529f7" level="item">
+          <c id="aspace_452e27380f58eff35ad3f72ef4772282" level="item">
             <did>
               <unittitle>Official Commission Transcript, Werner BEST, Gestapo (2) 5, 6, 8 July 1946</unittitle>
               <unitid>H-5198</unitid>
@@ -12309,23 +12355,27 @@
                 <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                 <physfacet>74 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_f33bd7431985950ba5b4c45e0ac9265d">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/kk417zz3739" xlink:show="new" xlink:title="Official Commission Transcript, Werner BEST, Gestapo (2) 5, 6, 8 July 1946" xlink:type="simple">
+              <unitdate normal="1946-07-05/1946-07-05" type="inclusive">1946-07-05</unitdate>
+              <unitdate normal="1946-07-06/1946-07-06" type="inclusive">1946-07-06</unitdate>
+              <unitdate normal="1946-07-08/1946-07-08" type="inclusive">1946-07-08</unitdate>
+              <physdesc id="aspace_0535169cc3c4ba5bc54b0a0f8a35f7b3">Text</physdesc>
+              <container id="aspace_c5e4eafd00a4b170a8a1e91201ea10f5" label="Mixed Materials" type="box">27</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/kk417zz3739" xlink:show="new" xlink:title="Official Commission Transcript, Werner BEST, Gestapo (2) 5, 6, 8 July 1946, 1946-07-05" xlink:type="simple">
                 <daodesc>
-                  <p>Official Commission Transcript, Werner BEST, Gestapo (2) 5, 6, 8 July 1946</p>
+                  <p>Official Commission Transcript, Werner BEST, Gestapo (2) 5, 6, 8 July 1946, 1946-07-05</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_728aedf8d8d9cc0fa0405fff7521d52d">
+            <arrangement id="aspace_c587511cb9c889c41071c5ddda6a85a4">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: The following items relate to testimony heard before the Commissions, grouped according to name of witness and organizations (For English text of Commission Transcripts, see Box 8, Items H-908 through H-1095.)</p>
             </arrangement>
-            <odd id="aspace_5acecc39ab6804bc04773f1278355b20">
+            <odd id="aspace_9f2880ea2ab74729a49a210b310eb8c9">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
-          <c id="aspace_a84ac62f7bbff9e97cf037c52a9243eb" level="item">
+          <c id="aspace_44a99456d48ea239ca5db5ee3d1db32d" level="item">
             <did>
               <unittitle>Official Commission Transcript, Werner BEST, Gestapo, 6 July 1946, 8 July 1946</unittitle>
               <unitid>H-5199</unitid>
@@ -12334,25 +12384,28 @@
                 <extent altrender="carrier">6 July 1946 pp. 3159-3188, 8 July 1946 pp. 2479-2506</extent>
                 <physfacet>60 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_fd3d8511e2a9083b2dcbf96c8454d026">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/tn793cq9991" xlink:show="new" xlink:title="Official Commission Transcript, Werner BEST, Gestapo, 6 July 1946, 8 July 1946" xlink:type="simple">
+              <unitdate normal="1946-07-06/1946-07-06" type="inclusive">1946-07-06</unitdate>
+              <unitdate normal="1946-07-08/1946-07-08" type="inclusive">1946-07-08</unitdate>
+              <physdesc id="aspace_1b944fa5f691e8525e390718fd1da14e">Text</physdesc>
+              <container id="aspace_6f93de8af0b9dd249fec491991d1ebac" label="Mixed Materials" type="box">27</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/tn793cq9991" xlink:show="new" xlink:title="Official Commission Transcript, Werner BEST, Gestapo, 6 July 1946, 8 July 1946, 1946-07-06" xlink:type="simple">
                 <daodesc>
-                  <p>Official Commission Transcript, Werner BEST, Gestapo, 6 July 1946, 8 July 1946</p>
+                  <p>Official Commission Transcript, Werner BEST, Gestapo, 6 July 1946, 8 July 1946, 1946-07-06</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_8c0641e1ec1c9d490de2dfa0aa1e5376">
+            <arrangement id="aspace_b9d4fdce7cad4ea0147332bdcc835123">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: The following items relate to testimony heard before the Commissions, grouped according to name of witness and organizations (For English text of Commission Transcripts, see Box 8, Items H-908 through H-1095.)</p>
             </arrangement>
-            <odd id="aspace_e2b9956fe707f5ee43e7aba7d77d4e2a">
+            <odd id="aspace_7db66c001594ba5edd9f1141ed955119">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
         </c>
       </c>
-      <c id="aspace_0570cc9a7ffb2be01642ff87e8e23fea" level="series">
+      <c id="aspace_6658b442ddb2e33c25d7cb1072a4454b" level="series">
         <did>
           <unittitle>Official court transcripts</unittitle>
           <unitid>Court_transcripts</unitid>
@@ -12360,15 +12413,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_cbe8854c6dbc5d620be6e37e2608fd9b">
+        <acqinfo id="aspace_59a71a84be5c7587bde9fa11035712d0">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_97fcf9a8c9a9b26e6ece2544ff87e8aa">
+        <scopecontent id="aspace_f78aeb5baabedb6f14d3ac216ba05e9e">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_5fa8a42f4ab379c56c3396e183c746a1" level="subseries">
+        <c id="aspace_08a319c5279182c1f571b26e3ed4cfe6" level="subseries">
           <did>
             <unittitle>November 1945</unittitle>
             <unitid>Nov1945</unitid>
@@ -12376,7 +12429,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_1afd88495e60e8e4e42eac3a2ec4b534" level="item">
+          <c id="aspace_f1049b8ce935f33d656b9ec7603faf11" level="item">
             <did>
               <unittitle>Official Transcript of Preliminary Tribunal Hearings: 14 November 1945 M, 15 November 1945 M &amp; A, 17 November 1945 M &amp; A.</unittitle>
               <unitid>H-0002</unitid>
@@ -12385,65 +12438,28 @@
                 <extent altrender="carrier">Totalling 38 pages. Pages incorrectly numbered</extent>
                 <physfacet>39 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_b74c6b097d558ac7e0f50cecf2194d56">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/jp079th9081" xlink:show="new" xlink:title="Official Transcript of Preliminary Tribunal Hearings: 14 November 1945 M, 15 November 1945 M &amp; A, 17 November 1945 M &amp; A." xlink:type="simple">
+              <unitdate normal="1945-11-14/1945-11-14" type="inclusive">1945-11-14</unitdate>
+              <unitdate normal="1945-11-15/1945-11-15" type="inclusive">1945-11-15</unitdate>
+              <unitdate normal="1945-11-17/1945-11-17" type="inclusive">1945-11-17</unitdate>
+              <physdesc id="aspace_80617aee17518de6d760662914662715">Text</physdesc>
+              <container id="aspace_1c82d77744df1a2accd5bac654d3c5ed" label="Mixed Materials" type="box">1</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/jp079th9081" xlink:show="new" xlink:title="Official Transcript of Preliminary Tribunal Hearings: 14 November 1945 M, 15 November 1945 M &amp; A, 17 November 1945 M &amp; A., 1945-11-14" xlink:type="simple">
                 <daodesc>
-                  <p>Official Transcript of Preliminary Tribunal Hearings: 14 November 1945 M, 15 November 1945 M &amp; A, 17 November 1945 M &amp; A.</p>
+                  <p>Official Transcript of Preliminary Tribunal Hearings: 14 November 1945 M, 15 November 1945 M &amp; A, 17 November 1945 M &amp; A., 1945-11-14</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_2e3174c9edd02a15d8c0268a8ca0c42f">
+            <arrangement id="aspace_091c8115680e36110951a744d2bb5af9">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO COURT TRANSCRIPTS: Transcript page numbers as indicated are inclusive. For purpose of present inventory, transcript page numbers have been checked at beginning and end of each Morning and Afternoon Court Session only.</p>
             </arrangement>
-            <odd id="aspace_74feca3b95b8cade7b231ff48ecb0ebc">
+            <odd id="aspace_6dd4f4ea8824a8b0d22935f09d78cc91">
               <head>General</head>
               <p>Folder</p>
             </odd>
           </c>
         </c>
-        <c id="aspace_c1298b56d43b0b671dae9aefcb23a3a2" level="subseries">
-          <did>
-            <unittitle>January 1946</unittitle>
-            <unitid>Jan1946</unitid>
-            <physdesc altrender="whole">
-              <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
-            </physdesc>
-          </did>
-          <c id="aspace_6ae53648f97f063a16f2f2a87c5242c2" level="item">
-            <did>
-              <unittitle>Folder 1: Official Court Transcript, 17 January 1946 M</unittitle>
-              <unitid>H-5085</unitid>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
-                <physfacet>50 pages</physfacet>
-              </physdesc>
-              <physdesc id="aspace_5348e6053ad55a655621bffcee2088e1">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yc337kj7425" xlink:show="new" xlink:title="Folder 1: Official Court Transcript, 17 January 1946 M" xlink:type="simple">
-                <daodesc>
-                  <p>Folder 1: Official Court Transcript, 17 January 1946 M</p>
-                </daodesc>
-              </dao>
-            </did>
-          </c>
-          <c id="aspace_2111160c1c939b603bffeadf858e39e8" level="item">
-            <did>
-              <unittitle>Folder 2: Official Court Transcript, 17 January 1946 A</unittitle>
-              <unitid>H-5086</unitid>
-              <physdesc altrender="whole">
-                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
-                <physfacet>77 pages</physfacet>
-              </physdesc>
-              <physdesc id="aspace_9085066550dabb2b3c33367ddc9168a9">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/xy032hx7889" xlink:show="new" xlink:title="Folder 2: Official Court Transcript, 17 January 1946 A" xlink:type="simple">
-                <daodesc>
-                  <p>Folder 2: Official Court Transcript, 17 January 1946 A</p>
-                </daodesc>
-              </dao>
-            </did>
-          </c>
-        </c>
-        <c id="aspace_e8d849d3881e6018e2a551bceb823235" level="subseries">
+        <c id="aspace_0a57a902685de7f4e0bd573111f79ea3" level="subseries">
           <did>
             <unittitle>August 1946</unittitle>
             <unitid>Aug1946</unitid>
@@ -12451,7 +12467,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_d9bd3bbe299e148ac6f43c67c4cac9d6" level="item">
+          <c id="aspace_8097a525bfa1f814b97d22605679161a" level="item">
             <did>
               <unittitle>Vol. 38: Official Court Transcript, 27-31 August 1946</unittitle>
               <unitid>H-1216</unitid>
@@ -12461,24 +12477,25 @@
                 <physfacet>679 pages</physfacet>
               </physdesc>
               <unitdate normal="1946-08-27/1946-08-31" type="inclusive">1946-08-27-1946-08-31</unitdate>
-              <physdesc id="aspace_bf4fd5a9d0c2be204ea53bac387ded47">Text</physdesc>
+              <physdesc id="aspace_f9ffab9cb94b34394077a4b78e1788ea">Text</physdesc>
+              <container id="aspace_aab5104566dcf19a3eb839b10354fc41" label="Mixed Materials" type="box">10</container>
               <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/bt844bw3735" xlink:show="new" xlink:title="Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 - 1946-08-31" xlink:type="simple">
                 <daodesc>
                   <p>Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 - 1946-08-31</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_b2ac4508a57fabf8079e717e9295f681">
+            <arrangement id="aspace_800e108fd52964f28cc64d3f72e87bdd">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO RUSSIAN TRANSCRIPTS: The Russian Transcripts are bound in 39 volumes containing the authentic Russian text either typewritten or mimeographed. In each volume are found one or more unnumbered pages: the table of contents (sometimes pasted on outside of cover, sometimes inserted in volume in loose form), Russian certificates and sometimes English certificates.</p>
             </arrangement>
-            <odd id="aspace_4a29e0d7afd87b4ae972b9b123c62168">
+            <odd id="aspace_053fa6be79f411b1676b10bf503d986b">
               <head>General</head>
               <p>Volume</p>
             </odd>
           </c>
         </c>
-        <c id="aspace_1148088d9d2e4c2c4cab44ce48344981" level="subseries">
+        <c id="aspace_5db7b9104008542c1933c7e20bdcd7d0" level="subseries">
           <did>
             <unittitle>October 1946</unittitle>
             <unitid>Oct1946</unitid>
@@ -12486,7 +12503,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_536923e00e36a024dc2e7be2c1d6eddf" level="item">
+          <c id="aspace_f7147797f4da4575ea67a2f378ff7e14" level="item">
             <did>
               <unittitle>Vol. 39: Official Court Transcript, 30 September, 1 October 1946</unittitle>
               <unitid>H-1217</unitid>
@@ -12495,25 +12512,73 @@
                 <extent altrender="carrier">pp. 19877-20228</extent>
                 <physfacet>356 pages</physfacet>
               </physdesc>
-              <physdesc id="aspace_a6e45359aafa8139e7e47d800e3cf3a6">Text</physdesc>
-              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/hh871tj3183" xlink:show="new" xlink:title="Vol. 39: Official Court Transcript, 30 September, 1 October 1946" xlink:type="simple">
+              <unitdate normal="1946-09-30/1946-09-30" type="inclusive">1946-09-30</unitdate>
+              <unitdate normal="1946-10-01/1946-10-01" type="inclusive">1946-10-01</unitdate>
+              <physdesc id="aspace_d7dd552c4345fdaf4ba8d4cc4271370b">Text</physdesc>
+              <container id="aspace_d4d5f7592eb81dcca33b21c6f6dbcd3a" label="Mixed Materials" type="box">10</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/hh871tj3183" xlink:show="new" xlink:title="Vol. 39: Official Court Transcript, 30 September, 1 October 1946, 1946-09-30" xlink:type="simple">
                 <daodesc>
-                  <p>Vol. 39: Official Court Transcript, 30 September, 1 October 1946</p>
+                  <p>Vol. 39: Official Court Transcript, 30 September, 1 October 1946, 1946-09-30</p>
                 </daodesc>
               </dao>
             </did>
-            <arrangement id="aspace_c3560cc49505d44a2071d9806ba9986c">
+            <arrangement id="aspace_2413cafae12b7b9cf2341e157daef94b">
               <head>Arrangement</head>
               <p>PRELIMINARY NOTES TO RUSSIAN TRANSCRIPTS: The Russian Transcripts are bound in 39 volumes containing the authentic Russian text either typewritten or mimeographed. In each volume are found one or more unnumbered pages: the table of contents (sometimes pasted on outside of cover, sometimes inserted in volume in loose form), Russian certificates and sometimes English certificates.</p>
             </arrangement>
-            <odd id="aspace_3308c9d032a87f0ef7488ccb1efd05f4">
+            <odd id="aspace_6450f9e6760e22d9bed8552d810b7347">
               <head>General</head>
               <p>Volume</p>
             </odd>
           </c>
         </c>
+        <c id="aspace_fcb6dafe82b132f9255b81a10e9f7014" level="subseries">
+          <did>
+            <unittitle>January 1946</unittitle>
+            <unitid>Jan1946</unitid>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_5dca66372bc3c98c0d025affbc378202" level="item">
+            <did>
+              <unittitle>Folder 1: Official Court Transcript, 17 January 1946 M</unittitle>
+              <unitid>H-5085</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <physfacet>50 pages</physfacet>
+              </physdesc>
+              <unitdate normal="1946-01-17/1946-01-17" type="inclusive">1946-01-17</unitdate>
+              <physdesc id="aspace_dbf3886cf0fbb0dd341aa19a52785ed5">Text</physdesc>
+              <container id="aspace_14b42383ccf5393d2ce96343fde7a39c" label="Mixed Materials" type="box">25</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/yc337kj7425" xlink:show="new" xlink:title="Folder 1: Official Court Transcript, 17 January 1946 M, 1946-01-17" xlink:type="simple">
+                <daodesc>
+                  <p>Folder 1: Official Court Transcript, 17 January 1946 M, 1946-01-17</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c>
+          <c id="aspace_ee827caea58439171331d041cbdf226d" level="item">
+            <did>
+              <unittitle>Folder 2: Official Court Transcript, 17 January 1946 A</unittitle>
+              <unitid>H-5086</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <physfacet>77 pages</physfacet>
+              </physdesc>
+              <unitdate normal="1946-01-17/1946-01-17" type="inclusive">1946-01-17</unitdate>
+              <physdesc id="aspace_532e7f1a739795b01069fcbe8c9fa770">Text</physdesc>
+              <container id="aspace_c023a1bbd88f1fa00eea5ac8d31f4cdd" label="Mixed Materials" type="box">25</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/xy032hx7889" xlink:show="new" xlink:title="Folder 2: Official Court Transcript, 17 January 1946 A, 1946-01-17" xlink:type="simple">
+                <daodesc>
+                  <p>Folder 2: Official Court Transcript, 17 January 1946 A, 1946-01-17</p>
+                </daodesc>
+              </dao>
+            </did>
+          </c>
+        </c>
       </c>
-      <c id="aspace_82f2ca8d3a413cf843dd84c1cdff9ebf" level="series">
+      <c id="aspace_f1a7cab6a4c41d8ab6804524aef81da0" level="series">
         <did>
           <unittitle>Rules, rulings, and orders</unittitle>
           <unitid>Rules</unitid>
@@ -12521,15 +12586,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_916a9e59d42ab541a3e5765ac7c34dde">
+        <acqinfo id="aspace_7ddd1534f8f661d5b1fa7fb384d094ac">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_b20b3f985e559e9bb42e951e7163b286">
+        <scopecontent id="aspace_19970295612860fd7c306579ff3755ef">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_fd458e2bd6a622990f5210e3eeeacc31" level="subseries">
+        <c id="aspace_d9e3ea7e3eb7d7aefbce1768f0d780f7" level="subseries">
           <did>
             <unittitle>Envelopes</unittitle>
             <unitid>Envelope</unitid>
@@ -12538,7 +12603,7 @@
             </physdesc>
           </did>
         </c>
-        <c id="aspace_6ff525d4a5a4ef4f46e8cb602b195eb1" level="subseries">
+        <c id="aspace_c0c57bea442025e01789e452fd013e36" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -12548,7 +12613,7 @@
           </did>
         </c>
       </c>
-      <c id="aspace_037c2c50c2d9bccb06bded5c69fb9f44" level="series">
+      <c id="aspace_72b9715715b08a0b28d237ee0a1e3597" level="series">
         <did>
           <unittitle>Statements and speeches</unittitle>
           <unitid>Statement</unitid>
@@ -12556,15 +12621,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_684d24317a95b27bf73f1a10dca83b42">
+        <acqinfo id="aspace_053dae59cd1dc7556f7f4a4f60e7bbed">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_01aa3d6c3d4a354c1da725911173bbe4">
+        <scopecontent id="aspace_bff3b3fe802088bac0b87c7ee564cb5e">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_848a3650d5052fa6ba3d8e0bbae6dba0" level="subseries">
+        <c id="aspace_f4b348ff2fbcd173437e72654c56e819" level="subseries">
           <did>
             <unittitle>Envelopes</unittitle>
             <unitid>Envelope</unitid>
@@ -12573,7 +12638,7 @@
             </physdesc>
           </did>
         </c>
-        <c id="aspace_b9e283306d03f98d41be45faa55a0ea0" level="subseries">
+        <c id="aspace_03530b8c460097bd21255747621301ae" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -12583,7 +12648,7 @@
           </did>
         </c>
       </c>
-      <c id="aspace_ca642ddaafcf2f8157734fd1c83db692" level="series">
+      <c id="aspace_5d8af85dd7ef50909bc0aabb1762241c" level="series">
         <did>
           <unittitle>Trial briefs</unittitle>
           <unitid>Brief</unitid>
@@ -12591,15 +12656,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_ecba952c197979be169bc101d4f97f55">
+        <acqinfo id="aspace_23eea7ef7df6b7bee2f79c3b9f0de3cc">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_9932d4d9291d346165f5e67ef086d101">
+        <scopecontent id="aspace_fa58e8564e4591ff49fcfd7ec13b6d6f">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_16a3024ac08f0a54faa478daaf781913" level="subseries">
+        <c id="aspace_fa65227991ab7584d0e0377e95111522" level="subseries">
           <did>
             <unittitle>Folders</unittitle>
             <unitid>Folder</unitid>
@@ -12608,7 +12673,7 @@
             </physdesc>
           </did>
         </c>
-        <c id="aspace_814d9597d3db44d582e31e509a9271f7" level="subseries">
+        <c id="aspace_a5ade1ff2ceaf87c0b4685f0c934c91f" level="subseries">
           <did>
             <unittitle>U.S. Trial Brief</unittitle>
             <unitid>USBrief</unitid>
@@ -12618,7 +12683,7 @@
           </did>
         </c>
       </c>
-      <c id="aspace_e5de4b1f8ed81933b57952d2e6948c84" level="series">
+      <c id="aspace_38b9b92a67daa8f0f786b67c1260da32" level="series">
         <did>
           <unittitle>Exhibits</unittitle>
           <unitid>Exhibit</unitid>
@@ -12626,15 +12691,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_abdf600e57756eabbd5b8186c31dbf60">
+        <acqinfo id="aspace_fe42095f759b02b71469c60d55d71467">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_8a42889df240fd4408091e2e65078a5f">
+        <scopecontent id="aspace_9c32e0d3675450528284048df2a85308">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_0bc434fe43cf37f7b9bcfd418bb350e4" level="subseries">
+        <c id="aspace_ee86e6c3c8d6ec133bc69ec2988669c5" level="subseries">
           <did>
             <unittitle>Affidavits</unittitle>
             <unitid>Affidavit</unitid>
@@ -12642,13 +12707,13 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_176c01f3cfa1e36f782c7d116bf4246b" level="file">
+          <c id="aspace_2381282843ef512a1cb2a9c4a3f2314b" level="file">
             <did>
               <unittitle>Folders</unittitle>
               <unitid>Folder</unitid>
             </did>
           </c>
-          <c id="aspace_9d10cef14a0e26315c128c64bdc397a3" level="file">
+          <c id="aspace_7bdcd47a0efe242dd49ca8ef219616f3" level="file">
             <did>
               <unittitle>Envelopes</unittitle>
               <unitid>Envelope</unitid>
@@ -12658,7 +12723,7 @@
             </did>
           </c>
         </c>
-        <c id="aspace_735ee4cf272878dd3bae204d4c4e9058" level="subseries">
+        <c id="aspace_d74403a2e097f60a011dc54c602d3c2b" level="subseries">
           <did>
             <unittitle>Defense Exhibits</unittitle>
             <unitid>DefExhibits</unitid>
@@ -12666,7 +12731,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_2f8c5d72cdd60715d5a9ba75d1a8008d" level="file">
+          <c id="aspace_90b2a14d4bdfaedb13a21e59d1d57ced" level="file">
             <did>
               <unittitle>Folders</unittitle>
               <unitid>Folder</unitid>
@@ -12675,7 +12740,7 @@
               </physdesc>
             </did>
           </c>
-          <c id="aspace_673a3b1af4e0060c305c04754ca7668e" level="file">
+          <c id="aspace_89cbb6f512d81437fc701ac8037e5406" level="file">
             <did>
               <unittitle>Microfilm</unittitle>
               <unitid>Microfilm</unitid>
@@ -12686,7 +12751,7 @@
           </c>
         </c>
       </c>
-      <c id="aspace_0d022b3ad9fc5ac7e0b1e4839b4ad31f" level="series">
+      <c id="aspace_5f50c766985e1a28381f6a14b260d56a" level="series">
         <did>
           <unittitle>Audio recordings of proceedings</unittitle>
           <unitid>Audio</unitid>
@@ -12694,15 +12759,15 @@
             <corpname authfilenumber="n50069897" rules="dacs" source="lcnaf">International Military Tribunal</corpname>
           </origination>
         </did>
-        <acqinfo id="aspace_09969cd357aa29bce995c4011607c53b">
+        <acqinfo id="aspace_91e2cb8c375269d9a52237bf634fe305">
           <head>Immediate Source of Acquisition</head>
           <p>International Court of Justice</p>
         </acqinfo>
-        <scopecontent id="aspace_baacfd36a71782c8e3aa73eee36f66a8">
+        <scopecontent id="aspace_da68dd0a08542064a22348c8ef462476">
           <head>Scope and Contents</head>
           <p>Scope and Contents PLACEHOLDER</p>
         </scopecontent>
-        <c id="aspace_8844ed8e76281408cb201aaa3309363b" level="subseries">
+        <c id="aspace_96cc93f205cbef8249c54e32bf908ed7" level="subseries">
           <did>
             <unittitle>April 1946</unittitle>
             <unitid>April1946</unitid>
@@ -12710,7 +12775,7 @@
               <extent altrender="materialtype spaceoccupied">123 item(s)</extent>
             </physdesc>
           </did>
-          <c id="aspace_744bf0a485befb481597ab6fc78c9e10" level="file">
+          <c id="aspace_bff22f8f521097a2f788a283d2d60c1b" level="file">
             <did>
               <unittitle>April 1, 1946</unittitle>
               <unitid>April1</unitid>
@@ -12718,7 +12783,7 @@
                 <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
               </physdesc>
             </did>
-            <c id="aspace_59e25269b4f9cc85fe15e19664484df2" level="item">
+            <c id="aspace_947bac3de86c540f8c829d2e64364919" level="item">
               <did>
                 <unittitle>Defense for Hess. Part 1</unittitle>
                 <unitid>H-5260_1732A_1</unitid>
@@ -12726,20 +12791,22 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:16:28+00:00</physfacet>
                 </physdesc>
-                <container id="aspace_c0f45f77afaa932cd4cd47271051f251" label="Audio [Disc No. 1732A]" type="box">Unknown</container>
-                <container id="aspace_a10d70745a9369f9108af39f116b0227" parent="aspace_c0f45f77afaa932cd4cd47271051f251" type="disc">Electrical transcription boxes</container>
-                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/mn513gx2686" xlink:show="new" xlink:title="Defense for Hess. Part 1" xlink:type="simple">
+                <unitdate normal="1946-04-01T00:00:00+00:00/1946-04-01T00:00:00+00:00" type="inclusive">1946-04-01T00:00:00+00:00</unitdate>
+                <unitdate normal="1946-04-01T10:10+01:00/1946-04-01T10:25+01:00" type="inclusive">1946-04-01T10:10+01:00-1946-04-01T10:25+01:00</unitdate>
+                <physdesc id="aspace_1e6d2d609068b200a66518ba3351dab8">Sound</physdesc>
+                <container id="aspace_df16f69af030ffde5130b0fb01dd9bbb" label="Audio" type="disc">Disc No. 1732A</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/mn513gx2686" xlink:show="new" xlink:title="Defense for Hess. Part 1, 1946-04-01T00:00:00+00:00" xlink:type="simple">
                   <daodesc>
-                    <p>Defense for Hess. Part 1</p>
+                    <p>Defense for Hess. Part 1, 1946-04-01T00:00:00+00:00</p>
                   </daodesc>
                 </dao>
               </did>
-              <odd id="aspace_b10a4f9a5f187f68bc7c0b93e96694b4">
+              <odd id="aspace_316bd2b3c1ab45124e99e6083129b6a2">
                 <head>General</head>
                 <p>16" Aluminum Presto Instantaneous Disc</p>
               </odd>
             </c>
-            <c id="aspace_204269ab5fa5c3f771e0ceef3849bf78" level="item">
+            <c id="aspace_1f705c4045d2d5250b650e0e78659744" level="item">
               <did>
                 <unittitle>Defense for Hess. Part 2</unittitle>
                 <unitid>H-5260_1733A_1</unitid>
@@ -12747,30 +12814,31 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:15:58+00:00</physfacet>
                 </physdesc>
-                <physdesc id="aspace_5e3b7bf545c88e0535488da73f5fcb89">Sound</physdesc>
-                <container id="aspace_a0a4f59a637426f6766ea988ed0c7b43" label="Audio [Disc No. 1733A]" type="box">Unknown</container>
-                <container id="aspace_a21a11bcf8d2b53a5be97dda81c0947c" parent="aspace_a0a4f59a637426f6766ea988ed0c7b43" type="disc">Electrical transcription boxes</container>
-                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/qy942cp7947" xlink:show="new" xlink:title="Defense for Hess. Part 2" xlink:type="simple">
+                <unitdate normal="1946-04-01T00:00:00+00:00/1946-04-01T00:00:00+00:00" type="inclusive">1946-04-01T00:00:00+00:00</unitdate>
+                <unitdate normal="1946-04-01T10:25+01:00/1946-04-01T10:41+01:00" type="inclusive">1946-04-01T10:25+01:00-1946-04-01T10:41+01:00</unitdate>
+                <physdesc id="aspace_c9921b80f17bab1a255f43da06d9a641">Sound</physdesc>
+                <container id="aspace_157ca0c2c09a97ffe8597a98729226d3" label="Audio" type="disc">Disc No. 1733A</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/qy942cp7947" xlink:show="new" xlink:title="Defense for Hess. Part 2, 1946-04-01T00:00:00+00:00" xlink:type="simple">
                   <daodesc>
-                    <p>Defense for Hess. Part 2</p>
+                    <p>Defense for Hess. Part 2, 1946-04-01T00:00:00+00:00</p>
                   </daodesc>
                 </dao>
               </did>
-              <odd id="aspace_a0992572fb05497dff0d3e1742ae687c">
+              <odd id="aspace_0dd24832d98384b6b39dbaa06bfb3b10">
                 <head>General</head>
                 <p>16" Aluminum Presto Instantaneous Disc</p>
               </odd>
             </c>
           </c>
-          <c id="aspace_9ab5b8662793e3113fb3194b6b601094" level="file">
+          <c id="aspace_f8d11fc2ea177078fa0190851431536c" level="file">
             <did>
-              <unittitle>April 1, 1946</unittitle>
-              <unitid>April1</unitid>
+              <unittitle>April 30, 1946</unittitle>
+              <unitid>April30</unitid>
               <physdesc altrender="whole">
                 <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
               </physdesc>
             </did>
-            <c id="aspace_6f8ca1ff750d12abc0f6d84c5a76a70f" level="item">
+            <c id="aspace_c2db7dbf12a71642ec747eb32a568f2a" level="item">
               <did>
                 <unittitle>Continuation by defendant Schacht. Part 12</unittitle>
                 <unitid>H-5260_2151A_1</unitid>
@@ -12778,21 +12846,22 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:15:36+00:00</physfacet>
                 </physdesc>
-                <physdesc id="aspace_9a87410b51ed58b3747ac7791e9d4bcd">Sound</physdesc>
-                <container id="aspace_095de7209ee20e244ce2ee6b88a360b7" label="Audio [Disc No. 2151A]" type="box">Unknown</container>
-                <container id="aspace_ccf2c0a7fbb5e5b86377dffd67630a1f" parent="aspace_095de7209ee20e244ce2ee6b88a360b7" type="disc">Electrical transcription boxes</container>
-                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/gc375qw7079" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 12" xlink:type="simple">
+                <unitdate normal="1946-04-30T00:00:00+00:00/1946-04-30T00:00:00+00:00" type="inclusive">1946-04-30T00:00:00+00:00</unitdate>
+                <unitdate normal="1946-04-30T16:29+01:00/1946-04-30T16:44+01:00" type="inclusive">1946-04-30T16:29+01:00-1946-04-30T16:44+01:00</unitdate>
+                <physdesc id="aspace_8a7ac94e6ca590bfef9c07e93aa034df">Sound</physdesc>
+                <container id="aspace_18f42c8203708a49bf0de4aba04f16de" label="Audio" type="disc">Disc No. 2151A</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/gc375qw7079" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 12, 1946-04-30T00:00:00+00:00" xlink:type="simple">
                   <daodesc>
-                    <p>Continuation by defendant Schacht. Part 12</p>
+                    <p>Continuation by defendant Schacht. Part 12, 1946-04-30T00:00:00+00:00</p>
                   </daodesc>
                 </dao>
               </did>
-              <odd id="aspace_78e680b16262aed9d5d5f8ac57020f57">
+              <odd id="aspace_270d3f419f080d5ca603c9dfea1af9cc">
                 <head>General</head>
                 <p>16" Aluminum Presto Instantaneous Disc</p>
               </odd>
             </c>
-            <c id="aspace_eb5b4b541cc3a30086da1671b7edfd00" level="item">
+            <c id="aspace_b71eab606d10624e38d5c0ee6cb6a3d5" level="item">
               <did>
                 <unittitle>Continuation by defendant Schacht. Part 13</unittitle>
                 <unitid>H-5260_2152A_1</unitid>
@@ -12800,21 +12869,22 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:15:23+00:00</physfacet>
                 </physdesc>
-                <physdesc id="aspace_229a645c543ff9431ff7454f49dc0724">Sound</physdesc>
-                <container id="aspace_787bccf099fa57aaf2bc3073534df0e9" label="Audio [Disc No. 2152A]" type="box">Unknown</container>
-                <container id="aspace_41cb909120c139757195333ada90c874" parent="aspace_787bccf099fa57aaf2bc3073534df0e9" type="disc">Electrical transcription boxes</container>
-                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/rz871hs8249" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 13" xlink:type="simple">
+                <unitdate normal="1946-04-30T00:00:00+00:00/1946-04-30T00:00:00+00:00" type="inclusive">1946-04-30T00:00:00+00:00</unitdate>
+                <unitdate normal="1946-04-30T16:44+01:00/1946-04-30T17:00+01:00" type="inclusive">1946-04-30T16:44+01:00-1946-04-30T17:00+01:00</unitdate>
+                <physdesc id="aspace_158a8131774cf9dcc321ccddeeca4b3c">Sound</physdesc>
+                <container id="aspace_9b5a314f5f956cf33daed50fd95adde1" label="Audio" type="disc">Disc No. 2152A</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/rz871hs8249" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 13, 1946-04-30T00:00:00+00:00" xlink:type="simple">
                   <daodesc>
-                    <p>Continuation by defendant Schacht. Part 13</p>
+                    <p>Continuation by defendant Schacht. Part 13, 1946-04-30T00:00:00+00:00</p>
                   </daodesc>
                 </dao>
               </did>
-              <odd id="aspace_95215cb5a5fc395522d9fbcfd06f028f">
+              <odd id="aspace_1ec4e19e40f188fdea6412bf1ef0ab7b">
                 <head>General</head>
                 <p>16" Aluminum Presto Instantaneous Disc</p>
               </odd>
             </c>
-            <c id="aspace_eac8307826c4fcc30950156d7d3ee48c" level="item">
+            <c id="aspace_26603deec5f759bc2628be90fa6fb0f7" level="item">
               <did>
                 <unittitle>Continuation by defendant Schacht. Part 14</unittitle>
                 <unitid>H-5260_2153A_1</unitid>
@@ -12822,21 +12892,31 @@
                   <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
                   <physfacet>1899-12-31T00:04:12+00:00</physfacet>
                 </physdesc>
-                <physdesc id="aspace_13a808707e25672ddfffb4963236ad24">Sound</physdesc>
-                <container id="aspace_dcc91151a9dea8f66b6eb6501ad30220" label="Audio [Disc No. 2153A]" type="box">Unknown</container>
-                <container id="aspace_8a10b9d1792a16530ba61f29e69f7ecd" parent="aspace_dcc91151a9dea8f66b6eb6501ad30220" type="disc">Electrical transcription boxes</container>
-                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/sp244gd2801" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 14" xlink:type="simple">
+                <unitdate normal="1946-04-30T00:00:00+00:00/1946-04-30T00:00:00+00:00" type="inclusive">1946-04-30T00:00:00+00:00</unitdate>
+                <unitdate normal="1946-04-30T17:00+01:00/1946-04-30T17:04+01:00" type="inclusive">1946-04-30T17:00+01:00-1946-04-30T17:04+01:00</unitdate>
+                <physdesc id="aspace_93159ed514b2a5298453ad11cc81b289">Sound</physdesc>
+                <container id="aspace_ed6dae47c7f0c20c9a70046931a25aed" label="Audio" type="disc">Disc No. 2153A</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external" xlink:href="https://purl.stanford.edu/sp244gd2801" xlink:show="new" xlink:title="Continuation by defendant Schacht. Part 14, 1946-04-30T00:00:00+00:00" xlink:type="simple">
                   <daodesc>
-                    <p>Continuation by defendant Schacht. Part 14</p>
+                    <p>Continuation by defendant Schacht. Part 14, 1946-04-30T00:00:00+00:00</p>
                   </daodesc>
                 </dao>
               </did>
-              <odd id="aspace_09fbe4eea22ef995e9dd83fe7477d6ba">
+              <odd id="aspace_26d419db2fdbff1ece8cde9c2229ac58">
                 <head>General</head>
                 <p>16" Aluminum Presto Instantaneous Disc</p>
               </odd>
             </c>
           </c>
+        </c>
+        <c id="aspace_73b021bd7ea2f7d54a29ea160c8e235c" level="subseries">
+          <did>
+            <unittitle>Document Books, U.S. Document Book</unittitle>
+            <unitid>USDocBooks</unitid>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">14 item(s)</extent>
+            </physdesc>
+          </did>
         </c>
       </c>
     </dsc>
