@@ -105,10 +105,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.view.collection_context(display_control: false,
                                    document_component: Arclight::DocumentCollectionContextComponent)
 
-    ##
-    # Compact index view
-    config.view.compact!
-
     # solr fields that will be treated as facets by the blacklight application
     #   The ordering of the field names is the order of the display
     #
@@ -150,7 +146,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # Note that parent_ssim is an array of all ancestor nodes, including the parent
     # parent_ssi is just the immediate parent; it's used in queries for context nav
     config.add_facet_field 'parent_ssim', show: false
-    config.add_facet_field 'parent_ssi', show: false
+    config.add_facet_field 'parent_ssi', show: false, helper_method: :parent_label, label: 'Parent', single: true
 
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
@@ -163,10 +159,14 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       words_connector: '<br/>',
       two_words_connector: '<br/>',
       last_word_connector: '<br/>'
-    }, compact: true
-    config.add_index_field 'creator', accessor: true
-    config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, collection_context: true,
-                                                repository_context: true, helper_method: :render_html_tags
+    }, compact: true, component: Arclight::IndexMetadataFieldComponent
+    config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, repository_context: true,
+                                                helper_method: :render_html_tags,
+                                                component: Arclight::IndexMetadataFieldComponent
+    config.add_index_field 'unitid', accessor: true, component: MetadataAttributeComponent
+    config.add_index_field 'extent', accessor: true, component: MetadataAttributeComponent
+    config.add_index_field 'parent_ssi', component: MetadataAttributeComponent, helper_method: :render_parent_link
+    config.add_index_field 'language_ssm', component: MetadataAttributeComponent
 
     # config.add_facet_field 'has_online_content_ssim', label: 'Access', query: {
     #   online: { label: 'Online access', fq: 'has_online_content_ssim:true' }
