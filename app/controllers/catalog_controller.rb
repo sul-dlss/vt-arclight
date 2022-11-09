@@ -4,6 +4,7 @@
 class CatalogController < ApplicationController # rubocop:disable Metrics/ClassLength
   include Blacklight::Catalog
   include Arclight::Catalog
+  include Blacklight::LocalePicker::Concern
 
   configure_blacklight do |config|
     ## Class for sending and receiving requests from a search index
@@ -44,15 +45,15 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       'collection.rows': 1
     }
 
-    config.header_component = Arclight::HeaderComponent
+    config.header_component = HeaderComponent
     config.add_results_document_tool(:bookmark, partial: 'bookmark_control')
 
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)
     config.add_results_collection_tool(:view_type_group)
 
-    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark')
-    config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history')
+    config.add_nav_action(:bookmark, partial: 'blacklight/nav/bookmark', unless: :main_page?)
+    config.add_nav_action(:search_history, partial: 'blacklight/nav/search_history', unless: :main_page?)
 
     # solr field configuration for search results/index views
     config.index.partials = %i[arclight_index_default]

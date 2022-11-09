@@ -21,6 +21,9 @@ Naming/PredicateName:
   ForbiddenPrefixes:
     - _is
 
+RSpec/ExampleLength:
+  Max: 10
+
 RSpec/MultipleExpectations:
   Max: 5
 

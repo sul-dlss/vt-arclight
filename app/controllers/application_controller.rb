@@ -4,6 +4,10 @@
 class ApplicationController < ActionController::Base
   # Adds a few additional behaviors into the application controller
   include Blacklight::Controller
-  include Blacklight::LocalePicker::Concern
   layout :determine_layout if respond_to? :layout
+
+  # This helps decide whether some nav actions appear
+  def main_page?
+    controller_name == 'virtual_tribunals'
+  end
 end
