@@ -167,7 +167,9 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'creator', accessor: true
     config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, collection_context: true,
                                                 repository_context: true, helper_method: :render_html_tags
-
+    config.add_index_field 'breadcrumbs', accessor: :itself,
+                                          component: Arclight::SearchResultBreadcrumbsComponent,
+                                          compact: { count: 2 }
     # config.add_facet_field 'has_online_content_ssim', label: 'Access', query: {
     #   online: { label: 'Online access', fq: 'has_online_content_ssim:true' }
     # }
