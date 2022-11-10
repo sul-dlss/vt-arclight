@@ -40,3 +40,25 @@ end
 
 to_field 'resource_format_ssim', extract_xpath('./did/physdesc/physfacet')
 to_field 'media_format_ssi', extract_xpath('./did/container/@label')
+
+to_field 'date_hierarchy_ssim', extract_xpath('./did/unitdate/@normal') do |_record, accumulator|
+  next unless accumulator.any?
+
+  date_ranges = accumulator.flat_map do |date|
+    start_date, end_date = date.split('/', 2)
+
+    if end_date.nil?
+      Date.parse(start_date)..Date.parse(start_date)
+    else
+      Date.parse(start_date)..Date.parse(end_date)
+    end
+  end
+
+  facet_data = date_ranges.compact.flat_map do |date_range|
+    date_range.flat_map do |date|
+      [date.strftime('%Y'), date.strftime('%Y-%m'), date.strftime('%Y-%m-%d')]
+    end
+  end
+
+  accumulator.replace(facet_data.uniq)
+end

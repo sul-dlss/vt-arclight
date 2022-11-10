@@ -131,7 +131,11 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # :index_range can be an array or range of prefixes that will be used to create the navigation
     #  (note: It is case sensitive when searching values)
 
-    config.add_facet_field 'date_range', field: 'date_range_ssim'
+    config.add_facet_field 'date', field: 'date_hierarchy_ssim', limit: -1, sort: :index,
+                                   collapsing: true, single: true,
+                                   component: DateFacetHierarchyComponent,
+                                   item_component: Blacklight::FacetItemPivotComponent,
+                                   item_presenter: DateFacetItemPresenter
     config.add_facet_field 'level', field: 'level_ssim'
     config.add_facet_field 'language', field: 'language_ssim'
     config.add_facet_field 'media_format', field: 'media_format_ssi'
