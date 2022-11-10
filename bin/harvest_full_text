@@ -1,0 +1,65 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Harvest the full text of book objects from purl/stacks
+
+require 'net/http'
+require 'nokogiri'
+require 'fileutils'
+require 'ruby-progressbar'
+require 'parallel'
+
+ead_filename = 'public/data/mt839rq8746.xml'
+
+def purl_list_from_ead(filename)
+  doc = File.open(filename) { |f| Nokogiri::XML(f) }
+  doc.xpath('//ead:dao/@xlink:href',
+            'xlink' => "http://www.w3.org/1999/xlink",
+            'ead' => "urn:isbn:1-931666-22-9").map(&:value)
+end
+
+JQ_COMMAND = "jq '.structural.contains[] | " \
+             "select(.type == " \
+             "\"http://cocina.sul.stanford.edu/models/resources/page.jsonld\").structural.contains[] | " \
+             "select(.use == \"transcription\").filename' -r"
+
+def transcript_files(purl)
+  uri = URI("#{purl}.json")
+  json = Net::HTTP.get(uri)
+
+  page_transcripts = []
+  IO.popen(JQ_COMMAND, "r+") do |f|
+    f.puts json
+    f.close_write
+    page_transcripts = f.readlines(chomp: true)
+  end
+  page_transcripts
+end
+
+def full_text_for(transcripts, druid)
+  full_text = transcripts.each_with_object(StringIO.new) do |filename, buffer|
+    uri = URI("https://stacks.stanford.edu/file/#{druid}/#{filename}")
+    xml_page = Net::HTTP.get(uri)
+    doc = Nokogiri::XML(xml_page)
+    buffer << doc.xpath('//alto:String/@CONTENT',
+                        alto: 'http://www.loc.gov/standards/alto/ns-v3#').map(&:value).join(' ')
+  end
+
+  full_text.string
+end
+
+def process_purl(purl)
+  druid = purl.split('/')[-1]
+  dir = File.expand_path("#{__dir__}/../data/fulltext")
+  FileUtils.mkdir_p(dir)
+  File.write("#{dir}/#{druid}.txt", full_text_for(transcript_files(purl), druid))
+end
+
+purls = purl_list_from_ead(ead_filename)
+progressbar = ProgressBar.create(total: purls.size)
+
+# Lots of blocking operations, so use a bunch of threads
+Parallel.each(purls, in_threads: 32) do |purl|
+  process_purl(purl)
+  progressbar.increment
+end

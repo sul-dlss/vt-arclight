@@ -31,5 +31,9 @@ $navbar-padding-y: 0;
 $navbar-dark-color: white;
 $nav-link-padding-y: 0.3rem;
 
+nav .navbar-nav {
+  --bs-nav-link-font-size: 0.938rem;
+}
+
 // Forms
 $form-text-color: black; // Better contrast for accessability
