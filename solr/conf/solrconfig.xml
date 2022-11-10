@@ -93,6 +93,7 @@
          unitid_identifier_match^5
          subject_tesim^2
          text
+         full_text_tesimv^0.5
        </str>
        <str name="pf">
          collection_title_tesim^150
@@ -100,8 +101,9 @@
          name_tesim^10
          place_tesim^10
          unitid_identifier_match^5
+         text^5
+         full_text_tesimv^2.5
          subject_tesim^2
-         text
        </str>
 
        <str name="qf_name">
