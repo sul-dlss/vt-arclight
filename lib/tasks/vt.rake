@@ -28,6 +28,6 @@ namespace :vt do
   task index: :environment do
     file = ENV.fetch('FILE', 'public/data/mt839rq8746.xml')
     solr_url = ENV.fetch('SOLR_URL', Blacklight.default_index.connection.base_uri)
-    sh "bin/traject -u #{solr_url} -i xml -c lib/traject/vt_config.rb #{file}"
+    sh "bin/traject -u #{solr_url} -i xml -c lib/traject/vt_config.rb -s repository=icj #{file}"
   end
 end
