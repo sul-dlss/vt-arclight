@@ -385,11 +385,13 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_in_person_field 'repository_location', values: lambda { |_, document, _|
                                                                 document.repository_config
                                                               },
-                                                      label: 'Location of this collection',
                                                       component: Arclight::RepositoryLocationComponent
-    config.add_in_person_field 'before_you_visit', values: lambda { |_, document, _|
-                                                             document.repository_config&.visit_note
-                                                           }, label: 'Before you visit'
+    # rubocop:disable Rails/OutputSafety
+    config.add_in_person_field 'digital_collection_steward',
+                               values: lambda { |_, document, _|
+                                         document.repository_config&.digital_collection_steward_html&.html_safe
+                                       }
+    # rubocop:enable Rails/OutputSafety
 
     # Collection and Component Show Page Access Tab - How to Cite Section
     config.add_cite_field 'prefercite_ssm', label: 'Preferred citation', helper_method: :render_html_tags
