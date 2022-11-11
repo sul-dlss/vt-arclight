@@ -5,7 +5,7 @@ require:
 AllCops:
   TargetRubyVersion: 3.1
   Exclude:
-    - bin/bundle
+    - bin/**/*
     - db/schema.rb
     - db/migrate/**/*
     - vendor/bundle/**/*

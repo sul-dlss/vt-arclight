@@ -8,6 +8,6 @@
     "sass": "^1.55.0"
   },
   "scripts": {
-    "build:css": "sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules"
+    "build:css": "bin/build-css"
   }
 }
