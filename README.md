@@ -31,11 +31,13 @@ vault kv get puppet/application/vt/stage/aspace_password
 ```
 
 ### Requesting data and indexing it
-1. Find out the ID of the Resource and its Resository that you want in ArchivesSpace. Repository refers to internal SUL organization. For now we assume the Repository ID is `2`, for Special Collections. This is subject to change in development. 
+1. Collection data is stored in the `public/data` directory. It may not be the lastest data uploaded to ArchivesSpace, but it is useable for indexing in step 4 below. If you're fine with using this data skip to step 4. 
+
+2. If you want to download the latest data and overwrite the file in `public/data` follow these steps. Find out the ID of the Resource and its Resository that you want in ArchivesSpace. Repository refers to internal SUL organization. For now we assume the Repository ID is `2`, for Special Collections. This is subject to change in development. 
 
     "Resource" is the name for top level containers in ArchivesSpace. The Resource ID is the permanent identifier we use for the collection. It's the same as the PURL and won't change: `mt839rq8746`
 
-2. Download the EAD for a specific Resource. This will download EAD to our `/data` folder with the Resource ID as the filename, e.g. `/data/mt839rq8746.xml`. You can use the following command. When trying to pass arguments to a rake task in the form of `[arg1,arg2]`, it seems my zsh shell requires escaping the brackets:
+3. Download the EAD for a specific Resource. This will download EAD to our `/data` folder with the Resource ID as the filename, e.g. `/data/mt839rq8746.xml`. You can use the following command. When trying to pass arguments to a rake task in the form of `[arg1,arg2]`, it seems my zsh shell requires escaping the brackets:
     ```shell
     rake vt:download_resource\[2,mt839rq8746\]           
     ```
@@ -44,7 +46,7 @@ vault kv get puppet/application/vt/stage/aspace_password
     ```shell
      ASPACE_URL=http://spec-as-stage.stanford.edu:8089 ASPACE_USER=<xxx> ASPACE_PASSWORD=<xxx> rake vt:download_resource\[2,mt839rq8746\]  
      ```
-3. Index the file.
+4. Index the file.
     ```shell
      rake vt:index 
     ```
