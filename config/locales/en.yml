@@ -1,9 +1,12 @@
 en:
   arclight:
-    masthead_heading: Virtual Tribunals
+    masthead_heading: Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46
     views:
       show:
         embedded_content: Digital content
   routes:
     about: About
     inventory: Content inventory
+  virtual_tribunals:
+    header_component:
+      title: Virtual Tribunals at Stanford
