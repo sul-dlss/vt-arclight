@@ -7,6 +7,8 @@ en:
   routes:
     about: About
     inventory: Content inventory
+  top_bar_component:
+    link_text: Stanford Libraries
   virtual_tribunals:
     header_component:
       title: Virtual Tribunals at Stanford

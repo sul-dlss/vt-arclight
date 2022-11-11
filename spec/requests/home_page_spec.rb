@@ -12,7 +12,7 @@ RSpec.describe "The home page" do
     expect(response).to have_http_status(:ok)
 
     # Header
-    expect(page).to have_link 'Virtual Tribunals', href: 'https://library.stanford.edu/'
+    expect(page).to have_link 'Stanford Libraries', href: 'https://library.stanford.edu/'
 
     # Masthead
     expect(page).to have_text "Virtual Tribunals at Stanford"

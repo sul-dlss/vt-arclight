@@ -3,10 +3,10 @@
 # Draws the correct header, either for the virtual tribunals or the Nuremberg Archives
 class HeaderComponent < Arclight::HeaderComponent
   def call
-    if controller_name == 'virtual_tribunals'
-      render VirtualTribunals::HeaderComponent.new(blacklight_config:)
-    else
-      render Arclight::HeaderComponent.new(blacklight_config:)
+    component = controller_name == 'virtual_tribunals' ? VirtualTribunals::HeaderComponent : Arclight::HeaderComponent
+
+    render component.new(blacklight_config:) do |c|
+      c.with_top_bar(component: TopBarComponent)
     end
   end
 end
