@@ -1,6 +1,6 @@
 en:
   blacklight:
-    application_name: 'Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46'
+    application_name: Virtual Tribunals
     search:
       facets:
         title: Find items by…

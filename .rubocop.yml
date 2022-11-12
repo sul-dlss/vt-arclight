@@ -25,7 +25,7 @@ RSpec/ExampleLength:
   Max: 10
 
 RSpec/MultipleExpectations:
-  Max: 5
+  Max: 10
 
 Gemspec/DeprecatedAttributeAssignment: # new in 1.30
   Enabled: true
