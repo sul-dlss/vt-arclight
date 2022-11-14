@@ -1,6 +1,8 @@
 icj:
   name: 'International Court of Justice'
   visit_note: 'Visit Note'
+  digital_collection_steward_html: |
+    <a href="https://library.stanford.edu/">Stanford University Libraries</a> and <a href="https://humanrights.stanford.edu/">Center for Human Rights and International Justice</a>
   description: 'The International Court of Justice (ICJ) is the principal judicial organ of the United Nations (UN). It was established in June 1945 by the Charter of the United Nations and began work in April 1946. The seat of the Court is at the Peace Palace in The Hague (Netherlands). Of the six principal organs of the United Nations, it is the only one not located in New York (United States of America).'
   contact_html: |
     <div class="al-repository-contact-phone">+31 70 302 23 23</div>

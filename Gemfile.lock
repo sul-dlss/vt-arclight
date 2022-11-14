@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: f47ed19eaeea95e2e8969ee42cd63836d3504302
+  revision: 49fe2505e9d6a76c35eb43239f97ab4fc85d09f6
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 682929702915b675bd4b49df5c7efc80ec356bea
+  revision: 8691e3a1c71d24b9802f4e3ba77490634f9e4a84
   branch: main
   specs:
     blacklight (8.0.0.alpha)
