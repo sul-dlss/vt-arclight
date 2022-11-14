@@ -2,12 +2,6 @@
 
 # Methods that are mixed into the view context.
 module ApplicationHelper
-  include Blacklight::LocalePicker::LocaleHelper
-
-  def additional_locale_routing_scopes
-    [blacklight, arclight_engine]
-  end
-
   def render_parent_link(document:, **_kwargs)
     parent = document.parents.last
     return unless parent

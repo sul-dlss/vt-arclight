@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module VirtualTribunals
-  # This removes the History and locale picker links.
+  # This removes the History link.
   class HeaderComponent < Blacklight::HeaderComponent
     def initialize(blacklight_config:)
       @blacklight_config = blacklight_config
