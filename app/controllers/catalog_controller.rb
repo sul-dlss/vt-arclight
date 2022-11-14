@@ -4,7 +4,6 @@
 class CatalogController < ApplicationController # rubocop:disable Metrics/ClassLength
   include Blacklight::Catalog
   include Arclight::Catalog
-  include Blacklight::LocalePicker::Concern
 
   configure_blacklight do |config|
     config.logo_link = 'https://library.stanford.edu/'

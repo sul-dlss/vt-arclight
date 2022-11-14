@@ -98,8 +98,6 @@ GEM
     ast (2.4.2)
     bcrypt (3.1.18)
     bindex (0.8.1)
-    blacklight-locale_picker (1.0.0)
-      rails (>= 5.2.3, < 7.1)
     bootsnap (1.13.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -431,7 +429,6 @@ PLATFORMS
 DEPENDENCIES
   arclight!
   blacklight!
-  blacklight-locale_picker
   bootsnap
   capistrano-passenger
   capistrano-rails
