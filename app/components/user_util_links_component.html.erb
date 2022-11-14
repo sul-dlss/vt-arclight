@@ -1,0 +1,5 @@
+<ul class="navbar-nav">
+  <li class="nav-item"><%= render 'blacklight/nav/bookmark' unless main_page? %></li>
+  <li class="nav-item"><%= render 'blacklight/nav/search_history' unless main_page? %></li>
+  <li class="nav-item"><a href="#feedback" class="nav-link" data-action="feedback#toggle">Feedback</a></li>
+</ul>

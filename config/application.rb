@@ -21,5 +21,7 @@ module VtArclight
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.feedback_email = ENV.fetch('FEEDBACK_EMAIL', 'blackhole@stanford.edu')
   end
 end
