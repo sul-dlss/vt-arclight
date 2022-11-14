@@ -402,9 +402,4 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # Group header values
     config.add_group_header_field 'abstract_or_scope', accessor: true, truncate: true, helper_method: :render_html_tags
   end
-
-  # Override Blacklight so that the "Login" link doesn't display
-  def has_user_authentication_provider?
-    false
-  end
 end
