@@ -6,4 +6,5 @@ en:
         title: Find items by…
       fields:
         digital_collection_steward: 'Digital collection stewarded by'
+        repository_contact: Contact
         repository_location: 'Location of this collection'

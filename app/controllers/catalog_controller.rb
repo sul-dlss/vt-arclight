@@ -93,7 +93,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       terms_field
       cite_field
       in_person_field
-      contact_field
     ]
 
     config.show.component_metadata_partials = %i[
@@ -386,6 +385,11 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
                                                                 document.repository_config
                                                               },
                                                       component: Arclight::RepositoryLocationComponent
+
+    config.add_in_person_field 'repository_contact', values: lambda { |_, document, _|
+      document.repository_config&.contact
+    }
+
     # rubocop:disable Rails/OutputSafety
     config.add_in_person_field 'digital_collection_steward',
                                values: lambda { |_, document, _|
@@ -395,11 +399,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
 
     # Collection and Component Show Page Access Tab - How to Cite Section
     config.add_cite_field 'prefercite_ssm', label: 'Preferred citation', helper_method: :render_html_tags
-
-    # Collection and Component Show Page Access Tab - Contact Section
-    config.add_contact_field 'repository_contact', values: lambda { |_, document, _|
-                                                             document.repository_config&.contact
-                                                           }, label: 'Contact'
 
     # Group header values
     config.add_group_header_field 'abstract_or_scope', accessor: true, truncate: true, helper_method: :render_html_tags

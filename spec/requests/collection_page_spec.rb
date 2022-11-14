@@ -24,6 +24,9 @@ RSpec.describe "The collection page" do
     get "/catalog/mt839rq8746"
     expect(response).to have_http_status(:ok)
 
+    expect(page).to have_text 'Contact'
+    expect(page).to have_link 'library@icj-cij.org'
+
     expect(page).to have_text 'Digital collection stewarded by'
     expect(page).to have_link 'Center for Human Rights and International Justice'
     expect(page).to have_link 'Stanford University Libraries'
