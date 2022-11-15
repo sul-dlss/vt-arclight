@@ -1,6 +1,6 @@
 <%# overriding arclight template to display different links %>
 <li class="nav-item">
-  <%= link_to t('arclight.routes.home'), root_path, class: 'nav-link' %>
+  <%= link_to t('arclight.routes.home'), search_catalog_path, class: 'nav-link' %>
 </li>
 <li class="nav-item ms-3">
   <%= link_to t('routes.inventory'), solr_document_path(id: 'mt839rq8746'), class: 'nav-link' %>
