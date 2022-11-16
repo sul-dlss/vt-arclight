@@ -1,0 +1,14 @@
+<div class="alert alert-info alert-dismissible fade show mb-4" role="alert" data-controller="context-result-info" hidden>
+  <p>
+    <%= t('.body') %>
+  </p>
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  <div class="text-end">
+    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="alert">
+      <%= t('.dismiss') %>
+    </button>
+    <button type="button" class="btn btn-outline-primary" data-bs-dismiss="alert" data-action="context-result-info#disable">
+      <%= t('.disable_session') %>
+    </button>
+  </div>
+</div>
