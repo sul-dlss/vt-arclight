@@ -8,8 +8,8 @@ $logo-image: url(StanfordLibraries-logo-whitetext.svg);
 $logo-width: 200px;
 $logo-height: 35px;
 
-@import 'blacklight-frontend/app/assets/stylesheets/blacklight/blacklight';
-@import 'arclight/app/assets/stylesheets/arclight/application';
+@import 'blacklight/blacklight';
+@import 'arclight/application';
 @import 'sulFooter';
 @import 'landingPage';
 @import 'home';
