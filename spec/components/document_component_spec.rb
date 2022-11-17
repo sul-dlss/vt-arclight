@@ -19,4 +19,18 @@ RSpec.describe DocumentComponent, type: :component do
       expect(page).not_to have_text 'Online content'
     end
   end
+
+  context 'with a series that has online content (overrides Arclight::DocumentComponent)' do
+    let(:document) do
+      SolrDocument.new(level_ssm: ['Series'],
+                       scopecontent_ssm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
+                                          "<p>The official archives of the International Military Tribunal...</p>"])
+    end
+
+    it "shows the field" do
+      expect(page).to have_text 'Scope and content:'
+      expect(page).to have_text 'The collection in the Virtual Tribunal'
+      expect(page).to have_text 'The official archives of the International'
+    end
+  end
 end
