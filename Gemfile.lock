@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 49fe2505e9d6a76c35eb43239f97ab4fc85d09f6
+  revision: 20aa68e749a06e504ede65abd6cf05cf70b0301f
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 8691e3a1c71d24b9802f4e3ba77490634f9e4a84
+  revision: 06a5add8cf338361208878b7efbe68d19b752a8f
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -393,7 +393,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (2.3.0)
-    view_component (2.75.0)
+    view_component (2.76.0)
       activesupport (>= 5.0.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
