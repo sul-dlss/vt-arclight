@@ -1,0 +1,39 @@
+<div class='d-md-flex justify-content-between al-show'>
+  <div class='al-show-breadcrumb'>
+    <nav aria-label="breadcrumb">
+      <%= render breadcrumb_component.new(presenter: presenter) %>
+    </nav>
+  </div>
+</div>
+
+<div class="title-container">
+  <%= content_tag :h1 do %>
+    <%= document.normalized_title %>
+  <% end %>
+  <%= render 'arclight/requests', document: document %>
+  <%= render 'catalog/arclight_bookmark_control', document: document %>
+  <%= button_tag(t('arclight.views.show.toggle_sidebar'), type: :button, class: 'btn btn-sm btn-secondary d-lg-none sidebar-toggle', data: { 'bs-toggle' => 'offcanvas', 'bs-target' => '#sidebar' }, aria: { 'controls' => 'sidebar' }) %>
+</div>
+
+<%= embed %>
+
+<%= render Arclight::MetadataSectionComponent.with_collection(component_metadata_partials,
+             metadata_attr: { layout: Arclight::UpperMetadataLayoutComponent },
+             presenter: presenter) unless document.collection? %>
+
+
+<% if document.collection? %>
+<div id="metadata">
+  <h2 class="sr-only visually-hidden"><%= t 'arclight.views.show.context' %></h2>
+  <%= render Arclight::MetadataSectionComponent.with_collection(metadata_partials,
+                metadata_attr: { layout: Arclight::UpperMetadataLayoutComponent },
+                presenter: presenter, heading: true) %>
+</div>
+<% elsif document.children? %>
+<div id="contents">
+  <h2 class="al-show-sub-heading"><%= t 'arclight.views.show.contents' %></h2>
+  <%= helpers.turbo_frame_tag "al-hierarchy-#{document.id}", loading: 'lazy', src: helpers.hierarchy_solr_document_path(id: document.id, paginate: true, per_page: 50) %>
+</div>
+<% end %>
+
+<%= access %>
