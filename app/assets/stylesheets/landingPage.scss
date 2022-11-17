@@ -8,9 +8,15 @@
     @extend .pb-2;
   }
 
+  .item-image {
+    border: 1px solid $silver-sand;
+    height: 100%;
+    max-width: 300px;
+  }
+
   .vt-item {
     @extend .mt-3;
-    @extend .mb-4;
+    @extend .mb-5;
 
     .item-image {
       @extend .me-3;
