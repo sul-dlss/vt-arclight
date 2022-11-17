@@ -320,6 +320,8 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # ==========================
 
     # Component Show Page - Metadata Section
+    config.add_component_field 'scopecontent_ssm', helper_method: :render_html_tags
+    config.add_component_field 'acqinfo_ssim', label: 'Acquisition information', helper_method: :render_html_tags
     config.add_component_field 'containers', label: 'Containers', accessor: 'containers', separator_options: {
       words_connector: ', ',
       two_words_connector: ', ',
@@ -327,41 +329,39 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }, if: lambda { |_context, _field_config, document|
       document.containers.present?
     }
-    config.add_component_field 'abstract_ssm', label: 'Abstract', helper_method: :render_html_tags
     config.add_component_field 'extent_ssm', label: 'Extent'
-    config.add_component_field 'scopecontent_ssm', label: 'Scope and Content', helper_method: :render_html_tags
-    config.add_component_field 'acqinfo_ssim', label: 'Acquisition information', helper_method: :render_html_tags
-    config.add_component_field 'appraisal_ssm', label: 'Appraisal information', helper_method: :render_html_tags
-    config.add_component_field 'custodhist_ssm', label: 'Custodial history', helper_method: :render_html_tags
-    config.add_component_field 'processinfo_ssm', label: 'Processing information', helper_method: :render_html_tags
     config.add_component_field 'arrangement_ssm', label: 'Arrangement', helper_method: :render_html_tags
-    config.add_component_field 'accruals_ssm', label: 'Accruals', helper_method: :render_html_tags
-    config.add_component_field 'phystech_ssm', label: 'Physical / technical requirements',
-                                               helper_method: :render_html_tags
-    config.add_component_field 'physloc_ssm', label: 'Physical location', helper_method: :render_html_tags
+    # config.add_component_field 'abstract_ssm', label: 'Abstract', helper_method: :render_html_tags
+    # config.add_component_field 'appraisal_ssm', label: 'Appraisal information', helper_method: :render_html_tags
+    # config.add_component_field 'custodhist_ssm', label: 'Custodial history', helper_method: :render_html_tags
+    # config.add_component_field 'processinfo_ssm', label: 'Processing information', helper_method: :render_html_tags
+    # config.add_component_field 'accruals_ssm', label: 'Accruals', helper_method: :render_html_tags
+    # config.add_component_field 'phystech_ssm', label: 'Physical / technical requirements',
+    #  helper_method: :render_html_tags
+    # config.add_component_field 'physloc_ssm', label: 'Physical location', helper_method: :render_html_tags
 
     # Component Show Page - Indexed Terms Section
-    config.add_component_indexed_terms_field 'access_subjects_ssim', label: 'Subjects',
-                                                                     link_to_facet: true,
-                                                                     separator_options: {
-                                                                       words_connector: '<br/>',
-                                                                       two_words_connector: '<br/>',
-                                                                       last_word_connector: '<br/>'
-                                                                     }
+    # config.add_component_indexed_terms_field 'access_subjects_ssim', label: 'Subjects',
+    #                                                                  link_to_facet: true,
+    #                                                                  separator_options: {
+    #                                                                    words_connector: '<br/>',
+    #                                                                    two_words_connector: '<br/>',
+    #                                                                    last_word_connector: '<br/>'
+    #                                                                  }
 
-    config.add_component_indexed_terms_field 'names_ssim', label: 'Names', separator_options: {
-      words_connector: '<br/>',
-      two_words_connector: '<br/>',
-      last_word_connector: '<br/>'
-    }, helper_method: :link_to_name_facet
+    # config.add_component_indexed_terms_field 'names_ssim', label: 'Names', separator_options: {
+    #   words_connector: '<br/>',
+    #   two_words_connector: '<br/>',
+    #   last_word_connector: '<br/>'
+    # }, helper_method: :link_to_name_facet
 
-    config.add_component_indexed_terms_field 'places_ssim', label: 'Places',
-                                                            link_to_facet: true,
-                                                            separator_options: {
-                                                              words_connector: '<br/>',
-                                                              two_words_connector: '<br/>',
-                                                              last_word_connector: '<br/>'
-                                                            }
+    # config.add_component_indexed_terms_field 'places_ssim', label: 'Places',
+    #                                                         link_to_facet: true,
+    #                                                         separator_options: {
+    #                                                           words_connector: '<br/>',
+    #                                                           two_words_connector: '<br/>',
+    #                                                           last_word_connector: '<br/>'
+    #                                                         }
 
     # =================
     # ACCESS TAB FIELDS
@@ -372,12 +372,12 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_terms_field 'userestrict_ssm', label: 'Terms of Access', helper_method: :render_html_tags
 
     # Component Show Page Access Tab - Terms and Condition Section
-    config.add_component_terms_field 'accessrestrict_ssm', label: 'Restrictions', helper_method: :render_html_tags
-    config.add_component_terms_field 'userestrict_ssm', label: 'Terms of Access', helper_method: :render_html_tags
-    config.add_component_terms_field 'parent_access_restrict_ssm', label: 'Parent Restrictions',
-                                                                   helper_method: :render_html_tags
-    config.add_component_terms_field 'parent_access_terms_ssm', label: 'Parent Terms of Access',
-                                                                helper_method: :render_html_tags
+    # config.add_component_terms_field 'accessrestrict_ssm', label: 'Restrictions', helper_method: :render_html_tags
+    # config.add_component_terms_field 'userestrict_ssm', label: 'Terms of Access', helper_method: :render_html_tags
+    # config.add_component_terms_field 'parent_access_restrict_ssm', label: 'Parent Restrictions',
+    #                                                                helper_method: :render_html_tags
+    # config.add_component_terms_field 'parent_access_terms_ssm', label: 'Parent Terms of Access',
+    #                                                             helper_method: :render_html_tags
 
     # Collection and Component Show Page Access Tab - In Person Section
     config.add_in_person_field 'repository_location', values: lambda { |_, document, _|
@@ -397,7 +397,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # rubocop:enable Rails/OutputSafety
 
     # Collection and Component Show Page Access Tab - How to Cite Section
-    config.add_cite_field 'prefercite_ssm', label: 'Preferred citation', helper_method: :render_html_tags
+    # config.add_cite_field 'prefercite_ssm', label: 'Preferred citation', helper_method: :render_html_tags
 
     # Group header values
     config.add_group_header_field 'abstract_or_scope', accessor: true, truncate: true, helper_method: :render_html_tags
