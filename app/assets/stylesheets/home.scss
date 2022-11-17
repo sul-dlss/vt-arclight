@@ -1,6 +1,7 @@
 .global-warning {
   background-color: $stanford-fog-light;
   border-color: $stanford-fog;
+  font-size: 0.938rem;
 
   span {
     font-weight: 600;
@@ -12,7 +13,12 @@
   
   .card {
     background-color: $stanford-fog-light;
+    border-color: $silver-sand;
     text-align: center;
+
+    .card-body {
+      border-top: 1px solid $silver-sand;
+    }
 
     .badge {
       background-color: $stanford-stone;
