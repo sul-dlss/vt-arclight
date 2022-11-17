@@ -77,17 +77,11 @@ def convert_file(data_file, template_file):
             new_row["begin"] = row.get("dcterms:temporal 1", row["dc:date"])
             new_row["publish"] = "1"
             new_row["portion"] = "whole"
+            new_row["p_odd"] = "1"
+            new_row["p_arrangement"] = "1"
+            new_row["p_scopecontent"] = "1"
 
-            if row["n_odd"]:
-                new_row["p_odd"] = "1"
-
-            if row["n_arrangement"]:
-                new_row["p_arrangement"] = "1"
-
-            if row["n_scopecontent"]:
-                new_row["p_scopecontent"] = "1"
-
-            if row["digital_object_link"]:
+            if row.get("digital_object_link"):
                 new_row["digital_object_link_publish"] = "1"
 
             if row["level"] == "Item":
