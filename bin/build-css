@@ -25,4 +25,4 @@ require "bundler/setup"
 require 'arclight'
 require 'blacklight'
 
-`npx sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=#{"#{Arclight::Engine.root}app/assets/stylesheets"}  --load-path=#{"#{Blacklight::Engine.root}app/assets/stylesheets"} --load-path=node_modules #{ARGV.join(' ')}`
+`npx sass ./app/assets/stylesheets/application.sass.scss:./app/assets/builds/application.css --no-source-map --load-path=#{"#{Arclight::Engine.root}/app/assets/stylesheets"}  --load-path=#{"#{Blacklight::Engine.root}/app/assets/stylesheets"} --load-path=node_modules #{ARGV.join(' ')}`
