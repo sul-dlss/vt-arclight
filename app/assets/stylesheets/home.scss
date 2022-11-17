@@ -12,7 +12,12 @@
   
   .card {
     background-color: $stanford-fog-light;
+    border-color: $silver-sand;
     text-align: center;
+
+    .card-body {
+      border-top: 1px solid $silver-sand;
+    }
 
     .badge {
       background-color: $stanford-stone;
