@@ -322,7 +322,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # Component Show Page - Metadata Section
     config.add_component_field 'scopecontent_ssm', helper_method: :render_html_tags
     config.add_component_field 'acqinfo_ssim', label: 'Acquisition information', helper_method: :render_html_tags
-    config.add_component_field 'containers', label: 'Containers', accessor: 'containers', separator_options: {
+    config.add_component_field 'containers', accessor: 'containers', separator_options: {
       words_connector: ', ',
       two_words_connector: ', ',
       last_word_connector: ', '
