@@ -1,0 +1,9 @@
+<div id="embed" class="mb-2">
+  <%= render Arclight::OembedViewerComponent.with_collection(embeddable_resources, document: @document) %>
+
+  <% linked_resources.each do |resource| %>
+    <div class="al-digital-object">
+      <%= link_to(resource.label, resource.href) %>
+    </div>
+  <% end %>
+</div>

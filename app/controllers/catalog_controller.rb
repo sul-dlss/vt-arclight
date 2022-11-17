@@ -73,7 +73,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # config.show.title_field = 'title_display'
     config.show.document_component = DocumentComponent
     config.show.breadcrumb_component = BreadcrumbHierarchyComponent
-    config.show.embed_component = Arclight::EmbedComponent
+    config.show.embed_component = EmbedComponent
     config.show.access_component = Arclight::AccessComponent
     config.show.online_status_component = NullComponent
     config.show.display_type_field = 'level_ssm'
