@@ -61,11 +61,12 @@ INSTANCE_TYPE_MAP = {
 def convert_file(data_file, template_file):
     data_rows = []
 
-    with open(template_file) as infile:
-        reader = csv.DictReader(infile)
-        output_headers = reader.fieldnames
+    with template_file.open() as infile:
+        reader = csv.reader(infile)
+        output_headers = [row for row in reader]
+        output_columns = output_headers[3]
 
-    with open(data_file) as infile:
+    with data_file.open() as infile:
         reader = csv.DictReader(infile)
         for row in reader:
             new_row = {}
@@ -89,26 +90,28 @@ def convert_file(data_file, template_file):
                 new_row["type_1"] = "Box"
                 new_row["indicator_1"] = row["Box number"]
 
-            data_rows.append(new_row)
+            # reorder output according to uploader template and save
+            output_row = [new_row.get(field_code, "")
+                          for field_code in output_columns]
+            data_rows.append(output_row)
 
     output_file = data_file.parent / (data_file.stem + "_aspace.csv")
-    print(output_file)
     with output_file.open("w", encoding="utf-8") as outfile:
-        writer = csv.DictWriter(
-            outfile, fieldnames=output_headers, extrasaction='ignore')
-        writer.writeheader()
-        # ASpace requires this blank row
-        writer.writerow({})
+        writer = csv.writer(outfile)
+        # write the ASpace uploader template headers first
+        for row in output_headers:
+            writer.writerow(row)
         for row in data_rows:
             writer.writerow(row)
 
+    print(output_file)
     # remove the input file
     data_file.unlink()
 
 
 def main():
-    template_file = sys.argv[2] if len(
-        sys.argv) >= 3 else 'bulk_import_template.csv'
+    template_file = pathlib.Path(sys.argv[2]) if len(
+        sys.argv) >= 3 else pathlib.Path('bulk_import_template.csv')
     # get path to the directory or a single file
     input_path = pathlib.Path(sys.argv[1])
     if input_path.is_dir():
