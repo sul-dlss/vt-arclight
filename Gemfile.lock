@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 06a5add8cf338361208878b7efbe68d19b752a8f
+  revision: 26a0b61da82cc800c94c85d9d22390c3e8c2c0df
   branch: main
   specs:
     blacklight (8.0.0.alpha)
