@@ -20,9 +20,10 @@ RSpec.describe DocumentComponent, type: :component do
     end
   end
 
-  context 'with a component' do
+  context 'with a component with metadata' do
     let(:document) do
       SolrDocument.new(level_ssm: ['Series'],
+                       normalized_date_ssm: ['1946'],
                        scopecontent_ssm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
                                           "<p>The official archives of the International Military Tribunal...</p>"],
                        containers_ssim: ['box 5'])
@@ -35,6 +36,9 @@ RSpec.describe DocumentComponent, type: :component do
 
       expect(page).to have_text 'Container:'
       expect(page).to have_text 'Box 5'
+
+      expect(page).to have_text 'Date:'
+      expect(page).to have_text '1946'
     end
   end
 end
