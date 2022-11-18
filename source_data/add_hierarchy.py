@@ -16,7 +16,7 @@ def subseries_title(row):
     return row["Subseries"]
 
 
-def file_title(row):
+def record_group_title(row):
     if row["dc:type"] == "Audio recordings of proceedings":
         return date.fromisoformat(row["dc:date"]).strftime("%B %-d, %Y")
     else:
@@ -57,28 +57,26 @@ def convert_file(input_file):
                 "extent_number": len(subseries_items)
             })
 
-            subseries_items.sort(key=file_title)
+            subseries_items.sort(key=record_group_title)
 
-            files = {file: list(items) for file, items in itertools.groupby(
-                subseries_items, file_title)}
+            record_groups = {group: list(items) for group, items in itertools.groupby(
+                subseries_items, record_group_title)}
 
-            if len(files.keys()) > 1:
-                # what is difference with doing or file, file_items in files?
-                for file, file_items in files.items():
+            if len(record_groups.keys()) > 1:
+                for record_group, record_group_items in record_groups.items():
                     output_rows.append({
                         "Collection Druid": COLLECTION_DRUID,
-                        "dc:title (ASpace: column F)": file,
-                        "ref_id": file.replace(" ", ""),
+                        "dc:title (ASpace: column F)": record_group,
+                        "ref_id": record_group.replace(" ", ""),
                         "hierarchy": 3,
-                        "level": "File",
+                        "level": "Record Group",
                         "extent_type": "item(s)",
-                        "extent_number": len(file_items)
+                        "extent_number": len(record_group_items)
                     })
-                    for item in file_items:
+                    for item in record_group_items:
                         item['hierarchy'] = 4
                         item['level'] = "Item"
                         output_rows.append(item)
-
             else:
                 for item in subseries_items:
                     item['hierarchy'] = 3
