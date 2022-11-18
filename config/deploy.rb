@@ -20,7 +20,7 @@ set :linked_files, %w[config/database.yml config/blacklight.yml]
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets vendor/bundle config/settings data/fulltext]
 
 # Reindex
-before 'deploy:restart', 'index'
+# before 'deploy:restart', 'index'
 
 # Update shared_configs before restarting app
 before 'deploy:restart', 'shared_configs:update'
