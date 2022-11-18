@@ -331,6 +331,10 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }
     config.add_component_field 'document_number', field: 'unitid_ssm'
     config.add_component_field 'date', field: 'normalized_date_ssm'
+    config.add_component_field 'resource_format', field: 'resource_format_ssim'
+    config.add_component_field 'resource_type', field: 'resource_type_ssim'
+    config.add_component_field 'language', field: 'language_ssim'
+
     config.add_component_field 'extent_ssm', label: 'Extent'
     config.add_component_field 'arrangement_ssm', label: 'Arrangement', helper_method: :render_html_tags
     # config.add_component_field 'abstract_ssm', label: 'Abstract', helper_method: :render_html_tags
