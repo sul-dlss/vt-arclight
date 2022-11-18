@@ -9,6 +9,9 @@ en:
         digital_collection_steward: 'Digital collection stewarded by'
         date: Date
         document_number: Document number
+        language: Language
         repository_contact: Contact
         repository_location: 'Location of this collection'
+        resource_format: Resource format
+        resource_type: Resource type
         scopecontent_ssm: Scope and content

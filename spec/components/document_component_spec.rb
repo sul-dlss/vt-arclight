@@ -27,10 +27,13 @@ RSpec.describe DocumentComponent, type: :component do
                        scopecontent_ssm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
                                           "<p>The official archives of the International Military Tribunal...</p>"],
                        containers_ssim: ['box 5'],
+                       language_ssim: ['German'],
+                       resource_type_ssim: ['Exhibits'],
+                       resource_format_ssim: ['Loose leaf folders'],
                        unitid_ssm: ['H-2123'])
     end
 
-    it "shows the metadata" do
+    it "shows the data" do
       expect(page).to have_text 'Scope and content:'
       expect(page).to have_text 'The collection in the Virtual Tribunal'
       expect(page).to have_text 'The official archives of the International'
@@ -43,6 +46,15 @@ RSpec.describe DocumentComponent, type: :component do
 
       expect(page).to have_text 'Date:'
       expect(page).to have_text '1946'
+
+      expect(page).to have_text 'Resource format:'
+      expect(page).to have_text 'Loose leaf folders'
+
+      expect(page).to have_text 'Resource type:'
+      expect(page).to have_text 'Exhibits'
+
+      expect(page).to have_text 'Language:'
+      expect(page).to have_text 'German'
     end
   end
 end
