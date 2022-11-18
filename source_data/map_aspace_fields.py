@@ -86,7 +86,7 @@ def convert_file(data_file, template_file):
 
             if row["level"] == "Item":
                 new_row["cont_instance_type"] = INSTANCE_TYPE_MAP.get(row["edm:type"])
-                new_row["type_1"] = "disc" if new_row["cont_instance_type"] == "audio" else "box"
+                new_row["type_1"] = "Box"
                 new_row["indicator_1"] = row["Box number"]
 
             data_rows.append(new_row)
