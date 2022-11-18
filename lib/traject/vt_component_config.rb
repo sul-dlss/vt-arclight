@@ -30,3 +30,5 @@ to_field 'language_ssim' do |resource, accumulator, _context|
     accumulator << val
   end
 end
+
+to_field 'resource_format_ssim', extract_xpath('./did/physdesc/physfacet')
