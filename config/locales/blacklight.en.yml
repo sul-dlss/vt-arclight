@@ -7,6 +7,7 @@ en:
       fields:
         containers: Container
         digital_collection_steward: 'Digital collection stewarded by'
+        date: Date
         repository_contact: Contact
         repository_location: 'Location of this collection'
         scopecontent_ssm: Scope and content
