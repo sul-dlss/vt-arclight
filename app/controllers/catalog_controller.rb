@@ -329,8 +329,8 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }, if: lambda { |_context, _field_config, document|
       document.containers.present?
     }
+    config.add_component_field 'document_number', field: 'unitid_ssm'
     config.add_component_field 'date', field: 'normalized_date_ssm'
-
     config.add_component_field 'extent_ssm', label: 'Extent'
     config.add_component_field 'arrangement_ssm', label: 'Arrangement', helper_method: :render_html_tags
     # config.add_component_field 'abstract_ssm', label: 'Abstract', helper_method: :render_html_tags
