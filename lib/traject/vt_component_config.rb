@@ -31,5 +31,12 @@ to_field 'language_ssim' do |resource, accumulator, _context|
   end
 end
 
+to_field 'resource_type_ssim' do |resource, accumulator, context|
+  level = context.output_hash['level_ssm'].first
+  next unless level == 'Item'
+
+  accumulator << resource.xpath('../../../did/unittitle').text
+end
+
 to_field 'resource_format_ssim', extract_xpath('./did/physdesc/physfacet')
 to_field 'media_format_ssi', extract_xpath('./did/container/@label')
