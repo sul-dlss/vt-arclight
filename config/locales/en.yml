@@ -1,6 +1,10 @@
 en:
   arclight:
     masthead_heading: Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46
+  contexual_result_info_component:
+    body: Your query was matched to the scanned text of all text documents in the collection. Due to the quality of the scans, however, these search results might include incorrect matches or fail to match occurrences of your query in other documents.
+    dismiss: Dismiss
+    disable_session: Don't show again
   routes:
     about: About
     inventory: Content inventory
