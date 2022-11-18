@@ -23,3 +23,10 @@ to_field 'full_text_tesimv' do |resource, accumulator, _context|
     logger.warn("Missing fulltext source: #{filename}")
   end
 end
+
+to_field 'language_ssim' do |resource, accumulator, _context|
+  raw = resource.xpath('./controlaccess/function[@source="lcsh"]')
+  raw.map(&:text).map { |elem| elem.delete_suffix(' language') }.each do |val|
+    accumulator << val
+  end
+end
