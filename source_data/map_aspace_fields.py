@@ -14,7 +14,6 @@ KEY_MAP = {
     "begin_2": "dc:date2",
     "begin_3": "dc:date3",
     "begin_4": "dc:date4",
-    "end": "dcterms:temporal 2",
     "number": "extent_number",
     "extent_type": "extent_type",
     "container_summary": "dcterms:extent",
@@ -75,23 +74,45 @@ def convert_file(data_file, template_file):
             for aspace_key, aspace_val in KEY_MAP.items():
                 new_row[aspace_key] = row[aspace_val]
 
-            new_row["begin"] = row["dcterms:temporal 1"] or row["dc:date"]
-            new_row["publish"] = "1"
+            # set some fields to automatically publish 
             new_row["portion"] = "whole"
+            new_row["publish"] = "1"
             new_row["p_odd"] = "1"
             new_row["p_arrangement"] = "1"
             new_row["p_scopecontent"] = "1"
 
-            if row.get("digital_object_link"):
+            if new_row.get("digital_object_link"):
                 new_row["digital_object_link_publish"] = "1"
 
+            # if we have a start/end range, set begin/end and inclusive type.
+            # otherwise, just set begin and use dc:date
+            if row["dcterms:temporal 1"] and row["dcterms:temporal 2"]:
+                new_row["begin"] = row["dcterms:temporal 1"]
+                new_row["end"] = row["dcterms:temporal 2"]
+                new_row["date_type"] = "inclusive"
+            elif row["dc:date"]:
+                new_row["begin"] = row["dc:date"]
+                new_row["date_type"] = "single"
+            if new_row.get("begin"):
+                new_row["dates_label"] = "Creation"
+                new_row["date_certainty"] = "inferred"
+
+            # all extra dates are Creation dates and "single" type, if we have them
+            for i in range(2, 5):
+                if new_row[f"begin_{i}"]:
+                    new_row[f"date_type_{i}"] = "single"
+                    new_row[f"dates_label_{i}"] = "Creation"
+                    new_row[f"date_certainty_{i}"] = "inferred"
+
+            # set top container information if the component is an item
             if row["level"] == "Item":
-                new_row["cont_instance_type"] = INSTANCE_TYPE_MAP.get(row["edm:type"])
+                new_row["cont_instance_type"] = INSTANCE_TYPE_MAP.get(
+                    row["edm:type"])
                 new_row["type_1"] = "Box"
                 new_row["indicator_1"] = row["Box number"]
 
             # reorder output according to uploader template and save
-            output_row = [new_row.get(field_code, "")
+            output_row = [new_row.get(field_code, None)
                           for field_code in output_columns]
             data_rows.append(output_row)
 
