@@ -26,7 +26,8 @@ RSpec.describe DocumentComponent, type: :component do
                        normalized_date_ssm: ['1946'],
                        scopecontent_ssm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
                                           "<p>The official archives of the International Military Tribunal...</p>"],
-                       containers_ssim: ['box 5'])
+                       containers_ssim: ['box 5'],
+                       unitid_ssm: ['H-2123'])
     end
 
     it "shows the metadata" do
@@ -36,6 +37,9 @@ RSpec.describe DocumentComponent, type: :component do
 
       expect(page).to have_text 'Container:'
       expect(page).to have_text 'Box 5'
+
+      expect(page).to have_text 'Document number:'
+      expect(page).to have_text 'H-2123'
 
       expect(page).to have_text 'Date:'
       expect(page).to have_text '1946'
