@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 20aa68e749a06e504ede65abd6cf05cf70b0301f
+  revision: 3e411ed3ab6d237b5db7453db9b78f0c2e20feaa
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 26a0b61da82cc800c94c85d9d22390c3e8c2c0df
+  revision: 21b4ec1af68df64795eb5e3071de167573170104
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -98,7 +98,7 @@ GEM
     ast (2.4.2)
     bcrypt (3.1.18)
     bindex (0.8.1)
-    bootsnap (1.13.0)
+    bootsnap (1.14.0)
       msgpack (~> 1.2)
     builder (3.2.4)
     bundler-audit (0.9.1)
@@ -163,10 +163,10 @@ GEM
     dot-properties (0.1.4)
       bundler (>= 2.2.33)
     erubi (1.11.0)
-    faraday (2.6.0)
+    faraday (2.7.1)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (3.0.1)
+    faraday-net_http (3.0.2)
     ffi (1.15.5)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -193,7 +193,7 @@ GEM
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.5.11)
-    irb (1.4.2)
+    irb (1.5.0)
       reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
@@ -256,7 +256,7 @@ GEM
     parallel (1.22.1)
     parser (3.1.2.1)
       ast (~> 2.4.1)
-    pg (1.4.4)
+    pg (1.4.5)
     propshaft (0.6.4)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -297,7 +297,7 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
-    regexp_parser (2.6.0)
+    regexp_parser (2.6.1)
     reline (0.3.1)
       io-console (~> 0.5)
     responders (3.0.1)
@@ -325,7 +325,7 @@ GEM
       rspec-mocks (~> 3.11)
       rspec-support (~> 3.11)
     rspec-support (3.12.0)
-    rubocop (1.38.0)
+    rubocop (1.39.0)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.2.1)
@@ -337,7 +337,7 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.23.0)
       parser (>= 3.1.1.0)
-    rubocop-rails (2.17.2)
+    rubocop-rails (2.17.3)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
@@ -358,8 +358,8 @@ GEM
       minitar
       retriable
       ruby-progressbar
-    sqlite3 (1.5.3-x86_64-darwin)
-    sqlite3 (1.5.3-x86_64-linux)
+    sqlite3 (1.5.4-x86_64-darwin)
+    sqlite3 (1.5.4-x86_64-linux)
     sshkit (1.21.3)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
