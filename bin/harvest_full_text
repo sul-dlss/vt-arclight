@@ -20,7 +20,7 @@ end
 
 JQ_COMMAND = "jq '.structural.contains[] | " \
              "select(.type == " \
-             "\"http://cocina.sul.stanford.edu/models/resources/page.jsonld\").structural.contains[] | " \
+             "\"https://cocina.sul.stanford.edu/models/resources/page\").structural.contains[] | " \
              "select(.use == \"transcription\").filename' -r"
 
 def transcript_files(purl)
