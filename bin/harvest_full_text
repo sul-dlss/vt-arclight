@@ -13,7 +13,7 @@ ead_filename = 'public/data/mt839rq8746.xml'
 
 def purl_list_from_ead(filename)
   doc = File.open(filename) { |f| Nokogiri::XML(f) }
-  doc.xpath('//ead:dao/@xlink:href',
+  doc.xpath('//ead:c[@level="series"]/ead:did[not(contains(ead:unittitle, "Audio recordings of proceedings"))]//following-sibling::ead:c//ead:dao/@xlink:href',
             'xlink' => "http://www.w3.org/1999/xlink",
             'ead' => "urn:isbn:1-931666-22-9").map(&:value)
 end
