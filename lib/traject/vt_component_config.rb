@@ -11,7 +11,7 @@ load_config_file(File.expand_path("#{Arclight::Engine.root}/lib/arclight/traject
 
 # FULL TEXT FIELDS
 to_field 'full_text_tesimv' do |resource, accumulator, _context|
-  druid = resource.xpath(".//dao/@href").map(&:value).map do |value|
+  druid = resource.xpath('.//c[@level="series"]/did[not(contains(unittitle, "Audio recordings of proceedings"))]//following-sibling::c//dao/@href').map(&:value).map do |value| # rubocop:disable Layout/LineLength
     value.delete_prefix("https://purl.stanford.edu/")
   end.first
   next unless druid
