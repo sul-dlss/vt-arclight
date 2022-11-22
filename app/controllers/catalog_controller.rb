@@ -145,6 +145,10 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # config.add_facet_field 'places_ssim', label: 'Places', show: false
     # config.add_facet_field 'access_subjects_ssim', label: 'Subject', limit: 10
     # config.add_facet_field 'component_level_isim', show: false
+    config.add_facet_field 'language_ssim', label: 'Language', limit: 10
+    config.add_facet_field 'media_format_ssi', label: 'Media format', limit: 10
+    config.add_facet_field 'resource_type_ssim', label: 'Resource type', limit: 10
+    config.add_facet_field 'resource_format_ssim', label: 'Resource format', limit: 10
 
     # Note that parent_ssim is an array of all ancestor nodes, including the parent
     # parent_ssi is just the immediate parent; it's used in queries for context nav
