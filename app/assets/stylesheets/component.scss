@@ -1,7 +1,28 @@
 .blacklight-catalog-show {
+  .al-collection-content-icon {
+    fill: $stanford-cool-grey;
+  }
+
+  .al-show-sub-heading {
+    color: $stanford-black;
+  }
+
+  .al-number-of-children-badge {
+    background-color: $cyan-blue-light !important;
+    border: 0.75px solid $stanford-black-20;
+    color: $stanford-cool-grey;
+  }
+
+  .dl-invert dt {
+    color: $stanford-cool-grey;
+  }
+
+  .show-document h1 {
+    @extend .h3;
+  }
 
   // Adjustments for sidebar styling that are only applicable
-  // when the sidebar is not collapsed (as on mobile).
+  // when the sidebar is *not* collapsed (as it is on mobile).
   @media (min-width: 992px) {
     .al-masthead + .navbar-search {
       margin-bottom: 0;
@@ -11,12 +32,13 @@
       margin-top: 0 !important;
     }
 
-    section {
+    .show-document,
+    .collection-sidebar {
       padding-top: 2rem;
+    }
 
-      &.show-document {
-        padding-left: 2rem !important;
-      }
+    .show-document {
+      padding-left: 2rem !important;
     }
   }
 }

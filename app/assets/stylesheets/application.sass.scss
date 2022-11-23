@@ -43,6 +43,13 @@ main {
 
 .al-masthead + .navbar-search {
   border: 0; // overriding the style from arclight
+  border-bottom: 1px solid $whisper;
+}
+
+.al-masthead .navbar-nav .nav-link {
+  color: $link-color;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .navbar-search {
@@ -77,4 +84,12 @@ main {
       content: '';
     }
   }
+}
+
+.facet-limit-active .card-header {
+  background-color: $stanford-black-20 !important;
+}
+
+.facet-values li .selected {
+  color: $stanford-digital-green !important;
 }

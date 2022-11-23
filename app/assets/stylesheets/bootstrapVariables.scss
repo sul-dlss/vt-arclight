@@ -5,6 +5,8 @@ $info: $stanford-digital-blue;
 $success: $stanford-fog;
 $dark: $stanford-cardinal;
 
+$body-color: $stanford-black;
+
 // Links
 $link-color: $stanford-cardinal;
 $link-decoration: none; // no underline
@@ -23,6 +25,9 @@ $modal-backdrop-opacity: 0.8;
 $table-border-color: $silver-sand;
 $table-group-separator-color: $silver-sand;
 
+// Borders
+$border-color: $stanford-black-20;
+
 // Breadcrumbs
 $breadcrumb-divider: quote("»");
 
@@ -37,3 +42,10 @@ nav .navbar-nav {
 
 // Forms
 $form-text-color: black; // Better contrast for accessability
+
+// Cards
+$card-cap-bg: $cyan-blue-light;
+$card-border-color: $stanford-black-20;
+
+// Off-canvas
+$offcanvas-bg-color: $whisper;

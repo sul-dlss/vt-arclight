@@ -13,4 +13,19 @@
     border-right: none;
     box-shadow: none;
   }
+
+  h2 {
+    font-size: 1.375rem;
+  }
+
+  .al-show-actions-box {
+    background-color: $gray-light;
+    border-radius: 3px;
+  }
+
+  .al-sidebar-navigation-context .nav-item > a {
+    color: $stanford-black;
+    padding-bottom: 0.125rem !important;
+    padding-top: 0.125rem !important;
+  }
 }
