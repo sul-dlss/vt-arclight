@@ -137,18 +137,18 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # config.add_facet_field 'collection_sim', label: 'Collection', limit: 10
     # config.add_facet_field 'creator_ssim', label: 'Creator', limit: 10
     # config.add_facet_field 'creators_ssim', label: 'Creator', show: false
-    config.add_facet_field 'date_range_sim', label: 'Year'
-    config.add_facet_field 'level_sim', label: 'Level', limit: 10
+    config.add_facet_field 'date_range', field: 'date_range_sim'
+    config.add_facet_field 'level', field: 'level_sim'
     # config.add_facet_field 'names_ssim', label: 'Names', limit: 10
     # config.add_facet_field 'repository_sim', label: 'Repository', limit: 10
     # config.add_facet_field 'geogname_sim', label: 'Place', limit: 10
     # config.add_facet_field 'places_ssim', label: 'Places', show: false
     # config.add_facet_field 'access_subjects_ssim', label: 'Subject', limit: 10
     # config.add_facet_field 'component_level_isim', show: false
-    config.add_facet_field 'language_ssim', label: 'Language', limit: 10
-    config.add_facet_field 'media_format_ssi', label: 'Media format', limit: 10
-    config.add_facet_field 'resource_type_ssim', label: 'Resource type', limit: 10
-    config.add_facet_field 'resource_format_ssim', label: 'Resource format', limit: 10
+    config.add_facet_field 'language', field: 'language_ssim'
+    config.add_facet_field 'media_format', field: 'media_format_ssi'
+    config.add_facet_field 'resource_type', field: 'resource_type_ssim'
+    config.add_facet_field 'resource_format', field: 'resource_format_ssim'
 
     # Note that parent_ssim is an array of all ancestor nodes, including the parent
     # parent_ssi is just the immediate parent; it's used in queries for context nav
