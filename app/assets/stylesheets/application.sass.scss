@@ -38,7 +38,10 @@ main {
 }
 
 .al-masthead, .navbar-search {
-  background-color: $stanford-fog-light;
+  background: rgb(213,213,212);
+  background: linear-gradient(145deg,
+    rgba(213,213,212,0.464005585144214) 10%,
+    rgba(244,244,244,1) 95%);
 }
 
 .al-masthead + .navbar-search {
