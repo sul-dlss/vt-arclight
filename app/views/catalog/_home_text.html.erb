@@ -14,78 +14,17 @@
 <h2 class="h4 home-heading">Explore the collection</h2>
 
 <div class="row explore">
-  <div class="col-sm-4">
-    <div class="card mb-3 mb-sm-0">
-      <%= image_tag 'explore-facet-doc-type.png', class: 'card-img-top', alt:'' %>
-      <div class="card-body">
-        <h3 class="card-title">Document type</h3>
-        <div class="facet-links">
-          <a href="#">
-            <span class="badge">Court transcripts</span>
-          </a>
-          <a href="#">
-            <span class="badge">Exhibits</span>
-          </a>
-          <a href="#">
-            <span class="badge">Pleas</span>
-          </a>
-          <a href="#">
-            <span class="badge">Rulings</span>
-          </a>
-          <a href="#">
-            <span class="badge">more...</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card mb-3 mb-sm-0">
-      <%= image_tag 'explore-facet-media-format.png', class: 'card-img-top', alt:'' %>
-      <div class="card-body">
-        <h3 class="card-title">Media format</h3>
-        <div class="facet-links">
-          <a href="#">
-            <span class="badge">Images</span>
-          </a>
-          <a href="#">
-            <span class="badge">Sound</span>
-          </a>
-          <a href="#">
-            <span class="badge">Text</span>
-          </a>
-          <a href="#">
-            <span class="badge">Video</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="card mb-3 mb-sm-0">
-      <%= image_tag 'explore-facet-doc-format.png', class: 'card-img-top', alt:'' %>
-      <div class="card-body">
-        <h3 class="card-title">Document format</h3>
-        <div class="facet-links">
-          <a href="#">
-            <span class="badge">Book</span>
-          </a>
-          <a href="#">
-            <span class="badge">Envelope</span>
-          </a>
-          <a href="#">
-            <span class="badge">Film</span>
-          </a>
-          <a href="#">
-            <span class="badge">Microfilm</span>
-          </a>
-          <a href="#">
-            <span class="badge">more...</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <%= render ExploreFacetComponent.new(facet: blacklight_config.facet_configuration_for_field('resource_type'),
+                                       image: 'explore-facet-doc-type.png',
+                                       values: ['Official court transcripts', 'Exhibits', 'Final pleas and clemency pleas', 'Rules, rulings, and orders'],
+                                       more: true) %>
+  <%= render ExploreFacetComponent.new(facet: blacklight_config.facet_configuration_for_field('media_format'),
+                                       image: 'explore-facet-media-format.png',
+                                       values: ['Graphic Materials', 'Audio', 'Text', 'Moving Images']) %>
+  <%= render ExploreFacetComponent.new(facet: blacklight_config.facet_configuration_for_field('resource_format'),
+                                       image: 'explore-facet-doc-format.png',
+                                       values: %w[Books Envelopes Film Microfilm],
+                                       more: true) %>
 </div>
 
 <h2 class="h4 home-heading">More about the project</h2>
