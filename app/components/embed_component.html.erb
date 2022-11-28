@@ -1,4 +1,5 @@
 <div id="embed" class="mb-2">
+  <%= content_warning %>
   <%= render Arclight::OembedViewerComponent.with_collection(embeddable_resources, document: @document) %>
 
   <% linked_resources.each do |resource| %>
