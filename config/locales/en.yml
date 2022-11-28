@@ -5,6 +5,8 @@ en:
     body: Your query was matched to the scanned text of all text documents in the collection. Due to the quality of the scans, however, these search results might include incorrect matches or fail to match occurrences of your query in other documents.
     dismiss: Dismiss
     disable_session: Don't show again
+  embed_component:
+    content_warning_html: <span>Content warning:</span> Imagery and language presented in this archival material may be harmful or traumatizing to some audiences.
   routes:
     about: About
     inventory: Content inventory

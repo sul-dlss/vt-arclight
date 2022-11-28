@@ -20,6 +20,8 @@ class SolrDocument
   # Recommendation: Use field names from Dublin Core
   use_extension(Blacklight::Document::DublinCore)
 
+  attribute :media_format, Blacklight::Types::String, 'media_format_ssi'
+
   # Suppress the display of extent badge when there is only one item
   def extent
     result = Blacklight::Types::String.coerce(self['extent_ssm'])
