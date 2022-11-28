@@ -10,6 +10,7 @@ en:
         date: Date
         document_number: Document number
         language: Language
+        media_format: Media format
         repository_contact: Contact
         repository_location: 'Location of this collection'
         resource_format: Resource format
