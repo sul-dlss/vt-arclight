@@ -36,3 +36,11 @@
   margin-top: 2rem;
   padding-bottom: 0.5rem;
 }
+
+.facet-links a:hover {
+  text-decoration: none;
+}
+
+.facet-links a:hover span.badge {
+  text-decoration: underline;
+}
