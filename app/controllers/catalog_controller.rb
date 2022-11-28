@@ -333,7 +333,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }, if: lambda { |_context, _field_config, document|
       document.containers.present?
     }
-    config.add_component_field 'document_number', field: 'unitid_ssm'
+    config.add_component_field 'resource_identifier', field: 'unitid_ssm'
     config.add_component_field 'date', field: 'normalized_date_ssm'
     config.add_component_field 'resource_format', field: 'resource_format_ssim'
     config.add_component_field 'resource_type', field: 'resource_type_ssim'
