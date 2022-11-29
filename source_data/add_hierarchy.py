@@ -41,7 +41,8 @@ def convert_file(input_file):
             "hierarchy": 1,
             "level": "Series",
             "extent_type": "item(s)",
-            "extent_number": len(series_items)
+            "extent_number": len(series_items),
+            "publish": 1,
         })
         series_items.sort(key=subseries_title)
         for subseries, subseries_items in itertools.groupby(series_items, subseries_title):
@@ -54,7 +55,8 @@ def convert_file(input_file):
                 "hierarchy": 2,
                 "level": "Sub-Series",
                 "extent_type": "item(s)",
-                "extent_number": len(subseries_items)
+                "extent_number": len(subseries_items),
+                "publish": 1,
             })
 
             subseries_items.sort(key=record_group_title)
@@ -71,7 +73,8 @@ def convert_file(input_file):
                         "hierarchy": 3,
                         "level": "Record Group",
                         "extent_type": "item(s)",
-                        "extent_number": len(record_group_items)
+                        "extent_number": len(record_group_items),
+                        "publish": 1,
                     })
                     for item in record_group_items:
                         item['hierarchy'] = 4
