@@ -30,6 +30,7 @@ KEY_MAP = {
     "physical_details": "dc:format",
     "indicator_1": "Box number",
     "digital_object_link": "digital_object_link",
+    "digital_object_link_publish": "digital_object_link_publish",
     "subject_1_record_id": "subject_1_record_id",
     "subject_1_term": "subject_1_term",
     "subject_1_type": "subject_1_type",
@@ -57,6 +58,11 @@ KEY_MAP = {
     "n_arrangement": "dc:description4",
     "n_odd": "dc:description3",
     "n_scopecontent": "dc:alternative (column",
+    "portion": "portion",
+    "publish": "publish",
+    "p_arrangement": "p_arrangement",
+    "p_odd": "p_odd",
+    "p_scopecontent": "p_scopecontent",
 }
 
 INSTANCE_TYPE_MAP = {
@@ -83,16 +89,6 @@ def convert_file(data_file, template_file):
             # Do the mapping of fields to ASpace keys
             for aspace_key, aspace_val in KEY_MAP.items():
                 new_row[aspace_key] = row[aspace_val]
-
-            # set some fields to automatically publish 
-            new_row["portion"] = "whole"
-            new_row["publish"] = "1"
-            new_row["p_odd"] = "1"
-            new_row["p_arrangement"] = "1"
-            new_row["p_scopecontent"] = "1"
-
-            if new_row.get("digital_object_link"):
-                new_row["digital_object_link_publish"] = "1"
 
             # set top container information if the component is an item
             if row["level"] == "Item":
