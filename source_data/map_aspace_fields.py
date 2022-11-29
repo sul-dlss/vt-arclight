@@ -11,9 +11,19 @@ KEY_MAP = {
     "ref_id": "ref_id",
     "hierarchy": "hierarchy",
     "level": "level",
-    "begin_2": "dc:date2",
-    "begin_3": "dc:date3",
-    "begin_4": "dc:date4",
+    "begin": "begin",
+    "end": "end",
+    "begin_2": "begin_2",
+    "begin_3": "begin_3",
+    "begin_4": "begin_4",
+    "date_type": "date_type",
+    "date_type_2": "date_type_2",
+    "date_type_3": "date_type_3",
+    "date_type_4": "date_type_4",
+    "dates_label": "dates_label",
+    "dates_label_2": "dates_label_2",
+    "dates_label_3": "dates_label_3",
+    "dates_label_4": "dates_label_4",
     "number": "extent_number",
     "extent_type": "extent_type",
     "container_summary": "dcterms:extent",
@@ -83,26 +93,6 @@ def convert_file(data_file, template_file):
 
             if new_row.get("digital_object_link"):
                 new_row["digital_object_link_publish"] = "1"
-
-            # if we have a start/end range, set begin/end and inclusive type.
-            # otherwise, just set begin and use dc:date
-            if row["dcterms:temporal 1"] and row["dcterms:temporal 2"]:
-                new_row["begin"] = row["dcterms:temporal 1"]
-                new_row["end"] = row["dcterms:temporal 2"]
-                new_row["date_type"] = "inclusive"
-            elif row["dc:date"]:
-                new_row["begin"] = row["dc:date"]
-                new_row["date_type"] = "single"
-            if new_row.get("begin"):
-                new_row["dates_label"] = "Creation"
-                new_row["date_certainty"] = "inferred"
-
-            # all extra dates are Creation dates and "single" type, if we have them
-            for i in range(2, 5):
-                if new_row[f"begin_{i}"]:
-                    new_row[f"date_type_{i}"] = "single"
-                    new_row[f"dates_label_{i}"] = "Creation"
-                    new_row[f"date_certainty_{i}"] = "inferred"
 
             # set top container information if the component is an item
             if row["level"] == "Item":
