@@ -24,6 +24,7 @@ KEY_MAP = {
     "dates_label_2": "dates_label_2",
     "dates_label_3": "dates_label_3",
     "dates_label_4": "dates_label_4",
+    "expression": "expression",
     "number": "extent_number",
     "extent_type": "extent_type",
     "container_summary": "dcterms:extent",
