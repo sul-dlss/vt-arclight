@@ -28,7 +28,9 @@ KEY_MAP = {
     "extent_type": "extent_type",
     "container_summary": "dcterms:extent",
     "physical_details": "dc:format",
-    "indicator_1": "Box number",
+    "indicator_1": "indicator_1",
+    "type_1": "type_1",
+    "cont_instance_type": "cont_instance_type",
     "digital_object_link": "digital_object_link",
     "digital_object_link_publish": "digital_object_link_publish",
     "subject_1_record_id": "subject_1_record_id",
@@ -89,13 +91,6 @@ def convert_file(data_file, template_file):
             # Do the mapping of fields to ASpace keys
             for aspace_key, aspace_val in KEY_MAP.items():
                 new_row[aspace_key] = row[aspace_val]
-
-            # set top container information if the component is an item
-            if row["level"] == "Item":
-                new_row["cont_instance_type"] = INSTANCE_TYPE_MAP.get(
-                    row["edm:type"])
-                new_row["type_1"] = "Box"
-                new_row["indicator_1"] = row["Box number"]
 
             # reorder output according to uploader template and save
             output_row = [new_row.get(field_code, None)
