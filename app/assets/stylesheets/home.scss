@@ -1,7 +1,20 @@
 .global-warning {
   background-color: $cyan-blue-light;
   border-color: $stanford-black-20;
-  font-size: 0.938rem;
+  font-size: $font-size-sm;
+  padding: 0.75rem;
+
+  display: flex;
+  align-items: center;
+
+  .warning-icon {
+    color: $stanford-cool-grey;
+    margin-right: 1.5rem;
+
+    @media (max-width: 767px){
+      display: none;
+    }
+  }
 
   span {
     font-weight: 600;
