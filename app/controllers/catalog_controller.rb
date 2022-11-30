@@ -210,37 +210,11 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       }
     end
 
-    # Field-based searches. We have registered handlers in the Solr configuration
-    # so we have Blacklight use the `qt` parameter to invoke them
-    config.add_search_field 'keyword', label: 'Keyword' do |field|
-      field.qt = 'search' # default
-    end
-    config.add_search_field 'name', label: 'Name' do |field|
+    config.add_search_field 'full_text', label: 'Full Text' do |field|
       field.qt = 'search'
       field.solr_parameters = {
-        qf: '${qf_name}',
-        pf: '${pf_name}'
-      }
-    end
-    config.add_search_field 'place', label: 'Place' do |field|
-      field.qt = 'search'
-      field.solr_parameters = {
-        qf: '${qf_place}',
-        pf: '${pf_place}'
-      }
-    end
-    config.add_search_field 'subject', label: 'Subject' do |field|
-      field.qt = 'search'
-      field.solr_parameters = {
-        qf: '${qf_subject}',
-        pf: '${pf_subject}'
-      }
-    end
-    config.add_search_field 'title', label: 'Title' do |field|
-      field.qt = 'search'
-      field.solr_parameters = {
-        qf: '${qf_title}',
-        pf: '${pf_title}'
+        qf: 'full_text_tesimv',
+        pf: 'full_text_tesimv'
       }
     end
 
