@@ -91,3 +91,4 @@ gem "propshaft", "~> 0.6.4"
 gem "rsolr", ">= 1.0", "< 3"
 
 gem "honeybadger", "~> 5.0"
+gem "okcomputer", "~> 1.18"
