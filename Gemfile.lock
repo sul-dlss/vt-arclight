@@ -178,6 +178,7 @@ GEM
       railties (>= 5.1, < 7.1)
     hashdiff (1.0.1)
     hashie (5.0.0)
+    honeybadger (5.0.2)
     http (5.1.0)
       addressable (~> 2.8)
       http-cookie (~> 1.0)
@@ -438,6 +439,7 @@ DEPENDENCIES
   devise (~> 4.8)
   devise-guests (~> 0.8)
   dlss-capistrano
+  honeybadger (~> 5.0)
   importmap-rails
   jbuilder
   pg (~> 1.4)

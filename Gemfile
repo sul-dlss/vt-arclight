@@ -89,3 +89,5 @@ gem "devise-guests", "~> 0.8"
 gem "pg", "~> 1.4"
 gem "propshaft", "~> 0.6.4"
 gem "rsolr", ">= 1.0", "< 3"
+
+gem "honeybadger", "~> 5.0"
