@@ -321,7 +321,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # ==========================
 
     # Component Show Page - Metadata Section
-    config.add_component_field 'scopecontent_ssm', helper_method: :render_html_tags
     config.add_component_field 'acqinfo_ssim', label: 'Acquisition information', helper_method: :render_html_tags
     config.add_component_field 'containers', accessor: 'containers', separator_options: {
       words_connector: ', ',
@@ -332,11 +331,13 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }
     config.add_component_field 'document_number', field: 'unitid_ssm'
     config.add_component_field 'date', field: 'normalized_date_ssm'
+    config.add_component_field 'media_format', field: 'media_format_ssi'
     config.add_component_field 'resource_format', field: 'resource_format_ssim'
     config.add_component_field 'resource_type', field: 'resource_type_ssim'
     config.add_component_field 'language', field: 'language_ssim'
 
     config.add_component_field 'extent_ssm', label: 'Extent'
+    config.add_component_field 'scopecontent_ssm', helper_method: :render_html_tags
     config.add_component_field 'arrangement_ssm', label: 'Arrangement', helper_method: :render_html_tags
     # config.add_component_field 'abstract_ssm', label: 'Abstract', helper_method: :render_html_tags
     # config.add_component_field 'appraisal_ssm', label: 'Appraisal information', helper_method: :render_html_tags

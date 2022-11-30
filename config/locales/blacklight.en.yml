@@ -17,6 +17,7 @@ en:
           resource_type: Resource type
           resource_format: Resource format
         language: Language
+        media_format: Media format
         repository_contact: Contact
         repository_location: 'Location of this collection'
         resource_format: Resource format
