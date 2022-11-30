@@ -6,7 +6,7 @@ en:
     dismiss: Dismiss
     disable_session: Don't show again
   embed_component:
-    content_warning_html: <span>Content warning:</span> Imagery and language presented in this archival material may be harmful or traumatizing to some audiences.
+    content_warning_html: <span>Content warning:</span>&nbsp;Imagery and language presented in this archival material may be harmful or traumatizing to some audiences.
   feedbacks:
     create:
       success: Feedback submitted.
