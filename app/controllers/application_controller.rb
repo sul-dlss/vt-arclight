@@ -10,9 +10,4 @@ class ApplicationController < ActionController::Base
   def main_page?
     controller_name == 'virtual_tribunals'
   end
-
-  # Override Blacklight so that the "Login" link doesn't display
-  def has_user_authentication_provider?
-    false
-  end
 end

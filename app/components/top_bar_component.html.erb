@@ -1,12 +1,47 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark topbar" role="navigation">
-  <div class="<%= container_classes %>">
-    <%= logo_link %>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#user-util-collapse" data-bs-target="#user-util-collapse" aria-controls="user-util-collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div data-controller="feedback">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark topbar" role="navigation">
+    <div class="<%= container_classes %>">
+      <%= logo_link %>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#user-util-collapse" data-bs-target="#user-util-collapse" aria-controls="user-util-collapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse justify-content-md-end" id="user-util-collapse">
-      <%= render 'shared/user_util_links' %>
+      <div class="collapse navbar-collapse justify-content-md-end" id="user-util-collapse">
+        <%= render UserUtilLinksComponent.new %>
+      </div>
+    </div>
+  </nav>
+  
+  <div data-feedback-target="container" id="feedback">
+    <div class="container mt-3">
+      <div class="row justify-content-center">
+        <%= form_with url: feedback_path, method: :post, class: 'col-md-8' do |f| %>
+          <div class="mb-3 row">
+            <%= f.label :message, class: "col-sm-2 col-form-label" %>
+            <div class="col-sm-10">
+              <%= f.text_area :message, class: 'form-control', required: true %>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <%= f.label :name, class: "col-sm-2 col-form-label" %>
+            <div class="col-sm-10">
+              <%= f.text_field :name, class: 'form-control', required: true %>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <%= f.label :email, class: "col-sm-2 col-form-label" %>
+            <div class="col-sm-10">
+              <%= f.email_field :email, class: 'form-control', required: true %>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-sm-10 offset-sm-2">
+              <%= f.submit class: 'btn btn-primary' %>
+              <%= button_tag "Reset", type: :reset, data: { action: 'feedback#reset' }, class: 'btn btn-link' %>
+            </div>
+          </div>
+        <% end %>
+      </div>
     </div>
   </div>
-</nav>
+</div>

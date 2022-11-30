@@ -7,6 +7,19 @@ en:
     disable_session: Don't show again
   embed_component:
     content_warning_html: <span>Content warning:</span> Imagery and language presented in this archival material may be harmful or traumatizing to some audiences.
+  feedbacks:
+    create:
+      success: Feedback submitted.
+  feedback_mailer:
+    submit_feedback:
+      subject: Feedback from Virtual Tribunals (Arclight)
+  helpers:
+    label:
+      email: Your email
+      message: Message
+      name: Your name
+    submit:
+      submit: Send
   routes:
     about: About
     inventory: Content inventory

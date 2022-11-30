@@ -49,3 +49,14 @@
   margin-top: 2rem;
   padding-bottom: 0.5rem;
 }
+
+#feedback {
+  overflow: hidden;
+  transition: all .5s ease-in-out;
+  max-height: 0;
+
+  &.open {
+    max-height: 100vh;
+  }
+ }
+ 
