@@ -1,0 +1,16 @@
+  <div class="col-sm-4">
+    <div class="card mb-3 mb-sm-0">
+      <%= image_tag image, class: 'card-img-top', alt:'' %>
+      <div class="card-body">
+        <h3 class="card-title"><%= title %></h3>
+        <div class="facet-links">
+          <% item_presenters.each do |item_presenter| %>
+            <%= link_to item_presenter.label, item_presenter.href, class: 'badge' %>
+          <% end %>
+          <%= link_to 'more…', modal_path,
+              data: { blacklight_modal: 'trigger', turbo: false },
+              class: 'badge' if more?%>
+        </div>
+      </div>
+    </div>
+  </div>
