@@ -11,15 +11,33 @@ KEY_MAP = {
     "ref_id": "ref_id",
     "hierarchy": "hierarchy",
     "level": "level",
-    "begin_2": "dc:date2",
-    "begin_3": "dc:date3",
-    "begin_4": "dc:date4",
+    "begin": "begin",
+    "end": "end",
+    "begin_2": "begin_2",
+    "begin_3": "begin_3",
+    "begin_4": "begin_4",
+    "date_type": "date_type",
+    "date_type_2": "date_type_2",
+    "date_type_3": "date_type_3",
+    "date_type_4": "date_type_4",
+    "dates_label": "dates_label",
+    "dates_label_2": "dates_label_2",
+    "dates_label_3": "dates_label_3",
+    "dates_label_4": "dates_label_4",
+    "date_certainty": "date_certainty",
+    "date_certainty_2": "date_certainty_2",
+    "date_certainty_3": "date_certainty_3",
+    "date_certainty_4": "date_certainty_4",
+    "expression": "expression",
     "number": "extent_number",
     "extent_type": "extent_type",
     "container_summary": "dcterms:extent",
     "physical_details": "dc:format",
-    "indicator_1": "Box number",
+    "indicator_1": "indicator_1",
+    "type_1": "type_1",
+    "cont_instance_type": "cont_instance_type",
     "digital_object_link": "digital_object_link",
+    "digital_object_link_publish": "digital_object_link_publish",
     "subject_1_record_id": "subject_1_record_id",
     "subject_1_term": "subject_1_term",
     "subject_1_type": "subject_1_type",
@@ -47,6 +65,11 @@ KEY_MAP = {
     "n_arrangement": "dc:description4",
     "n_odd": "dc:description3",
     "n_scopecontent": "dc:alternative (column",
+    "extent_portion": "extent_portion",
+    "publish": "publish",
+    "p_arrangement": "p_arrangement",
+    "p_odd": "p_odd",
+    "p_scopecontent": "p_scopecontent",
 }
 
 INSTANCE_TYPE_MAP = {
@@ -73,43 +96,6 @@ def convert_file(data_file, template_file):
             # Do the mapping of fields to ASpace keys
             for aspace_key, aspace_val in KEY_MAP.items():
                 new_row[aspace_key] = row[aspace_val]
-
-            # set some fields to automatically publish 
-            new_row["portion"] = "whole"
-            new_row["publish"] = "1"
-            new_row["p_odd"] = "1"
-            new_row["p_arrangement"] = "1"
-            new_row["p_scopecontent"] = "1"
-
-            if new_row.get("digital_object_link"):
-                new_row["digital_object_link_publish"] = "1"
-
-            # if we have a start/end range, set begin/end and inclusive type.
-            # otherwise, just set begin and use dc:date
-            if row["dcterms:temporal 1"] and row["dcterms:temporal 2"]:
-                new_row["begin"] = row["dcterms:temporal 1"]
-                new_row["end"] = row["dcterms:temporal 2"]
-                new_row["date_type"] = "inclusive"
-            elif row["dc:date"]:
-                new_row["begin"] = row["dc:date"]
-                new_row["date_type"] = "single"
-            if new_row.get("begin"):
-                new_row["dates_label"] = "Creation"
-                new_row["date_certainty"] = "inferred"
-
-            # all extra dates are Creation dates and "single" type, if we have them
-            for i in range(2, 5):
-                if new_row[f"begin_{i}"]:
-                    new_row[f"date_type_{i}"] = "single"
-                    new_row[f"dates_label_{i}"] = "Creation"
-                    new_row[f"date_certainty_{i}"] = "inferred"
-
-            # set top container information if the component is an item
-            if row["level"] == "Item":
-                new_row["cont_instance_type"] = INSTANCE_TYPE_MAP.get(
-                    row["edm:type"])
-                new_row["type_1"] = "Box"
-                new_row["indicator_1"] = row["Box number"]
 
             # reorder output according to uploader template and save
             output_row = [new_row.get(field_code, None)

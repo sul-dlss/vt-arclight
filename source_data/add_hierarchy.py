@@ -2,25 +2,19 @@
 
 import csv
 import itertools
-from datetime import date
 import sys
 import pathlib
+from operator import itemgetter
 
 COLLECTION_DRUID = "mt839rq8746"
 
-def series_title(row):
-    return row["dc:type"]
+# keys used to group and sort the rows
+series_title = itemgetter("dc:type")
+subseries_title = itemgetter("Subseries")
+subseries_title_sort = itemgetter("subseries_sort")
+record_group_title = itemgetter("record_group_title")
+record_group_title_sort = itemgetter("record_group_title_sort")
 
-
-def subseries_title(row):
-    return row["Subseries"]
-
-
-def record_group_title(row):
-    if row["dc:type"] == "Audio recordings of proceedings":
-        return date.fromisoformat(row["dc:date"]).strftime("%B %-d, %Y")
-    else:
-        return row["dc:format"]
 
 def convert_file(input_file):
     # read the csv input_file
@@ -41,9 +35,10 @@ def convert_file(input_file):
             "hierarchy": 1,
             "level": "Series",
             "extent_type": "item(s)",
-            "extent_number": len(series_items)
+            "extent_number": len(series_items),
+            "publish": 1,
         })
-        series_items.sort(key=subseries_title)
+        series_items.sort(key=subseries_title_sort)
         for subseries, subseries_items in itertools.groupby(series_items, subseries_title):
 
             subseries_items = list(subseries_items)
@@ -54,10 +49,11 @@ def convert_file(input_file):
                 "hierarchy": 2,
                 "level": "Sub-Series",
                 "extent_type": "item(s)",
-                "extent_number": len(subseries_items)
+                "extent_number": len(subseries_items),
+                "publish": 1,
             })
 
-            subseries_items.sort(key=record_group_title)
+            subseries_items.sort(key=record_group_title_sort)
 
             record_groups = {group: list(items) for group, items in itertools.groupby(
                 subseries_items, record_group_title)}
@@ -71,7 +67,8 @@ def convert_file(input_file):
                         "hierarchy": 3,
                         "level": "Record Group",
                         "extent_type": "item(s)",
-                        "extent_number": len(record_group_items)
+                        "extent_number": len(record_group_items),
+                        "publish": 1,
                     })
                     for item in record_group_items:
                         item['hierarchy'] = 4
@@ -91,7 +88,7 @@ def convert_file(input_file):
         writer.writeheader()
         for row in output_rows:
             writer.writerow(row)
-    
+
     # remove the input file
     input_file.unlink()
 
@@ -104,6 +101,7 @@ def main():
             convert_file(input_file)
     else:
         convert_file(input_path)
+
 
 if __name__ == "__main__":
     main()
