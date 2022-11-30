@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: e6b15cd4d3542d816933a686fd32dfb8df062adb
+  revision: 251842d0a227ca968eaa32a6f1c215f31c279f3f
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -363,7 +363,7 @@ GEM
     sshkit (1.21.3)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
-    stimulus-rails (1.2.0)
+    stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
     timeout (0.3.0)
