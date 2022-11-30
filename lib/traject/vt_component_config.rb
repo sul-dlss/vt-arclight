@@ -71,3 +71,7 @@ to_field 'date_hierarchy_ssim', extract_xpath('./did/unitdate/@normal') do |_rec
 
   accumulator.replace(facet_data.uniq)
 end
+
+to_field 'parent_id_ssi' do |_record, accumulator, _context|
+  accumulator.concat settings[:parent].output_hash['id']
+end
