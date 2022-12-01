@@ -62,6 +62,7 @@ module Traject
           # ... but, if this components has a parent, we need to use atomic updates to add it to the parent
           {
             'id' => doc[atomic_update_parent_id_field],
+            '_root_' => graph['id'],
             'text' => { set: nil }, # this is a stored copy field, so we want to erase its stored data
             nested_documents_property => {
               add: [doc]
