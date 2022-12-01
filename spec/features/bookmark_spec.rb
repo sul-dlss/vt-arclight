@@ -27,7 +27,9 @@ RSpec.describe "Bookmark item", js: true do
     visit "/catalog/#{id}"
 
     check 'Bookmark'
-    expect(page).to have_css('label', text: "In Bookmarks")
+
+    # This selector keeps trying until the javascript has finished updating the label
+    expect(page).to have_xpath('.//label/span/span[contains(text(), "In Bookmarks")]', wait: 10)
 
     click_link 'Bookmarks'
 
