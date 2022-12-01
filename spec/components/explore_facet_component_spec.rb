@@ -3,13 +3,20 @@
 require "rails_helper"
 
 RSpec.describe ExploreFacetComponent, type: :component do
-  pending "add some examples to (or delete) #{__FILE__}"
+  let(:blacklight_config) { CatalogController.blacklight_config }
 
-  # it "renders something useful" do
-  #   expect(
-  #     render_inline(described_class.new(attr: "value")) { "Hello, components!" }.css("p").to_html
-  #   ).to include(
-  #     "Hello, components!"
-  #   )
-  # end
+  before do
+    render_inline(described_class.new(facet: blacklight_config.facet_fields['media_format'],
+                                      image: 'explore-facet-media-format.png',
+                                      values: ['Graphic Materials', 'Audio', 'Text',
+                                               'Moving Images']))
+  end
+
+  # Labels will be modified from those above by the :media_format_label helper
+  it "renders the Media format facet labels and link" do
+    expect(page).to have_link "Image"
+    expect(page).to have_link "Audio"
+    expect(page).to have_link "Text"
+    expect(page).to have_link "Moving images"
+  end
 end
