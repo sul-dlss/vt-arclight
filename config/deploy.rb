@@ -19,6 +19,9 @@ set :linked_files, %w[config/database.yml config/blacklight.yml]
 # Default value for linked_dirs is []
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets vendor/bundle config/settings data/fulltext]
 
+# honeybadger_env otherwise defaults to rails_env
+set :honeybadger_env, fetch(:stage)
+
 # Reindex
 # before 'deploy:restart', 'index'
 
