@@ -10,7 +10,7 @@ require 'rspec/rails'
 require 'capybara/rspec'
 require 'webmock/rspec'
 WebMock.disable_net_connect!(allow_localhost: true,
-                             allow: ['github.com', 'objects.githubusercontent.com'])
+                             allow: ['chromedriver.storage.googleapis.com'])
 
 # Add additional requires below this line. Rails is not loaded until this point!
 

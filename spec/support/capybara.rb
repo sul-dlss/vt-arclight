@@ -1,3 +1,3 @@
 # frozen_string_literal: true
 
-Capybara.javascript_driver = :selenium_headless
+Capybara.javascript_driver = :selenium_chrome_headless
