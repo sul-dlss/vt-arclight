@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 0ffddfe9c55dcd8245387391bf92ff6897c5190e
+  revision: faa145b2be12a89b5dc26e7617e2ac6577e70c6d
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +11,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: ed6c1c904e431aa243b135b291329fa188b690f1
+  revision: 27eaefdbed9ee4b9d6039006e890e054e9da09ce
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -337,7 +337,7 @@ GEM
       rubocop-ast (>= 1.23.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.23.0)
+    rubocop-ast (1.24.0)
       parser (>= 3.1.1.0)
     rubocop-rails (2.17.3)
       activesupport (>= 4.2.0)
