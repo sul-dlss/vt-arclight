@@ -1,6 +1,13 @@
 en:
   arclight:
     masthead_heading: Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46
+  catalog:
+    home_text:
+      content_warning_html: <span>Content warning:</span> Users are advised that material in Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46 contains language and imagery depicting human rights violations, ethnic cleansing, acts of genocide, wartime violence, and offensive stereotypes of people and cultures. Stanford Libraries makes this material available to facilitate scholarly research and education, and does not endorse the viewpoints within.
+      explore_header: Explore the collection
+      intro_html: <p>The Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46 archival collection collects, for the first time, all of the Nuremberg IMT documentation, including film, audio recordings, photographs, and all of the massive body of records, transcripts, evidence, minutes of meetings, and other documents, online in one location. All [9999] items in this collection are searchable and viewable in digital form.</p>
+      more_header: More about the project
+      more_html: <p>The Taube IMT collection is part of the <a href="https://humanrights.stanford.edu">Stanford Center for Human Rights and International Justice</a>'s <a href="https://humanrights.stanford.edu/digital-archives-and-new-technologies/virtual-tribunals-initiative-wwii-trial-records-collections">Virtual Tribunal initiative</a>. This project makes a significant contribution to the international community’s cooperative efforts to ensure the long-term preservation of Virtual Tribunal archives. We anticipate continuing to grow this site with additional post-WWII collections from the U.S. Military War Crimes Trials in Europe and in the Far East. Beyond that, other forthcoming collections from more recent international criminal tribunals will include video and audio recordings of court proceedings, alongside transcripts, and evidence presented at trial.</p>
   contexual_result_info_component:
     body: Your query was matched to the scanned text of all text documents in the collection. Due to the quality of the scans, however, these search results might include incorrect matches or fail to match occurrences of your query in other documents.
     dismiss: Dismiss

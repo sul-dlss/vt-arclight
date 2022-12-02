@@ -1,4 +1,4 @@
-<p>The Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46 archival collection collects, for the first time, all of the Nuremberg IMT documentation, including film, audio recordings, photographs, and all of the massive body of records, transcripts, evidence, minutes of meetings, and other documents, online in one location. All [9999] items in this collection are searchable and viewable in digital form.</p>
+<%= t '.intro_html' %>
 
 <div class="alert global-warning">
   <div class="warning-icon" aria-hidden="true">
@@ -7,11 +7,11 @@
     </svg>
   </div>
   <div>
-    <span>Content warning:</span> Users are advised that material in Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46 contains language and imagery depicting human rights violations, ethnic cleansing, acts of genocide, wartime violence, and offensive stereotypes of people and cultures. Stanford Libraries makes this material available to facilitate scholarly research and education, and does not endorse the viewpoints within.
+    <%= t '.content_warning_html' %>
   </div>
 </div>
 
-<h2 class="h4 home-heading">Explore the collection</h2>
+<h2 class="h4 home-heading"><%= t '.explore_header' %></h2>
 
 <div class="row explore">
   <%= render ExploreFacetComponent.new(facet: blacklight_config.facet_configuration_for_field('resource_type'),
@@ -27,6 +27,6 @@
                                        more: true) %>
 </div>
 
-<h2 class="h4 home-heading">More about the project</h2>
+<h2 class="h4 home-heading"><%= t '.more_header' %></h2>
 
-<p>The Taube IMT collection is part of the <a href="https://humanrights.stanford.edu">Stanford Center for Human Rights and International Justice</a>'s <a href="https://humanrights.stanford.edu/digital-archives-and-new-technologies/virtual-tribunals-initiative-wwii-trial-records-collections">Virtual Tribunal initiative</a>. This project makes a significant contribution to the international community’s cooperative efforts to ensure the long-term preservation of Virtual Tribunal archives. We anticipate continuing to grow this site with additional post-WWII collections from the U.S. Military War Crimes Trials in Europe and in the Far East. Beyond that, other forthcoming collections from more recent international criminal tribunals will include video and audio recordings of court proceedings, alongside transcripts, and evidence presented at trial.</p>
+<%= t '.more_html' %>
