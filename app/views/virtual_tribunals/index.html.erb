@@ -1,19 +1,14 @@
 <div class="vt-landing-page">
   <div class="d-flex vt-item">
     <div class="me-5">
-      <p>
-        Virtual Tribunals is a collaboration between Stanford’s
-        <%= link_to 'Center for Human Rights and International Justice', 'https://humanrights.stanford.edu' %>
-        and
-        <%= link_to 'Stanford University Libraries (SUL)', 'https://library.stanford.edu/' %>. The objective is to facilitate free access to a comprehensive database of archival material from the tribunals and truth commissions around the globe, on a platform that makes discovery of materials far easier and more efficient than is currently the case for both legally trained users and lay-audiences, including populations directly affected by conflict or living in relevant diaspora communities.
-      </p>
+      <%= t '.intro_html' %>
     </div>
     <div class="item-image">
       <%= link_to image_tag('landing-page-CHRIJ-homepage.png', class: 'card-img-top shadow-sm', alt:''), 'https://humanrights.stanford.edu' %>
     </div>
   </div>
 
-  <h2 class="h3">Taube IMT Archival Collection</h2>
+  <h2 class="h3"><%= t '.nta_header' %></h2>
   <div class="d-flex vt-item">
     <div class="item-image">
       <%= link_to search_catalog_path do %>
@@ -21,17 +16,11 @@
       <% end %>
     </div>
     <div class="ms-md-3">
-      <p>
-        The
-        <%= link_to 'Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-1946 archival collection', search_catalog_path %>
-        collects, for the first time, all of the Nuremberg IMT documentation, including film, audio recordings, photographs, and all of the massive body of records, transcripts, evidence, minutes of meetings, and other documents, online in one location.
-      </p>
-
-      <p>The IMT site makes all collection items searchable and viewable in digital form, including PDF documents, images, and audio and video files. You can also explore collection items using a hierarchical navigational structure.</p>
+      <%= t '.nta_description_html' %>
     </div>
   </div>
 
-  <h2 class="h3">Virtual Tribunals Online Exhibit</h2>
+  <h2 class="h3"><%= t '.exhibit_header' %></h2>
   <div class="d-flex vt-item">
     <div class="item-image">
       <%= link_to '//exhibits.stanford.edu/virtual-tribunals' do %>
