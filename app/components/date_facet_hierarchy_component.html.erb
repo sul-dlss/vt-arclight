@@ -1,0 +1,10 @@
+<%= render(@layout.new(facet_field: @facet_field)) do |component| %>
+  <% component.label do %>
+    <%= @facet_field.label %>
+  <% end %>
+  <% component.body do %>
+    <ul class="facet-values list-unstyled">
+      <%= render facet_items %>
+    </ul>
+  <% end %>
+<% end %>

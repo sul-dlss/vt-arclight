@@ -10,7 +10,7 @@ en:
         date: Date
         document_number: Document number
         facet:
-          date_range: Year
+          date: Date
           language: Language
           level: Level
           media_format: Media format
