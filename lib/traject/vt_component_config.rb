@@ -47,10 +47,19 @@ to_field 'date_hierarchy_ssim', extract_xpath('./did/unitdate/@normal') do |_rec
   date_ranges = accumulator.flat_map do |date|
     start_date, end_date = date.split('/', 2)
 
-    if end_date.nil?
-      Date.parse(start_date)..Date.parse(start_date)
-    else
-      Date.parse(start_date)..Date.parse(end_date)
+    # set the date range to include the entire year for ranges like "1945/1945"
+    start_date = "#{start_date}-01-01" if start_date.length == 4
+    end_date = "#{end_date}-12-31" if end_date&.length == 4
+
+    begin
+      if end_date.nil?
+        Date.parse(start_date)..Date.parse(start_date)
+      else
+        Date.parse(start_date)..Date.parse(end_date)
+      end
+    rescue Date::Error
+      logger.warn("Invalid date range: #{date}")
+      next
     end
   end
 
