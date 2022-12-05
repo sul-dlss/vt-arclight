@@ -31,7 +31,7 @@ RSpec.describe DocumentComponent, type: :component do
                        resource_type_ssim: ['Exhibits'],
                        resource_format_ssim: ['Photo albums'],
                        unitid_ssm: ['H-5006'],
-                       media_format_ssi: ['Graphic Materials'])
+                       media_type_ssi: ['Graphic Materials'])
     end
 
     it "shows the data" do
@@ -57,8 +57,8 @@ RSpec.describe DocumentComponent, type: :component do
       expect(page).to have_text 'Language:'
       expect(page).to have_text 'German'
 
-      # Label will be modified from the "Graphic Materials" above by the :media_format_label helper
-      expect(page).to have_text 'Media format'
+      # Label will be modified from the "Graphic Materials" above by the :media_type_label helper
+      expect(page).to have_text 'Media type'
       expect(page).to have_text 'Image'
     end
   end

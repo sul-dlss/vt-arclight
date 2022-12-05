@@ -18,7 +18,7 @@
                                        image: 'explore-facet-doc-type.png',
                                        values: ['Official court transcripts', 'Exhibits', 'Final pleas and clemency pleas', 'Rules, rulings, and orders'],
                                        more: true) %>
-  <%= render ExploreFacetComponent.new(facet:  blacklight_config.facet_fields['media_format'],
+  <%= render ExploreFacetComponent.new(facet:  blacklight_config.facet_fields['media_type'],
                                        image: 'explore-facet-media-format.png',
                                        values: ['Graphic Materials', 'Audio', 'Text', 'Moving Images']) %>
   <%= render ExploreFacetComponent.new(facet:  blacklight_config.facet_fields['resource_format'],

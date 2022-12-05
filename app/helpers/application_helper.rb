@@ -19,7 +19,7 @@ module ApplicationHelper
 
   # Modifying the labels according to: https://github.com/sul-dlss/vt-arclight/issues/286
   # The original values come from SUL ArchivesSpace controlled vocabulary
-  def media_format_label(value)
+  def media_type_label(value)
     case value
     when "Graphic Materials"
       "Image"
@@ -30,7 +30,7 @@ module ApplicationHelper
     end
   end
 
-  def component_media_format_label(value:, **_kwargs)
-    media_format_label(value.first)
+  def component_media_type_label(value:, **_kwargs)
+    media_type_label(value.first)
   end
 end

@@ -39,7 +39,7 @@ to_field 'resource_type_ssim' do |resource, accumulator, context|
 end
 
 to_field 'resource_format_ssim', extract_xpath('./did/physdesc/physfacet')
-to_field 'media_format_ssi', extract_xpath('./did/container/@label')
+to_field 'media_type_ssi', extract_xpath('./did/container/@label')
 
 to_field 'date_hierarchy_ssim', extract_xpath('./did/unitdate/@normal') do |_record, accumulator|
   next unless accumulator.any?
