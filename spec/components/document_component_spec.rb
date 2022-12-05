@@ -42,7 +42,7 @@ RSpec.describe DocumentComponent, type: :component do
       expect(page).to have_text 'Container:'
       expect(page).to have_text 'Box 25'
 
-      expect(page).to have_text 'Document number:'
+      expect(page).to have_text 'Resource identifier:'
       expect(page).to have_text 'H-5006'
 
       expect(page).to have_text 'Date:'

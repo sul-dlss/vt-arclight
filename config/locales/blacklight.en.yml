@@ -8,7 +8,7 @@ en:
         containers: Container
         digital_collection_steward: 'Digital collection stewarded by'
         date: Date
-        document_number: Document number
+        document_number: Resource identifier
         facet:
           date: Date
           language: Language
