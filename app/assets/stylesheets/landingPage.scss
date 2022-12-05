@@ -1,8 +1,4 @@
 .vt-landing-page {
-  p {
-    max-width: 82ch;
-  }
-
   h2 {
     border-bottom: 1px solid $stanford-stone-light;
     @extend .pb-2;
@@ -20,6 +16,7 @@
 
     .item-image {
       @extend .me-3;
+      flex-shrink: 0;
       
       @media (max-width: 767px) {
         display: none;

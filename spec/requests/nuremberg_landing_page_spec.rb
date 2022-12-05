@@ -20,6 +20,6 @@ RSpec.describe "The Nuremberg landing page" do
     expect(page).to have_text "Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46"
 
     # Main
-    expect(page).to have_text 'items in this collection are searchable and viewable in digital form'
+    expect(page).to have_text 'items are searchable and viewable in digital form'
   end
 end

@@ -1,5 +1,5 @@
 <div class="vt-landing-page">
-  <div class="d-flex vt-item">
+  <div class="d-flex justify-content-between vt-item">
     <div class="me-5">
       <%= t '.intro_html' %>
     </div>
@@ -8,8 +8,8 @@
     </div>
   </div>
 
-  <h2 class="h3"><%= t '.nta_header' %></h2>
-  <div class="d-flex vt-item">
+  <h2 class="h3"><%= t '.nta_header_html' %></h2>
+  <div class="d-flex justify-content-between vt-item">
     <div class="item-image">
       <%= link_to search_catalog_path do %>
         <%= image_tag 'landing-page-NTA-collection.png', class: 'card-img-top shadow-sm', alt:'' %>
@@ -20,27 +20,15 @@
     </div>
   </div>
 
-  <h2 class="h3"><%= t '.exhibit_header' %></h2>
-  <div class="d-flex vt-item">
+  <h2 class="h3"><%= t '.exhibit_header_html' %></h2>
+  <div class="d-flex justify-content-between vt-item">
     <div class="item-image">
       <%= link_to '//exhibits.stanford.edu/virtual-tribunals' do %>
         <%= image_tag 'landing-page-VT-browse.png', class: 'card-img-top shadow-sm', alt:'' %>
       <% end %>
     </div>
     <div class="ms-md-3">
-      <p>
-        The
-        <%= link_to 'Virtual Tribunals online exhibits site', 'https://exhibits.stanford.edu/virtual-tribunals' %>
-        is a major initiative intended to compile a comprehensive database of international criminal tribunal records and rendered searchable through a single online portal.
-      </p>
-
-      <p>
-        The first collection exhibit made available here consisted of court records from the
-        <%= link_to 'Special Panel for Serious Crimes in East Timor', 'https://exhibits.stanford.edu/virtual-tribunals/catalog?f%5Bcollection_with_title%5D%5B%5D=kh392jb5994-%7C-Trial+Records+of+the+Special+Panels+for+Serious+Crimes+%28SPSC%29+in+East+Timor' %>.
-        More recently we added records from the
-        <%= link_to 'Taube IMT archival collection', 'https://exhibits.stanford.edu/virtual-tribunals/catalog?f%5Bcollection_with_title%5D%5B%5D=mt839rq8746-%7C-International+Court+of+Justice+Archives+of+the+Nuremberg+International+Military+Tribunal' %>.
-        We anticipate growing this site with additional post-WWII collections from the U.S. Military War Crimes Trials in Europe and in the Far East.
-      </p>
+      <%= t '.exhibit_description_html' %>
     </div>
   </div>
 </div>
