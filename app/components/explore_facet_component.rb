@@ -25,6 +25,8 @@ class ExploreFacetComponent < ViewComponent::Base
   end
 
   def item_presenters
-    values.map { |value| facet.item_presenter.new(value, facet, helpers, facet.name) }
+    values.map do |value|
+      facet.item_presenter.new(value, facet, helpers, facet.name)
+    end
   end
 end

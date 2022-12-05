@@ -22,4 +22,13 @@ RSpec.describe "The home page" do
     expect(page).to have_text 'Archival Collection'
     expect(page).to have_text 'Virtual Tribunals Online Exhibit'
   end
+
+  it "renders the correct badge labels in the Explore the collection section" do
+    within ".explore" do
+      expect(page).to have_link "Image"
+      expect(page).to have_link "Audio"
+      expect(page).to have_link "Text"
+      expect(page).to have_link "Moving images"
+    end
+  end
 end

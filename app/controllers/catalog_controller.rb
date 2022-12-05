@@ -138,7 +138,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
                                    item_presenter: DateFacetItemPresenter
     config.add_facet_field 'level', field: 'level_ssim'
     config.add_facet_field 'language', field: 'language_ssim'
-    config.add_facet_field 'media_format', field: 'media_format_ssi'
+    config.add_facet_field 'media_format', field: 'media_format_ssi', helper_method: :media_format_label
     config.add_facet_field 'resource_type', field: 'resource_type_ssim'
     config.add_facet_field 'resource_format', field: 'resource_format_ssim'
 
@@ -300,7 +300,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }
     config.add_component_field 'document_number', field: 'unitid_ssm'
     config.add_component_field 'date', field: 'normalized_date_ssm'
-    config.add_component_field 'media_format', field: 'media_format_ssi'
+    config.add_component_field 'media_format', field: 'media_format_ssi', helper_method: :component_media_format_label
     config.add_component_field 'resource_format', field: 'resource_format_ssim'
     config.add_component_field 'resource_type', field: 'resource_type_ssim'
     config.add_component_field 'language', field: 'language_ssim'
