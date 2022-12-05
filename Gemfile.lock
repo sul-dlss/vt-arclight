@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: faa145b2be12a89b5dc26e7617e2ac6577e70c6d
+  revision: bf95dd126f0aaa659e000dcac88a6db8a720f3d0
+  branch: main
   specs:
     arclight (1.0.0.alpha)
       blacklight (>= 7.14, < 9)
@@ -11,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 27eaefdbed9ee4b9d6039006e890e054e9da09ce
+  revision: 511deafd7d87f7093c9e8e09ad0a98ea24c25b9c
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -132,15 +133,14 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    childprocess (4.1.0)
     concurrent-ruby (1.1.10)
     crack (0.4.5)
       rexml
     crass (1.0.6)
     cssbundling-rails (1.1.1)
       railties (>= 6.0.0)
-    debug (1.6.3)
-      irb (>= 1.3.6)
+    debug (1.7.0)
+      irb (>= 1.5.0)
       reline (>= 0.3.1)
     deprecation (1.1.0)
       activesupport
@@ -199,7 +199,7 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.6.2)
+    json (2.6.3)
     jsonpath (1.1.2)
       multi_json
     kaminari (1.2.2)
@@ -220,8 +220,11 @@ GEM
     loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.7.1)
+    mail (2.8.0)
       mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     marc (1.2.0)
       rexml
       scrub_rb (>= 1.0.1, < 2)
@@ -240,7 +243,7 @@ GEM
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.1.3)
+    net-protocol (0.2.0)
       timeout
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
@@ -267,7 +270,7 @@ GEM
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
-    racc (1.6.0)
+    racc (1.6.1)
     rack (2.2.4)
     rack-test (2.0.2)
       rack (>= 1.3)
@@ -349,8 +352,7 @@ GEM
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     scrub_rb (1.0.1)
-    selenium-webdriver (4.6.1)
-      childprocess (>= 0.5, < 5.0)
+    selenium-webdriver (4.7.1)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
@@ -368,7 +370,7 @@ GEM
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
-    timeout (0.3.0)
+    timeout (0.3.1)
     traject (3.7.0)
       concurrent-ruby (>= 0.8.0)
       dot-properties (>= 0.1.1)
