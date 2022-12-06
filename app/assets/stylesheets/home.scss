@@ -31,14 +31,23 @@
       border-top: 1px solid $stanford-black-20;
     }
 
+    .facet-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: #{$spacer * 0.25};
+      justify-content: center;
+    }
+
     .badge {
-      background-color: $stanford-black-20;
-      color: $stanford-black;
+      background-color: $stanford-stone;
+      color: white;
       font-weight: 500;
+      font-size: $font-size-sm;
     }
 
     h3 {
       @extend .h5;
+      text-align: center;
     }
   }
 }
