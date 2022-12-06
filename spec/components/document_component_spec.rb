@@ -24,8 +24,8 @@ RSpec.describe DocumentComponent, type: :component do
     let(:document) do
       SolrDocument.new(level_ssm: ['Item'],
                        normalized_date_ssm: ['1946'],
-                       scopecontent_ssm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
-                                          "<p>The official archives of the International Military Tribunal...</p>"],
+                       scopecontent_html_tesm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
+                                                "<p>The official archives of the IMT...</p>"],
                        containers_ssim: ['Box 25'],
                        language_ssim: ['German'],
                        resource_type_ssim: ['Exhibits'],
@@ -37,7 +37,7 @@ RSpec.describe DocumentComponent, type: :component do
     it "shows the data" do
       expect(page).to have_text 'Scope and content:'
       expect(page).to have_text 'The collection in the Virtual Tribunal'
-      expect(page).to have_text 'The official archives of the International'
+      expect(page).to have_text 'The official archives of the IMT'
 
       expect(page).to have_text 'Container:'
       expect(page).to have_text 'Box 25'
