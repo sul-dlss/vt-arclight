@@ -1,10 +1,12 @@
 # frozen_string_literal: true
 
 require 'arclight'
+require_relative 'virtual_tribunals/normalized_title'
 
 settings do
   provide 'component_traject_config', __FILE__
   provide 'fulltext_data_dir', File.expand_path("#{__dir__}/../../data/fulltext")
+  provide 'title_normalizer', 'VirtualTribunals::NormalizedTitle'
 end
 
 load_config_file(File.expand_path("#{Arclight::Engine.root}/lib/arclight/traject/ead2_component_config.rb"))
