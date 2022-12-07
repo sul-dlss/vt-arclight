@@ -9,7 +9,6 @@ end
 desc "Run test suite"
 task ci: :environment do
   with_solr do
-    Rake::Task['vt:seed'].invoke
     Rake::Task['spec'].invoke
   end
 end
