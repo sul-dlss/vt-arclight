@@ -14,6 +14,10 @@ First start solr.
 ```shell
 bundle exec solr_wrapper
 ```
+## Index seed data
+You can seed the index with `rake vt:seed`. This loads data from our `spec/fixtures` directory. It is a vastly reduced (200K vs 1K lines of XML) version of the collection EAD file, which should be representative of different media types, series, subseries, date formats, etc. The fulltext transcript files associated with the items in `seed.xml` are also stored in our fixtures; these files will be indexed for fulltext search.
+
+You can always delete the current index with `rake arclight:destroy_index_docs`.
 
 ## Index data from records stored in ArchivesSpace
 
@@ -30,7 +34,7 @@ vault kv get puppet/application/vt/stage/aspace_user
 vault kv get puppet/application/vt/stage/aspace_password
 ```
 
-### Requesting data and indexing it
+### Requesting ASpace data and indexing it
 1. Collection data is stored in the `public/data` directory. It may not be the lastest data uploaded to ArchivesSpace, but it is useable for indexing in step 4 below. If you're fine with using this data skip to step 4. 
 
 2. If you want to download the latest data and overwrite the file in `public/data` follow these steps. Find out the ID of the Resource and its Resository that you want in ArchivesSpace. Repository refers to internal SUL organization. On the staging ArchivesSpace server, for now we can assume the Repository ID is `18`, for Virtual Tribunals.
