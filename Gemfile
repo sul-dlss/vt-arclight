@@ -90,3 +90,5 @@ gem "rsolr", ">= 1.0", "< 3"
 
 gem "honeybadger", "~> 5.0"
 gem "okcomputer", "~> 1.18"
+
+gem "recaptcha", "~> 5.12"

@@ -36,6 +36,11 @@
           </div>
           <div class="mb-3 row">
             <div class="col-sm-10 offset-sm-2">
+              <%= recaptcha_v3(action: 'feedback') %>
+            </div>
+          </div>
+          <div class="mb-3 row">
+            <div class="col-sm-10 offset-sm-2">
               <%= f.submit class: 'btn btn-primary' %>
               <%= button_tag "Reset", type: :reset, data: { action: 'feedback#reset' }, class: 'btn btn-link' %>
             </div>

@@ -302,6 +302,8 @@ GEM
       zeitwerk (~> 2.5)
     rainbow (3.1.1)
     rake (13.0.6)
+    recaptcha (5.12.3)
+      json
     regexp_parser (2.6.1)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -450,6 +452,7 @@ DEPENDENCIES
   propshaft (~> 0.6.4)
   puma (~> 5.0)
   rails (~> 7.0.4)
+  recaptcha (~> 5.12)
   rsolr (>= 1.0, < 3)
   rspec-rails (~> 6.0)
   rubocop-rails (~> 2.16)
