@@ -4,7 +4,7 @@ require "rails_helper"
 
 RSpec.describe EmbedComponent, type: :component do
   let(:presenter) { instance_double(Arclight::ShowPresenter) }
-  let(:document) { instance_double(SolrDocument, media_format:, digital_objects:) }
+  let(:document) { instance_double(SolrDocument, media_type:, digital_objects:) }
   let(:digital_objects) do
     [instance_double(Arclight::DigitalObject, href: '#', label: 'hi')]
   end
@@ -14,7 +14,7 @@ RSpec.describe EmbedComponent, type: :component do
   end
 
   context 'with media format text' do
-    let(:media_format) do
+    let(:media_type) do
       'Text'
     end
 
@@ -24,7 +24,7 @@ RSpec.describe EmbedComponent, type: :component do
   end
 
   context 'with media format Graphic Materials' do
-    let(:media_format) do
+    let(:media_type) do
       'Graphic Materials'
     end
 
@@ -34,7 +34,7 @@ RSpec.describe EmbedComponent, type: :component do
   end
 
   context 'with media format Moving Images' do
-    let(:media_format) do
+    let(:media_type) do
       'Moving Images'
     end
 

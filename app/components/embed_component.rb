@@ -12,12 +12,12 @@ class EmbedComponent < Arclight::EmbedComponent
   end
 
   def video?
-    media_format == VIDEO_TYPE
+    media_type == VIDEO_TYPE
   end
 
   def image?
-    media_format == IMAGE_TYPE
+    media_type == IMAGE_TYPE
   end
 
-  delegate :media_format, to: :@document
+  delegate :media_type, to: :@document
 end
