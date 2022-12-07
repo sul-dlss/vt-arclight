@@ -308,6 +308,7 @@
    <!--dynamicField name="*" type="ignored" multiValued="true" /-->
 
    <dynamicField name="*_tesim" type="text_en"   stored="true"  indexed="true"  multiValued="true"  />
+   <dynamicField name="*_tesm" type="text_en"    stored="true"  indexed="false" multiValued="true"  />
    <!-- NOTE:  *_tesimv fields are copied into full_text_search which is meant for full text, not metadata.  Use _tesim for metadata -->
    <dynamicField name="*_tesimv" type="text" stored="true" indexed="true" multiValued="true" storeOffsetsWithPositions="true" termVectors="true" />
    <dynamicField name="*_teim"  type="text_en"   stored="false" indexed="true"  multiValued="true"  />

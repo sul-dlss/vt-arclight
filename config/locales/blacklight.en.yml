@@ -22,4 +22,4 @@ en:
         repository_location: 'Location of this collection'
         resource_format: Resource format
         resource_type: Resource type
-        scopecontent_ssm: Scope and content
+        scopecontent: Scope and content
