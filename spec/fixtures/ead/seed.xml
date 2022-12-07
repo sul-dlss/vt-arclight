@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    repositoryencoding="iso15511">
+    <eadid countrycode="US">mt839rq8746</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Taube Archive of the International Military Tribunal (IMT) at
+          Nuremberg, 1945-46 <num>mt839rq8746</num></titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Virtual Tribunals</publisher>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2022-12-05 11:24:08
+          -0800</date>.</creation>
+      <langusage>English</langusage>
+      <descrules>Describing Archives: A Content Standard</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <repository>
+        <corpname>Virtual Tribunals</corpname>
+      </repository>
+      <unittitle>Taube Archive of the International Military Tribunal (IMT) at Nuremberg</unittitle>
+      <origination label="source">
+        <corpname authfilenumber="no89006509" role="rps" rules="dacs" source="lcnaf">International
+          Court of Justice. Library</corpname>
+      </origination>
+      <origination label="source">
+        <corpname authfilenumber="n50069897" role="cre" rules="dacs" source="lcnaf">International
+          Military Tribunal</corpname>
+      </origination>
+      <unitid>mt839rq8746</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">9920 item(s)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" certainty="inferred" era="ce" normal="1945/1946"
+        type="inclusive">1945-46</unitdate>
+    </did>
+    <scopecontent id="aspace_e77471f850e45664ad1bae40ddd884a9">
+      <head>Scope and Contents</head>
+      <p> The Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46
+        collection includes court transcripts, indictments, sentences, briefings, minutes, etc,
+        related to the proceedings of the International Military Tribunal (IMT) at Nuremberg. The
+        first twenty-eight boxes contain: a) Exhibits submitted to the Tribunal by Prosecution and
+        Defense; b) Official Transcripts as taken by Court Reporters, of Court and Commission
+        proceedings; c) Document Books of Prosecution and Defense; d) Trial Briefs, Opening and
+        Closing Statements of Prosecution; e) Final Pleas and Clemency Pleas of Defense; f)
+        Indictment; g) Judgement, Dissenting Opinion and Sentences; h) Minutes of Tribunal Meetings;
+        i) Rules of the Tribunal, Orders of the Tribunal, Court Rulings on the Final Record; and j)
+        Lists, indices and miscellaneous related material. Material was inventoried box by box. The
+        last nine boxes contain only electronic transcriptions of the proceedings before the
+        International Military Tribunal. </p>
+      <p> The digital collection contains approximately 250,000 pages of digitized paper documents
+        (transcripts of the hearings in English, French, German and Russian; written pleadings;
+        evidence exhibits filed by the prosecution and the defense; documents of the Committee for
+        the Investigation and Prosecution of Major War Criminals; the judgment). </p>
+      <p> The official archives of the International Military Tribunal of Nuremberg (the "Nuremberg
+        Trial Archives") were entrusted to the International Court of Justice (ICJ) in 1950. The ICJ
+        and its Registry are the custodians of the entire archive, which includes the original print
+        documents that are available in digital form here, audio recordings of the trial's
+        proceedings, and evidentiary films. </p>
+      <p>
+        <i>Source: The Registry, International Court of Justice. (2018). Nuremberg Trial Archives,
+          The International Court of Justice: Custodian of the archives of the International
+          Military Tribunal at Nuremberg (2nd ed.) and the United States Holocaust Memorial Museum
+        </i>
+      </p>
+      <title>International Military Tribunal (IMT) Cases</title>
+      <p> The IMT's single case tried 24 <a href="https://encyclopedia.ushmm.org/narrative/9417/en"
+          >defendants</a>, all charged with being "leaders, organizers [and] instigators [of] and
+        accomplices" in the crimes defined in the Charter. They were chosen to represent a
+        cross-section of Nazi diplomatic, economic, political, and military leadership. <a
+          href="https://encyclopedia.ushmm.org/narrative/43/en">Adolf Hitler</a>, <a
+          href="https://encyclopedia.ushmm.org/narrative/10813/en">Heinrich Himmler</a>, and <a
+          href="https://encyclopedia.ushmm.org/narrative/56144/en">Joseph Goebbels</a> could not be
+        tried because they committed suicide at the end of the war or soon afterwards. <a
+          href="https://encyclopedia.ushmm.org/narrative/9836/en">Hermann Göring</a> was the highest
+        ranking Nazi official among the defendants. </p>
+      <p> In the end, only 21 defendants appeared in court. German industrialist <a
+          href="https://encyclopedia.ushmm.org/narrative/9865/en">Gustav Krupp</a> was included in
+        the original indictment, but he was elderly and in failing health. The Tribunal decided in
+        preliminary hearings to exclude him from the proceedings. Nazi Party secretary <a
+          href="https://encyclopedia.ushmm.org/narrative/9808/en">Martin Bormann</a> could not be
+        located. Borman was thus tried in absentia. Head of the German Labor Front <a
+          href="https://encyclopedia.ushmm.org/narrative/9868/en">Robert Ley</a> committed suicide
+        on the eve of the trial. <a href="https://www.ushmm.org/">(United States Holocaust Memorial
+          Museum)</a>
+      </p>
+      <p> Joining the lead defendant, Reichsmarschall and Successor Designate to Hitler,
+          <persname>Hermann Wilhelm Goering</persname>, were: </p>
+      <ul><li><persname>Rudolf Hess</persname>, former Deputy to the
+            Führer;</li><li><persname>Joachim von Ribbentrop</persname>, Reich Minister for Foreign
+          Affairs;</li><li><persname>Wilhelm Keitel</persname>, Chief of the High Command of the
+          German Armed Forces;</li><li><persname>Ernst Kaltenbrunner</persname>, Head of the Reich
+          Main Security Office and highest ranking officer of the Nazi party Schutzstaffel (SS) at
+          Nuremberg;</li><li><persname>Alfred Rosenberg</persname>, racial theory ideologist and
+          Reich Minister for the Eastern Occupied Territories;</li><li><persname>Hans
+            Frank</persname>, Governor General of the Occupied Polish
+            Territories;</li><li><persname>Wilhelm Frick</persname>, Reich Minister of the Interior
+          and Reich Protector for Bohemia and Moravia;</li><li><persname>Julius
+          Streicher</persname>, Editor-in-Chief of the antisemitic newspaper Der
+            Stürmer;</li><li><persname>Walther Funk</persname>, Reich Minister of Economics and
+          President of the German Reichsbank;</li><li><persname>Hjalmar Schacht</persname>, former
+          Reich Minister of Economics and President of the German Reichsbank;</li><li><persname>Karl
+            Doenitz</persname>, Commander-in-Chief of the German Navy and, briefly, successor to
+          Hitler as Head of the German Government;</li><li><persname>Erich Raeder</persname>, former
+          Commander-in-Chief of the German Navy;</li><li><persname>Baldur von Schirach</persname>,
+          Head of the Hitler Youth;</li><li><persname>Fritz Sauckel</persname>, Plenipotentiary of
+          the Nazi slave-labour programme;</li><li><persname>Alfred Jodl</persname>, Chief of the
+          High Command of the German Armed Forces Operations Department;</li><li><persname>Franz von
+            Papen</persname>, former Reich Chancellor and Vice Chancellor;</li><li><persname>Arthur
+            Seyss-Inquart</persname>, Reich Commissar for the Occupied
+            Netherlands;</li><li><persname>Albert Speer</persname>, Reich Minister for Armament and
+          Munitions and Hitler's chief architect;</li><li><persname>Konstantin von
+            Neurath</persname>, Reich Minister of Foreign Affairs and later Reich Protector for
+          Bohemia and Moravia;</li> and <li><persname>Hans Fritzsche</persname>, Ministerialdirektor
+          of the Reich Ministry of Propaganda</li>. </ul>
+      <title>International Military Tribunal (IMT) Crimes</title>
+      <p> Article 6 of the IMT's Charter listed three broad categories of crimes: </p>
+      <a href="https://treaties.un.org/pages/showDetails.aspx?objid=08000002801572a2">IMT's
+        Charter</a>
+      <p> (a) Crimes against peace: namely, planning, preparation, initiation or waging of a war of
+        aggression, or a war in violation of international treaties, agreements or assurances, or
+        participation in a common plan or conspiracy for the accomplishment of any of the
+        foregoing;<br/> (b) War crimes: namely, violations of the laws or customs of war. Such
+        violations shall include, but not be limited to, murder, ill-treatment or deportation to
+        slave labour or for any other purpose of civilian population of or in occupied territory,
+        murder or ill-treatment of prisoners of war or persons on the seas, killing of hostages,
+        plunder of public or private property, wanton destruction of cities, towns or villages, or
+        devastation not justified by military necessity;<br/> (c) Crimes against humanity: namely,
+        murder, extermination, enslavement, deportation, and other inhumane acts committed against
+        any civilian population, before or during the war, or persecutions on political, racial or
+        religious grounds in execution of or in connection with any crime within the jurisdiction of
+        the Tribunal, whether or not in violation of the domestic law of the country where
+        perpetrated.<br/>
+      </p>
+      <p> The first of these charges, (a), was subdivided in the indictment, which thus contained
+        four counts, of which the defendants each faced his own permutation.<br/> Count one (common
+        plan or conspiracy) was prosecuted by the United States, and count two (crimes against
+        peace) by the United Kingdom. Count three (war crimes) and count four (crimes against
+        humanity) were prosecuted jointly by France and the Soviet Union, according to whether the
+        crimes in question had been committed in Western or Eastern Europe. </p>
+    </scopecontent>
+    <controlaccess>
+      <geogname source="lcsh">Zeppelinfeld (Nuremberg, Germany)</geogname>
+      <subject source="lcsh">Nuremberg War Crime Trials, Nuremberg, Germany, 1946-1949</subject>
+      <subject source="lcsh">International criminal courts</subject>
+      <subject source="lcsh">Trials (Crimes against humanity)</subject>
+      <subject source="lcsh">Criminal procedure (International law)</subject>
+      <subject source="lcsh">Crimes against humanity</subject>
+      <corpname authfilenumber="no89006509" role="rps" rules="dacs" source="lcnaf">International
+        Court of Justice. Library</corpname>
+      <corpname authfilenumber="n50069897" role="cre" rules="dacs" source="lcnaf">International
+        Military Tribunal</corpname>
+    </controlaccess>
+    <dsc>
+      <c id="aspace_f8eb225b2bd7717906f6ab4d264f8103" level="series">
+        <did>
+          <unittitle>Audio recordings of proceedings</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">4361 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_0acb4de8bb75328a97cd60e62063574e">
+          <head>Scope and Contents</head>
+          <p>Contemporaneous audio recordings of the complete trial proceedings at the IMT
+            Nuremberg, from reading of the indictments, to opening statements, the presentation and
+            cross-examination of evidence at trial, closing statements and final judgments.</p>
+        </scopecontent>
+        <c id="aspace_848516cb4e1f635882c55c78c93489fd" level="subseries">
+          <did>
+            <unittitle>November 1945</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">187 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_de84aeef4744db961307af744b4da0ea" level="recordgrp">
+            <did>
+              <unittitle>November 20, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">27 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_ff5802eeec8b69a8dcf5e83d42203630" level="item">
+              <did>
+                <unittitle>Lord Justice Lawrence opening session reading of Indictment. Part
+                  1</unittitle>
+                <unitid>H-5260_0001A_1</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">0:12:07</extent>
+                  <physfacet>16" aluminum Presto instantaneous discs</physfacet>
+                </physdesc>
+                <unitdate certainty="inferred"
+                  normal="1945-11-20T10:00+01:00/1945-11-20T10:10+01:00" type="inclusive">1945-11-20
+                  from 10:00 - 10:10</unitdate>
+                <container id="aspace_b852b544757ca7ece232280e9f3ef10c" label="Audio" type="box"
+                  >Electrical transcription boxes</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/qp975pv1576" xlink:show="new"
+                  xlink:title="Lord Justice Lawrence opening session reading of Indictment. Part 1, 1945-11-20 from 10:00 - 10:10"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>Lord Justice Lawrence opening session reading of Indictment. Part 1,
+                      1945-11-20 from 10:00 - 10:10</p>
+                  </daodesc>
+                </dao>
+              </did>
+            </c>
+          </c>
+        </c>
+        <c id="aspace_d6ab473a745f41fcfd3939cd7e46c829" level="subseries">
+          <did>
+            <unittitle>December 1945</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">325 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_a54f5a78297fa4c27b33bb68eea55913" level="recordgrp">
+            <did>
+              <unittitle>December 1, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">14 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_7c31d0aee1ac374559ea4fa9355f8e2e" level="item">
+              <did>
+                <unittitle>Tribunal's decision on Hess. Questioning by British prosecutor and German
+                  counsels</unittitle>
+                <unitid>H-5260_0181A_1</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">0:14:03</extent>
+                  <physfacet>16" aluminum Presto instantaneous discs</physfacet>
+                </physdesc>
+                <unitdate certainty="inferred"
+                  normal="1945-12-01T10:00+01:00/1945-12-01T10:14+01:00" type="inclusive">1945-12-01
+                  from 10:00 - 10:14</unitdate>
+                <container id="aspace_18e47575e47237e280eea58719cd7c7e" label="Audio" type="box"
+                  >Electrical transcription boxes</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/gx779dp5757" xlink:show="new"
+                  xlink:title="Tribunal's decision on Hess. Questioning by British prosecutor and German counsels, 1945-12-01 from 10:00 - 10:14"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>Tribunal's decision on Hess. Questioning by British prosecutor and German
+                      counsels, 1945-12-01 from 10:00 - 10:14</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_ed21ee947c787ff7bb0686a226649df2">
+                <head>Arrangement</head>
+                <p>Note from the ICJ Registry: For this track, the information on the disc label and
+                  found in the gramophone disc inventory (the "Index to Electrical Transcriptions of
+                  International Military Tribunal", H-5192) does not appear to be accurate. The
+                  information provided here is based on a review of the audio.</p>
+              </arrangement>
+            </c>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_776a810541f27be65b72009ed6f41b89" level="series">
+        <did>
+          <unittitle>Document books</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">392 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_b821a28ec0e35f90827baa3bc5445b32">
+          <head>Scope and Contents</head>
+          <p>Compendia of exhibits presented at trial, compiled for judicial review, organized
+            according to defendant.</p>
+        </scopecontent>
+        <c id="aspace_81456f71f2a1634dd150095dfd2c495b" level="item">
+          <did>
+            <unittitle>Hermann GOERING - No. 1</unittitle>
+            <unitid>H-0668</unitid>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              <extent altrender="carrier">100 pages</extent>
+              <physfacet>Folders</physfacet>
+            </physdesc>
+            <container id="aspace_18610e47bb1ac90c301d7f1ca3c4512f" label="Text" type="box"
+              >6</container>
+            <dao xlink:actuate="onRequest" xlink:audience="external"
+              xlink:href="https://purl.stanford.edu/kh535qr4415" xlink:show="new"
+              xlink:title="Hermann GOERING - No. 1" xlink:type="simple">
+              <daodesc>
+                <p>Hermann GOERING - No. 1</p>
+              </daodesc>
+            </dao>
+          </did>
+          <arrangement id="aspace_81f8e2a37acf9d5edddde3206ff04f5d">
+            <head>Arrangement</head>
+            <p>PRELIMINARY NOTES TO DOCUMENTS BOOKS AND TRIAL BRIEFS: For purpose of this inventory,
+              Document Books have been identified merely by the name and number of the Document
+              Book. No attempt has been made to catalog the documents contained therein.</p>
+          </arrangement>
+          <controlaccess>
+            <function source="lcsh">English language</function>
+          </controlaccess>
+        </c>
+      </c>
+      <c id="aspace_0c1b367ba2ba521e2607d2e2c986ec82" level="series">
+        <did>
+          <unittitle>Empty folder</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">148 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_5425174a7623b737d11a55891b47d795">
+          <head>Scope and Contents</head>
+          <p>These are digitized images of file folders that were archived originally as a part of
+            the collection, but where the original contents may have been removed or relocated
+            elsewhere before the digitization.</p>
+        </scopecontent>
+        <c id="aspace_4a38d6f5ed8347393682cd904990835e" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">148 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_f88acb094b6426eca9f71971ff488695" level="item">
+            <did>
+              <unittitle>RF Exhibit 1401</unittitle>
+              <unitid>H-4891</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">6 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <container id="aspace_8ca4dd38af870e78ac0160fc5ff3403e" label="Text" type="box"
+                >24</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/xn925jv8966" xlink:show="new"
+                xlink:title="RF Exhibit 1401" xlink:type="simple">
+                <daodesc>
+                  <p>RF Exhibit 1401</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd id="aspace_15c7bc52c5277917eab2960d168afad9">
+              <head>General</head>
+              <p>Note: Folder contains only two certificates, and photostat statement that RF 1401
+                is the same document as RF 1323</p>
+            </odd>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_1a1f0f72fe93401d7798b9c904e10a20" level="series">
+        <did>
+          <unittitle>Exhibits</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">3462 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_1a8f12330257db8db49db66a7637a5e9">
+          <head>Scope and Contents</head>
+          <p>These records contain documentary and physical evidence that was submitted at trial by
+            the parties to the proceedings as exhibits for judicial review.</p>
+        </scopecontent>
+        <c id="aspace_4677252a5a147803cc2095e147835896" level="subseries">
+          <did>
+            <unittitle>US exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">958 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_9e0a01dd591c67b05a94867a16f75e45" level="recordgrp">
+            <did>
+              <unittitle>Package photostats</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">54 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_c9aef38ad9d63d6a407d77562fa3f8de" level="item">
+              <did>
+                <unittitle>USA Exhibit 388</unittitle>
+                <unitid>H-2953</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">91 pages</extent>
+                  <physfacet>Package photostats</physfacet>
+                </physdesc>
+                <container id="aspace_add448fc563902e6bc2a96cbd63a916e" label="Graphic Materials"
+                  type="box">17</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/gj129zy2393" xlink:show="new"
+                  xlink:title="USA Exhibit 388" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 388</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <scopecontent id="aspace_a9ab25617694f7fc8bb3ce2bc58c72c0">
+                <head>Scope and Contents</head>
+                <p>Foto-Mappe Nr. 44</p>
+              </scopecontent>
+              <controlaccess>
+                <function source="lcsh">German language</function>
+              </controlaccess>
+            </c>
+          </c>
+          <c id="aspace_d86f5a0a71e7bf8aea6eeb369c460e08" level="recordgrp">
+            <did>
+              <unittitle>Film in box</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_5fc0b3ffcc62611d5779885157507b16" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reels 19-20</unittitle>
+                <unitid>H-5243</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:17:21</extent>
+                  <physfacet>Film in box</physfacet>
+                </physdesc>
+                <container id="aspace_e946b7c5616cb8092861cabcda5ca8f6" label="Moving Images"
+                  type="box">27</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/vb091dn2491" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reels 19-20"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reels 19-20</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <scopecontent id="aspace_c9f65b4e8bd50973f298ce75b145c46e">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+          </c>
+        </c>
+        <c id="aspace_644cbbcf344fc63145d08d6626410054" level="subseries">
+          <did>
+            <unittitle>USSR exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">67 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_ca52ef792e8af6a9be62531fae46b5af" level="recordgrp">
+            <did>
+              <unittitle>Envelopes</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">35 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_ee7191817043964009e628a1314b2588" level="item">
+              <did>
+                <unittitle>USSR Exhibits Nos. 1-6</unittitle>
+                <unitid>H-1473</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">189 pages</extent>
+                  <physfacet>Envelopes</physfacet>
+                </physdesc>
+                <container id="aspace_8ca761908fadc387d7bcf319c7a337ed" label="Text" type="box"
+                  >13</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/vc229xk1213" xlink:show="new"
+                  xlink:title="USSR Exhibits Nos. 1-6" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibits Nos. 1-6</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_5d1b50def0f85bba5fd50374216ab27f">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO EXHIBITS: In the following Box, exhibit numbers with a dash
+                  between are inclusive. For example, "Nos l-6" indicates Nos: l, 2, 3, 4, 5 &amp;
+                  6. Whereas "Nos 1, 6" indicates only the two numbers specified, namely No 1 and No
+                  6.</p>
+              </arrangement>
+              <controlaccess>
+                <function source="lcsh">Russian language</function>
+              </controlaccess>
+            </c>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_0219f47ff946a80570ccf076a7a472e0" level="series">
+        <did>
+          <unittitle>Final pleas and clemency pleas</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">111 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_1e98ff100fdbcf18a8274293cffff4d3">
+          <head>Scope and Contents</head>
+          <p>These records contain legal pleadings and supporting documentation from defense counsel
+            for the accused, seeking review of judgments and clemency in sentencing.</p>
+        </scopecontent>
+        <c id="aspace_b6ee93b9ee7d38f2db653b4938ea4fec" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">111 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_82f17159c0c4941bfbd74376dcb61a7c" level="item">
+            <did>
+              <unittitle>Final Plea: Alfred ROSENBERG</unittitle>
+              <unitid>H-1302</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">164 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <container id="aspace_ff9eb1d85e3a9ea7f530e3b4be90be4e" label="Text" type="box"
+                >11</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/jk797gg0035" xlink:show="new"
+                xlink:title="Final Plea: Alfred ROSENBERG" xlink:type="simple">
+                <daodesc>
+                  <p>Final Plea: Alfred ROSENBERG</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_76359d7e81d85a70352afa293c874918">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO FINAL PLEAS: The Final Pleas listed below have various titles
+                on the cover pages, such as Final Plea: Closing Arguments, Final Pleading, Final
+                Pleadings, Plea, Pleadings, Plaidoyer, the Case of.</p>
+            </arrangement>
+            <odd id="aspace_21d430099b7ba018cf8f501713807c92">
+              <head>General</head>
+              <p>pp. 3-86 plus cover page</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">French language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_43e90e167de75251ba5a6f8fe47dff79" level="series">
+        <did>
+          <unittitle>Indictments</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_41d95e95ab1c7b6f9874a22780d0c592">
+          <head>Scope and Contents</head>
+          <p>Official charging documents, authored by the prosecution, to indict those accused of
+            crimes under the IMT Nuremberg Charter.</p>
+        </scopecontent>
+        <c id="aspace_20b1b473e165ffba9095246f1ef2c3a4" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_771df472028aff39c2719242575dbcf6" level="item">
+            <did>
+              <unittitle>Indictment against Hermann GOERING et al., lodged with the International
+                Military Tribunal, 6 October 1945</unittitle>
+              <unitid>H-2752</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">45 pages</extent>
+                <physfacet>Envelopes</physfacet>
+              </physdesc>
+              <unitdate certainty="inferred" normal="1945-10-06/1945-10-06">1945-10-06</unitdate>
+              <container id="aspace_b3b22b9b580cb6c98a14eca8f964b672" label="Text" type="box"
+                >16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/tq185zj5815" xlink:show="new"
+                xlink:title="Indictment against Hermann GOERING et al., lodged with the International Military Tribunal, 6 October 1945, 1945-10-06"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Indictment against Hermann GOERING et al., lodged with the International
+                    Military Tribunal, 6 October 1945, 1945-10-06</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_30ffa8d6b979f5ab356f2f59fcf3002a">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches
+                in English have various titles on the cover page, such as: Final Argument, Closing
+                Statement, Final Statement, Final Speech.</p>
+            </arrangement>
+            <odd id="aspace_83c5269d6204ad69fc4f777b3fa60344">
+              <head>General</head>
+              <p>printed</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">English language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_5a39a7eaca7b6ff432be92b6bc2b1e6c" level="series">
+        <did>
+          <unittitle>Judgments, dissenting opinions, and sentences</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_28904ee7e2ece90b765b31d0786a1399">
+          <head>Scope and Contents</head>
+          <p>These records contain the final verdicts of the judges at the IMT Nuremberg, including
+            dissenting opinions and sentences rendered against those found guilty of crimes
+            charged.</p>
+        </scopecontent>
+        <c id="aspace_df6bf95f0995c1a2da63ea4923409829" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_c0e981e60f4d3e30bce65c153fe46ac8" level="item">
+            <did>
+              <unittitle>Original signed Judgment of the IMT, 1 Oct 1946</unittitle>
+              <unitid>H-2754</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">108 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <unitdate certainty="inferred" normal="1946-10-01/1946-10-01">1946-10-01</unitdate>
+              <container id="aspace_2d4f6c7e08a27935e9100c343bd3e100" label="Text" type="box"
+                >16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/tp892bv7999" xlink:show="new"
+                xlink:title="Original signed Judgment of the IMT, 1 Oct 1946, 1946-10-01"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Original signed Judgment of the IMT, 1 Oct 1946, 1946-10-01</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_b800cbdacba800044d4af6423cad4604">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches
+                in English have various titles on the cover page, such as: Final Argument, Closing
+                Statement, Final Statement, Final Speech.</p>
+            </arrangement>
+            <odd id="aspace_ba0b18a352035051ed9ab2c10378c6d8">
+              <head>General</head>
+              <p>pp. 178-283 (typewritten)</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">English language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_1923ddefd6f149556b56d6aad692911c" level="series">
+        <did>
+          <unittitle>Lists, indices, and miscellaneous</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">67 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_c721e76dc3a9d4a349031169aad0f9bd">
+          <head>Scope and Contents</head>
+          <p>These materials include compilations and summaries of trial testimony and other
+            evidence presented pertaining to the charges in the trial and the verdicts rendered
+            against the accused.</p>
+        </scopecontent>
+        <c id="aspace_82ebb26997ca26b317fc34c122a8857e" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">62 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_b75204f57ecfeeb4443c05b1dd7919aa" level="item">
+            <did>
+              <unittitle>SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946,
+                requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits
+                1-20</unittitle>
+              <unitid>H-1408</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">67 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <unitdate certainty="inferred" normal="1946-08-02/1946-08-02">1946-08-02</unitdate>
+              <container id="aspace_08f380e31bd7633408fb96239053c60d" label="Text" type="box"
+                >12</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/rd446qt2267" xlink:show="new"
+                xlink:title="SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20, 1946-08-02"
+                xlink:type="simple">
+                <daodesc>
+                  <p>SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946,
+                    requesting translation of SD Affidavits, (b) List of SD Affidavits, (c)
+                    Affidavits 1-20, 1946-08-02</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_ebf17e2ee8217a2b6a1490d242426747">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO AFFIDAVITS: The affidavits in this box presumably relate to
+                the defense of the accused organizations. For classification as to which were
+                exhibits, etc., detailed scrutiny of the affidavits together with related portions
+                of the record will of course be required. The majority of these affidavits are
+                signed originals.</p>
+            </arrangement>
+            <odd id="aspace_75b811be4a334adf82376ad435a74567">
+              <head>General</head>
+              <p>(a) (German), (b) List, 15 pages (German), (c) (German and English)</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">German language</function>
+              <function source="lcsh">English language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_861a17c953750505ddea1bdb1c3ec40d" level="series">
+        <did>
+          <unittitle>Minutes of tribunal meetings</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_5bc0973550a13f0989f7860a77a4c886">
+          <head>Scope and Contents</head>
+          <p>Compendium of minutes recorded contemporaneously of meetings (9 Oct 1945 - 1 Oct 1946)
+            where the judges of the IMT Nuremberg convened to discuss and decide administrative and
+            procedural matters.</p>
+        </scopecontent>
+        <c id="aspace_9d2f7cc445850bd9ef7808035898d6b0" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_2fabf1ed763efe4524d121d92c67de2f" level="item">
+            <did>
+              <unittitle>Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct
+                1946, Nos. 1-100</unittitle>
+              <unitid>H-2786</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">219 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <unitdate certainty="inferred" normal="1945-10-09/1946-10-01" type="inclusive"
+                >1945-10-09 to 1946-10-01</unitdate>
+              <container id="aspace_2a64fa9e7bd7b6f1da75a3f8cd2a5a52" label="Text" type="box"
+                >16</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/gk247nn1558" xlink:show="new"
+                xlink:title="Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946, Nos. 1-100, 1945-10-09 to 1946-10-01"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946,
+                    Nos. 1-100, 1945-10-09 to 1946-10-01</p>
+                </daodesc>
+              </dao>
+            </did>
+            <controlaccess>
+              <function source="lcsh">English language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_86dfe0b604edbecb06080fb5d35703b5" level="series">
+        <did>
+          <unittitle>Official commission transcripts</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">234 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_7e1978ffffac947714a1f74dee84e629">
+          <head>Scope and Contents</head>
+          <p>These are the official transcripts of the Commissions appointed by the IMT for the
+            hearing of witnesses or the presentation of affidavits relating to the accused
+            organizations. Recorded contemporaneously by professional clerks.</p>
+        </scopecontent>
+        <c id="aspace_dfa93be115814343e752eac65cfc518f" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">234 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_6f38fc30140621c95796fd79fef90a8c" level="item">
+            <did>
+              <unittitle>Official Commission Transcript, Robert BRILL, 21 May 1946</unittitle>
+              <unitid>H-0908</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">55 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <unitdate certainty="inferred" normal="1946-05-21/1946-05-21">1946-05-21</unitdate>
+              <container id="aspace_e1a028b966a21f003735c846a38c2afd" label="Text" type="box"
+                >8</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/tj053kp1610" xlink:show="new"
+                xlink:title="Official Commission Transcript, Robert BRILL, 21 May 1946, 1946-05-21"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Official Commission Transcript, Robert BRILL, 21 May 1946, 1946-05-21</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_f0a26bf8e29f29cc2a05276b0dad7378">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO OFFICIAL TRANSCRIPT OF THE COMMISSIONS: Box 8 contains the
+                Official Transcript of the Commissions appointed by the IMT for the hearing of
+                witnesses or the presentation of Affidavits relating to the accused organizations.
+                The inventory below indicates either the name of the witness or the accused
+                organization.</p>
+            </arrangement>
+            <odd id="aspace_d48d79e1bb3217007b088de3063ca6bf">
+              <head>General</head>
+              <p>(a) Typescript - pp. 1-29 (English), (b) Mimeograph - pp. 82-106 (German)</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">English language</function>
+              <function source="lcsh">German language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_1928578b44d7841fc3528851ddee2486" level="series">
+        <did>
+          <unittitle>Official court transcripts</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">723 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_27754826d0ec363b76683264402d38d4">
+          <head>Scope and Contents</head>
+          <p>These records are contemporaneous transcription of live courtroom proceedings at the
+            IMT Nuremberg, recorded by professional clerks of the tribunal and archived with the
+            records of trial.</p>
+        </scopecontent>
+        <c id="aspace_ce29f513b597c3be5648515c2ac101cc" level="subseries">
+          <did>
+            <unittitle>Volumes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">38 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_07fc58de464a20f4d590a7afaa6f8d3d" level="item">
+            <did>
+              <unittitle>Vol. 38: Official Court Transcript, 27-31 August 1946</unittitle>
+              <unitid>H-1216</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">679 pages</extent>
+                <physfacet>Volumes</physfacet>
+              </physdesc>
+              <unitdate certainty="inferred" normal="1946-08-27/1946-08-31" type="inclusive"
+                >1946-08-27 to 1946-08-31</unitdate>
+              <container id="aspace_5119b67aaa0bc88ec9ff779097a3049f" label="Text" type="box"
+                >10</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/bt844bw3735" xlink:show="new"
+                xlink:title="Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 to 1946-08-31"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 to
+                    1946-08-31</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_1480fd7c6bff59dbc0a6d1225c66a4a0">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO RUSSIAN TRANSCRIPTS: The Russian Transcripts are bound in 39
+                volumes containing the authentic Russian text either typewritten or mimeographed. In
+                each volume are found one or more unnumbered pages: the table of contents (sometimes
+                pasted on outside of cover, sometimes inserted in volume in loose form), Russian
+                certificates and sometimes English certificates.</p>
+            </arrangement>
+            <odd id="aspace_b388a502bd80ee0d31ef3dca7c830dc5">
+              <head>General</head>
+              <p>pp. 19202-19876</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">Russian language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_30af3bed41621d38c39f3ad4a1822a9e" level="series">
+        <did>
+          <unittitle>Rules, rulings, and orders</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">10 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_f10d583ea61c8732bd106c77fb4cef38">
+          <head>Scope and Contents</head>
+          <p>Rules of procedure and evidence promulgated by the IMT Nuremberg to govern the
+            proceedings of trial.</p>
+        </scopecontent>
+        <c id="aspace_f7e90119b16bf1ec849f9da7679681b8" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_70065bf7152d2f16e6e894cd902b3b55" level="item">
+            <did>
+              <unittitle>Incomplete copies of International Military Tribunal Orders</unittitle>
+              <unitid>H-5169</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">219 pages</extent>
+                <physfacet>Envelopes</physfacet>
+              </physdesc>
+              <container id="aspace_d3b394c8d4a616eab2416b912024cfb7" label="Text" type="box"
+                >26</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/wc081bg7736" xlink:show="new"
+                xlink:title="Incomplete copies of International Military Tribunal Orders"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Incomplete copies of International Military Tribunal Orders</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd id="aspace_13825fcdf3c4f7abeb36da4723ead0ca">
+              <head>General</head>
+              <p>5 pages (English), 212 pages (German)</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">English language</function>
+              <function source="lcsh">German language</function>
+            </controlaccess>
+          </c>
+        </c>
+        <c id="aspace_e51e51a6a6304221c1941fa8b3152cff" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_a62391aac8bfc2caaff22a9b186789c9" level="item">
+            <did>
+              <unittitle>International Military Tribunal Orders</unittitle>
+              <unitid>H-5170</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">54 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <container id="aspace_c22267f40a790571f138653ecb806d9c" label="Text" type="box"
+                >26</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/xt760xp4194" xlink:show="new"
+                xlink:title="International Military Tribunal Orders" xlink:type="simple">
+                <daodesc>
+                  <p>International Military Tribunal Orders</p>
+                </daodesc>
+              </dao>
+            </did>
+            <odd id="aspace_077d85be88b74841b24d97b6870b8592">
+              <head>General</head>
+              <p>52 pages</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">French language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_d907d823f67a146fca9a9dac2856b3e3" level="series">
+        <did>
+          <unittitle>Statements and speeches</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">56 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_6b139cae25342726f47859472779e84d">
+          <head>Scope and Contents</head>
+          <p>These are the text of the opening and closing statements delivered by prosecuting
+            attorneys at the trial.</p>
+        </scopecontent>
+        <c id="aspace_d1b5947bcd71bba1634488119624d947" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_91318c180011bf20aa217fbabcc6e7d6" level="item">
+            <did>
+              <unittitle>Introduction to French Closing Speech on responsibility of Defendants, by
+                Mr. Champetier de Ribes</unittitle>
+              <unitid>H-5161</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">13 pages</extent>
+                <physfacet>Envelopes</physfacet>
+              </physdesc>
+              <container id="aspace_8e58596be5cd3e793fbc2f75336861df" label="Text" type="box"
+                >26</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/tz735wp8636" xlink:show="new"
+                xlink:title="Introduction to French Closing Speech on responsibility of Defendants, by Mr. Champetier de Ribes"
+                xlink:type="simple">
+                <daodesc>
+                  <p>Introduction to French Closing Speech on responsibility of Defendants, by Mr.
+                    Champetier de Ribes</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_8a45d60f3da90fcab27c52c1775ff64e">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO PROSECUTION CLOSING SPEECHES: The Prosecution Closing Speeches
+                in English have various titles on the cover page, such as: "Closing Address", "Final
+                Speech", "Final Address", "Final statement".</p>
+            </arrangement>
+            <odd id="aspace_e6f8f5e3b66cbefbe81f7a052ef4441f">
+              <head>General</head>
+              <p>pp. 1-10 plus cover page</p>
+            </odd>
+            <controlaccess>
+              <function source="lcsh">German language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_6c2b8e51186297af31b73a3fd8fbc161" level="series">
+        <did>
+          <unittitle>Trial briefs</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">37 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_7a58f79be1af4486aad18cfb2743e2c4">
+          <head>Scope and Contents</head>
+          <p>These trial briefs are official court filings authored by the U.S. and British
+            prosecution teams making legal arguments about particular defendants, incidents, and
+            theories of liability.</p>
+        </scopecontent>
+        <c id="aspace_0c1f1f802c01ce85f42c5600d3fdfff1" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">37 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_db2f0a38e65bdd2244dd567fcb3a2d42" level="item">
+            <did>
+              <unittitle>U.S. Trial Brief LL against the Defendant Wilhelm FRICK</unittitle>
+              <unitid>H-1240</unitid>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                <extent altrender="carrier">51 pages</extent>
+                <physfacet>Folders</physfacet>
+              </physdesc>
+              <container id="aspace_4b31565b2c59812d3547ed582ac6775c" label="Text" type="box"
+                >11</container>
+              <dao xlink:actuate="onRequest" xlink:audience="external"
+                xlink:href="https://purl.stanford.edu/pf574hf8681" xlink:show="new"
+                xlink:title="U.S. Trial Brief LL against the Defendant Wilhelm FRICK"
+                xlink:type="simple">
+                <daodesc>
+                  <p>U.S. Trial Brief LL against the Defendant Wilhelm FRICK</p>
+                </daodesc>
+              </dao>
+            </did>
+            <arrangement id="aspace_3a71d80b810002b27961f7ec02152bfc">
+              <head>Arrangement</head>
+              <p>PRELIMINARY NOTES TO DOCUMENTS BOOKS AND TRIAL BRIEFS: For purpose of this
+                inventory, Document Books and Trial briefs have been identified merely by the name
+                and letter. No attempt has been made to catalog the documents contained therein or
+                to count the pages.</p>
+            </arrangement>
+            <controlaccess>
+              <function source="lcsh">English language</function>
+            </controlaccess>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
