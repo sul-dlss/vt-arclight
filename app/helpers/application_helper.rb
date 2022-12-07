@@ -24,7 +24,7 @@ module ApplicationHelper
     when "Graphic Materials"
       "Image"
     when "Moving Images"
-      "Moving images"
+      "Moving image"
     else
       value
     end
