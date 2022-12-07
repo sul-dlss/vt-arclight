@@ -28,7 +28,7 @@ RSpec.describe "The home page" do
       expect(page).to have_link "Image"
       expect(page).to have_link "Audio"
       expect(page).to have_link "Text"
-      expect(page).to have_link "Moving images"
+      expect(page).to have_link "Moving image"
     end
   end
 end
