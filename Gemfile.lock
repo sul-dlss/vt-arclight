@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 82d961727e685f99f44daad5765fea1b29ad4ea3
+  revision: 621e4b7935f8902b4bd0ebaa21173e260185c5e2
   branch: main
   specs:
     arclight (1.0.0.alpha)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 511deafd7d87f7093c9e8e09ad0a98ea24c25b9c
+  revision: 3d551e5138d6e36dfa3b6f325e8282f65d845ce4
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -243,7 +243,7 @@ GEM
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.2.0)
+    net-protocol (0.2.1)
       timeout
     net-scp (4.0.0)
       net-ssh (>= 2.6.5, < 8.0.0)
@@ -251,9 +251,9 @@ GEM
       net-protocol
     net-ssh (7.0.1)
     nio4r (2.5.8)
-    nokogiri (1.13.9-x86_64-darwin)
+    nokogiri (1.13.10-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.9-x86_64-linux)
+    nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
     okcomputer (1.18.4)
     orm_adapter (0.5.0)
@@ -267,7 +267,7 @@ GEM
       activesupport (>= 7.0.0)
       rack
       railties (>= 7.0.0)
-    public_suffix (5.0.0)
+    public_suffix (5.0.1)
     puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.1)
