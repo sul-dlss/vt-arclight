@@ -1,0 +1,3921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file only contains the druids for the 37 videos in the NTA collection.
+  It contains the structure of the whole collection. 
+  It is useful for example for only harvesting video trancripts -->
+<ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
+    repositoryencoding="iso15511">
+    <eadid countrycode="US">mt839rq8746</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper>Guide to the Taube Archive of the International Military Tribunal (IMT) at
+          Nuremberg, 1945-46 <num>mt839rq8746</num></titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Virtual Tribunals</publisher>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>This finding aid was produced using ArchivesSpace on <date>2022-12-05 11:24:08
+          -0800</date>.</creation>
+      <langusage>English</langusage>
+      <descrules>Describing Archives: A Content Standard</descrules>
+    </profiledesc>
+  </eadheader>
+  <archdesc level="collection">
+    <did>
+      <langmaterial>
+        <language langcode="eng">English</language>
+      </langmaterial>
+      <repository>
+        <corpname>Virtual Tribunals</corpname>
+      </repository>
+      <unittitle>Taube Archive of the International Military Tribunal (IMT) at Nuremberg</unittitle>
+      <origination label="source">
+        <corpname authfilenumber="no89006509" role="rps" rules="dacs" source="lcnaf">International
+          Court of Justice. Library</corpname>
+      </origination>
+      <origination label="source">
+        <corpname authfilenumber="n50069897" role="cre" rules="dacs" source="lcnaf">International
+          Military Tribunal</corpname>
+      </origination>
+      <unitid>mt839rq8746</unitid>
+      <physdesc altrender="whole">
+        <extent altrender="materialtype spaceoccupied">9920 item(s)</extent>
+      </physdesc>
+      <unitdate calendar="gregorian" certainty="inferred" era="ce" normal="1945/1946"
+        type="inclusive">1945-46</unitdate>
+    </did>
+    <scopecontent id="aspace_e77471f850e45664ad1bae40ddd884a9">
+      <head>Scope and Contents</head>
+      <p> The Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46
+        collection includes court transcripts, indictments, sentences, briefings, minutes, etc,
+        related to the proceedings of the International Military Tribunal (IMT) at Nuremberg. The
+        first twenty-eight boxes contain: a) Exhibits submitted to the Tribunal by Prosecution and
+        Defense; b) Official Transcripts as taken by Court Reporters, of Court and Commission
+        proceedings; c) Document Books of Prosecution and Defense; d) Trial Briefs, Opening and
+        Closing Statements of Prosecution; e) Final Pleas and Clemency Pleas of Defense; f)
+        Indictment; g) Judgement, Dissenting Opinion and Sentences; h) Minutes of Tribunal Meetings;
+        i) Rules of the Tribunal, Orders of the Tribunal, Court Rulings on the Final Record; and j)
+        Lists, indices and miscellaneous related material. Material was inventoried box by box. The
+        last nine boxes contain only electronic transcriptions of the proceedings before the
+        International Military Tribunal. </p>
+      <p> The digital collection contains approximately 250,000 pages of digitized paper documents
+        (transcripts of the hearings in English, French, German and Russian; written pleadings;
+        evidence exhibits filed by the prosecution and the defense; documents of the Committee for
+        the Investigation and Prosecution of Major War Criminals; the judgment). </p>
+      <p> The official archives of the International Military Tribunal of Nuremberg (the "Nuremberg
+        Trial Archives") were entrusted to the International Court of Justice (ICJ) in 1950. The ICJ
+        and its Registry are the custodians of the entire archive, which includes the original print
+        documents that are available in digital form here, audio recordings of the trial's
+        proceedings, and evidentiary films. </p>
+      <p>
+        <i>Source: The Registry, International Court of Justice. (2018). Nuremberg Trial Archives,
+          The International Court of Justice: Custodian of the archives of the International
+          Military Tribunal at Nuremberg (2nd ed.) and the United States Holocaust Memorial Museum
+        </i>
+      </p>
+      <title>International Military Tribunal (IMT) Cases</title>
+      <p> The IMT's single case tried 24 <a href="https://encyclopedia.ushmm.org/narrative/9417/en"
+          >defendants</a>, all charged with being "leaders, organizers [and] instigators [of] and
+        accomplices" in the crimes defined in the Charter. They were chosen to represent a
+        cross-section of Nazi diplomatic, economic, political, and military leadership. <a
+          href="https://encyclopedia.ushmm.org/narrative/43/en">Adolf Hitler</a>, <a
+          href="https://encyclopedia.ushmm.org/narrative/10813/en">Heinrich Himmler</a>, and <a
+          href="https://encyclopedia.ushmm.org/narrative/56144/en">Joseph Goebbels</a> could not be
+        tried because they committed suicide at the end of the war or soon afterwards. <a
+          href="https://encyclopedia.ushmm.org/narrative/9836/en">Hermann Göring</a> was the highest
+        ranking Nazi official among the defendants. </p>
+      <p> In the end, only 21 defendants appeared in court. German industrialist <a
+          href="https://encyclopedia.ushmm.org/narrative/9865/en">Gustav Krupp</a> was included in
+        the original indictment, but he was elderly and in failing health. The Tribunal decided in
+        preliminary hearings to exclude him from the proceedings. Nazi Party secretary <a
+          href="https://encyclopedia.ushmm.org/narrative/9808/en">Martin Bormann</a> could not be
+        located. Borman was thus tried in absentia. Head of the German Labor Front <a
+          href="https://encyclopedia.ushmm.org/narrative/9868/en">Robert Ley</a> committed suicide
+        on the eve of the trial. <a href="https://www.ushmm.org/">(United States Holocaust Memorial
+          Museum)</a>
+      </p>
+      <p> Joining the lead defendant, Reichsmarschall and Successor Designate to Hitler,
+          <persname>Hermann Wilhelm Goering</persname>, were: </p>
+      <ul><li><persname>Rudolf Hess</persname>, former Deputy to the
+            Führer;</li><li><persname>Joachim von Ribbentrop</persname>, Reich Minister for Foreign
+          Affairs;</li><li><persname>Wilhelm Keitel</persname>, Chief of the High Command of the
+          German Armed Forces;</li><li><persname>Ernst Kaltenbrunner</persname>, Head of the Reich
+          Main Security Office and highest ranking officer of the Nazi party Schutzstaffel (SS) at
+          Nuremberg;</li><li><persname>Alfred Rosenberg</persname>, racial theory ideologist and
+          Reich Minister for the Eastern Occupied Territories;</li><li><persname>Hans
+            Frank</persname>, Governor General of the Occupied Polish
+            Territories;</li><li><persname>Wilhelm Frick</persname>, Reich Minister of the Interior
+          and Reich Protector for Bohemia and Moravia;</li><li><persname>Julius
+          Streicher</persname>, Editor-in-Chief of the antisemitic newspaper Der
+            Stürmer;</li><li><persname>Walther Funk</persname>, Reich Minister of Economics and
+          President of the German Reichsbank;</li><li><persname>Hjalmar Schacht</persname>, former
+          Reich Minister of Economics and President of the German Reichsbank;</li><li><persname>Karl
+            Doenitz</persname>, Commander-in-Chief of the German Navy and, briefly, successor to
+          Hitler as Head of the German Government;</li><li><persname>Erich Raeder</persname>, former
+          Commander-in-Chief of the German Navy;</li><li><persname>Baldur von Schirach</persname>,
+          Head of the Hitler Youth;</li><li><persname>Fritz Sauckel</persname>, Plenipotentiary of
+          the Nazi slave-labour programme;</li><li><persname>Alfred Jodl</persname>, Chief of the
+          High Command of the German Armed Forces Operations Department;</li><li><persname>Franz von
+            Papen</persname>, former Reich Chancellor and Vice Chancellor;</li><li><persname>Arthur
+            Seyss-Inquart</persname>, Reich Commissar for the Occupied
+            Netherlands;</li><li><persname>Albert Speer</persname>, Reich Minister for Armament and
+          Munitions and Hitler's chief architect;</li><li><persname>Konstantin von
+            Neurath</persname>, Reich Minister of Foreign Affairs and later Reich Protector for
+          Bohemia and Moravia;</li> and <li><persname>Hans Fritzsche</persname>, Ministerialdirektor
+          of the Reich Ministry of Propaganda</li>. </ul>
+      <title>International Military Tribunal (IMT) Crimes</title>
+      <p> Article 6 of the IMT's Charter listed three broad categories of crimes: </p>
+      <a href="https://treaties.un.org/pages/showDetails.aspx?objid=08000002801572a2">IMT's
+        Charter</a>
+      <p> (a) Crimes against peace: namely, planning, preparation, initiation or waging of a war of
+        aggression, or a war in violation of international treaties, agreements or assurances, or
+        participation in a common plan or conspiracy for the accomplishment of any of the
+        foregoing;<br/> (b) War crimes: namely, violations of the laws or customs of war. Such
+        violations shall include, but not be limited to, murder, ill-treatment or deportation to
+        slave labour or for any other purpose of civilian population of or in occupied territory,
+        murder or ill-treatment of prisoners of war or persons on the seas, killing of hostages,
+        plunder of public or private property, wanton destruction of cities, towns or villages, or
+        devastation not justified by military necessity;<br/> (c) Crimes against humanity: namely,
+        murder, extermination, enslavement, deportation, and other inhumane acts committed against
+        any civilian population, before or during the war, or persecutions on political, racial or
+        religious grounds in execution of or in connection with any crime within the jurisdiction of
+        the Tribunal, whether or not in violation of the domestic law of the country where
+        perpetrated.<br/>
+      </p>
+      <p> The first of these charges, (a), was subdivided in the indictment, which thus contained
+        four counts, of which the defendants each faced his own permutation.<br/> Count one (common
+        plan or conspiracy) was prosecuted by the United States, and count two (crimes against
+        peace) by the United Kingdom. Count three (war crimes) and count four (crimes against
+        humanity) were prosecuted jointly by France and the Soviet Union, according to whether the
+        crimes in question had been committed in Western or Eastern Europe. </p>
+    </scopecontent>
+    <controlaccess>
+      <geogname source="lcsh">Zeppelinfeld (Nuremberg, Germany)</geogname>
+      <subject source="lcsh">Nuremberg War Crime Trials, Nuremberg, Germany, 1946-1949</subject>
+      <subject source="lcsh">International criminal courts</subject>
+      <subject source="lcsh">Trials (Crimes against humanity)</subject>
+      <subject source="lcsh">Criminal procedure (International law)</subject>
+      <subject source="lcsh">Crimes against humanity</subject>
+      <corpname authfilenumber="no89006509" role="rps" rules="dacs" source="lcnaf">International
+        Court of Justice. Library</corpname>
+      <corpname authfilenumber="n50069897" role="cre" rules="dacs" source="lcnaf">International
+        Military Tribunal</corpname>
+    </controlaccess>
+    <dsc>
+      <c id="aspace_f8eb225b2bd7717906f6ab4d264f8103" level="series">
+        <did>
+          <unittitle>Audio recordings of proceedings</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">4361 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_0acb4de8bb75328a97cd60e62063574e">
+          <head>Scope and Contents</head>
+          <p>Contemporaneous audio recordings of the complete trial proceedings at the IMT
+            Nuremberg, from reading of the indictments, to opening statements, the presentation and
+            cross-examination of evidence at trial, closing statements and final judgments.</p>
+        </scopecontent>
+        <c id="aspace_848516cb4e1f635882c55c78c93489fd" level="subseries">
+          <did>
+            <unittitle>November 1945</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">187 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_de84aeef4744db961307af744b4da0ea" level="recordgrp">
+            <did>
+              <unittitle>November 20, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">27 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c379e2c3036c6500ef8e5d99177cd0da" level="recordgrp">
+            <did>
+              <unittitle>November 21, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e3c76762cff59b3f8c6f08a94031c40a" level="recordgrp">
+            <did>
+              <unittitle>November 22, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_7e82f5d57b88b406191b125f82ca289a" level="recordgrp">
+            <did>
+              <unittitle>November 23, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9ce16845004b23e97ce8a58b7e689676" level="recordgrp">
+            <did>
+              <unittitle>November 26, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_567b2c263dcbc5881301b7d1a7de238a" level="recordgrp">
+            <did>
+              <unittitle>November 27, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_be82d8328be7e625ad2e2968859027c5" level="recordgrp">
+            <did>
+              <unittitle>November 28, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3f2293cd6a282a0e0f1dd02ad1d274e3" level="recordgrp">
+            <did>
+              <unittitle>November 29, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b3a587e485498a2f6aa8c18dfb19deef" level="recordgrp">
+            <did>
+              <unittitle>November 30, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_d6ab473a745f41fcfd3939cd7e46c829" level="subseries">
+          <did>
+            <unittitle>December 1945</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">325 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_a54f5a78297fa4c27b33bb68eea55913" level="recordgrp">
+            <did>
+              <unittitle>December 1, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">14 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a80640d4942cfb60479d797c8fb52a1f" level="recordgrp">
+            <did>
+              <unittitle>December 3, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a38084f07a7ac8f748cf88de13881a54" level="recordgrp">
+            <did>
+              <unittitle>December 4, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b177c605ed4c35b2686066482f671fb2" level="recordgrp">
+            <did>
+              <unittitle>December 5, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_f05233da232064909014140fdac1a69d" level="recordgrp">
+            <did>
+              <unittitle>December 6, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_55e1b60a6b06c6d17c29bc6974a17843" level="recordgrp">
+            <did>
+              <unittitle>December 7, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e8b9127cd7b3d970d47d65b3aaacf938" level="recordgrp">
+            <did>
+              <unittitle>December 10, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_8d4f7bf9431e5f73cf69bbdff45ba3e1" level="recordgrp">
+            <did>
+              <unittitle>December 11, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_1453da3fb7e1e6b45339bd9e61d1bef7" level="recordgrp">
+            <did>
+              <unittitle>December 12, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_804a7c231d89785d8746afbe882fbedf" level="recordgrp">
+            <did>
+              <unittitle>December 13, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_bb446f6997891974d48f9145e64ae947" level="recordgrp">
+            <did>
+              <unittitle>December 14, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_dae6300f82eac4197ca1154b0ddb47bc" level="recordgrp">
+            <did>
+              <unittitle>December 17, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_be9d26bfa5d9d448c7f111521fcdc3d1" level="recordgrp">
+            <did>
+              <unittitle>December 18, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4555e58f07b806cba9098275efd75ba2" level="recordgrp">
+            <did>
+              <unittitle>December 19, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fe6351586b3574d31e7892e53b99d3a3" level="recordgrp">
+            <did>
+              <unittitle>December 20, 1945</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_9a5738341c3531a71850ce4afb4199d9" level="subseries">
+          <did>
+            <unittitle>January 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">504 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_aa2030f5dce3c2e6cfd47790b9f4bd93" level="recordgrp">
+            <did>
+              <unittitle>January 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_5350a81c51f4c335b57aca8c7a3d5680" level="recordgrp">
+            <did>
+              <unittitle>January 3, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_5c2bd39d183da239aebb5e6ceddf5a60" level="recordgrp">
+            <did>
+              <unittitle>January 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cf609b8e4b27bac951dcf5f3fd1206c6" level="recordgrp">
+            <did>
+              <unittitle>January 7, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_2574eafb9effab7ed5f81cdb531f9938" level="recordgrp">
+            <did>
+              <unittitle>January 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3b6fa8b2523c60a61a5b6de87ecf345f" level="recordgrp">
+            <did>
+              <unittitle>January 9, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_8b340ae859e1dc17f245e60885e1c243" level="recordgrp">
+            <did>
+              <unittitle>January 10, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_dc296613f48d6255d5a711bd985fdf99" level="recordgrp">
+            <did>
+              <unittitle>January 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_094be6671ce1cb4e59af72d28fec7d14" level="recordgrp">
+            <did>
+              <unittitle>January 14, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_780af8e51ad6cf7f7b0141ae64b4971a" level="recordgrp">
+            <did>
+              <unittitle>January 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_11cdfa430136b4186c5c541aadf6b775" level="recordgrp">
+            <did>
+              <unittitle>January 16, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">26 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_1213436dd589f530d660e3df60600180" level="recordgrp">
+            <did>
+              <unittitle>January 17, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_21a0122b3c85c6f608f8cfa4b6a2e565" level="recordgrp">
+            <did>
+              <unittitle>January 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_2d2d77781253dc5864ab33689e1f1234" level="recordgrp">
+            <did>
+              <unittitle>January 19, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b4a8e4ef02ca5eda85a188fc8504183b" level="recordgrp">
+            <did>
+              <unittitle>January 21, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cc6e642e36958fa0c43cb3d8a6b0b9d0" level="recordgrp">
+            <did>
+              <unittitle>January 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_1c2ae58d33815462c3aff0f176089fe9" level="recordgrp">
+            <did>
+              <unittitle>January 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c7db74699ba4a31a75401e701f9a7876" level="recordgrp">
+            <did>
+              <unittitle>January 24, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d4b0be51dfeb221ba8f5f7df88182e7f" level="recordgrp">
+            <did>
+              <unittitle>January 25, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_0384aae70221fb703390bbbe365e7213" level="recordgrp">
+            <did>
+              <unittitle>January 28, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fea609c42a712da108fbef597a2f69cb" level="recordgrp">
+            <did>
+              <unittitle>January 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_0add6ebf5939559d13bbb7901d55b85f" level="recordgrp">
+            <did>
+              <unittitle>January 30, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_6aaadc305e969f3507a217261f0999e1" level="recordgrp">
+            <did>
+              <unittitle>January 31, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_aa38415682337cf2455127c537245ae6" level="subseries">
+          <did>
+            <unittitle>February 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">433 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_a0ec30f01e828d258e5be9292f9407a6" level="recordgrp">
+            <did>
+              <unittitle>February 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_05307ad01285846580dd21f73f8a75a0" level="recordgrp">
+            <did>
+              <unittitle>February 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a241f73ee5fcd6ed5602b3b97b9dc85d" level="recordgrp">
+            <did>
+              <unittitle>February 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c92f4906c53dc85bc68274ccb602bedb" level="recordgrp">
+            <did>
+              <unittitle>February 5, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_28c1bc84675a3b6e7281d0bc35be705d" level="recordgrp">
+            <did>
+              <unittitle>February 6, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_228864a15fa44ef343332228f22e3a02" level="recordgrp">
+            <did>
+              <unittitle>February 7, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3d8490c13d56ff1ad075c2c24c044dc5" level="recordgrp">
+            <did>
+              <unittitle>February 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_f398807aaecad1092c48a3a1c1a3eff4" level="recordgrp">
+            <did>
+              <unittitle>February 9, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d983e75bc921bfff08ba62da5b7c0e3b" level="recordgrp">
+            <did>
+              <unittitle>February 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_489b8564a8eb18a0b220e5b761eb5169" level="recordgrp">
+            <did>
+              <unittitle>February 12, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_1df603f741c99eb85b039227a1158cea" level="recordgrp">
+            <did>
+              <unittitle>February 13, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cde765022339bb42645f36de908b3d43" level="recordgrp">
+            <did>
+              <unittitle>February 14, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_30f076b2c665545638ce845593330eac" level="recordgrp">
+            <did>
+              <unittitle>February 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9faee0feef0966efcf6e74eacbf0ba69" level="recordgrp">
+            <did>
+              <unittitle>February 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_30b687acc7153f54aa1b5952a075f5c6" level="recordgrp">
+            <did>
+              <unittitle>February 19, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3b754df9b995d82ec5c9d57634cb41ee" level="recordgrp">
+            <did>
+              <unittitle>February 20, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_31b09068df1a4cce54aca4f764f25b8c" level="recordgrp">
+            <did>
+              <unittitle>February 21, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e91bc4ad8222cae72fd30c195f1dd4d8" level="recordgrp">
+            <did>
+              <unittitle>February 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d1fda8058fbc43e685713d9f6dc05a2b" level="recordgrp">
+            <did>
+              <unittitle>February 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">15 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_0f2f45ffabe6ffe54792cb720dea5131" level="recordgrp">
+            <did>
+              <unittitle>February 25, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_6a306d44117930d07d5e810f4c4b01d4" level="recordgrp">
+            <did>
+              <unittitle>February 26, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9c3ea274b4efaa9473c72ab2b5663cc2" level="recordgrp">
+            <did>
+              <unittitle>February 27, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_94d19a384d567f331c78869b4e266d8b" level="recordgrp">
+            <did>
+              <unittitle>February 28, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_ee4d01e144733582ca782ebfed399b03" level="subseries">
+          <did>
+            <unittitle>March 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">451 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_1762664cf3ae1122284a1859a24e6b6c" level="recordgrp">
+            <did>
+              <unittitle>March 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d96cb6cd4b85caec20c3559432fbf45f" level="recordgrp">
+            <did>
+              <unittitle>March 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">9 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_2d164fcacd42af0e19d24ad9deb61987" level="recordgrp">
+            <did>
+              <unittitle>March 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">15 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4b06832d22f23040f18eb10ba6c184af" level="recordgrp">
+            <did>
+              <unittitle>March 5, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_08825ae35cf1951bcfa10686a6053871" level="recordgrp">
+            <did>
+              <unittitle>March 6, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_f656cd48b246c3ac6e5a010f55dcaebe" level="recordgrp">
+            <did>
+              <unittitle>March 7, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_96a36d74412c8f48de37ffc18fa402aa" level="recordgrp">
+            <did>
+              <unittitle>March 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b7f33c7fb4f19971e15816d666a690ad" level="recordgrp">
+            <did>
+              <unittitle>March 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fa65c856730fcd02d58bb88ba9e67653" level="recordgrp">
+            <did>
+              <unittitle>March 12, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_011e1a6a944ba200082624cf9b1d1dd1" level="recordgrp">
+            <did>
+              <unittitle>March 13, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_84cc9110b214cc1a88a902f177666f0b" level="recordgrp">
+            <did>
+              <unittitle>March 14, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a69a31a38e8b94e8361d4c8dbde1f18a" level="recordgrp">
+            <did>
+              <unittitle>March 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d7d55ab05b824bc45e9ddfb7aa536192" level="recordgrp">
+            <did>
+              <unittitle>March 16, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_8412b28964c5e946ea2277a21530f1a9" level="recordgrp">
+            <did>
+              <unittitle>March 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_97c5fe7282d842e5d0dc1d48931140bc" level="recordgrp">
+            <did>
+              <unittitle>March 19, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_507001aad276f5e20277774e61ce3744" level="recordgrp">
+            <did>
+              <unittitle>March 20, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_370ebb703bc6771a3df533a98907ecbc" level="recordgrp">
+            <did>
+              <unittitle>March 21, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c548c0ec274634c943f7435666d0259c" level="recordgrp">
+            <did>
+              <unittitle>March 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_20cb9bd3fabebb48f1802f49ffa53b52" level="recordgrp">
+            <did>
+              <unittitle>March 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_85767981c2a38946b62761ff522753c0" level="recordgrp">
+            <did>
+              <unittitle>March 25, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_429dce44af0dec797f778c977541fb4b" level="recordgrp">
+            <did>
+              <unittitle>March 26, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_eb4b5ea23aa7d04f7acef1da32218389" level="recordgrp">
+            <did>
+              <unittitle>March 27, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ffb09010048da59397a73c07557b43d3" level="recordgrp">
+            <did>
+              <unittitle>March 28, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_53e1a647095f9690e13350f7d372ab02" level="recordgrp">
+            <did>
+              <unittitle>March 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_046c21c94192925ba9de85b3462361af" level="recordgrp">
+            <did>
+              <unittitle>March 30, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">14 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_7842ccde9b47fc14265ec0f27be72a79" level="subseries">
+          <did>
+            <unittitle>April 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">479 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_3f09612fce60cff05d5c6727bf8dadd9" level="recordgrp">
+            <did>
+              <unittitle>April 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_5da925b9f76a27e61fa5d4fd2017fbb4" level="recordgrp">
+            <did>
+              <unittitle>April 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a2223e4897c2318f29a21a3896985e19" level="recordgrp">
+            <did>
+              <unittitle>April 3, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_6a69bf88455f0a46af9938c7435f13f9" level="recordgrp">
+            <did>
+              <unittitle>April 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_6066fb39f6ade3656380a6eda6969931" level="recordgrp">
+            <did>
+              <unittitle>April 5, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_646654bd289bb80dabd1ae811be11b65" level="recordgrp">
+            <did>
+              <unittitle>April 6, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fbe0764122c52b77b618fdbe49eb508e" level="recordgrp">
+            <did>
+              <unittitle>April 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b90d3db90a3c7e5fd1d00300c6cc7149" level="recordgrp">
+            <did>
+              <unittitle>April 9, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c7af81868a5b6f0abbad63a048f733be" level="recordgrp">
+            <did>
+              <unittitle>April 10, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">26 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cf764447dae3c1bb05e3fed191e1244a" level="recordgrp">
+            <did>
+              <unittitle>April 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">26 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_801358feedb5b119e04633e2bbce0734" level="recordgrp">
+            <did>
+              <unittitle>April 12, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e99b7f12be14dc936c23443f818ee76e" level="recordgrp">
+            <did>
+              <unittitle>April 13, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_abfdd0e171d11c3e316a32e9526b1b7f" level="recordgrp">
+            <did>
+              <unittitle>April 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_11bbbd751f3b16fe224c30646a475e87" level="recordgrp">
+            <did>
+              <unittitle>April 16, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_6a08a7acb9b44f0ff65303318a509de3" level="recordgrp">
+            <did>
+              <unittitle>April 17, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4408ae367d0cce8b07e44d3de1eea050" level="recordgrp">
+            <did>
+              <unittitle>April 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4788b900a6971a18f9e1f5786f114657" level="recordgrp">
+            <did>
+              <unittitle>April 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_bb9dc6ec2d9ae7997eeaae7d855d53d2" level="recordgrp">
+            <did>
+              <unittitle>April 24, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4383f29a82c422270a7e88e500909dd7" level="recordgrp">
+            <did>
+              <unittitle>April 25, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_5a0b3b8845388a3934f9a6ff61c893a6" level="recordgrp">
+            <did>
+              <unittitle>April 26, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_39b34fea2fda8e7afe26eb960e7c3ad2" level="recordgrp">
+            <did>
+              <unittitle>April 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4af0b123d86c564f24ef59cc489361fd" level="recordgrp">
+            <did>
+              <unittitle>April 30, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_9b1e479a8ca34b9e92503a25c9f3f211" level="subseries">
+          <did>
+            <unittitle>May 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">522 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_efe020c1a9741bb96070f6a5c89d624b" level="recordgrp">
+            <did>
+              <unittitle>May 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_5a93c6b770aef7518e70aeea5f6ca6b7" level="recordgrp">
+            <did>
+              <unittitle>May 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_5ba41bc835728d16881990c397219146" level="recordgrp">
+            <did>
+              <unittitle>May 3, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_522bd30bfc9ae5ff2fe421560447279a" level="recordgrp">
+            <did>
+              <unittitle>May 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">7 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b6dd404cac56d26ee2f9aebe00153f75" level="recordgrp">
+            <did>
+              <unittitle>May 6, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_0ebf260ce977da3dfefdc285e0e14a8f" level="recordgrp">
+            <did>
+              <unittitle>May 7, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_72ab4a7c7dc82d68ba0f2afb57983129" level="recordgrp">
+            <did>
+              <unittitle>May 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">15 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cb0d7ae477eed73644235e3b72b983f7" level="recordgrp">
+            <did>
+              <unittitle>May 9, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_352c974cccaf07c62c77529e64ab100f" level="recordgrp">
+            <did>
+              <unittitle>May 10, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_532de643f85a41c01d2eb5ab19c6f89c" level="recordgrp">
+            <did>
+              <unittitle>May 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b5c34df07cea921559aeb6e0755c6917" level="recordgrp">
+            <did>
+              <unittitle>May 13, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b9dc1348aca2ecdc3d72e30a49942ccf" level="recordgrp">
+            <did>
+              <unittitle>May 14, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a2478f435c8933c4c6b4e2343a20d0c9" level="recordgrp">
+            <did>
+              <unittitle>May 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d3515b9b870ac640ad15a8dc359d8089" level="recordgrp">
+            <did>
+              <unittitle>May 16, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e30d78a9078511c1dd1075aaea4f0cac" level="recordgrp">
+            <did>
+              <unittitle>May 17, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">16 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_8f17dbac2085348901e47c20a011e513" level="recordgrp">
+            <did>
+              <unittitle>May 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3ef6fd4e1b410e2a5408978e0666cc32" level="recordgrp">
+            <did>
+              <unittitle>May 20, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_08e2503c4d6ab2467f207caf4178b724" level="recordgrp">
+            <did>
+              <unittitle>May 21, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a5f2a5c7ac9492d7ada993344a77e429" level="recordgrp">
+            <did>
+              <unittitle>May 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_690ff520b868ec3c738fbbec2dc5d1ec" level="recordgrp">
+            <did>
+              <unittitle>May 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_88991f27ca45ad156e0243b92e417242" level="recordgrp">
+            <did>
+              <unittitle>May 24, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_33e5681eccf03f095c712b0c797f300a" level="recordgrp">
+            <did>
+              <unittitle>May 27, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c8e662f916cee46dc97688c027a9544a" level="recordgrp">
+            <did>
+              <unittitle>May 28, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_161525fecc8ef706941eface7a3f00c5" level="recordgrp">
+            <did>
+              <unittitle>May 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_db0f62aa5623907e23e30eafeb243c18" level="recordgrp">
+            <did>
+              <unittitle>May 30, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9cdd192c047ca1ca539fd78e0faf07e2" level="recordgrp">
+            <did>
+              <unittitle>May 31, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_dc559a7c6fefb166038e0a14035e3017" level="subseries">
+          <did>
+            <unittitle>June 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">465 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_06cfe6c9e6fe066acc5c533593ed9346" level="recordgrp">
+            <did>
+              <unittitle>June 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_52f487ca0df27ec064acc40a6ae5eebb" level="recordgrp">
+            <did>
+              <unittitle>June 3, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3ac464a0f4c268159f5115eb37f8e20c" level="recordgrp">
+            <did>
+              <unittitle>June 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_dbdfa1b322c8d678ba3cd3d3a1aebbcd" level="recordgrp">
+            <did>
+              <unittitle>June 5, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b369c2490235cd9b4edc3b870d30196f" level="recordgrp">
+            <did>
+              <unittitle>June 6, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c15a7ad6ef41d111df68b606575686bd" level="recordgrp">
+            <did>
+              <unittitle>June 7, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cfb0309c0a776d84b8d51fb69d851372" level="recordgrp">
+            <did>
+              <unittitle>June 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_02365a7861f2a18433ce0f7b3c9c85ec" level="recordgrp">
+            <did>
+              <unittitle>June 10, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4eae91755d50c580c941a784c93d4d09" level="recordgrp">
+            <did>
+              <unittitle>June 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4e97352bedce5e2b3ed04bc6cf276e18" level="recordgrp">
+            <did>
+              <unittitle>June 12, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c6f2719ab512e47581851d94f8ba7d79" level="recordgrp">
+            <did>
+              <unittitle>June 13, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c39bb46fd1c849552d73221d79c70616" level="recordgrp">
+            <did>
+              <unittitle>June 14, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3a9a884c2ea9c94a9456cca49aff24e2" level="recordgrp">
+            <did>
+              <unittitle>June 17, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_cfdc8fd511166f676fa4b890dbf650b6" level="recordgrp">
+            <did>
+              <unittitle>June 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_6f0c622a8f437678ecbb6c59c464860f" level="recordgrp">
+            <did>
+              <unittitle>June 19, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a856591c176c77642033a76f629c6317" level="recordgrp">
+            <did>
+              <unittitle>June 20, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_35305b92e16601950b3bf3c10f9ac5b5" level="recordgrp">
+            <did>
+              <unittitle>June 21, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9aaf6c11742139d3e8300d1e534e89b3" level="recordgrp">
+            <did>
+              <unittitle>June 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_79e84200597bf577a6511b7c2d6c30f4" level="recordgrp">
+            <did>
+              <unittitle>June 24, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a4fa5e4bb308b58c8de3c8fc6db7abb8" level="recordgrp">
+            <did>
+              <unittitle>June 25, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c7885560f449896ac5f0c239bdf4f105" level="recordgrp">
+            <did>
+              <unittitle>June 26, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_43d6d0cdb45692b174a92f4decc1170c" level="recordgrp">
+            <did>
+              <unittitle>June 27, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_513959a35118cfc7d493c56ac09320d2" level="recordgrp">
+            <did>
+              <unittitle>June 28, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_c98b5a0b1ba3ca8d088041ff2fbecef7" level="recordgrp">
+            <did>
+              <unittitle>June 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_13f344ad403061cdf989e33c0f1d661f" level="subseries">
+          <did>
+            <unittitle>July 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">488 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_418ddfab3cb46f5bd7b0056e38fe38e1" level="recordgrp">
+            <did>
+              <unittitle>July 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_20f2dec25a06d075a1f5408e7b3fab54" level="recordgrp">
+            <did>
+              <unittitle>July 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a218b32ab5f685b41ebb887541baa454" level="recordgrp">
+            <did>
+              <unittitle>July 3, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_286c0cb6d1b39275b43f20e7bc5269a0" level="recordgrp">
+            <did>
+              <unittitle>July 4, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e41e186b08b5b19ffe657c3130cf3c26" level="recordgrp">
+            <did>
+              <unittitle>July 5, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_f9f76439bfbd5036d3499559371a2c65" level="recordgrp">
+            <did>
+              <unittitle>July 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_2ba15831a26536ce29ae849ea8bbbee2" level="recordgrp">
+            <did>
+              <unittitle>July 9, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_36fe4c2312c0b1d14db7e3f14ceb4013" level="recordgrp">
+            <did>
+              <unittitle>July 10, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_171f3b5933d03bc3e15f47a16abe6745" level="recordgrp">
+            <did>
+              <unittitle>July 11, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3de8457b1e60d9e4b1e20efd7184fe6e" level="recordgrp">
+            <did>
+              <unittitle>July 12, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b29dbf9dde0de96a750249e020aa1ea0" level="recordgrp">
+            <did>
+              <unittitle>July 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">24 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b17cfd3a30683634dac5d61c5fb5a1a5" level="recordgrp">
+            <did>
+              <unittitle>July 16, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ce01dd29654459dd8ba170c4e0a947d0" level="recordgrp">
+            <did>
+              <unittitle>July 17, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fa7ee93712b94b6ee834da6916efa272" level="recordgrp">
+            <did>
+              <unittitle>July 18, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3f761297572380416bb45363e5b2c58b" level="recordgrp">
+            <did>
+              <unittitle>July 19, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">25 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_1b43887fbb65f6ce2032967c77459ab7" level="recordgrp">
+            <did>
+              <unittitle>July 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_0a2ffaab25d8ef452d272a3b5d64f99f" level="recordgrp">
+            <did>
+              <unittitle>July 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_d0487b9be4d4b3a61a4a6358d00fb5c3" level="recordgrp">
+            <did>
+              <unittitle>July 24, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4cc7b082ff7ab202e119d4083828472e" level="recordgrp">
+            <did>
+              <unittitle>July 25, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">17 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_8884a615d699e7dfb8c5bb7949bed287" level="recordgrp">
+            <did>
+              <unittitle>July 26, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_bbbb6a2890b743318392d33853998230" level="recordgrp">
+            <did>
+              <unittitle>July 27, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">13 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_2839de2f1ea36844938aedd55ab217c4" level="recordgrp">
+            <did>
+              <unittitle>July 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_59cd15c6e9729ba300a21f90b094a312" level="recordgrp">
+            <did>
+              <unittitle>July 30, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_bbd4d27a263972408c9892c99b932c26" level="recordgrp">
+            <did>
+              <unittitle>July 31, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_913830b0fd6f9b21a775be5bb70e3b23" level="subseries">
+          <did>
+            <unittitle>August 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">460 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_5b41cebaa0ecc1d05b333f56d554a653" level="recordgrp">
+            <did>
+              <unittitle>August 1, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a90481d5aad9adaa11b2dba7298b4eb0" level="recordgrp">
+            <did>
+              <unittitle>August 2, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ecb33eca76ed2fe16e4458127359a9eb" level="recordgrp">
+            <did>
+              <unittitle>August 3, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3cdd23363f917400e8db5f1469e1cafc" level="recordgrp">
+            <did>
+              <unittitle>August 5, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_17f2a8943b2497e244154afb024e9ae5" level="recordgrp">
+            <did>
+              <unittitle>August 6, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9d098b64b5e63151246d719306199a46" level="recordgrp">
+            <did>
+              <unittitle>August 7, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_7bb095bb671f459c492d0df0c75b8639" level="recordgrp">
+            <did>
+              <unittitle>August 8, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_b6bb90aee5c9016e77e3dd3b17ebefb6" level="recordgrp">
+            <did>
+              <unittitle>August 9, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a79d1dea1a0088d90d74d33ddabb1c8b" level="recordgrp">
+            <did>
+              <unittitle>August 10, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fdab0e77ca189881ca48088c8bc499d0" level="recordgrp">
+            <did>
+              <unittitle>August 12, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_1ab90dd6e48203dadbcbeef8b64832ec" level="recordgrp">
+            <did>
+              <unittitle>August 13, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ae36d105b3f927659849977d06fb9e9e" level="recordgrp">
+            <did>
+              <unittitle>August 14, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a6080f645f7ae6bf28a03995a095f352" level="recordgrp">
+            <did>
+              <unittitle>August 15, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_728c939fdc5e33478317400647c360e5" level="recordgrp">
+            <did>
+              <unittitle>August 16, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_e0a02fec70d1f14d0858d32f5fd18f9e" level="recordgrp">
+            <did>
+              <unittitle>August 19, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ccdc00970a9a8d07c2d95a19cd6496d0" level="recordgrp">
+            <did>
+              <unittitle>August 20, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_3e4f131b4ef4b272e23cf543279eab32" level="recordgrp">
+            <did>
+              <unittitle>August 21, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_66ca5204184e3013e0320ef7c354ec6f" level="recordgrp">
+            <did>
+              <unittitle>August 22, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_4f9fdeea2ac85c35048f03e9955f6cde" level="recordgrp">
+            <did>
+              <unittitle>August 23, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">19 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_f8e738c43cb40f64518ac543338a732c" level="recordgrp">
+            <did>
+              <unittitle>August 26, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">23 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_fac1d040b8d87c6dc96ffffc80b8b134" level="recordgrp">
+            <did>
+              <unittitle>August 27, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">22 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_82e0874a95267c91c9879e20afb7cbec" level="recordgrp">
+            <did>
+              <unittitle>August 28, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_a69f0208eadd1a1c6190c1e6f3d7646c" level="recordgrp">
+            <did>
+              <unittitle>August 29, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">21 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ccecabc51ec41dc984f01cd017d33f48" level="recordgrp">
+            <did>
+              <unittitle>August 30, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">20 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_8ea41c563f140831b57383f51a9df629" level="recordgrp">
+            <did>
+              <unittitle>August 31, 1946</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_46f0857311fed0a6480104b9bce24c86" level="subseries">
+          <did>
+            <unittitle>September 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">29 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_2f531b8ff821a1903be9cd9dc77e05b5" level="subseries">
+          <did>
+            <unittitle>October 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_776a810541f27be65b72009ed6f41b89" level="series">
+        <did>
+          <unittitle>Document books</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">392 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_b821a28ec0e35f90827baa3bc5445b32">
+          <head>Scope and Contents</head>
+          <p>Compendia of exhibits presented at trial, compiled for judicial review, organized
+            according to defendant.</p>
+        </scopecontent>
+        <c id="aspace_9eafa2f84317d350c9aa1661143594dc" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">392 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_0c1b367ba2ba521e2607d2e2c986ec82" level="series">
+        <did>
+          <unittitle>Empty folder</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">148 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_5425174a7623b737d11a55891b47d795">
+          <head>Scope and Contents</head>
+          <p>These are digitized images of file folders that were archived originally as a part of
+            the collection, but where the original contents may have been removed or relocated
+            elsewhere before the digitization.</p>
+        </scopecontent>
+        <c id="aspace_4a38d6f5ed8347393682cd904990835e" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">148 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_1a1f0f72fe93401d7798b9c904e10a20" level="series">
+        <did>
+          <unittitle>Exhibits</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">3462 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_1a8f12330257db8db49db66a7637a5e9">
+          <head>Scope and Contents</head>
+          <p>These records contain documentary and physical evidence that was submitted at trial by
+            the parties to the proceedings as exhibits for judicial review.</p>
+        </scopecontent>
+        <c id="aspace_df74adf43895e46f4615400b6064237c" level="subseries">
+          <did>
+            <unittitle>Affidavits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">135 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_04b5d843f6a86e99dd03a268b66e91a5" level="recordgrp">
+            <did>
+              <unittitle>Envelopes</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_279c801d738b118c2a2b8a231b96c6d4" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">129 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_88e79f889d64ffa9c389b54c51cbd312" level="subseries">
+          <did>
+            <unittitle>Defense exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">943 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_d093b46004acd131e26fe7072e28528d" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">931 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_3ae22157d25c94e8be48c0a79710ffa8" level="item">
+              <did>
+                <unittitle>Defense Exhibit RAEDER No. 118</unittitle>
+                <unitid>H-2029</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">6 pages</extent>
+                  <physfacet>Folders</physfacet>
+                </physdesc>
+              </did>
+              <arrangement id="aspace_c24aadb8b1b598c5525d36a98361ad44">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO EXHIBITS: In instances where an exhibit is loose in a
+                  folder, the pages of such exhibit have been counted manually</p>
+              </arrangement>
+            </c>
+          </c>
+          <c id="aspace_374d344803736ef33c33dc9455b68180" level="recordgrp">
+            <did>
+              <unittitle>Microfilm</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">12 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_c6ec588acf3b60f8db077ae5da84a969" level="subseries">
+          <did>
+            <unittitle>Great Britain exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">617 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_2e623a38296daf4eaa8be28d6e5e5bc9" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">613 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_6c6ed92fbd1cde880b8b4c5d03b08b9e" level="item">
+              <did>
+                <unittitle>GB Exhibit 509</unittitle>
+                <unitid>H-4030</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">18 pages</extent>
+                  <physfacet>Folders</physfacet>
+                </physdesc>
+              </did>
+            </c>
+          </c>
+          <c id="aspace_0b3a999bc55392341d4c997c5300fc51" level="recordgrp">
+            <did>
+              <unittitle>Loose leaf folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_000c8577f5611a79d3442a95a1eb1013" level="subseries">
+          <did>
+            <unittitle>Republic of France exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">742 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_970e4dba94545fa2abd54b418be27896" level="recordgrp">
+            <did>
+              <unittitle>Books</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">10 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_acc851d7aed02ab83950b3896ce5322a" level="recordgrp">
+            <did>
+              <unittitle>Envelopes</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">8 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_376251c2e61accdc0378ef70e629edea" level="recordgrp">
+            <did>
+              <unittitle>Film</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_2925261abee64a1d21b803dee47ff68f" level="item">
+              <did>
+                <unittitle>RF Exhibit 1152</unittitle>
+                <unitid>H-4153</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:00:39</extent>
+                  <physfacet>Film</physfacet>
+                </physdesc>
+                <container id="aspace_58d3acb59adcdcbb294627056a6a95ef" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/sj396xg6472" xlink:show="new"
+                  xlink:title="RF Exhibit 1152" xlink:type="simple">
+                  <daodesc>
+                    <p>RF Exhibit 1152</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_f6a3b1acd30248465d01344022488b53">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_e2e9bfe58aba0bd65a8e5de7ece5c5e8">
+                <head>Scope and Contents</head>
+                <p>Occult Forces (or "Hidden Forces")</p>
+              </scopecontent>
+            </c>
+          </c>
+          <c id="aspace_c85180a94d0a73888393aabd22d5b120" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">720 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_09e913e6ff011c43c033913836d3a034" level="item">
+              <did>
+                <unittitle>RF Exhibit 1119</unittitle>
+                <unitid>H-4756</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">9 pages</extent>
+                  <physfacet>Folders</physfacet>
+                </physdesc>
+              </did>
+            </c>
+          </c>
+          <c id="aspace_6b076dc442ba25979fee384ad3d992f5" level="recordgrp">
+            <did>
+              <unittitle>Package photostats</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_545394fdd6773caa0542ec61ef1730a5" level="recordgrp">
+            <did>
+              <unittitle>Photo albums</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_63cf0d13fff0e3018b8a8448ff2c3298" level="recordgrp">
+            <did>
+              <unittitle>Volumes of bound newspapers</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_4677252a5a147803cc2095e147835896" level="subseries">
+          <did>
+            <unittitle>US exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">958 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_d86f5a0a71e7bf8aea6eeb369c460e08" level="recordgrp">
+            <did>
+              <unittitle>Film in box</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">3 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_5fc0b3ffcc62611d5779885157507b16" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reels 19-20</unittitle>
+                <unitid>H-5243</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:17:21</extent>
+                  <physfacet>Film in box</physfacet>
+                </physdesc>
+                <container id="aspace_e946b7c5616cb8092861cabcda5ca8f6" label="Moving Images"
+                  type="box">27</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/vb091dn2491" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reels 19-20"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reels 19-20</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <scopecontent id="aspace_c9f65b4e8bd50973f298ce75b145c46e">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_0aec917c2edd3da38d7d67148dc1cd53" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reels 21-22</unittitle>
+                <unitid>H-5244</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:15:13</extent>
+                  <physfacet>Film in box</physfacet>
+                </physdesc>
+                <container id="aspace_212fba214d4444c81a80bab4d5f99be0" label="Moving Images"
+                  type="box">27</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/xc899yd7022" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reels 21-22"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reels 21-22</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <scopecontent id="aspace_e71f5bab1381d71a251df4475ed7a536">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_4a23a5fefbd3bfc65d134be60a58b5b6" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 1</unittitle>
+                <unitid>H-5247</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:11:03</extent>
+                  <physfacet>Film in box</physfacet>
+                </physdesc>
+                <container id="aspace_82d5eff5e09fe226a5b01a61683a2305" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/sd545hp5163" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 1" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 1</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_a827d067fdb5cd57238d24c10838d238">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_2aca57fc25cf429b5493a110eb401874">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+          </c>
+          <c id="aspace_0bd396bdd9c4cd93901a4c239d5a5d9b" level="recordgrp">
+            <did>
+              <unittitle>Film in can</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">18 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_067697323bfad98c4a0c534f44d01bf4" level="item">
+              <did>
+                <unittitle>USA Exhibit 79: "Concentration Camps", Reel 1</unittitle>
+                <unitid>H-4154</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:07:40</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_04701ad1c1030d104177655692c91870" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/db367pn5846" xlink:show="new"
+                  xlink:title="USA Exhibit 79: &quot;Concentration Camps&quot;, Reel 1"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 79: "Concentration Camps", Reel 1</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_69634af876e79645dfb7f54b3277d9b5">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_f595845daa4d2a86ffa966910eab4ab4">
+                <head>Scope and Contents</head>
+                <p>Concentration Camps</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_a313c1758b8b6325de6dcb883c8668c2" level="item">
+              <did>
+                <unittitle>USA Exhibit 79: "Concentration Camps", Reel 2</unittitle>
+                <unitid>H-4155</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:09:59</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_0d5dc705dd4afae33dcbbc263d1703e5" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/zt384rr0942" xlink:show="new"
+                  xlink:title="USA Exhibit 79: &quot;Concentration Camps&quot;, Reel 2"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 79: "Concentration Camps", Reel 2</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_d65b07299d1e68c2d62ae030fc4eca01">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_05ccd11cbfac87c75e325c0ede17e41a">
+                <head>Scope and Contents</head>
+                <p>Concentration Camps</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_cbb44cc55b14ecd9acb72fafd6e5e421" level="item">
+              <did>
+                <unittitle>USA Exhibit 79: "Concentration Camps", Reel 3</unittitle>
+                <unitid>H-4156</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:06:25</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_fc33c0a17095326efdc41b673e131c13" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/mm616jg4094" xlink:show="new"
+                  xlink:title="USA Exhibit 79: &quot;Concentration Camps&quot;, Reel 3"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 79: "Concentration Camps", Reel 3</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_01c9f7a44e6b280fcfdfdd6bd961691e">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_305e28a8fe3350dc50193be8358f4ec4">
+                <head>Scope and Contents</head>
+                <p>Concentration Camps</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_a69f34866674b4d31257668311e8114f" level="item">
+              <did>
+                <unittitle>USA Exhibit 79: "Concentration Camps", Reel 4</unittitle>
+                <unitid>H-4157</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:10:39</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_af3ee8c2e37b917895da6fbfbf532686" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/vk057bm2533" xlink:show="new"
+                  xlink:title="USA Exhibit 79: &quot;Concentration Camps&quot;, Reel 4"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 79: "Concentration Camps", Reel 4</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_d4e25f86ca1a5bba0d678d96deb1974a">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_c0c4c879d728f6ba74696366b6e1e5b5">
+                <head>Scope and Contents</head>
+                <p>Concentration Camps</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_5cfa130676ffb7688481b1737fe9b69d" level="item">
+              <did>
+                <unittitle>USA Exhibit 79: "Concentration Camps", Reel 5</unittitle>
+                <unitid>H-4158</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:11:36</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_514d78af78b105d1f8eab2de956f373a" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/nz454dz0008" xlink:show="new"
+                  xlink:title="USA Exhibit 79: &quot;Concentration Camps&quot;, Reel 5"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 79: "Concentration Camps", Reel 5</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_36e5f2bb76d714b8cd2b373b8439b7d1">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_c25eb1f668b548fca6a2dc4d6b5fefb2">
+                <head>Scope and Contents</head>
+                <p>Concentration Camps</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_c3eea661c5656029254637e46458e9ed" level="item">
+              <did>
+                <unittitle>USA Exhibit 79: "Concentration Camps", Reel 6</unittitle>
+                <unitid>H-4159</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:10:03</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_7cab5a0be182d43a4491c8a78b7d3033" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/js207jv1385" xlink:show="new"
+                  xlink:title="USA Exhibit 79: &quot;Concentration Camps&quot;, Reel 6"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 79: "Concentration Camps", Reel 6</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_ce9b9b719e02c86eb00709ba55c68f2f">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_5774b3e47e3152c42d14b647bd0e21b3">
+                <head>Scope and Contents</head>
+                <p>Concentration Camps</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_7129a985d6e735f1ae02441c4b7cac54" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 2</unittitle>
+                <unitid>H-5248</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:07:29</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_e4aadccd8720afc6a21b86e1ffce8091" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/rp137xp4580" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 2" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 2</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_69f8784ed01ac5e5da7c5cad1e2e7fd4">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_df808eb8970be36a75073442caf66b4f">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_aade74036438bf250b25029dddbf058a" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 3</unittitle>
+                <unitid>H-5249</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:09:29</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_24f3619d971aeac6f351a23856a65d65" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/vv478qr6328" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 3" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 3</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_8c45d37e26e465de608115bc204404ad">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_dd840d497365191450c85ed7f1642fd0">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_7e4a9a8b0df407ffa6d7342f2e256957" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 4</unittitle>
+                <unitid>H-5250</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:06:37</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_420e04774db10743b71108f2c7e9b728" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/qb171py7105" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 4" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 4</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_0a17fdfcc3541966a8a143f28cc6ade9">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_4f9b127d79ca734ac20796e6a999e463">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_f3f0c3cebb0a458e644b8efc0fbde6f7" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 5</unittitle>
+                <unitid>H-5251</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:09:10</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_e2d71766081c8803e184f3442d486415" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/gv866kb1252" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 5" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 5</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_10d06602542cb6b7fa0639dc99365041">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_b0b64e0188058bb4cbed34117506b201">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_4597f17a4425c2709767c9aee3152c9b" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 6</unittitle>
+                <unitid>H-5252</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:10:20</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_0221488cb0ec54fa8da798d7fa136a37" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/bb761mb4522" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 6" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 6</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_f173e116867b712b174201483339238d">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_af7e20338165c6983bb674c56e97a0a1">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_fb8860d349af312bbcb36972b52ba6e3" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 7</unittitle>
+                <unitid>H-5253</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:11:00</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_b25e87a2bd35b48f6efafe163e69ed95" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/kc160vz7990" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 7" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 7</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_97128c4e3954aa8f0ee836cdac51b46b">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_86f09f0d6e416cc2a65e184aba6ebf57">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_226c9be5ee73355ab2302058cc6c0423" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 8</unittitle>
+                <unitid>H-5254</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:05:53</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_02c0d75fea46afa5668f6ce29e0e4c9f" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/sk881bv2180" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 8" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 8</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_c15c3fe2da61a26712fcef12c2a2f4e1">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_1c082b43eb85da527e001b7c9a463615">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_54561387197387b94cb90766e6376848" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 9-10</unittitle>
+                <unitid>H-5255</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:13:06</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_849b4a9c6bb9a041054471a424715f64" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/tb563sf4579" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 9-10" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 9-10</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_7e899f6bc9ac2cd370fa7f1d2199f14a">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_fee3c0771a26a6bca5d9111b220fb744">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_b86f85829d70d8c4c80456f36909adf4" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 11-12</unittitle>
+                <unitid>H-5256</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:20:36</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_37e36633bf032bbe93c7170f5c7eb78d" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/sb307hz5051" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 11-12" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 11-12</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_54a31b18896ff6cefa3709314913b699">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_ed2722e8403cf9158bcbde31f83e71bd">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_db529ef8933e17996e64e68e4976092f" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 13-14</unittitle>
+                <unitid>H-5257</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:17:10</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_c2a11903e9135dad5585355a7d13c59a" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/hr804rz7197" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 13-14" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 13-14</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_9b269bb7a7494f7cfdc0956ef236595e">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_209eeeed0be070894e79491373f32873">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_f3c478d8e4c3707992f517be902a33df" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 15-16</unittitle>
+                <unitid>H-5258</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:18:02</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_d85962e19584f8e7810d28c27fae4202" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/gs211jg2508" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 15-16" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 15-16</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_1b1c84d0fb70315a6efbec992cc92dc1">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_a21f66d291a1287794e39772625a69d2">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_b9b3ced05e6e533c1f707ddd400d4c14" level="item">
+              <did>
+                <unittitle>USA Exhibit 167 "Nazi Plan" Reel 17-18</unittitle>
+                <unitid>H-5259</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:13:09</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_69e4898231e4a336c526dfeef2f3a9d3" label="Moving Images"
+                  type="box">28</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/hz124xw4910" xlink:show="new"
+                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reel 17-18" xlink:type="simple">
+                  <daodesc>
+                    <p>USA Exhibit 167 "Nazi Plan" Reel 17-18</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_7669b5d940a90059c2d34475fa5eadb7">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film containers are not consistent;
+                  for example, exhibit number and/or film title are not always clearly stated.
+                  Therefore the film containers were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film containers are indicted
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_7b2b5e27a3612b0fef8f5c320a2e0588">
+                <head>Scope and Contents</head>
+                <p>Nazi Plan</p>
+              </scopecontent>
+            </c>
+          </c>
+          <c id="aspace_d470fe03eb245b514c3f6a58a7967b1d" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">881 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_1c1d4bcf18a1f1bc751641f9bdffdc84" level="item">
+              <did>
+                <unittitle>USA Exhibit 532</unittitle>
+                <unitid>H-3117</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">10 pages</extent>
+                  <physfacet>Folders</physfacet>
+                </physdesc>
+              </did>
+            </c>
+          </c>
+          <c id="aspace_0fc4f457b682727aa9cac3071a8c9a9a" level="recordgrp">
+            <did>
+              <unittitle>Loose leaf folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9e0a01dd591c67b05a94867a16f75e45" level="recordgrp">
+            <did>
+              <unittitle>Package photostats</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">54 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_644cbbcf344fc63145d08d6626410054" level="subseries">
+          <did>
+            <unittitle>USSR exhibits</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">67 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_bb7ccc48c7598027f03aab264df673b4" level="recordgrp">
+            <did>
+              <unittitle>Books</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">6 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_ca52ef792e8af6a9be62531fae46b5af" level="recordgrp">
+            <did>
+              <unittitle>Envelopes</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">35 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_9b617c29979072126699756ad85d01c8" level="recordgrp">
+            <did>
+              <unittitle>Film</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_cb47f0b312a21d942f27d1eaf78778ce" level="item">
+              <did>
+                <unittitle>USSR Exhibit 433</unittitle>
+                <unitid>H-4175</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:23:50</extent>
+                  <physfacet>Film</physfacet>
+                </physdesc>
+                <container id="aspace_8f0865ea012c3e81b673e8b9478ed231" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/mr680mj2697" xlink:show="new"
+                  xlink:title="USSR Exhibit 433" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 433</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_5163d04bb7f107802d6020c700de58a0">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_d3f14331acf82a86a4fb3e31fb4a73bc">
+                <head>Scope and Contents</head>
+                <p>Atrocities in Jugoslavia</p>
+              </scopecontent>
+            </c>
+          </c>
+          <c id="aspace_8615e3ad9a8de74715641bb161fda7cc" level="recordgrp">
+            <did>
+              <unittitle>Film in can</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">14 item(s)</extent>
+              </physdesc>
+            </did>
+            <c id="aspace_0da68e15f4221763b570a2b495c0ec31" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 1</unittitle>
+                <unitid>H-4160</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:09:40</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_54b793cfc9a4886be4c68061a9831bc1" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/ct260rm9371" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 1" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 1</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_9193ecd748033be48b71c0d0c11dd5ab">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_1b79c8d25e63b5471b49ce9f63842476">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_ff8261c0bc75295dd2a57fc2bab7f40f" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 2</unittitle>
+                <unitid>H-4161</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:07:48</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_2ac0105ba7fd64b2ba02b0ae21f41f1b" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/yq616mr7860" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 2" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 2</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_255f2c3c46e95059b00b60228c82718e">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_82dc1e4cb95da1c1e69b3eba16994039">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_3d8e8af913944bc7e0074341219370c3" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 3</unittitle>
+                <unitid>H-4162</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:06:35</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_8059f002ac1060959a0e5f45cdb1d395" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/td862ym2392" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 3" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 3</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_54df242a239dc8f57974516bf178e1d4">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_1109e02d9f670de54b0439a84107ebe4">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_4befbad9d3a7eb3d537f677bfcfcbdc5" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 4</unittitle>
+                <unitid>H-4163</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:07:57</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_777ef35a2ac7ebac0a606754b0f5d8fb" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/vd400zh1196" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 4" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 4</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_f6b160b169bfa71538e0a9d3edbcb527">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_23d8a14d0f4ba0b198b837caab5d5066">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_5c809122ff38fff7dbcd0a28176f60cd" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 5</unittitle>
+                <unitid>H-4164</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:09:53</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_335cf3161bdd285184d45da902a63b20" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/gq372jm2740" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 5" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 5</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_55e47454aa9606ed0f6a97fd0e7293f3">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_3fe073acfeacadd57dec01f40d767ecb">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_7010d251a8fe3c7bfade7c91c63a678e" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 6</unittitle>
+                <unitid>H-4165</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:06:34</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_78c0abc30d3ca454f49abe1ee1aa509f" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/rg213hz0485" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 6" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 6</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_72ff719d45e21240ffcc01f8e4a21fdd">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_cb89ca88f6133d2169408c7f6bc8741b">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_2527ad94e7c78d18455ed67f4ce5fd99" level="item">
+              <did>
+                <unittitle>USSR Exhibit 81: "Atrocities", Reel 7</unittitle>
+                <unitid>H-4166</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:08:24</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_2754dce6851e5458ec8cd70f7ab7ec2e" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/wv672br1025" xlink:show="new"
+                  xlink:title="USSR Exhibit 81: &quot;Atrocities&quot;, Reel 7" xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 81: "Atrocities", Reel 7</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_507ea44668ed3425b22471ae4e0fbab9">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_d53f71a9f43c81d38faafea3c5f89846">
+                <head>Scope and Contents</head>
+                <p>Atrocities</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_eea30b4ee48ae8396a41ec500dfbc853" level="item">
+              <did>
+                <unittitle>USSR Exhibit 98: "Destruction of Culture", Reel 1</unittitle>
+                <unitid>H-4167</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:12:20</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_aeaad37eaed0bb7a7336591de34b794c" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/ww002kg4482" xlink:show="new"
+                  xlink:title="USSR Exhibit 98: &quot;Destruction of Culture&quot;, Reel 1"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 98: "Destruction of Culture", Reel 1</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_7861821813459de037d3e4acc9d5c119">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_f876a72514d0a457b623fd0e37913ca7">
+                <head>Scope and Contents</head>
+                <p>Destruction of Culture</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_5527cdc3cf01c61c59d2861bb8e7379c" level="item">
+              <did>
+                <unittitle>USSR Exhibit 98: "Destruction of Culture", Reel 2</unittitle>
+                <unitid>H-4168</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:06:36</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_e799a36fbdca3eb876ee16fd43112ccc" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/jq840ht9263" xlink:show="new"
+                  xlink:title="USSR Exhibit 98: &quot;Destruction of Culture&quot;, Reel 2"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 98: "Destruction of Culture", Reel 2</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_d905434b7362a2e548e04037523f1556">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_fb9ea523083fc4e31d8bd75eed1929e2">
+                <head>Scope and Contents</head>
+                <p>Destruction of Culture</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_f71dcbac5c048b20c84dfd2f148a01c7" level="item">
+              <did>
+                <unittitle>USSR Exhibit 98: "Destruction of Culture", Reel 3</unittitle>
+                <unitid>H-4169</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:05:50</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_708781a09c7251f430869c0c391a186f" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/dq301jn4140" xlink:show="new"
+                  xlink:title="USSR Exhibit 98: &quot;Destruction of Culture&quot;, Reel 3"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 98: "Destruction of Culture", Reel 3</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_3f14e5d216d19c697f91c8686c027626">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_0108ba86f91fe02f86525cc8fc6d69e6">
+                <head>Scope and Contents</head>
+                <p>Destruction of Culture</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_d5c2258dde822cf7c414bd8c124fab5f" level="item">
+              <did>
+                <unittitle>USSR Exhibit 401: "German Destruction in USSR", Reel 1</unittitle>
+                <unitid>H-4171</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:10:29</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_4e70d41c6837bf7a4a8e01726fd4e082" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/dr486qx6688" xlink:show="new"
+                  xlink:title="USSR Exhibit 401: &quot;German Destruction in USSR&quot;, Reel 1"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 401: "German Destruction in USSR", Reel 1</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_6d1f74dd6f2149431ef934974f90207e">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_249022807767ef0ab5214c1f5f48257b">
+                <head>Scope and Contents</head>
+                <p>German Destruction in USSR</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_d94d2194541ea7c559e40e4d9dcee3ea" level="item">
+              <did>
+                <unittitle>USSR Exhibit 401: "German Destruction in USSR", Reel 2</unittitle>
+                <unitid>H-4172</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:06:37</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_385c17910c885495f937f9facf23808e" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/hv238fy3243" xlink:show="new"
+                  xlink:title="USSR Exhibit 401: &quot;German Destruction in USSR&quot;, Reel 2"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 401: "German Destruction in USSR", Reel 2</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_271fd52e3a0a47f40d0691a5ff12973e">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_1a54bc87b430ab4568e61fba0e066b61">
+                <head>Scope and Contents</head>
+                <p>German Destruction in USSR</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_2c4f8a485dba1bc7bf58e2eef1577b29" level="item">
+              <did>
+                <unittitle>USSR Exhibit 401: "German Destruction in USSR", Reel 3</unittitle>
+                <unitid>H-4173</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:07:51</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_68474c321e3a0bca1b54e7faacf3a1ff" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/br525sp8033" xlink:show="new"
+                  xlink:title="USSR Exhibit 401: &quot;German Destruction in USSR&quot;, Reel 3"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 401: "German Destruction in USSR", Reel 3</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_c3e21794f6086249e9b4e99cda4e0ee4">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_40abc1ed16397b36446c62c082378190">
+                <head>Scope and Contents</head>
+                <p>German Destruction in USSR</p>
+              </scopecontent>
+            </c>
+            <c id="aspace_6b5abeec9016e9707ea7fa75c3598ce1" level="item">
+              <did>
+                <unittitle>USSR Exhibit 401: "German Destruction in USSR", Reel 4</unittitle>
+                <unitid>H-4174</unitid>
+                <physdesc altrender="whole">
+                  <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+                  <extent altrender="carrier">00:07:33</extent>
+                  <physfacet>Film in can</physfacet>
+                </physdesc>
+                <container id="aspace_95f5544163dc07779f8f71e93076158d" label="Moving Images"
+                  type="box">22</container>
+                <dao xlink:actuate="onRequest" xlink:audience="external"
+                  xlink:href="https://purl.stanford.edu/qc768kc8234" xlink:show="new"
+                  xlink:title="USSR Exhibit 401: &quot;German Destruction in USSR&quot;, Reel 4"
+                  xlink:type="simple">
+                  <daodesc>
+                    <p>USSR Exhibit 401: "German Destruction in USSR", Reel 4</p>
+                  </daodesc>
+                </dao>
+              </did>
+              <arrangement id="aspace_d3558205ff16afd4d521dffa526ae9f7">
+                <head>Arrangement</head>
+                <p>PRELIMINARY NOTES TO FILMS: Descriptions on film cans are not consistent; for
+                  example, exhibit numbers and/or film title are not always clearly stated.
+                  Therefore the film cans were thoroughly scrutinized as well as the films
+                  themselves. The descriptions which are lacking on the film cans are indicated
+                  below in parentheses.</p>
+              </arrangement>
+              <scopecontent id="aspace_39188989c0f224654c28d068aac73783">
+                <head>Scope and Contents</head>
+                <p>German Destruction in USSR</p>
+              </scopecontent>
+            </c>
+          </c>
+          <c id="aspace_f55dbec157aba52231f83c5dd7fd2b89" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">4 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_54009ad0172d00db6a82701e47b29e5c" level="recordgrp">
+            <did>
+              <unittitle>Loose leaf folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">5 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_2077d774c8208ec96fef7f59528be3f1" level="recordgrp">
+            <did>
+              <unittitle>Loose leaf photo albums</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+      </c>
+      <c id="aspace_0219f47ff946a80570ccf076a7a472e0" level="series">
+        <did>
+          <unittitle>Final pleas and clemency pleas</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">111 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_1e98ff100fdbcf18a8274293cffff4d3">
+          <head>Scope and Contents</head>
+          <p>These records contain legal pleadings and supporting documentation from defense counsel
+            for the accused, seeking review of judgments and clemency in sentencing.</p>
+        </scopecontent>
+        <c id="aspace_b6ee93b9ee7d38f2db653b4938ea4fec" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">111 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_43e90e167de75251ba5a6f8fe47dff79" level="series">
+        <did>
+          <unittitle>Indictments</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_41d95e95ab1c7b6f9874a22780d0c592">
+          <head>Scope and Contents</head>
+          <p>Official charging documents, authored by the prosecution, to indict those accused of
+            crimes under the IMT Nuremberg Charter.</p>
+        </scopecontent>
+        <c id="aspace_20b1b473e165ffba9095246f1ef2c3a4" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_5a39a7eaca7b6ff432be92b6bc2b1e6c" level="series">
+        <did>
+          <unittitle>Judgments, dissenting opinions, and sentences</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_28904ee7e2ece90b765b31d0786a1399">
+          <head>Scope and Contents</head>
+          <p>These records contain the final verdicts of the judges at the IMT Nuremberg, including
+            dissenting opinions and sentences rendered against those found guilty of crimes
+            charged.</p>
+        </scopecontent>
+        <c id="aspace_df6bf95f0995c1a2da63ea4923409829" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">11 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_1923ddefd6f149556b56d6aad692911c" level="series">
+        <did>
+          <unittitle>Lists, indices, and miscellaneous</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">67 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_c721e76dc3a9d4a349031169aad0f9bd">
+          <head>Scope and Contents</head>
+          <p>These materials include compilations and summaries of trial testimony and other
+            evidence presented pertaining to the charges in the trial and the verdicts rendered
+            against the accused.</p>
+        </scopecontent>
+        <c id="aspace_0c5204a5fdfebf6c6085fc5beedf2432" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_82ebb26997ca26b317fc34c122a8857e" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">62 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_4f39a0539e73e007fb395bf9bcf51934" level="subseries">
+          <did>
+            <unittitle>Packages</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">2 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_4041a957abda0724b1d2e909060cd86a" level="subseries">
+          <did>
+            <unittitle>Volumes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_861a17c953750505ddea1bdb1c3ec40d" level="series">
+        <did>
+          <unittitle>Minutes of tribunal meetings</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_5bc0973550a13f0989f7860a77a4c886">
+          <head>Scope and Contents</head>
+          <p>Compendium of minutes recorded contemporaneously of meetings (9 Oct 1945 - 1 Oct 1946)
+            where the judges of the IMT Nuremberg convened to discuss and decide administrative and
+            procedural matters.</p>
+        </scopecontent>
+        <c id="aspace_9d2f7cc445850bd9ef7808035898d6b0" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_86dfe0b604edbecb06080fb5d35703b5" level="series">
+        <did>
+          <unittitle>Official commission transcripts</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">234 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_7e1978ffffac947714a1f74dee84e629">
+          <head>Scope and Contents</head>
+          <p>These are the official transcripts of the Commissions appointed by the IMT for the
+            hearing of witnesses or the presentation of affidavits relating to the accused
+            organizations. Recorded contemporaneously by professional clerks.</p>
+        </scopecontent>
+        <c id="aspace_dfa93be115814343e752eac65cfc518f" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">234 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_1928578b44d7841fc3528851ddee2486" level="series">
+        <did>
+          <unittitle>Official court transcripts</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">723 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_27754826d0ec363b76683264402d38d4">
+          <head>Scope and Contents</head>
+          <p>These records are contemporaneous transcription of live courtroom proceedings at the
+            IMT Nuremberg, recorded by professional clerks of the tribunal and archived with the
+            records of trial.</p>
+        </scopecontent>
+        <c id="aspace_4e9e614ceafbfe066a67fb8374aa5be5" level="subseries">
+          <did>
+            <unittitle>November 1945</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">28 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_ed18b36312c5ecd19d267d0718191436" level="subseries">
+          <did>
+            <unittitle>December 1945</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">45 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_79808f220a68e8361cc789312eba7ff0" level="subseries">
+          <did>
+            <unittitle>January 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">90 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_e992e1343dd48a5b19740271f1de45e7" level="subseries">
+          <did>
+            <unittitle>February 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">80 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_9bce5a5aa362b6302c770de3430763ba" level="subseries">
+          <did>
+            <unittitle>March 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">75 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_7ff7314daaab507c3dfdc65dbec7d195" level="subseries">
+          <did>
+            <unittitle>April 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">66 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_1a01851a97fc9bb7e845385a58a9eb09" level="subseries">
+          <did>
+            <unittitle>May 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">78 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_93f053ccbfce15f559c4547ec803b797" level="subseries">
+          <did>
+            <unittitle>June 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">72 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_7bfb17e2be0c3f4ac2b2a88882462a0d" level="subseries">
+          <did>
+            <unittitle>July 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">71 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_f38ec2311ff0be5d0fe287623d09d10a" level="subseries">
+          <did>
+            <unittitle>August 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">75 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_9b82208732ef4d4f8d76d3165bc92a7d" level="subseries">
+          <did>
+            <unittitle>September 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 item(s)</extent>
+            </physdesc>
+          </did>
+          <c id="aspace_b0e439bc7e9b4c3cc1e5234e152e5117" level="recordgrp">
+            <did>
+              <unittitle>Folders</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">2 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+          <c id="aspace_76548a679dba6d9e66746f5d42675fc4" level="recordgrp">
+            <did>
+              <unittitle>Volumes</unittitle>
+              <physdesc altrender="whole">
+                <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+              </physdesc>
+            </did>
+          </c>
+        </c>
+        <c id="aspace_9d2a896c655a466c9ac1a3c1bca3236c" level="subseries">
+          <did>
+            <unittitle>October 1946</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_d6292333d60cc46cd38e403ca01fde5c" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_ce29f513b597c3be5648515c2ac101cc" level="subseries">
+          <did>
+            <unittitle>Volumes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">38 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_30af3bed41621d38c39f3ad4a1822a9e" level="series">
+        <did>
+          <unittitle>Rules, rulings, and orders</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">10 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_f10d583ea61c8732bd106c77fb4cef38">
+          <head>Scope and Contents</head>
+          <p>Rules of procedure and evidence promulgated by the IMT Nuremberg to govern the
+            proceedings of trial.</p>
+        </scopecontent>
+        <c id="aspace_f7e90119b16bf1ec849f9da7679681b8" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">3 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_e51e51a6a6304221c1941fa8b3152cff" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">7 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_d907d823f67a146fca9a9dac2856b3e3" level="series">
+        <did>
+          <unittitle>Statements and speeches</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">56 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_6b139cae25342726f47859472779e84d">
+          <head>Scope and Contents</head>
+          <p>These are the text of the opening and closing statements delivered by prosecuting
+            attorneys at the trial.</p>
+        </scopecontent>
+        <c id="aspace_d1b5947bcd71bba1634488119624d947" level="subseries">
+          <did>
+            <unittitle>Envelopes</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">1 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+        <c id="aspace_94b98e38c783dbdfa18fdef18d2c4d31" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">55 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+      <c id="aspace_6c2b8e51186297af31b73a3fd8fbc161" level="series">
+        <did>
+          <unittitle>Trial briefs</unittitle>
+          <physdesc altrender="whole">
+            <extent altrender="materialtype spaceoccupied">37 item(s)</extent>
+          </physdesc>
+        </did>
+        <scopecontent id="aspace_7a58f79be1af4486aad18cfb2743e2c4">
+          <head>Scope and Contents</head>
+          <p>These trial briefs are official court filings authored by the U.S. and British
+            prosecution teams making legal arguments about particular defendants, incidents, and
+            theories of liability.</p>
+        </scopecontent>
+        <c id="aspace_0c1f1f802c01ce85f42c5600d3fdfff1" level="subseries">
+          <did>
+            <unittitle>Folders</unittitle>
+            <physdesc altrender="whole">
+              <extent altrender="materialtype spaceoccupied">37 item(s)</extent>
+            </physdesc>
+          </did>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
