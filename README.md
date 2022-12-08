@@ -17,6 +17,8 @@ bundle exec solr_wrapper
 ## Index seed data
 You can seed the index with `rake vt:seed`. This loads data from our `spec/fixtures` directory. It is a vastly reduced (200K vs 1K lines of XML) version of the collection EAD file, which should be representative of different media types, series, subseries, date formats, etc. The fulltext transcript files associated with the items in `seed.xml` are also stored in our fixtures; these files will be indexed for fulltext search.
 
+We also added a `video.xml` file in fixtures that only contains the records/druids for the 37 items with video. This was useful for example in testing whether transcript harvesting worked on the videos, rather than harvesting from the entire collection.
+
 You can always delete the current index with `rake arclight:destroy_index_docs`.
 
 ## Index data from records stored in ArchivesSpace
