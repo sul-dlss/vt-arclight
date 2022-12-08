@@ -6,6 +6,7 @@
 require 'net/http'
 require 'nokogiri'
 require 'fileutils'
+require 'json'
 require 'ruby-progressbar'
 require 'parallel'
 
@@ -19,12 +20,14 @@ def purl_list_from_ead(filename)
 end
 
 JQ_COMMAND = "jq '.structural.contains[] | " \
-             "select(.type == " \
-             "\"https://cocina.sul.stanford.edu/models/resources/page\").structural.contains[] | " \
-             "select(.use == \"transcription\").filename' -r"
+             "select(.type == \"https://cocina.sul.stanford.edu/models/resources/page\" or .type == \"https://cocina.sul.stanford.edu/models/resources/file\")" \
+             ".structural.contains[] | " \
+             "select(.use == \"transcription\") | " \
+             "{ filename: .filename, mimetype: .hasMimeType }' -c"
 
 def transcript_files(purl)
   uri = URI("#{purl}.json")
+  puts uri.to_s
   json = Net::HTTP.get(uri)
 
   page_transcripts = []
@@ -33,16 +36,20 @@ def transcript_files(purl)
     f.close_write
     page_transcripts = f.readlines(chomp: true)
   end
-  page_transcripts
+  page_transcripts.map { |raw| JSON.parse(raw) }
 end
 
-def full_text_for(transcripts, druid)
-  full_text = transcripts.each_with_object(StringIO.new) do |filename, buffer|
-    uri = URI("https://stacks.stanford.edu/file/#{druid}/#{filename}")
-    xml_page = Net::HTTP.get(uri)
-    doc = Nokogiri::XML(xml_page)
-    buffer << doc.xpath('//alto:String/@CONTENT',
-                        alto: 'http://www.loc.gov/standards/alto/ns-v3#').map(&:value).join(' ')
+def full_text_for(records, druid)
+  full_text = records.each_with_object(StringIO.new) do |json, buffer|
+    uri = URI("https://stacks.stanford.edu/file/#{druid}/#{json['filename']}")
+    stacks_transcript = Net::HTTP.get(uri)
+    if json['mimetype'] == 'text/plain' # Media transcripts
+      buffer << stacks_transcript
+    else # ALTO XML files
+      doc = Nokogiri::XML(stacks_transcript)
+      buffer << doc.xpath('//alto:String/@CONTENT',
+                          alto: 'http://www.loc.gov/standards/alto/ns-v3#').map(&:value).join(' ')
+    end
   end
 
   full_text.string
@@ -55,11 +62,11 @@ def process_purl(purl)
   File.write("#{dir}/#{druid}.txt", full_text_for(transcript_files(purl), druid))
 end
 
-purls = purl_list_from_ead(ead_filename)
-progressbar = ProgressBar.create(total: purls.size)
+purl_urls = purl_list_from_ead(ead_filename)
+progressbar = ProgressBar.create(total: purl_urls.size)
 
 # Lots of blocking operations, so use a bunch of threads
-Parallel.each(purls, in_threads: 32) do |purl|
-  process_purl(purl)
+Parallel.each(purl_urls, in_threads: 32) do |purl_url|
+  process_purl(purl_url)
   progressbar.increment
 end
