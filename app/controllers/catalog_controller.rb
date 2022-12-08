@@ -142,11 +142,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_facet_field 'resource_type', field: 'resource_type_ssim'
     config.add_facet_field 'resource_format', field: 'resource_format_ssim'
 
-    # Note that parent_ssim is an array of all ancestor nodes, including the parent
-    # parent_ssi is just the immediate parent; it's used in queries for context nav
-    config.add_facet_field 'parent_ssim', show: false
-    config.add_facet_field 'parent_ssi', show: false, helper_method: :parent_label, label: 'Parent', single: true
-
     # Have BL send all facet field names to Solr, which has been the default
     # previously. Simply remove these lines if you'd rather use Solr request
     # handler defaults, or have no facets.
@@ -166,10 +161,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'extent', accessor: true, component: MetadataAttributeComponent
     config.add_index_field 'parent_ssi', component: MetadataAttributeComponent, helper_method: :render_parent_link
     config.add_index_field 'language_ssm', component: MetadataAttributeComponent
-
-    # config.add_facet_field 'has_online_content_ssim', label: 'Access', query: {
-    #   online: { label: 'Online access', fq: 'has_online_content_ssim:true' }
-    # }
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
