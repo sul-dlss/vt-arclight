@@ -294,7 +294,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       document.containers.present?
     }
     config.add_component_field 'document_number', field: 'unitid_ssm'
-    config.add_component_field 'date', field: 'normalized_date_ssm'
+    config.add_component_field 'date', field: 'normalized_date_ssm', helper_method: :render_date_facet_links
     config.add_component_field 'media_type', field: 'media_type_ssi', helper_method: :component_media_type_label
     config.add_component_field 'resource_format', field: 'resource_format_ssim'
     config.add_component_field 'resource_type', field: 'resource_type_ssim'
