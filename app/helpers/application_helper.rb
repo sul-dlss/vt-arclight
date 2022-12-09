@@ -33,4 +33,16 @@ module ApplicationHelper
   def component_media_type_label(value:, **_kwargs)
     media_type_label(value.first)
   end
+
+  # Generate a single HTML string with links to facet by an item's dates.
+  # Ensure the link only covers the date portion of the text with `pattern`.
+  # Join multiple distinct values with `sep`.
+  def render_date_facet_links(value:, pattern: /(\d{4}(?:-\d{2}-\d{2})?)/, sep: ', ', **_kwargs)
+    value.map do |date|
+      parts = date.split(pattern).map do |part|
+        part.match(pattern) ? link_to(part, search_action_path(search_state.filter('date').add(part))) : part
+      end
+      safe_join(parts)
+    end.join(sep)
+  end
 end
