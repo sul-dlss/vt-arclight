@@ -56,6 +56,11 @@ vault kv get puppet/application/vt/stage/aspace_password
     ```shell
      rake vt:index 
     ```
+5. Clear the caches
+   ```shell
+    cap prod remote_execute["cd vt/current; RAILS_ENV=production bin/rails tmp:cache:clear"]
+   ```
+
 ## Start the app
 
 ### Locally

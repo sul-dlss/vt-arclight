@@ -1,7 +1,9 @@
 <% # this view overrides the Arclight provided view so that we can see the home page text %>
 
 <% content_for(:sidebar) do %>
-  <%= render 'search_sidebar' %>
+  <% cache search_state.to_hash do %>
+    <%= render 'search_sidebar' %>
+  <% end %>
 <% end %>
 
 
