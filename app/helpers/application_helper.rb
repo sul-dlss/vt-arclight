@@ -38,11 +38,12 @@ module ApplicationHelper
   # Ensure the link only covers the date portion of the text with `pattern`.
   # Join multiple distinct values with `sep`.
   def render_date_facet_links(value:, pattern: /(\d{4}(?:-\d{2}-\d{2})?)/, sep: ', ', **_kwargs)
-    value.map do |date|
+    dates = value.map do |date|
       parts = date.split(pattern).map do |part|
         part.match(pattern) ? link_to(part, search_action_path(search_state.filter('date').add(part))) : part
       end
-      safe_join(parts)
-    end.join(sep)
+      safe_join parts
+    end
+    safe_join dates, sep
   end
 end
