@@ -5,6 +5,10 @@ require 'rails_helper'
 # rubocop:disable Layout/LineLength
 RSpec.describe ApplicationHelper do
   describe '#render_date_facet_links' do
+    it 'is html safe' do
+      expect(helper.render_date_facet_links(value: ['anything'])).to be_html_safe
+    end
+
     context 'when the value is a single day' do
       let(:value) { ['2019-01-01'] }
 
