@@ -21,45 +21,53 @@ We also added a `video.xml` file in fixtures that only contains the records/drui
 
 You can always delete the current index with `rake arclight:destroy_index_docs`.
 
-## Index data from records stored in ArchivesSpace
+## Data from ArchivesSpace
 
-### Required environment variables
-Making requests to the ArchivesSpace endpoints via rake task requires that certain environment variables are set. Locally you can pass them on the command line or set them up another way. On staging and production servers, they are stored and accessible.
+We store EAD XML generated from ArchivesSpace in `public/data/mt839rq8746.xml`. `mt839rq8746` is the druid associated with the Nuremberg collection, and we use it as a permanent identifier in ArchivesSpace. `mt839rq8746.xml` contains all the records in the Nuremberg Trial collection, around 9,000 records. We pull the file from SUL's production instance of ArchivesSpace (http://spec-as-prod.stanford.edu:8080/). A staging instance (http://spec-as-stage.stanford.edu:8080/) also exists; you can use this to experiment, but the files we commit to this repository should be downloaded from production.
+
+### How to download mt839rq8746.xml
+Making requests to the ArchivesSpace endpoints via rake task requires certain environment variables be set. Locally you can pass them on the command line or set them up another way. On our `vt-stage` and `vt-prod` servers running this application, these env vars are stored and accessible. Both `vt-stage` and `vt-prod` are set in Vault to point to `http://spec-as-prod.stanford.edu` (production ArchivesSpace) as the source for their EAD. The following variables are needed to perform the download:
+
 - `ASPACE_URL`
 - `ASPACE_USER`
 - `ASPACE_PASSWORD`
 
-You can get the values of Vault by running the following (stage example):
+You can get these values from Vault by running the following (stage example):
 ```shell
-vault kv get puppet/application/vt/stage/aspace_url
-vault kv get puppet/application/vt/stage/aspace_user
-vault kv get puppet/application/vt/stage/aspace_password
+vault kv get puppet/application/vt/<stage or prod>/aspace_url
+vault kv get puppet/application/vt/<stage or prod>/aspace_user
+vault kv get puppet/application/vt/<stage or prod>/aspace_password
 ```
 
-### Requesting ASpace data and indexing it
-1. Collection data is stored in the `public/data` directory. It may not be the lastest data uploaded to ArchivesSpace, but it is useable for indexing in step 4 below. If you're fine with using this data skip to step 4. 
+If you want to download the latest data and overwrite the file in `public/data` follow these steps:
 
-2. If you want to download the latest data and overwrite the file in `public/data` follow these steps. Find out the ID of the Resource and its Resository that you want in ArchivesSpace. Repository refers to internal SUL organization. On the staging ArchivesSpace server, for now we can assume the Repository ID is `18`, for Virtual Tribunals.
+1. Find out the ID of the Resource and its Resository that you want in ArchivesSpace. Repository refers to internal SUL organization. On the production ArchivesSpace server, the Repository ID is `18`, for Virtual Tribunals. "Resource" is the name for top level containers in ArchivesSpace. The Resource ID is the permanent identifier we use for the collection. It's the same as the druid and won't change: `mt839rq8746`
 
-    "Resource" is the name for top level containers in ArchivesSpace. The Resource ID is the permanent identifier we use for the collection. It's the same as the PURL and won't change: `mt839rq8746`
-
-3. Download the EAD for a specific Resource. This will download EAD to our `/data` folder with the Resource ID as the filename, e.g. `/data/mt839rq8746.xml`. You can use the following command. When trying to pass arguments to a rake task in the form of `[arg1,arg2]`, it seems my zsh shell requires escaping the brackets:
+2. Run the download task -- it takes resource and repository as arguments. When trying to pass arguments to a rake task in the form of `[arg1,arg2]`, it seems my zsh shell requires escaping the brackets:
     ```shell
     rake vt:download_resource\[18,mt839rq8746\]           
     ```
 
-    Locally with passing env variables, the command could like like this:
+    Locally with passing env variables, the command should look like this:
     ```shell
-     ASPACE_URL=http://spec-as-stage.stanford.edu:8089 ASPACE_USER=<xxx> ASPACE_PASSWORD=<xxx> rake vt:download_resource\[18,mt839rq8746\]  
+     ASPACE_URL=http://spec-as-prod.stanford.edu:8089 ASPACE_USER=<xxx> ASPACE_PASSWORD=<xxx> rake vt:download_resource\[18,mt839rq8746\]  
      ```
-4. Index the file.
+### How to index mt839rq8746.xml
+
+Now that the new copy of `mt839rq8746` is downloaded, we can index it.
+
+3. Index the file.
     ```shell
      rake vt:index 
     ```
-5. Clear the caches
+4. If indexing on a remote server, we need to clear the caches:
    ```shell
     cap prod remote_execute["cd vt/current; RAILS_ENV=production bin/rails tmp:cache:clear"]
    ```
+
+### Note on the data in ArchivesSpace
+The data we upload to ArchivesSpace is generated from a custom pipeline. See [/source_data/README.md]().
+Edits can be made to individual records manually, or on a larger scale by rerunning the steps in our data pipeline, and reuploading files to ArchivesSpace. When chanages are made to the collection in production ArchiveSpace, you should download the new file as described aboce, and save it in `public/data`, overwriting the existing file. Commit this new file and submit a PR. Once merged and deployed, you can reindex on  `vt-stage` and `vt-prod`, as described above.
 
 ## Start the app
 
