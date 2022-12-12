@@ -12,6 +12,10 @@ load_config_file(File.expand_path("#{Arclight::Engine.root}/lib/arclight/traject
 
 # FULL TEXT FIELDS
 to_field 'full_text_tesimv' do |resource, accumulator, context|
+  # Records in series "Audio recordings of proceedings" do not have associated fulltext files
+  parent_series = resource.xpath('ancestor::c[@level="series"]/did/unittitle').text
+  next if parent_series == "Audio recordings of proceedings"
+
   druid = resource.xpath('./did/dao/@href').map(&:value).map do |value|
     value.delete_prefix("https://purl.stanford.edu/")
   end.first
