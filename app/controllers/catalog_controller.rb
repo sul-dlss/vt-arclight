@@ -161,6 +161,18 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'extent', accessor: true, component: MetadataAttributeComponent
     config.add_index_field 'parent_ssi', component: MetadataAttributeComponent, helper_method: :render_parent_link
     config.add_index_field 'language_ssm', component: MetadataAttributeComponent
+    config.add_index_field('full_text_tesimv',
+      immutable: (config.view.keys - [:list]).push(:show).map { |k| [k, false] }.to_h,
+      if: lambda do |*args|
+        # bail out to true (show the field) if we don't have 3 arguments (context being the added argument)
+        # This is required for the metadata configuration admin page to return the field properly.
+        return true if args.length < 3
+
+        search_is_query?(*args)
+      end,
+      label: 'Sample matches in document text',
+      helper_method: :render_fulltext_highlight,
+      list: false)
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
@@ -331,5 +343,11 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
 
     # Group header values
     config.add_group_header_field 'abstract_or_scope', accessor: true, truncate: true, helper_method: :render_html_tags
+  end
+
+  class << self
+    def search_is_query?(context, _config, document)
+      context.params[:q].present?
+    end
   end
 end

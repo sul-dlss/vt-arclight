@@ -27,4 +27,13 @@ class SolrDocument
     result = Blacklight::Types::String.coerce(self['extent_ssm'])
     return result if result != '1 item(s)'
   end
+
+  def full_text_highlights
+    highlighting_response = response.dig('highlighting', id) || {}
+    all_results = highlighting_response.slice('full_text_tesimv').values.flatten.compact
+
+    all_results.uniq do |value|
+      value.gsub(%r{</?em>}, '')
+    end
+  end
 end

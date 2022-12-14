@@ -139,6 +139,8 @@
        <int name="ps">3</int>
        <float name="tie">0.01</float>
 
+      <str name="hl.fl">full_text_tesimv</str>
+      
        <str name="fl">
          id,
          score,

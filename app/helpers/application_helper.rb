@@ -46,4 +46,25 @@ module ApplicationHelper
     end
     safe_join dates, sep
   end
+
+  def search_for_doc_text_link(document)
+    return '' unless params[:q] && document[:druid]
+
+    link_to(
+      "Search for \"#{params[:q]}\" in document text",
+      solr_document_path(document[:druid], search: params[:q]),
+      class: 'prepared-search-link'
+    )
+  end
+
+  def render_fulltext_highlight(document:, **_args)
+    highlights = document.full_text_highlights
+    link = search_for_doc_text_link(document)
+
+    safe_join(highlights.take(3).map do |val|
+      content_tag('p') do
+        sanitize(val, tags: %w(em))
+      end
+    end.prepend(link), '')
+  end
 end
