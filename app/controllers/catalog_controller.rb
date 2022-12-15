@@ -47,7 +47,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }
 
     config.header_component = HeaderComponent
-    config.add_results_document_tool(:bookmark, partial: 'bookmark_control')
+    config.add_results_document_tool :arclight_bookmark_control, partial: 'arclight_bookmark_control'
 
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)
@@ -61,9 +61,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.index.group_component = Arclight::GroupComponent
     config.index.constraints_component = Arclight::ConstraintsComponent
     config.index.document_presenter_class = Arclight::IndexPresenter
-    config.add_results_document_tool :arclight_bookmark_control, partial: 'arclight_bookmark_control'
     config.index.search_bar_component = Blacklight::SearchBarComponent
-    config.index.document_actions.delete(:bookmark)
     # config.index.thumbnail_field = 'thumbnail_path_ss'
 
     # solr field configuration for document/show views
