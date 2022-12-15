@@ -62,6 +62,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.index.constraints_component = Arclight::ConstraintsComponent
     config.index.document_presenter_class = Arclight::IndexPresenter
     config.index.search_bar_component = Blacklight::SearchBarComponent
+    config.index.search_header_component = SearchHeaderComponent
     # config.index.thumbnail_field = 'thumbnail_path_ss'
 
     # solr field configuration for document/show views
