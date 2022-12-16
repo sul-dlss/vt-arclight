@@ -27,6 +27,9 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       'collection.rows': 1
     }
 
+    # Sets the indexed Solr field that will display with highlighted matches
+    config.highlight_field = 'full_text_tesimv'
+
     # solr path which will be added to solr base url before the other solr params.
     # config.solr_path = 'select'
 
