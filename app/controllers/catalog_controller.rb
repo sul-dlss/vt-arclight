@@ -47,8 +47,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     }
 
     config.header_component = HeaderComponent
-    config.add_results_document_tool :arclight_bookmark_control, partial: 'arclight_bookmark_control'
-
+    config.add_results_document_tool(:arclight_bookmark_control, component: Arclight::BookmarkComponent)
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)
     config.add_results_collection_tool(:view_type_group)
