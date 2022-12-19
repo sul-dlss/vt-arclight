@@ -67,6 +67,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # solr field configuration for document/show views
     # config.show.title_field = 'title_display'
     config.show.document_component = DocumentComponent
+    config.show.sidebar_component = Arclight::SidebarComponent
     config.show.breadcrumb_component = BreadcrumbHierarchyComponent
     config.show.embed_component = EmbedComponent
     config.show.access_component = Arclight::AccessComponent
