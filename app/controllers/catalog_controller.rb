@@ -151,11 +151,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
 
     # solr fields to be displayed in the index (search results) view
     #   The ordering of the field names is the order of the display
-    config.add_index_field 'highlight', accessor: 'highlights', separator_options: {
-      words_connector: '<br/>',
-      two_words_connector: '<br/>',
-      last_word_connector: '<br/>'
-    }, compact: true, component: Arclight::IndexMetadataFieldComponent
     config.add_index_field 'abstract_or_scope', accessor: true, truncate: true, repository_context: true,
                                                 helper_method: :render_html_tags,
                                                 component: Arclight::IndexMetadataFieldComponent
@@ -163,6 +158,9 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'extent', accessor: true, component: MetadataAttributeComponent
     config.add_index_field 'parent_ssi', component: MetadataAttributeComponent, helper_method: :render_parent_link
     config.add_index_field 'language_ssm', component: MetadataAttributeComponent
+    config.add_index_field 'highlight', accessor: 'highlights', separator_options: {
+      words_connector: '<br class="mb-3"/>'
+    }, compact: true, component: FullTextResultComponent
 
     # solr fields to be displayed in the show (single result) view
     #   The ordering of the field names is the order of the display
