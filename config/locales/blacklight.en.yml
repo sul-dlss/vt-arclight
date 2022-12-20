@@ -16,6 +16,7 @@ en:
           media_type: Media type
           resource_type: Resource type
           resource_format: Resource format
+        highlight: Sample matches in document text
         language: Language
         media_type: Media type
         repository_contact: Contact

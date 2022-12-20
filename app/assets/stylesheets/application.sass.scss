@@ -87,6 +87,27 @@ main {
       content: '';
     }
   }
+
+  .full-text {
+    font-size: 0.938rem;
+
+    em {
+      font-style: normal;
+      font-weight: bold;
+    }
+
+    .full-text-expand {
+      &::after {
+        content: "▶";
+        float: right;
+        transform: rotate(90deg);
+      }
+      &.collapsed::after {
+        transform: rotate(0deg);
+        transition: transform 0.1s ease;
+      }
+    }
+  }
 }
 
 .facet-limit-active .card-header {
