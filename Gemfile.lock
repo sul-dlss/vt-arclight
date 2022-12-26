@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 6a59afa7b762a67f6711c7882bab582a0a5a108b
+  revision: 88c131f7f14221e59b0f3bf30c78bf8034be7114
   branch: main
   specs:
     arclight (1.0.0.alpha)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/projectblacklight/blacklight.git
-  revision: 91152e7c43276bb5128cce4cd43c09c5448d8852
+  revision: 6575308f31b38d6b0c0881d9ebfd8ca77a37cbaa
   branch: main
   specs:
     blacklight (8.0.0.alpha)
@@ -140,7 +140,7 @@ GEM
     cssbundling-rails (1.1.2)
       railties (>= 6.0.0)
     date (3.3.3)
-    debug (1.7.0)
+    debug (1.7.1)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     deprecation (1.1.0)
@@ -163,7 +163,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dot-properties (0.1.4)
       bundler (>= 2.2.33)
-    erubi (1.11.0)
+    erubi (1.12.0)
     faraday (2.7.2)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
@@ -195,7 +195,7 @@ GEM
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.6.0)
-    irb (1.6.1)
+    irb (1.6.2)
       reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
@@ -240,7 +240,7 @@ GEM
     minitest (5.16.3)
     msgpack (1.6.0)
     multi_json (1.15.0)
-    net-imap (0.3.2)
+    net-imap (0.3.4)
       date
       net-protocol
     net-pop (0.1.2)
@@ -272,7 +272,7 @@ GEM
     public_suffix (5.0.1)
     puma (5.6.5)
       nio4r (~> 2.0)
-    racc (1.6.1)
+    racc (1.6.2)
     rack (2.2.4)
     rack-test (2.0.2)
       rack (>= 1.3)
@@ -334,7 +334,7 @@ GEM
       rspec-mocks (~> 3.11)
       rspec-support (~> 3.11)
     rspec-support (3.12.0)
-    rubocop (1.40.0)
+    rubocop (1.41.1)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.2.1)
@@ -346,7 +346,7 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.24.0)
       parser (>= 3.1.1.0)
-    rubocop-rails (2.17.3)
+    rubocop-rails (2.17.4)
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
@@ -401,8 +401,8 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (2.3.0)
-    view_component (2.79.0)
-      activesupport (>= 5.0.0, < 8.0)
+    view_component (2.80.0)
+      activesupport (>= 5.2.0, < 8.0)
       concurrent-ruby (~> 1.0)
       method_source (~> 1.0)
     warden (1.2.9)
