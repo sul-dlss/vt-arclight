@@ -1,4 +1,5 @@
 # Virtual Tribunals
+[![Ruby on Rails CI](https://github.com/sul-dlss/vt-arclight/actions/workflows/rubyonrails.yml/badge.svg)](https://github.com/sul-dlss/vt-arclight/actions/workflows/rubyonrails.yml)
 
 An Arclight-based discovery application for materials from the Virtual Tribunals project
 
