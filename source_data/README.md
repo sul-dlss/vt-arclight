@@ -22,4 +22,11 @@ Takes a single input file or directory path as its only argument, and operates o
 ### csv2xlsx.py
 Takes a single input file or directory path as its only argument, and operates on all .csv files found. Converts the .csv files to .xlsx files and outputs the .xlsx files to the same directory. Requires the `openpyxl` python library to be installed (e.g. `pip install openpyxl`).
 ### regenerate_all.sh
-Runs the entire data pipeline, starting from the original items_only.csv file. Permanently deletes the series/ and uploaders/ directories and all files in them, then regenerates them from scratch. After this is done, you need to copy the "mystery" black-bordered headers from aspace_headers.xslx and paste them over the first (empty) row in each of the spreadsheets in uploaders.
+Runs the entire data pipeline, starting from the original items_only.csv file. Permanently deletes the series/ and uploaders/ directories and all files in them, then regenerates them from scratch. After this is done, you need to copy the "mystery" black-bordered headers from aspace_headers.xslx and paste them over the first (empty) row in each of the spreadsheets in uploaders. Here is the process step by step:
+1. open aspace_headers.xlsx
+2. in excel, click the number of the first row, which will select the entire row
+3. copy (cmd/ctrl + c)
+4. open the uploader sheet
+5. click the number of the first row, which will select the entire row
+6. paste (cmd/ctrl + v)
+Sometimes it will warn you that the rows are different length but it shouldn't impact anything. The row in `aspace_headers.xlsx` doesn’t appear to have any actual data, but for me, the cells have black borders. When it works, after pasting, the place you pasted will take on the same black bordered appearance.
