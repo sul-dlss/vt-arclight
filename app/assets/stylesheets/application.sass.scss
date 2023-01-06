@@ -37,6 +37,11 @@ main {
   }
 }
 
+.al-masthead h1,
+.al-masthead .h1 {
+  padding-bottom: 1.25rem;
+}
+
 .al-masthead, .navbar-search {
   background: rgb(213,213,212);
   background: linear-gradient(145deg,
@@ -53,6 +58,7 @@ main {
   color: $link-color;
   font-size: 1rem;
   font-weight: 600;
+  padding-bottom: 1rem;
 }
 
 .navbar-search {
