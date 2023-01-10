@@ -8,7 +8,7 @@ class EmbedComponent < Arclight::EmbedComponent
   def content_warning
     return unless video? || image?
 
-    tag.div t('.content_warning_html'), class: "alert global-warning"
+    tag.div t('.content_warning_html'), class: "alert warning"
   end
 
   def video?
