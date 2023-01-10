@@ -1,11 +1,13 @@
-.global-warning {
+.warning {
   background-color: $cyan-blue-light;
   border-color: $stanford-black-20;
   font-size: $font-size-sm;
   padding: 0.75rem;
 
-  display: flex;
-  align-items: center;
+  &.global-warning {
+    display: flex;
+    align-items: center;
+  }
 
   .warning-icon {
     color: $stanford-cool-grey;
