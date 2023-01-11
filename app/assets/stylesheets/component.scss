@@ -1,4 +1,13 @@
 .blacklight-catalog-show {
+  .al-show-breadcrumb {
+    margin-bottom: 1rem;
+  }
+
+  .title-container {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
   .al-collection-content-icon {
     fill: $stanford-cool-grey;
   }
