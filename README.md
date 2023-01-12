@@ -66,6 +66,13 @@ Now that the new copy of `mt839rq8746` is downloaded, we can index it.
     cap prod remote_execute["cd vt/current; RAILS_ENV=production bin/rails tmp:cache:clear"]
    ```
 
+Here is an example of indexing new data onto a remote server. Make sure the SOLR_URL in the last step actually matches your index.
+```shell
+cap stage deploy # put latest EAD file onto the server
+cap stage ssh
+SOLR_URL=http://sul-solr.stanford.edu/solr/nta-arclight-stage/  RAILS_ENV=production bin/rails arclight:destroy_index_docs tmp:cache:clear vt:index
+```
+
 ### Note on the data in ArchivesSpace
 The data we upload to ArchivesSpace is generated from a custom pipeline. See [/source_data/README.md]().
 Edits can be made to individual records manually, or on a larger scale by rerunning the steps in our data pipeline, and reuploading files to ArchivesSpace. When chanages are made to the collection in production ArchiveSpace, you should download the new file as described aboce, and save it in `public/data`, overwriting the existing file. Commit this new file and submit a PR. Once merged and deployed, you can reindex on  `vt-stage` and `vt-prod`, as described above.
