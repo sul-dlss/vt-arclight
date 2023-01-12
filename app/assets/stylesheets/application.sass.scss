@@ -51,7 +51,7 @@ main {
 
 .al-masthead + .navbar-search {
   border: 0; // overriding the style from arclight
-  border-bottom: 1px solid $whisper;
+  border-bottom: 1px solid $stanford-black-20;
 }
 
 .al-masthead .navbar-nav .nav-link {
@@ -62,7 +62,7 @@ main {
 }
 
 .navbar-search {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 
   > .container {
     justify-content: space-around;  // center the search box
