@@ -2,6 +2,17 @@
 
 # Methods that are mixed into the view context.
 module ApplicationHelper
+  def render_item_extent(document:, **_kwargs)
+    extent = document["extent_ssm"].last
+    # add duration label for time-based media
+    case document["media_type_ssi"]
+    when 'Moving Images', 'Audio'
+      "#{extent} duration"
+    else
+      extent
+    end
+  end
+
   # rubocop:disable Rails/HelperInstanceVariable
   def parent_label(parent_id)
     return unless @response&.documents&.any?
@@ -23,8 +34,18 @@ module ApplicationHelper
     end
   end
 
+  def media_type_label_result(document:, **_kwargs)
+    media_type_label(document["media_type_ssi"])
+  end
+
   def component_media_type_label(value:, **_kwargs)
     media_type_label(value.first)
+  end
+
+  def item_level(document)
+    return unless document["level_ssim"]
+
+    document["level_ssim"]&.first&.match?("Item")
   end
 
   # Generate a single HTML string with links to facet by an item's dates.
