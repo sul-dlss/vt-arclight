@@ -2,13 +2,6 @@
 
 # Methods that are mixed into the view context.
 module ApplicationHelper
-  def render_parent_link(document:, **_kwargs)
-    parent = document.parents.last
-    return unless parent
-
-    link_to parent.label, search_action_path(search_state.filter('parent_ssi').add(parent.id))
-  end
-
   # rubocop:disable Rails/HelperInstanceVariable
   def parent_label(parent_id)
     return unless @response&.documents&.any?

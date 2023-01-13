@@ -156,7 +156,6 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
                                                 component: Arclight::IndexMetadataFieldComponent
     config.add_index_field 'unitid', accessor: true, component: MetadataAttributeComponent
     config.add_index_field 'extent', accessor: true, component: MetadataAttributeComponent
-    config.add_index_field 'parent_ssi', component: MetadataAttributeComponent, helper_method: :render_parent_link
     config.add_index_field 'language_ssm', component: MetadataAttributeComponent
     config.add_index_field 'highlight', accessor: 'highlights', separator_options: {
       words_connector: '<br class="mb-3"/>'
