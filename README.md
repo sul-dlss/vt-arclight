@@ -73,6 +73,8 @@ cap stage ssh
 SOLR_URL=http://sul-solr.stanford.edu/solr/nta-arclight-stage/  RAILS_ENV=production bin/rails arclight:destroy_index_docs tmp:cache:clear vt:index
 ```
 
+IMPORTANT: `cap stage ssh` or  `cap prod ssh` will log you into `vt-stage-a` or `vt-prod-a` and run the above commands there. Because we have `-b` servers as well with separate caches, it's important to remember to ssh into `vt-stage-b` and/or  `vt-prod-b`, and run the `tmp:cache:clear` command on these servers after indexing. Otherwise, bugs on the site can occur.
+
 ### Note on the data in ArchivesSpace
 The data we upload to ArchivesSpace is generated from a custom pipeline. See [/source_data/README.md]().
 Edits can be made to individual records manually, or on a larger scale by rerunning the steps in our data pipeline, and reuploading files to ArchivesSpace. When chanages are made to the collection in production ArchiveSpace, you should download the new file as described aboce, and save it in `public/data`, overwriting the existing file. Commit this new file and submit a PR. Once merged and deployed, you can reindex on  `vt-stage` and `vt-prod`, as described above.
