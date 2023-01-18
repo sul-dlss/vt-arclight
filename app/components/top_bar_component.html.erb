@@ -16,6 +16,10 @@
     <div class="container mt-3">
       <div class="row justify-content-center">
         <%= form_with url: feedback_path, method: :post, class: 'col-md-8' do |f| %>
+          <%= f.hidden_field :reporting_from, value: request.original_url %>
+          <div class="alert alert-danger" role="alert">
+            <%= t('feedbacks.reporting_from', url: request.original_url) %>
+          </div>
           <div class="mb-3 row">
             <%= f.label :message, class: "col-md-3 col-form-label" %>
             <div class="col-md-9">

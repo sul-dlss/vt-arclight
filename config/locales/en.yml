@@ -22,6 +22,7 @@ en:
     create:
       success: Feedback submitted.
       failure: Unable to send feedback.
+    reporting_from: 'Reporting from: %{url}'
   feedback_mailer:
     submit_feedback:
       subject: Feedback from Virtual Tribunals (Arclight)
