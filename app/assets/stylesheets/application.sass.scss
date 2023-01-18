@@ -97,6 +97,10 @@ main {
   .full-text {
     font-size: 0.938rem;
 
+    .prepared-search-link {
+      display: block;
+    }
+
     em {
       font-style: normal;
       font-weight: bold;
