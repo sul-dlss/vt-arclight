@@ -27,6 +27,9 @@ RSpec/ExampleLength:
 RSpec/MultipleExpectations:
   Max: 20
 
+RSpec/MultipleMemoizedHelpers:
+  Max: 10
+
 Gemspec/DeprecatedAttributeAssignment: # new in 1.30
   Enabled: true
 Gemspec/RequireMFA: # new in 1.23
