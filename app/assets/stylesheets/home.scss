@@ -68,5 +68,14 @@
   &.open {
     max-height: 100vh;
   }
+
+  label {
+    font-weight: 600;
+
+    @media (min-width: 768px) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
  }
  
