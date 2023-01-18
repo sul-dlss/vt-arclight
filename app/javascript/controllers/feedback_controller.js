@@ -8,7 +8,7 @@ export default class extends Controller {
     this.containerTarget.classList.toggle('open')
   }
 
-  reset(e) {
+  cancel(e) {
     this.containerTarget.classList.toggle('open')
   }
 }

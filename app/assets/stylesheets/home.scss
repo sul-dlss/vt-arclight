@@ -68,5 +68,14 @@
   &.open {
     max-height: 100vh;
   }
- }
+
+  label {
+    font-weight: $font-weight-semibold;
+
+    @include media-breakpoint-up(md) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
  
