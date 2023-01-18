@@ -5,6 +5,15 @@ class EmbedComponent < Arclight::EmbedComponent
   VIDEO_TYPE = 'Moving Images'
   IMAGE_TYPE = 'Graphic Materials'
 
+  attr_reader :query_param
+
+  def initialize(document:, presenter:, **)
+    super
+
+    # Save the search so we can pass it to the viewer for highlighting
+    @query_param = presenter.view_context.search_state.query_param
+  end
+
   def content_warning
     return unless video? || image?
 

@@ -1,6 +1,6 @@
 <div id="embed" class="mb-4">
   <%= content_warning %>
-  <%= render Arclight::OembedViewerComponent.with_collection(embeddable_resources, document: @document) %>
+  <%= render OembedViewerComponent.with_collection(embeddable_resources, document: @document, search: query_param) %>
 
   <% linked_resources.each do |resource| %>
     <div class="al-digital-object">
