@@ -90,9 +90,9 @@
          date_hierarchy_ssim^150
          title_tesim^100
          normalized_title_teim^100
+         unitid_identifier_match^40
          name_teim^10
          place_teim^10
-         unitid_identifier_match^5
          subject_teim^2
          text
          full_text_tesimv^0.5
@@ -101,9 +101,9 @@
          collection_title_tesim^150
          title_tesim^100
          normalized_title_teim^100
+         unitid_identifier_match^40
          name_teim^10
          place_teim^10
-         unitid_identifier_match^5
          text^5
          full_text_tesimv^2.5
          subject_teim^2
