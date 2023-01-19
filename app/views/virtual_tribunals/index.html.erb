@@ -4,7 +4,7 @@
       <%= t '.intro_html' %>
     </div>
     <div class="item-image">
-      <%= link_to image_tag('landing-page-CHRIJ-homepage.png', class: 'card-img-top shadow-sm', alt:''), 'https://humanrights.stanford.edu' %>
+      <%= link_to image_tag('landing-page-CHRIJ-homepage.png', class: 'card-img-top shadow-sm', alt: t('.chrij_image_alt')), 'https://humanrights.stanford.edu' %>
     </div>
   </div>
 
@@ -12,7 +12,7 @@
   <div class="d-flex justify-content-between vt-item">
     <div class="item-image">
       <%= link_to search_catalog_path do %>
-        <%= image_tag 'landing-page-NTA-collection.png', class: 'card-img-top shadow-sm', alt:'' %>
+        <%= image_tag 'landing-page-NTA-collection.png', class: 'card-img-top shadow-sm', alt: t('.nta_image_alt') %>
       <% end %>
     </div>
     <div class="ms-md-3">
@@ -24,7 +24,7 @@
   <div class="d-flex justify-content-between vt-item">
     <div class="item-image">
       <%= link_to '//exhibits.stanford.edu/virtual-tribunals' do %>
-        <%= image_tag 'landing-page-VT-browse.png', class: 'card-img-top shadow-sm', alt:'' %>
+        <%= image_tag 'landing-page-VT-browse.png', class: 'card-img-top shadow-sm', alt: t('.exhibit_image_alt') %>
       <% end %>
     </div>
     <div class="ms-md-3">
