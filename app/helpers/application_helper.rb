@@ -60,4 +60,19 @@ module ApplicationHelper
     end
     safe_join dates, sep
   end
+
+  # Override Arclight's default icon mapping because our levels are named differently
+  # See: https://github.com/projectblacklight/arclight/blob/main/app/helpers/arclight_helper.rb#L81
+  def document_or_parent_icon(document)
+    case document.level&.downcase
+    when 'collection'
+      'collection'
+    when 'series', 'subseries', 'record group'
+      'folder'
+    when 'item'
+      'file'
+    else
+      super
+    end
+  end
 end
