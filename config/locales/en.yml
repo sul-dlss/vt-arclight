@@ -18,6 +18,8 @@ en:
     disable_session: Don't show again
   embed_component:
     content_warning_html: <span>Content warning:</span> Imagery and language presented in this archival material may be harmful or traumatizing to some audiences.
+  full_text_result_component:
+    prepared_search_link: Search for "%{search}" in document text
   feedbacks:
     create:
       success: Feedback submitted.

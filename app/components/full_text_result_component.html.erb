@@ -1,4 +1,7 @@
 <div class="mt-3 full-text">
+  <%= link_to(t('.prepared_search_link', search: query_param),
+    solr_document_path(@field.document.id, q: query_param),
+    class: 'prepared-search-link') %>
   <%= label %>
   <button class="btn btn-link full-text-expand collapsed ps-0" type="button" data-bs-toggle="collapse" data-bs-target="#<%= key %>" aria-expanded="false" aria-controls="<%= key %>"><span class="visually-hidden">expand</span></button>
   <div id="<%= key %>" class="collapse">
