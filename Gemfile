@@ -92,3 +92,4 @@ gem "honeybadger", "~> 5.0"
 gem "okcomputer", "~> 1.18"
 
 gem "recaptcha", "~> 5.12"
+gem "redis", ">= 4.0.1"
