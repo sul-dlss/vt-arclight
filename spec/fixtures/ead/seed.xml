@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ead xmlns="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.loc.gov/ead/ead.xsd">
   <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b"
-    repositoryencoding="iso15511">
+             repositoryencoding="iso15511">
     <eadid countrycode="US">mt839rq8746</eadid>
     <filedesc>
       <titlestmt>
@@ -43,112 +43,88 @@
         <extent altrender="materialtype spaceoccupied">9920 item(s)</extent>
       </physdesc>
       <unitdate calendar="gregorian" certainty="inferred" era="ce" normal="1945/1946"
-        type="inclusive">1945-46</unitdate>
+                type="inclusive">1945-46</unitdate>
     </did>
-    <scopecontent id="aspace_e77471f850e45664ad1bae40ddd884a9">
-      <head>Scope and Contents</head>
-      <p> The Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46
-        collection includes court transcripts, indictments, sentences, briefings, minutes, etc,
-        related to the proceedings of the International Military Tribunal (IMT) at Nuremberg. The
-        first twenty-eight boxes contain: a) Exhibits submitted to the Tribunal by Prosecution and
-        Defense; b) Official Transcripts as taken by Court Reporters, of Court and Commission
-        proceedings; c) Document Books of Prosecution and Defense; d) Trial Briefs, Opening and
-        Closing Statements of Prosecution; e) Final Pleas and Clemency Pleas of Defense; f)
-        Indictment; g) Judgement, Dissenting Opinion and Sentences; h) Minutes of Tribunal Meetings;
-        i) Rules of the Tribunal, Orders of the Tribunal, Court Rulings on the Final Record; and j)
-        Lists, indices and miscellaneous related material. Material was inventoried box by box. The
-        last nine boxes contain only electronic transcriptions of the proceedings before the
-        International Military Tribunal. </p>
-      <p> The digital collection contains approximately 250,000 pages of digitized paper documents
-        (transcripts of the hearings in English, French, German and Russian; written pleadings;
-        evidence exhibits filed by the prosecution and the defense; documents of the Committee for
-        the Investigation and Prosecution of Major War Criminals; the judgment). </p>
-      <p> The official archives of the International Military Tribunal of Nuremberg (the "Nuremberg
-        Trial Archives") were entrusted to the International Court of Justice (ICJ) in 1950. The ICJ
-        and its Registry are the custodians of the entire archive, which includes the original print
-        documents that are available in digital form here, audio recordings of the trial's
-        proceedings, and evidentiary films. </p>
+    <scopecontent id="aspace_792ce1126a1ac36a35899306b4538a1a">
+      <head>Scope and contents</head>
       <p>
-        <i>Source: The Registry, International Court of Justice. (2018). Nuremberg Trial Archives,
-          The International Court of Justice: Custodian of the archives of the International
-          Military Tribunal at Nuremberg (2nd ed.) and the United States Holocaust Memorial Museum
-        </i>
+        The Taube Archive of the International Military Tribunal (IMT) at Nuremberg, 1945-46 collection includes court transcripts, indictments, sentences, briefings, minutes, etc, related to the proceedings of the International Military Tribunal (IMT) at Nuremberg. The first twenty-eight boxes contain: a) Exhibits submitted to the Tribunal by Prosecution and Defense; b) Official Transcripts as taken by Court Reporters, of Court and Commission proceedings; c) Document
+        Books of Prosecution and Defense; d) Trial Briefs, Opening and Closing Statements of Prosecution; e) Final Pleas and Clemency Pleas of Defense; f) Indictment; g) Judgement, Dissenting Opinion and Sentences; h) Minutes of Tribunal Meetings; i) Rules of the Tribunal, Orders of the Tribunal, Court Rulings on the Final Record; and j) Lists, indices and miscellaneous related material. Material was inventoried box by box. The last nine boxes contain only electronic transcriptions of the proceedings before the International Military Tribunal.
+      </p>
+      <p>
+        The digital collection contains approximately 250,000 pages of digitized paper documents (transcripts of the hearings in English, French, German and Russian; written pleadings; evidence exhibits filed by the prosecution and the defense; documents of the Committee for the Investigation and Prosecution of Major War Criminals; the judgment).
+      </p>
+      <p>
+        The official archives of the International Military Tribunal of Nuremberg (the "Nuremberg Trial Archives") were entrusted to the International Court of Justice (ICJ) in 1950. The ICJ and its Registry are the custodians of the entire archive, which includes the original print documents that are available in digital form here, audio recordings of the trial's proceedings, and evidentiary films.
+      </p>
+      <p>
+        <i>Source: The Registry, International Court of Justice. (2018). Nuremberg Trial Archives, The International Court of Justice: Custodian of the archives of the International Military Tribunal at Nuremberg (2nd ed.) and the United States Holocaust Memorial Museum </i>
       </p>
       <title>International Military Tribunal (IMT) Cases</title>
-      <p> The IMT's single case tried 24 <a href="https://encyclopedia.ushmm.org/narrative/9417/en"
-          >defendants</a>, all charged with being "leaders, organizers [and] instigators [of] and
-        accomplices" in the crimes defined in the Charter. They were chosen to represent a
-        cross-section of Nazi diplomatic, economic, political, and military leadership. <a
-          href="https://encyclopedia.ushmm.org/narrative/43/en">Adolf Hitler</a>, <a
-          href="https://encyclopedia.ushmm.org/narrative/10813/en">Heinrich Himmler</a>, and <a
-          href="https://encyclopedia.ushmm.org/narrative/56144/en">Joseph Goebbels</a> could not be
-        tried because they committed suicide at the end of the war or soon afterwards. <a
-          href="https://encyclopedia.ushmm.org/narrative/9836/en">Hermann Göring</a> was the highest
-        ranking Nazi official among the defendants. </p>
-      <p> In the end, only 21 defendants appeared in court. German industrialist <a
-          href="https://encyclopedia.ushmm.org/narrative/9865/en">Gustav Krupp</a> was included in
-        the original indictment, but he was elderly and in failing health. The Tribunal decided in
-        preliminary hearings to exclude him from the proceedings. Nazi Party secretary <a
-          href="https://encyclopedia.ushmm.org/narrative/9808/en">Martin Bormann</a> could not be
-        located. Borman was thus tried in absentia. Head of the German Labor Front <a
-          href="https://encyclopedia.ushmm.org/narrative/9868/en">Robert Ley</a> committed suicide
-        on the eve of the trial. <a href="https://www.ushmm.org/">(United States Holocaust Memorial
-          Museum)</a>
+      <p>
+        The IMT's single case tried 24 <a href="https://encyclopedia.ushmm.org/narrative/9417/en">defendants</a>, all charged with being "leaders, organizers [and] instigators [of] and accomplices" in the crimes defined in the Charter. They were chosen to represent a cross-section of Nazi diplomatic, economic, political, and military leadership. <a href="https://encyclopedia.ushmm.org/narrative/43/en">Adolf Hitler</a>, <a href="https://encyclopedia.ushmm.org/narrative/10813/en">Heinrich Himmler</a>, and <a href="https://encyclopedia.ushmm.org/narrative/56144/en">Joseph Goebbels</a> could not be tried because they committed suicide at the end of the war or soon afterwards. <a href="https://encyclopedia.ushmm.org/narrative/9836/en">Hermann Göring</a> was the highest ranking Nazi official among the defendants.
       </p>
-      <p> Joining the lead defendant, Reichsmarschall and Successor Designate to Hitler,
-          <persname>Hermann Wilhelm Goering</persname>, were: </p>
-      <ul><li><persname>Rudolf Hess</persname>, former Deputy to the
-            Führer;</li><li><persname>Joachim von Ribbentrop</persname>, Reich Minister for Foreign
-          Affairs;</li><li><persname>Wilhelm Keitel</persname>, Chief of the High Command of the
-          German Armed Forces;</li><li><persname>Ernst Kaltenbrunner</persname>, Head of the Reich
-          Main Security Office and highest ranking officer of the Nazi party Schutzstaffel (SS) at
-          Nuremberg;</li><li><persname>Alfred Rosenberg</persname>, racial theory ideologist and
-          Reich Minister for the Eastern Occupied Territories;</li><li><persname>Hans
-            Frank</persname>, Governor General of the Occupied Polish
-            Territories;</li><li><persname>Wilhelm Frick</persname>, Reich Minister of the Interior
-          and Reich Protector for Bohemia and Moravia;</li><li><persname>Julius
-          Streicher</persname>, Editor-in-Chief of the antisemitic newspaper Der
-            Stürmer;</li><li><persname>Walther Funk</persname>, Reich Minister of Economics and
-          President of the German Reichsbank;</li><li><persname>Hjalmar Schacht</persname>, former
-          Reich Minister of Economics and President of the German Reichsbank;</li><li><persname>Karl
-            Doenitz</persname>, Commander-in-Chief of the German Navy and, briefly, successor to
-          Hitler as Head of the German Government;</li><li><persname>Erich Raeder</persname>, former
-          Commander-in-Chief of the German Navy;</li><li><persname>Baldur von Schirach</persname>,
-          Head of the Hitler Youth;</li><li><persname>Fritz Sauckel</persname>, Plenipotentiary of
-          the Nazi slave-labour programme;</li><li><persname>Alfred Jodl</persname>, Chief of the
-          High Command of the German Armed Forces Operations Department;</li><li><persname>Franz von
-            Papen</persname>, former Reich Chancellor and Vice Chancellor;</li><li><persname>Arthur
-            Seyss-Inquart</persname>, Reich Commissar for the Occupied
-            Netherlands;</li><li><persname>Albert Speer</persname>, Reich Minister for Armament and
-          Munitions and Hitler's chief architect;</li><li><persname>Konstantin von
-            Neurath</persname>, Reich Minister of Foreign Affairs and later Reich Protector for
-          Bohemia and Moravia;</li> and <li><persname>Hans Fritzsche</persname>, Ministerialdirektor
-          of the Reich Ministry of Propaganda</li>. </ul>
+      <p>
+        In the end, only 21 defendants appeared in court. German industrialist <a href="https://encyclopedia.ushmm.org/narrative/9865/en">Gustav Krupp</a> was included in the original indictment, but he was elderly and in failing health. The Tribunal decided in preliminary hearings to exclude him from the proceedings. Nazi Party secretary <a href="https://encyclopedia.ushmm.org/narrative/9808/en">Martin Bormann</a> could not be located. Borman was thus tried in absentia. Head of the German Labor Front <a href="https://encyclopedia.ushmm.org/narrative/9868/en">Robert Ley</a> committed suicide on the eve of the trial. <a href="https://www.ushmm.org/">(United States Holocaust Memorial Museum)</a>
+      </p>
+      <p>
+        Joining the lead defendant, Reichsmarschall and Successor Designate to Hitler, <persname>Hermann Wilhelm Göring</persname>, were:
+      </p>
+      <ul>
+        <li><persname>Rudolf Hess</persname>, former Deputy to the Führer</li>
+        <li><persname>Joachim von Ribbentrop</persname>, Reich Minister for Foreign Affairs</li>
+        <li><persname>Wilhelm Keitel</persname>, Chief of the High Command of the German Armed Forces</li>
+        <li><persname>Ernst Kaltenbrunner</persname>, Head of the Reich Main Security Office and highest ranking officer of the Nazi party Schutzstaffel (SS) at Nuremberg</li>
+        <li><persname>Alfred Rosenberg</persname>, racial theory ideologist and Reich Minister for the Eastern Occupied Territories</li>
+        <li><persname>Hans Frank</persname>, Governor General of the Occupied Polish Territories</li>
+        <li><persname>Wilhelm Frick</persname>, Reich Minister of the Interior and Reich Protector for Bohemia and Moravia</li>
+        <li><persname>Julius Streicher</persname>, Editor-in-Chief of the antisemitic newspaper Der Stürmer</li>
+        <li><persname>Walther Funk</persname>, Reich Minister of Economics and President of the German Reichsbank</li>
+        <li><persname>Hjalmar Schacht</persname>, former Reich Minister of Economics and President of the German Reichsbank</li>
+        <li><persname>Karl Doenitz</persname>, Commander-in-Chief of the German Navy and, briefly, successor to Hitler as Head of the German Government</li>
+        <li><persname>Erich Raeder</persname>, former Commander-in-Chief of the German Navy</li>
+        <li><persname>Baldur von Schirach</persname>, Head of the Hitler Youth</li>
+        <li><persname>Fritz Sauckel</persname>, Plenipotentiary of the Nazi slave-labour programme</li>
+        <li><persname>Alfred Jodl</persname>, Chief of the High Command of the German Armed Forces Operations Department</li>
+        <li><persname>Franz von Papen</persname>, former Reich Chancellor and Vice Chancellor</li>
+        <li><persname>Arthur Seyss-Inquart</persname>, Reich Commissar for the Occupied Netherlands</li>
+        <li><persname>Albert Speer</persname>, Reich Minister for Armament and Munitions and Hitler's chief architect</li>
+        <li><persname>Konstantin von Neurath</persname>, Reich Minister of Foreign Affairs and later Reich Protector for Bohemia and Moravia</li>
+        <li><persname>Hans Fritzsche</persname>, Ministerialdirektor of the Reich Ministry of Propaganda</li>
+      </ul>
       <title>International Military Tribunal (IMT) Crimes</title>
-      <p> Article 6 of the IMT's Charter listed three broad categories of crimes: </p>
-      <a href="https://treaties.un.org/pages/showDetails.aspx?objid=08000002801572a2">IMT's
-        Charter</a>
-      <p> (a) Crimes against peace: namely, planning, preparation, initiation or waging of a war of
+      <p>
+        (a) Crimes against peace: namely, planning, preparation, initiation or waging of a war of
         aggression, or a war in violation of international treaties, agreements or assurances, or
         participation in a common plan or conspiracy for the accomplishment of any of the
-        foregoing;<br/> (b) War crimes: namely, violations of the laws or customs of war. Such
+        foregoing;
+      </p>
+      <p>
+        (b) War crimes: namely, violations of the laws or customs of war. Such
         violations shall include, but not be limited to, murder, ill-treatment or deportation to
         slave labour or for any other purpose of civilian population of or in occupied territory,
         murder or ill-treatment of prisoners of war or persons on the seas, killing of hostages,
         plunder of public or private property, wanton destruction of cities, towns or villages, or
-        devastation not justified by military necessity;<br/> (c) Crimes against humanity: namely,
+        devastation not justified by military necessity;
+      </p>
+      <p>
+        (c) Crimes against humanity: namely,
         murder, extermination, enslavement, deportation, and other inhumane acts committed against
         any civilian population, before or during the war, or persecutions on political, racial or
         religious grounds in execution of or in connection with any crime within the jurisdiction of
         the Tribunal, whether or not in violation of the domestic law of the country where
-        perpetrated.<br/>
+        perpetrated.
       </p>
       <p> The first of these charges, (a), was subdivided in the indictment, which thus contained
-        four counts, of which the defendants each faced his own permutation.<br/> Count one (common
+        four counts, of which the defendants each faced his own permutation. 
+      </p>
+      <p>
+        Count one (common
         plan or conspiracy) was prosecuted by the United States, and count two (crimes against
         peace) by the United Kingdom. Count three (war crimes) and count four (crimes against
         humanity) were prosecuted jointly by France and the Soviet Union, according to whether the
-        crimes in question had been committed in Western or Eastern Europe. </p>
+        crimes in question had been committed in Western or Eastern Europe.
+      </p>
     </scopecontent>
     <accessrestrict id="aspace_ee7adc26835e35fd6c53dae08354e776">
       <head>Conditions Governing Access</head>
@@ -210,14 +186,14 @@
                   <physfacet>16" aluminum Presto instantaneous discs</physfacet>
                 </physdesc>
                 <unitdate certainty="inferred"
-                  normal="1945-11-20T10:00+01:00/1945-11-20T10:10+01:00" type="inclusive">1945-11-20
+                          normal="1945-11-20T10:00+01:00/1945-11-20T10:10+01:00" type="inclusive">1945-11-20
                   from 10:00 - 10:10</unitdate>
                 <container id="aspace_b852b544757ca7ece232280e9f3ef10c" label="Audio" type="box"
                   >Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external"
-                  xlink:href="https://purl.stanford.edu/qp975pv1576" xlink:show="new"
-                  xlink:title="Lord Justice Lawrence opening session reading of Indictment. Part 1, 1945-11-20 from 10:00 - 10:10"
-                  xlink:type="simple">
+                     xlink:href="https://purl.stanford.edu/qp975pv1576" xlink:show="new"
+                     xlink:title="Lord Justice Lawrence opening session reading of Indictment. Part 1, 1945-11-20 from 10:00 - 10:10"
+                     xlink:type="simple">
                   <daodesc>
                     <p>Lord Justice Lawrence opening session reading of Indictment. Part 1,
                       1945-11-20 from 10:00 - 10:10</p>
@@ -252,14 +228,14 @@
                   <physfacet>16" aluminum Presto instantaneous discs</physfacet>
                 </physdesc>
                 <unitdate certainty="inferred"
-                  normal="1945-12-01T10:00+01:00/1945-12-01T10:14+01:00" type="inclusive">1945-12-01
+                          normal="1945-12-01T10:00+01:00/1945-12-01T10:14+01:00" type="inclusive">1945-12-01
                   from 10:00 - 10:14</unitdate>
                 <container id="aspace_18e47575e47237e280eea58719cd7c7e" label="Audio" type="box"
                   >Electrical transcription boxes</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external"
-                  xlink:href="https://purl.stanford.edu/gx779dp5757" xlink:show="new"
-                  xlink:title="Tribunal's decision on Hess. Questioning by British prosecutor and German counsels, 1945-12-01 from 10:00 - 10:14"
-                  xlink:type="simple">
+                     xlink:href="https://purl.stanford.edu/gx779dp5757" xlink:show="new"
+                     xlink:title="Tribunal's decision on Hess. Questioning by British prosecutor and German counsels, 1945-12-01 from 10:00 - 10:14"
+                     xlink:type="simple">
                   <daodesc>
                     <p>Tribunal's decision on Hess. Questioning by British prosecutor and German
                       counsels, 1945-12-01 from 10:00 - 10:14</p>
@@ -301,8 +277,8 @@
             <container id="aspace_18610e47bb1ac90c301d7f1ca3c4512f" label="Text" type="box"
               >6</container>
             <dao xlink:actuate="onRequest" xlink:audience="external"
-              xlink:href="https://purl.stanford.edu/kh535qr4415" xlink:show="new"
-              xlink:title="Hermann GOERING - No. 1" xlink:type="simple">
+                 xlink:href="https://purl.stanford.edu/kh535qr4415" xlink:show="new"
+                 xlink:title="Hermann GOERING - No. 1" xlink:type="simple">
               <daodesc>
                 <p>Hermann GOERING - No. 1</p>
               </daodesc>
@@ -351,8 +327,8 @@
               <container id="aspace_8ca4dd38af870e78ac0160fc5ff3403e" label="Text" type="box"
                 >24</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/xn925jv8966" xlink:show="new"
-                xlink:title="RF Exhibit 1401" xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/xn925jv8966" xlink:show="new"
+                   xlink:title="RF Exhibit 1401" xlink:type="simple">
                 <daodesc>
                   <p>RF Exhibit 1401</p>
                 </daodesc>
@@ -402,10 +378,10 @@
                   <physfacet>Package photostats</physfacet>
                 </physdesc>
                 <container id="aspace_add448fc563902e6bc2a96cbd63a916e" label="Graphic Materials"
-                  type="box">17</container>
+                           type="box">17</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external"
-                  xlink:href="https://purl.stanford.edu/gj129zy2393" xlink:show="new"
-                  xlink:title="USA Exhibit 388" xlink:type="simple">
+                     xlink:href="https://purl.stanford.edu/gj129zy2393" xlink:show="new"
+                     xlink:title="USA Exhibit 388" xlink:type="simple">
                   <daodesc>
                     <p>USA Exhibit 388</p>
                   </daodesc>
@@ -437,11 +413,11 @@
                   <physfacet>Film in box</physfacet>
                 </physdesc>
                 <container id="aspace_e946b7c5616cb8092861cabcda5ca8f6" label="Moving Images"
-                  type="box">27</container>
+                           type="box">27</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external"
-                  xlink:href="https://purl.stanford.edu/vb091dn2491" xlink:show="new"
-                  xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reels 19-20"
-                  xlink:type="simple">
+                     xlink:href="https://purl.stanford.edu/vb091dn2491" xlink:show="new"
+                     xlink:title="USA Exhibit 167 &quot;Nazi Plan&quot; Reels 19-20"
+                     xlink:type="simple">
                   <daodesc>
                     <p>USA Exhibit 167 "Nazi Plan" Reels 19-20</p>
                   </daodesc>
@@ -480,8 +456,8 @@
                 <container id="aspace_8ca761908fadc387d7bcf319c7a337ed" label="Text" type="box"
                   >13</container>
                 <dao xlink:actuate="onRequest" xlink:audience="external"
-                  xlink:href="https://purl.stanford.edu/vc229xk1213" xlink:show="new"
-                  xlink:title="USSR Exhibits Nos. 1-6" xlink:type="simple">
+                     xlink:href="https://purl.stanford.edu/vc229xk1213" xlink:show="new"
+                     xlink:title="USSR Exhibits Nos. 1-6" xlink:type="simple">
                   <daodesc>
                     <p>USSR Exhibits Nos. 1-6</p>
                   </daodesc>
@@ -532,8 +508,8 @@
               <container id="aspace_ff9eb1d85e3a9ea7f530e3b4be90be4e" label="Text" type="box"
                 >11</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/jk797gg0035" xlink:show="new"
-                xlink:title="Final Plea: Alfred ROSENBERG" xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/jk797gg0035" xlink:show="new"
+                   xlink:title="Final Plea: Alfred ROSENBERG" xlink:type="simple">
                 <daodesc>
                   <p>Final Plea: Alfred ROSENBERG</p>
                 </daodesc>
@@ -588,9 +564,9 @@
               <container id="aspace_b3b22b9b580cb6c98a14eca8f964b672" label="Text" type="box"
                 >16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/tq185zj5815" xlink:show="new"
-                xlink:title="Indictment against Hermann GOERING et al., lodged with the International Military Tribunal, 6 October 1945, 1945-10-06"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/tq185zj5815" xlink:show="new"
+                   xlink:title="Indictment against Hermann GOERING et al., lodged with the International Military Tribunal, 6 October 1945, 1945-10-06"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Indictment against Hermann GOERING et al., lodged with the International
                     Military Tribunal, 6 October 1945, 1945-10-06</p>
@@ -646,9 +622,9 @@
               <container id="aspace_2d4f6c7e08a27935e9100c343bd3e100" label="Text" type="box"
                 >16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/tp892bv7999" xlink:show="new"
-                xlink:title="Original signed Judgment of the IMT, 1 Oct 1946, 1946-10-01"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/tp892bv7999" xlink:show="new"
+                   xlink:title="Original signed Judgment of the IMT, 1 Oct 1946, 1946-10-01"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Original signed Judgment of the IMT, 1 Oct 1946, 1946-10-01</p>
                 </daodesc>
@@ -705,9 +681,9 @@
               <container id="aspace_08f380e31bd7633408fb96239053c60d" label="Text" type="box"
                 >12</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/rd446qt2267" xlink:show="new"
-                xlink:title="SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20, 1946-08-02"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/rd446qt2267" xlink:show="new"
+                   xlink:title="SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946, requesting translation of SD Affidavits, (b) List of SD Affidavits, (c) Affidavits 1-20, 1946-08-02"
+                   xlink:type="simple">
                 <daodesc>
                   <p>SD Affidavits, (a) Letter of Defense Counsel Dr. Gawlik,2 August 1946,
                     requesting translation of SD Affidavits, (b) List of SD Affidavits, (c)
@@ -769,9 +745,9 @@
               <container id="aspace_2a64fa9e7bd7b6f1da75a3f8cd2a5a52" label="Text" type="box"
                 >16</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/gk247nn1558" xlink:show="new"
-                xlink:title="Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946, Nos. 1-100, 1945-10-09 to 1946-10-01"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/gk247nn1558" xlink:show="new"
+                   xlink:title="Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946, Nos. 1-100, 1945-10-09 to 1946-10-01"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Minutes of International Military Tribunal Meetings, 9 Oct 1945 - 1 Oct 1946,
                     Nos. 1-100, 1945-10-09 to 1946-10-01</p>
@@ -817,9 +793,9 @@
               <container id="aspace_e1a028b966a21f003735c846a38c2afd" label="Text" type="box"
                 >8</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/tj053kp1610" xlink:show="new"
-                xlink:title="Official Commission Transcript, Robert BRILL, 21 May 1946, 1946-05-21"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/tj053kp1610" xlink:show="new"
+                   xlink:title="Official Commission Transcript, Robert BRILL, 21 May 1946, 1946-05-21"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Official Commission Transcript, Robert BRILL, 21 May 1946, 1946-05-21</p>
                 </daodesc>
@@ -878,9 +854,9 @@
               <container id="aspace_5119b67aaa0bc88ec9ff779097a3049f" label="Text" type="box"
                 >10</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/bt844bw3735" xlink:show="new"
-                xlink:title="Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 to 1946-08-31"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/bt844bw3735" xlink:show="new"
+                   xlink:title="Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 to 1946-08-31"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Vol. 38: Official Court Transcript, 27-31 August 1946, 1946-08-27 to
                     1946-08-31</p>
@@ -936,9 +912,9 @@
               <container id="aspace_d3b394c8d4a616eab2416b912024cfb7" label="Text" type="box"
                 >26</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/wc081bg7736" xlink:show="new"
-                xlink:title="Incomplete copies of International Military Tribunal Orders"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/wc081bg7736" xlink:show="new"
+                   xlink:title="Incomplete copies of International Military Tribunal Orders"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Incomplete copies of International Military Tribunal Orders</p>
                 </daodesc>
@@ -973,8 +949,8 @@
               <container id="aspace_c22267f40a790571f138653ecb806d9c" label="Text" type="box"
                 >26</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/xt760xp4194" xlink:show="new"
-                xlink:title="International Military Tribunal Orders" xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/xt760xp4194" xlink:show="new"
+                   xlink:title="International Military Tribunal Orders" xlink:type="simple">
                 <daodesc>
                   <p>International Military Tribunal Orders</p>
                 </daodesc>
@@ -1022,9 +998,9 @@
               <container id="aspace_8e58596be5cd3e793fbc2f75336861df" label="Text" type="box"
                 >26</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/tz735wp8636" xlink:show="new"
-                xlink:title="Introduction to French Closing Speech on responsibility of Defendants, by Mr. Champetier de Ribes"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/tz735wp8636" xlink:show="new"
+                   xlink:title="Introduction to French Closing Speech on responsibility of Defendants, by Mr. Champetier de Ribes"
+                   xlink:type="simple">
                 <daodesc>
                   <p>Introduction to French Closing Speech on responsibility of Defendants, by Mr.
                     Champetier de Ribes</p>
@@ -1079,9 +1055,9 @@
               <container id="aspace_4b31565b2c59812d3547ed582ac6775c" label="Text" type="box"
                 >11</container>
               <dao xlink:actuate="onRequest" xlink:audience="external"
-                xlink:href="https://purl.stanford.edu/pf574hf8681" xlink:show="new"
-                xlink:title="U.S. Trial Brief LL against the Defendant Wilhelm FRICK"
-                xlink:type="simple">
+                   xlink:href="https://purl.stanford.edu/pf574hf8681" xlink:show="new"
+                   xlink:title="U.S. Trial Brief LL against the Defendant Wilhelm FRICK"
+                   xlink:type="simple">
                 <daodesc>
                   <p>U.S. Trial Brief LL against the Defendant Wilhelm FRICK</p>
                 </daodesc>
