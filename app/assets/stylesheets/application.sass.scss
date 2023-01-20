@@ -140,3 +140,7 @@ main {
 .facet-values li .selected {
   color: $stanford-digital-green !important;
 }
+
+.grecaptcha-badge {
+  visibility: hidden;
+}
