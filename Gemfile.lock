@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/projectblacklight/arclight.git
-  revision: 54329e2786a915a39b1c9ae5178011ec84c1454b
+  revision: 9d67d52781ce5b6a6e877ffc31f1a8b1ae991752
   branch: main
   specs:
     arclight (1.0.0.alpha)
@@ -165,7 +165,7 @@ GEM
     dot-properties (0.1.4)
       bundler (>= 2.2.33)
     erubi (1.12.0)
-    faraday (2.7.3)
+    faraday (2.7.4)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -294,7 +294,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.4)
+    rails-html-sanitizer (1.5.0)
       loofah (~> 2.19, >= 2.19.1)
     railties (7.0.4.1)
       actionpack (= 7.0.4.1)
@@ -311,7 +311,7 @@ GEM
       redis-client (>= 0.9.0)
     redis-client (0.12.1)
       connection_pool
-    regexp_parser (2.6.1)
+    regexp_parser (2.6.2)
     reline (0.3.2)
       io-console (~> 0.5)
     responders (3.0.1)
@@ -357,9 +357,9 @@ GEM
       activesupport (>= 4.2.0)
       rack (>= 1.1)
       rubocop (>= 1.33.0, < 2.0)
-    rubocop-rspec (2.18.0)
+    rubocop-rspec (2.18.1)
       rubocop (~> 1.33)
-      rubocop-capybara
+      rubocop-capybara (~> 2.17)
     ruby-progressbar (1.11.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
