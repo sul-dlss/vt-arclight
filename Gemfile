@@ -3,8 +3,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'blacklight', github: 'projectblacklight/blacklight', branch: 'main'
+gem 'blacklight', '8.0.0.beta1'
 gem "rails", "~> 7.0.4"
 
 # Use sqlite3 as the database for Active Record
