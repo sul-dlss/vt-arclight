@@ -10,20 +10,6 @@ GIT
       traject (~> 3.0)
       traject_plus (~> 2.0)
 
-GIT
-  remote: https://github.com/projectblacklight/blacklight.git
-  revision: 4edd9be3aed6e2ecaa993945fdc5908f36154a23
-  branch: main
-  specs:
-    blacklight (8.0.0.alpha)
-      globalid
-      i18n (>= 1.7.0)
-      jbuilder (~> 2.7)
-      kaminari (>= 0.15)
-      ostruct (>= 0.3.2)
-      rails (>= 6.1, < 8)
-      view_component (~> 2.66)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -99,6 +85,14 @@ GEM
     ast (2.4.2)
     bcrypt (3.1.18)
     bindex (0.8.1)
+    blacklight (8.0.0.beta1)
+      globalid
+      i18n (>= 1.7.0)
+      jbuilder (~> 2.7)
+      kaminari (>= 0.15)
+      ostruct (>= 0.3.2)
+      rails (>= 6.1, < 8)
+      view_component (~> 2.66)
     bootsnap (1.15.0)
       msgpack (~> 1.2)
     builder (3.2.4)
@@ -440,11 +434,12 @@ GEM
 PLATFORMS
   x86_64-darwin-20
   x86_64-darwin-21
+  x86_64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
   arclight!
-  blacklight!
+  blacklight (= 8.0.0.beta1)
   bootsnap
   capistrano-passenger
   capistrano-rails
