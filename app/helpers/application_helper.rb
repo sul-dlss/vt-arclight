@@ -34,10 +34,6 @@ module ApplicationHelper
     end
   end
 
-  def media_type_label_result(document:, **_kwargs)
-    media_type_label(document["media_type_ssi"])
-  end
-
   def component_media_type_label(value:, **_kwargs)
     media_type_label(value.first)
   end

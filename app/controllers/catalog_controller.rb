@@ -159,7 +159,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'language_ssm', component: MetadataAttributeComponent
     # rubocop:disable Layout/LineLength
     # Only displays for Item level results
-    config.add_index_field 'media_type_ssi', component: MetadataAttributeComponent, helper_method: :media_type_label_result, if: lambda { |_context, _field_config, document|
+    config.add_index_field 'media_type', field: 'media_type_ssi', component: MetadataAttributeComponent, link_to_facet: true, if: lambda { |_context, _field_config, document|
       helpers.item_level(document)
     }
     # Only displays for Item level results
