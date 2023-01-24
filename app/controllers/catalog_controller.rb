@@ -157,17 +157,18 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     config.add_index_field 'unitid', accessor: true, component: MetadataAttributeComponent
     config.add_index_field 'extent', accessor: true, component: MetadataAttributeComponent
     config.add_index_field 'language_ssm', component: MetadataAttributeComponent
-    config.add_index_field 'highlight', accessor: 'highlights', separator_options: {
-      words_connector: '<br class="mb-3"/>'
-    }, compact: true, component: FullTextResultComponent
-    # The following fields will display for Item level results
     # rubocop:disable Layout/LineLength
+    # Only displays for Item level results
     config.add_index_field 'media_type_ssi', component: MetadataAttributeComponent, helper_method: :media_type_label_result, if: lambda { |_context, _field_config, document|
       helpers.item_level(document)
     }
+    # Only displays for Item level results
     config.add_index_field 'extent_ssm', component: MetadataAttributeComponent, helper_method: :render_item_extent, if: lambda { |_context, _field_config, document|
       helpers.item_level(document)
     }
+    config.add_index_field 'highlight', accessor: 'highlights', separator_options: {
+      words_connector: '<br class="mb-3"/>'
+    }, compact: true, component: FullTextResultComponent
     # rubocop:enable Layout/LineLength
 
     # solr fields to be displayed in the show (single result) view
