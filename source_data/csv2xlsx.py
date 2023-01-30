@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """Convert a directory of CSV files to XLSX files."""
 
 import pathlib
