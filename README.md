@@ -74,6 +74,8 @@ SOLR_URL=http://sul-solr.stanford.edu/solr/nta-arclight-stage/ RAILS_ENV=product
 RAILS_ENV=production bin/rails r 'Rails.cache.clear'
 ```
 
+Most likely you will be reindexing the EAD XML, and not the full text files, as those are fairly static. You can skip the slow processing involved with re-indexing fulltext by commenting out the `to_field 'full_text_tesimv'` block in `lib/traject/vt_component_config.rb`.
+
 ### Note on the data in ArchivesSpace
 The data we upload to ArchivesSpace is generated from a custom pipeline. See [/source_data/README.md]().
 Edits can be made to individual records manually, or on a larger scale by rerunning the steps in our data pipeline, and reuploading files to ArchivesSpace. When chanages are made to the collection in production ArchiveSpace, you should download the new file as described aboce, and save it in `public/data`, overwriting the existing file. Commit this new file and submit a PR. Once merged and deployed, you can reindex on  `vt-stage` and `vt-prod`, as described above.
