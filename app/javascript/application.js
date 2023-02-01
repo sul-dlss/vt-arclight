@@ -10,4 +10,8 @@ import dialogPolyfill from "dialog-polyfill"
 Blacklight.onLoad(() => {
   var dialog = document.querySelector('dialog');
   dialogPolyfill.registerDialog(dialog);
+
+  // Initialize Bootstrap tooltips
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 })
