@@ -1,15 +1,3 @@
-GIT
-  remote: https://github.com/projectblacklight/arclight.git
-  revision: f280182025d4a38e6dc5dcaf034d0a56b165a084
-  branch: main
-  specs:
-    arclight (1.0.0.alpha)
-      blacklight (>= 7.14, < 9)
-      gretel
-      rails (~> 7.0)
-      traject (~> 3.0)
-      traject_plus (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -82,6 +70,12 @@ GEM
       public_suffix (>= 2.0.2, < 6.0)
     airbrussh (1.4.1)
       sshkit (>= 1.6.1, != 1.7.0)
+    arclight (1.0.0.beta1)
+      blacklight (>= 8.0.0.beta, < 9)
+      gretel
+      rails (~> 7.0)
+      traject (~> 3.0)
+      traject_plus (~> 2.0)
     ast (2.4.2)
     bcrypt (3.1.18)
     bindex (0.8.1)
@@ -438,8 +432,8 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  arclight!
-  blacklight (= 8.0.0.beta1)
+  arclight (= 1.0.0.beta1)
+  blacklight (>= 8.0.0.beta, < 9)
   bootsnap
   capistrano-passenger
   capistrano-rails
