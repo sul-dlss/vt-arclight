@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'blacklight', '8.0.0.beta1'
+gem 'blacklight', '>= 8.0.0.beta5', '< 9'
 gem "rails", "~> 7.0.4"
 
 # Use sqlite3 as the database for Active Record
@@ -79,7 +79,7 @@ group :deployment do
   gem 'dlss-capistrano'
 end
 
-gem 'arclight', github: 'projectblacklight/arclight', branch: 'main'
+gem 'arclight', '1.0.0.beta1'
 gem "cssbundling-rails", "~> 1.1"
 gem "devise", "~> 4.8"
 gem "devise-guests", "~> 0.8"

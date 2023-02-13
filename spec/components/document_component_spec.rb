@@ -3,13 +3,26 @@
 require "rails_helper"
 
 RSpec.describe DocumentComponent, type: :component do
+  let(:document) do
+    SolrDocument.new(level_ssm: ['Item'],
+                     normalized_date_ssm: ['1946'],
+                     scopecontent_html_tesm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
+                                              "<p>The official archives of the IMT...</p>"],
+                     containers_ssim: ['Box 25'],
+                     language_ssim: ['German'],
+                     resource_type_ssim: ['Exhibits'],
+                     resource_format_ssim: ['Photo albums'],
+                     unitid_ssm: ['H-5006'],
+                     media_type_ssi: ['Graphic Materials'])
+  end
+
   let(:presenter) do
     Arclight::ShowPresenter.new(document, controller.view_context, CatalogController.blacklight_config)
   end
 
   before do
     allow(controller).to receive(:current_or_guest_user).and_return(nil)
-    render_inline(described_class.new(presenter:))
+    render_inline(described_class.new(document: presenter))
   end
 
   context 'with a collection that has online content (overrides Arclight::DocumentComponent)' do
@@ -21,19 +34,6 @@ RSpec.describe DocumentComponent, type: :component do
   end
 
   context 'with a component with metadata' do
-    let(:document) do
-      SolrDocument.new(level_ssm: ['Item'],
-                       normalized_date_ssm: ['1946'],
-                       scopecontent_html_tesm: ["<p>The collection in the Virtual Tribunal platform contains...</p>",
-                                                "<p>The official archives of the IMT...</p>"],
-                       containers_ssim: ['Box 25'],
-                       language_ssim: ['German'],
-                       resource_type_ssim: ['Exhibits'],
-                       resource_format_ssim: ['Photo albums'],
-                       unitid_ssm: ['H-5006'],
-                       media_type_ssi: ['Graphic Materials'])
-    end
-
     it "shows the data" do
       expect(page).to have_text 'Scope and content:'
       expect(page).to have_text 'The collection in the Virtual Tribunal'
