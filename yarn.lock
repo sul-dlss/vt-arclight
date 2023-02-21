@@ -10,7 +10,7 @@ anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-arclight@^1.0.0.beta1:
+arclight@^1.0.0-beta1:
   version "1.0.0-beta1"
   resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.0.0-beta1.tgz#365f86bfa3212f68e0eb46834f00887fdbe3194e"
   integrity sha512-GzTgH+TfykXbLalKEUy4eSbjLO7DlY4Y+gHxel85AW1Hh8siPpWtZesxQfQxGRTI3nIh/WsqlFeEirm6RAxSvA==
