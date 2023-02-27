@@ -11,8 +11,8 @@ class OembedViewerComponent < Arclight::OembedViewerComponent
   # Rendered as data-* attributes on the viewer element for Arclight's JS
   def viewer_attrs
     {
-      arclight_oembed: true,
-      arclight_oembed_url: @resource.href,
+      controller: 'arclight-oembed',
+      arclight_oembed_url_value: @resource.href,
       arclight_oembed_search: @search
     }
   end

@@ -13,7 +13,7 @@ RSpec.describe OembedViewerComponent, type: :component do
   end
 
   it 'renders the viewer' do
-    expect(page).to have_selector 'div[data-arclight-oembed="true"]'
+    expect(page).to have_selector 'div[data-controller="arclight-oembed"]'
   end
 
   it 'renders a link to the resource' do
@@ -21,7 +21,7 @@ RSpec.describe OembedViewerComponent, type: :component do
   end
 
   it 'passes the oembed URL to the viewer' do
-    expect(page).to have_selector 'div[data-arclight-oembed-url="example.com"]'
+    expect(page).to have_selector 'div[data-arclight-oembed-url-value="example.com"]'
   end
 
   it 'passes the search term to the viewer' do
