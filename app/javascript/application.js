@@ -4,7 +4,7 @@ import "controllers"
 import bootstrap from "bootstrap"
 window.bootstrap = bootstrap // Required for Blacklight 7 so it can manage the modals
 import "@github/auto-complete-element"
-import "blacklight"
+import Blacklight from "blacklight"
 import "arclight"
 
 import dialogPolyfill from "dialog-polyfill"
