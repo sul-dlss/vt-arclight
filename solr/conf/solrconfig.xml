@@ -188,6 +188,16 @@
        <str name="spellcheck.extendedResults">true</str>
        <str name="spellcheck.collate">false</str>
        <str name="spellcheck.count">5</str>
+
+       <!-- The default character limit for highlighting in Solr is 52100.
+            The full_text_tesimv highlight field can be much longer.
+            With the UnifiedHighlighter (it is the default in Solr 9 but not 8)
+            there is no performance concern with increasing this limit.
+            There is a bug in Solr that prevents us from 
+            removing the limit by setting it to -1 -->
+       <str name="hl.method">unified</str>
+       <str name="hl.maxAnalyzedChars">20000000</str>
+       <str name="hl.fragsize">20</str>
      </lst>
     <arr name="last-components">
       <str>spellcheck</str>
