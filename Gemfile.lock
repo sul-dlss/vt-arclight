@@ -79,7 +79,7 @@ GEM
     ast (2.4.2)
     bcrypt (3.1.18)
     bindex (0.8.1)
-    blacklight (8.0.0.beta8)
+    blacklight (8.0.0)
       globalid
       i18n (>= 1.7.0)
       jbuilder (~> 2.7)
@@ -433,7 +433,7 @@ PLATFORMS
 
 DEPENDENCIES
   arclight (= 1.0.0.beta3)
-  blacklight (>= 8.0.0.beta5, < 9)
+  blacklight (~> 8.0)
   bootsnap
   capistrano-passenger
   capistrano-rails
