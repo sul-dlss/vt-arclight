@@ -79,7 +79,7 @@ group :deployment do
   gem 'dlss-capistrano'
 end
 
-gem 'arclight', '~> 1.0.0.beta4'
+gem 'arclight', '~> 1.0.0.beta6'
 gem "cssbundling-rails", "~> 1.1"
 gem "devise", "~> 4.8"
 gem "devise-guests", "~> 0.8"
