@@ -5,7 +5,7 @@ export default class SulEmbedController extends OembedController {
   static values = {
     hideTitle: Boolean,
     search: String,
-    ...OembedController.values,
+    ...super.values,
   };
 
   // Pass extra parameters to sul-embed
