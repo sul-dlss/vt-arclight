@@ -7,7 +7,7 @@ RSpec.describe DateFacetHierarchyComponent, type: :component do
 
   let(:facet_field) do
     Blacklight::FacetFieldPresenter.new(CatalogController.blacklight_config.facet_fields['date'], display_facet,
-                                        controller.view_context, search_state)
+                                        vc_test_controller.view_context, search_state)
   end
   let(:display_facet) { Blacklight::Solr::Response::Facets::FacetField.new('date', items) }
   let(:search_state) { Blacklight::SearchState.new({}, CatalogController.blacklight_config) }
@@ -24,7 +24,7 @@ RSpec.describe DateFacetHierarchyComponent, type: :component do
   end
 
   before do
-    render_inline(component)
+    puts render_inline(component)
   end
 
   it "renders the year nodes of the tree" do

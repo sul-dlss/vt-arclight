@@ -3,7 +3,7 @@
 require "rails_helper"
 
 RSpec.describe EmbedComponent, type: :component do
-  let(:view_context) { controller.view_context }
+  let(:view_context) { vc_test_controller.view_context }
   let(:presenter) { Arclight::ShowPresenter.new(document, view_context) }
   let(:document) { instance_double(SolrDocument, media_type:, digital_objects:) }
   let(:params) { {} }
