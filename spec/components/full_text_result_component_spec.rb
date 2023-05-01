@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe FullTextResultComponent, type: :component do
-  let(:view_context) { controller.view_context }
+  let(:view_context) { vc_test_controller.view_context }
   let(:field_config) { Blacklight::Configuration::Field.new(key: 'ftkey', field: 'fulltext', label: 'Full Text') }
   let(:document) { SolrDocument.new(id: 123, fulltext: ['my text']) }
   let(:field) { Blacklight::FieldPresenter.new(view_context, document, field_config) }

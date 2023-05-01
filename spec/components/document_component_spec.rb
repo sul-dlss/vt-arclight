@@ -17,11 +17,11 @@ RSpec.describe DocumentComponent, type: :component do
   end
 
   let(:presenter) do
-    Arclight::ShowPresenter.new(document, controller.view_context, CatalogController.blacklight_config)
+    Arclight::ShowPresenter.new(document, vc_test_controller.view_context, CatalogController.blacklight_config)
   end
 
   before do
-    allow(controller).to receive(:current_or_guest_user).and_return(nil)
+    allow(vc_test_controller).to receive(:current_or_guest_user).and_return(nil)
     render_inline(described_class.new(document: presenter))
   end
 
