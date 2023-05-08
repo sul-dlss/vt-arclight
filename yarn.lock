@@ -11,9 +11,9 @@ anymatch@~3.1.2:
     picomatch "^2.0.4"
 
 arclight@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.0.0.tgz#0af58f3c945e42c0245e46661ff873827d1f963e"
-  integrity sha512-yNWsIuEwdqkNKzmZ7Vx3k1ACFMZI7BmE2yaPN/BHzXEcQ8cAJX2s4AuTn/kQ8G30YPMTUwru+2ECWZYxrUuXXw==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.0.1.tgz#7cb86604e8491f93a63217500c4fe0fc003afcf6"
+  integrity sha512-FCRaRe3Bq9aWzW8PnK25KRx74DwjjQWQnJyUsrkVLaWzJ8Qi9GptfLIeJ4Y6omZR4dxQxsk1RhPE6/5m7VMigg==
 
 binary-extensions@^2.0.0:
   version "2.2.0"
@@ -21,9 +21,9 @@ binary-extensions@^2.0.0:
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
 blacklight-frontend@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/blacklight-frontend/-/blacklight-frontend-8.0.0.tgz#30a3d3b5654cefc225f98436580166f9353d8795"
-  integrity sha512-Ab/6jJcH2ez9d0zpkO6vm//EttRQ55Ugm/PMmot+vwOufCn7hh/5lXo7Q6qSib7ydhon145kMXXhSBIqhIE2hQ==
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/blacklight-frontend/-/blacklight-frontend-8.0.1.tgz#20c923ea45e0d9c774ad3d23ef0bed2e31a12c71"
+  integrity sha512-KVQ4txligEJb3RZx4LpGEx/YDWRWgSDP7xdJOzudFLFwZ8eJAwbwc7L5ErXvuNwdSz0o6v5vf6IIr66Hpbg5TA==
   dependencies:
     bootstrap ">=4.3.1 <6.0.0"
 
