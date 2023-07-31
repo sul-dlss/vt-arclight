@@ -10,6 +10,11 @@ abort("The Rails environment is running in production mode!") if Rails.env.produ
 require 'rspec/rails'
 require 'capybara/rspec'
 require 'webmock/rspec'
+
+# I think this line can be removed when selenium 4.11 is released
+# See https://github.com/titusfortner/webdrivers/issues/247#issuecomment-1648154088
+Webdrivers::Chromedriver.required_version = '114.0.5735.90'
+
 WebMock.disable_net_connect!(allow_localhost: true,
                              allow: ['chromedriver.storage.googleapis.com'])
 
