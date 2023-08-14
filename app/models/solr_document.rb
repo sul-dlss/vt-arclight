@@ -19,6 +19,6 @@ class SolrDocument
   # Suppress the display of extent badge when there is only one item
   def extent
     result = Blacklight::Types::String.coerce(self['extent_ssm'])
-    return result if result != '1 item(s)'
+    result if result != '1 item(s)'
   end
 end
