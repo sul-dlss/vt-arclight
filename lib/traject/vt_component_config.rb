@@ -6,6 +6,10 @@ require_relative 'virtual_tribunals/normalized_title'
 settings do
   provide 'component_traject_config', __FILE__
   provide 'title_normalizer', 'VirtualTribunals::NormalizedTitle'
+  # ArcLight 1.1 introduced a different identifier format. Providing this
+  # configuration maintains our current identifier format.
+  # See: https://github.com/projectblacklight/arclight/pull/1478
+  provide 'component_identifier_format', '%<root_id>s%<ref_id>s'
 end
 
 load_config_file(File.expand_path("#{Arclight::Engine.root}/lib/arclight/traject/ead2_component_config.rb"))

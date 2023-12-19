@@ -4,6 +4,40 @@ require 'rails_helper'
 
 # rubocop:disable Layout/LineLength
 RSpec.describe ApplicationHelper do
+  describe '#render_item_extent' do
+    subject(:extent) { render_item_extent(document:) }
+
+    context 'when extent contains separate values for items and pages (ArcLight 1.0 index)' do
+      let(:document) do
+        SolrDocument.new('extent_ssm' => ['1 item(s)', '10 pages'])
+      end
+
+      it 'returns only the number of pages' do
+        expect(extent).to eq '10 pages'
+      end
+    end
+
+    context 'when extent contains concatenated values for items and pages (ArcLight 1.1 index)' do
+      let(:document) do
+        SolrDocument.new('extent_ssm' => ['1 item(s) 10 pages'])
+      end
+
+      it 'returns only the number of pages' do
+        expect(extent).to eq '10 pages'
+      end
+    end
+
+    context 'when media type is "Moving Images"' do
+      let(:document) do
+        SolrDocument.new('extent_ssm' => ['1 item(s) 0:14:19'], media_type_ssi: 'Moving Images')
+      end
+
+      it 'appends "duration" to the extent' do
+        expect(extent).to eq '0:14:19 duration'
+      end
+    end
+  end
+
   describe '#render_date_facet_links' do
     it 'is html safe' do
       expect(helper.render_date_facet_links(value: ['anything'])).to be_html_safe
