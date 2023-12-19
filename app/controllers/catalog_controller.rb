@@ -239,7 +239,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
     # ===========================
 
     # Collection Show Page - Summary Section
-    config.add_summary_field 'creators_ssim', label: 'Creator'
+    config.add_summary_field 'creator_ssim', label: 'Creator'
     config.add_summary_field 'abstract_html_tesm', label: 'Abstract', helper_method: :render_html_tags
     config.add_summary_field 'extent_ssm', label: 'Extent'
     config.add_summary_field 'language_ssim', label: 'Language'
