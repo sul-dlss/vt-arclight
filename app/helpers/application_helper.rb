@@ -3,7 +3,12 @@
 # Methods that are mixed into the view context.
 module ApplicationHelper
   def render_item_extent(document:, **_kwargs)
-    extent = document["extent_ssm"].last
+    # Needed to support ArcLight 1.1 where extents that were previously
+    # stored separately (e.g. ['1 item(s)', '0:14:01']) are concatenated
+    # in the index (e.g. ['1 item(s) 0:14:01']). Selecting the last value
+    # maintains compatibility with the existing ArcLight 1.0 index.
+    extent = document['extent_ssm'].last.gsub('1 item(s)', '').strip
+
     # add duration label for time-based media
     case document["media_type_ssi"]
     when 'Moving Images', 'Audio'

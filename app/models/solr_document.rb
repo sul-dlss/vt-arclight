@@ -15,10 +15,14 @@ class SolrDocument
   use_extension(Blacklight::Document::DublinCore)
 
   attribute :media_type, Blacklight::Types::String, 'media_type_ssi'
+  # Continue to use parent_ssim field from arclight versions prior to v1.1.0
+  # TODO: This must be removed if we re-index the collection and remove the
+  # Arclight::Parent override.
+  attribute :parent_ids, Blacklight::Types::Array, 'parent_ssim'
 
   # Suppress the display of extent badge when there is only one item
   def extent
-    result = Blacklight::Types::String.coerce(self['extent_ssm'])
-    result if result != '1 item(s)'
+    results = Blacklight::Types::Array.coerce(self['extent_ssm'])
+    results.any? { |v| v.include?('1 item(s)') } ? [] : results
   end
 end
