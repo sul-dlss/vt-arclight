@@ -75,7 +75,9 @@ group :deployment do
   gem 'dlss-capistrano'
 end
 
-gem 'arclight', '~> 1.0'
+# pin arclight to v1.0.* until we address some changes in v1.1.0
+# documented here: https://github.com/sul-dlss/vt-arclight/issues/608
+gem 'arclight', '~> 1.0.0'
 gem "cssbundling-rails", "~> 1.1"
 gem "devise", "~> 4.8"
 gem "devise-guests", "~> 0.8"
