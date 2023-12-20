@@ -444,7 +444,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  arclight (~> 1.0)
+  arclight (~> 1.0.0)
   blacklight (~> 8.0)
   bootsnap
   capistrano-passenger
