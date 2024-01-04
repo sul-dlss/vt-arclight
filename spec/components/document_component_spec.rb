@@ -29,7 +29,7 @@ RSpec.describe DocumentComponent, type: :component do
     let(:document) { SolrDocument.new(level_ssm: ['collection'], has_online_content_ssim: ['true']) }
 
     it "doesn't show the online filter" do
-      expect(page).not_to have_text 'Online content'
+      expect(page).to have_no_text 'Online content'
     end
   end
 
