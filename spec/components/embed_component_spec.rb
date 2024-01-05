@@ -22,7 +22,7 @@ RSpec.describe EmbedComponent, type: :component do
     end
 
     it "shows no warning" do
-      expect(page).not_to have_text 'Content warning'
+      expect(page).to have_no_text 'Content warning'
     end
   end
 
