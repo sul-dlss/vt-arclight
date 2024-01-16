@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-def with_solr(&)
+def with_solr(...)
   SolrWrapper.wrap do |solr|
-    solr.with_collection(&)
+    solr.with_collection(...)
   end
 end
 
