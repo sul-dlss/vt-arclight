@@ -13,6 +13,12 @@ AllCops:
     - db/migrate/**/*
     - vendor/bundle/**/*
 
+Style/Documentation:
+  Exclude:
+    - 'config/application.rb'
+    - 'spec/**/*.rb'
+    - 'test/**/*.rb'
+
 Style/StringLiterals:
   Enabled: false
 

@@ -4,13 +4,13 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'blacklight', '~> 8.0'
-gem "rails", "~> 7.0.4"
+gem "rails", "~> 7.1.1"
 
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 6.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
