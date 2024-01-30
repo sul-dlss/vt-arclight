@@ -36,8 +36,9 @@ RSpec.describe "Highlighted search terms in viewer", js: true do
     within_frame do
       # sidebar is open
       page.find('.mirador-companion-area-left')
+      page.find('input')
       # input is populated with the search term
-      page.find('input[value="justice"]', wait: 10)
+      page.find('input[value="justice"]')
       # buttons are present
       expect(page.find('h3')).to have_text 'Search'
       expect(page.find('h3')).to have_text 'clear'
