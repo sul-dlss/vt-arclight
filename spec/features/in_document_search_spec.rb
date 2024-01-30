@@ -34,14 +34,15 @@ RSpec.describe "Highlighted search terms in viewer", js: true do
 
     # iframe containing sul-embed/mirador viewer
     within_frame do
-      # sidebar is open
-      page.find('.mirador-companion-area-left')
-      page.find('input')
-      # input is populated with the search term
-      page.find('input[value="justice"]')
       # buttons are present
       expect(page.find('h3')).to have_text 'Search'
       expect(page.find('h3')).to have_text 'clear'
+
+      # sidebar is open
+      page.find('.mirador-companion-area-left')
+
+      # input is populated with the search term
+      page.find('input[value="justice"]')
     end
   end
 end
