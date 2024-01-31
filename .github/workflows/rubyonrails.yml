@@ -35,6 +35,10 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: 3.2
+      - name: Install Latest Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: 'latest'
       - name: Install Chromedriver
         uses: nanasess/setup-chromedriver@v2
       # Add or replace database setup steps here
