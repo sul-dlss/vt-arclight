@@ -39,8 +39,8 @@ jobs:
         uses: browser-actions/setup-chrome@v1
         with:
           chrome-version: 'latest'
-      - name: Install Chromedriver
-        uses: nanasess/setup-chromedriver@v2
+      #- name: Install Chromedriver
+      #  uses: nanasess/setup-chromedriver@v2
       # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
