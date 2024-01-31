@@ -35,14 +35,6 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: 3.2
-      # Capybara has switched to the "new" headless chrome by default.
-      # https://developer.chrome.com/docs/chromium/new-headless
-      # Chrome on ubuntu-latest, currently 22.04, causes some tests to crash
-      # when using this option.
-      - name: Install Latest Chrome
-        uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: 'latest'
       # Add or replace database setup steps here
       - name: Set up database schema
         run: bin/rails db:schema:load
