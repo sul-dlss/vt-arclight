@@ -38,7 +38,6 @@ RSpec.describe "Highlighted search terms in viewer", js: true do
       page.find('.mirador-companion-area-left')
 
       # input is populated with the search term
-      page.find('.mirador-companion-area-left input')
       page.find('input[value="justice"]')
 
       # buttons are present
