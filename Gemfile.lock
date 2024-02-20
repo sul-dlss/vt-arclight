@@ -181,7 +181,7 @@ GEM
       railties (>= 5.1, < 7.2)
     hashdiff (1.1.0)
     hashie (5.0.0)
-    honeybadger (5.4.1)
+    honeybadger (5.5.0)
     http (5.2.0)
       addressable (~> 2.8)
       base64 (~> 0.1)
@@ -275,7 +275,7 @@ GEM
     parser (3.3.0.5)
       ast (~> 2.4.1)
       racc
-    pg (1.5.4)
+    pg (1.5.5)
     propshaft (0.6.4)
       actionpack (>= 7.0.0)
       activesupport (>= 7.0.0)
@@ -331,7 +331,7 @@ GEM
     recaptcha (5.16.0)
     redis (5.1.0)
       redis-client (>= 0.17.0)
-    redis-client (0.19.1)
+    redis-client (0.20.0)
       connection_pool
     regexp_parser (2.9.0)
     reline (0.4.2)
@@ -430,7 +430,7 @@ GEM
       deprecation
       jsonpath
       traject (~> 3.0)
-    turbo-rails (2.0.2)
+    turbo-rails (2.0.3)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
