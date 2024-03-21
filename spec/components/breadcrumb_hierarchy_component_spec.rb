@@ -6,7 +6,7 @@ RSpec.describe BreadcrumbHierarchyComponent, type: :component do
   let(:presenter) { instance_double(Arclight::ShowPresenter, document:, heading: "doc title") }
   let(:document) { instance_double(SolrDocument, parents:) }
   let(:parents) do
-    [instance_double(Arclight::Parent, collection?: true, label: 'parent collection', global_id: 'nnn')]
+    [instance_double(Arclight::Parent, collection?: true, label: 'parent collection', id: 'nnn')]
   end
 
   it "renders breadcrumbs" do
