@@ -11,9 +11,9 @@ anymatch@~3.1.2:
     picomatch "^2.0.4"
 
 arclight@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.1.0.tgz#8905f986ec411063eaf09df45c7d2ed64c58ce7e"
-  integrity sha512-hV/hpKuaMT7hEl2IS5X+kYB3mOX7M2CVW4TC+oQu7WYsX0a2Ofi5gm4WxEpojlxqi12YuQCgGoVo/xkjLX972g==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/arclight/-/arclight-1.1.4.tgz#ec66c16d3206bc75723b5b686e3528b738485be0"
+  integrity sha512-JiGMe7XIWdWbkx3Z3nGhCIjHx6Kx8i8dHzzWAq2VR+1hotCy6gXM0OxZM1cU715FVh4gCBDIk/EMoi3AL2cgsQ==
 
 binary-extensions@^2.0.0:
   version "2.3.0"
@@ -120,9 +120,9 @@ readdirp@~3.6.0:
     picomatch "^2.2.1"
 
 sass@^1.55.0:
-  version "1.77.1"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.77.1.tgz#018cdfb206afd14724030c02e9fefd8f30a76cd0"
-  integrity sha512-OMEyfirt9XEfyvocduUIOlUSkWOXS/LAt6oblR/ISXCTukyavjex+zQNm51pPCOiFKY1QpWvEH1EeCkgyV3I6w==
+  version "1.77.2"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.77.2.tgz#18d4ed2eefc260cdc8099c5439ec1303fd5863aa"
+  integrity sha512-eb4GZt1C3avsX3heBNlrc7I09nyT00IUuo4eFhAbeXWU2fvA7oXI53SxODVAA+zgZCk9aunAZgO+losjR3fAwA==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
     immutable "^4.0.0"
