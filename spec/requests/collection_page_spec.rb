@@ -13,7 +13,8 @@ RSpec.describe "The collection page" do
                      timestamp: 2.days.ago.iso8601,
                      level_ssm: ['collection'],
                      repository_ssm: ['International Court of Justice'],
-                     ead_ssi: "mt839rq8746")
+                     ead_ssi: "mt839rq8746",
+                     '_root_' => 'mt839rq8746')
   end
 
   before do
