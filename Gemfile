@@ -3,8 +3,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Pin Blacklight to 8.1.0 until a fix is in for: https://github.com/projectblacklight/blacklight/commit/d8c0ec4435db34b85f83a2e4799bc15b0469ef27
-gem 'blacklight', '~> 8.1.0'
+gem 'blacklight', '~> 8.2'
 gem "rails", "~> 7.1.1"
 
 # Use sqlite3 as the database for Active Record
