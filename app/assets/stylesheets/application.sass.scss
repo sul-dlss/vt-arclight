@@ -64,6 +64,10 @@ main {
 .navbar-search {
   padding-bottom: 1.5rem;
 
+  search {
+    display: contents;
+  }
+
   > .container {
     justify-content: space-around;  // center the search box
   }
