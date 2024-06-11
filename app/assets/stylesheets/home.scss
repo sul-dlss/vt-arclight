@@ -61,16 +61,6 @@
 }
 
 #feedback {
-  overflow: hidden;
-  transition: all .5s ease-in-out;
-  max-height: 0;
-  visibility: hidden;
-
-  &.open {
-    max-height: 100vh;
-    visibility: visible;
-  }
-
   label {
     font-weight: $font-weight-semibold;
 
