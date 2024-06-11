@@ -12,7 +12,7 @@
     </div>
   </nav>
   
-  <div data-feedback-target="container" id="feedback">
+  <div data-feedback-target="container" id="feedback" class="collapse">
     <div class="container mt-3">
       <div class="row justify-content-center">
         <%= form_with url: feedback_path, method: :post, class: 'col-md-8' do |f| %>
@@ -47,7 +47,7 @@
           <div class="mb-3 row">
             <div class="col-md-9 offset-md-3">
               <%= f.submit class: 'btn btn-primary' %>
-              <%= button_tag "Cancel", type: :button, data: { action: 'feedback#cancel' }, class: 'btn btn-link' %>
+              <%= button_tag "Cancel", type: :button, data: { bs_toggle: 'collapse', bs_target: '#feedback' }, class: 'btn btn-link' %>
             </div>
           </div>
         <% end %>
