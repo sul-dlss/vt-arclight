@@ -15,7 +15,7 @@ RSpec.describe FullTextResultComponent, type: :component do
   end
 
   it 'renders the full text content' do
-    expect(page).to have_selector '#ftkey-123', text: 'my text'
+    expect(page).to have_css '#ftkey-123', text: 'my text'
   end
 
   it 'renders a button to expand the full text preview' do

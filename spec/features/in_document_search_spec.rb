@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe "Highlighted search terms in viewer", js: true do
+RSpec.describe "Highlighted search terms in viewer", :js do
   let(:blacklight_config) { CatalogController.blacklight_config }
   let(:solr_conn) { blacklight_config.repository_class.new(blacklight_config).connection }
   let(:id) { 'mt839rq8746aspace_b2d40ef7acf229edec643750a8240999' }
@@ -24,12 +24,12 @@ RSpec.describe "Highlighted search terms in viewer", js: true do
     solr_conn.commit
   end
 
-  it "opens the viewer with highlighted search terms", js: true do
+  it "opens the viewer with highlighted search terms", :js do
     # search results page
     visit "/nuremberg?search_field=all_fields&q=justice"
 
     within first('article') do
-      click_link 'Search for "justice" in document text'
+      click_on 'Search for "justice" in document text'
     end
 
     # iframe containing sul-embed/mirador viewer
