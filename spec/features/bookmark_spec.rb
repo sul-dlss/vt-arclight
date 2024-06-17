@@ -2,7 +2,7 @@
 
 require "rails_helper"
 
-RSpec.describe "Bookmark item", js: true do
+RSpec.describe "Bookmark item", :js do
   let(:blacklight_config) { CatalogController.blacklight_config }
   let(:solr_conn) { blacklight_config.repository_class.new(blacklight_config).connection }
   let(:id) { 'mt839rq8746aspace_b2d40ef7acf229edec643750a8240999' }
@@ -29,7 +29,7 @@ RSpec.describe "Bookmark item", js: true do
     check 'Bookmark'
     expect(page).to have_css('label', text: "In Bookmarks")
 
-    click_link 'Bookmarks'
+    click_on 'Bookmarks'
 
     expect(page).to have_link 'Document books'
   end

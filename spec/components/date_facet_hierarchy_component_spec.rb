@@ -28,9 +28,9 @@ RSpec.describe DateFacetHierarchyComponent, type: :component do
   end
 
   it "renders the year nodes of the tree" do
-    expect(page).to have_selector '.card-body > ul > li[role="treeitem"]', count: 2
-    expect(page).to have_selector '.card-body > ul > li[role="treeitem"]', text: '2009'
-    expect(page).to have_selector '.card-body > ul > li[role="treeitem"]', text: '2010'
+    expect(page).to have_css '.card-body > ul > li[role="treeitem"]', count: 2
+    expect(page).to have_css '.card-body > ul > li[role="treeitem"]', text: '2009'
+    expect(page).to have_css '.card-body > ul > li[role="treeitem"]', text: '2010'
   end
 
   it 'renders the months' do
