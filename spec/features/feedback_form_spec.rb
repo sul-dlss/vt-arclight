@@ -9,6 +9,6 @@ RSpec.describe 'Feedback form', :js do
     expect(page).to have_no_css('#feedback')
 
     click_on 'Feedback'
-    expect(page).to have_css('#feedback form')
+    expect(page).to have_css('#feedback form[name="feedback_form"]')
   end
 end
