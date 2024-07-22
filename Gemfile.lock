@@ -299,6 +299,8 @@ GEM
       nio4r (~> 2.0)
     racc (1.8.0)
     rack (3.1.7)
+    rack-attack (6.7.0)
+      rack (>= 1.0, < 4)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -507,6 +509,7 @@ DEPENDENCIES
   pg (~> 1.4)
   propshaft (~> 0.6.4)
   puma (~> 6.0)
+  rack-attack
   rails (~> 7.1.1)
   recaptcha (~> 5.12)
   redis (>= 4.0.1)
