@@ -48,9 +48,7 @@ module Rack
       match_data = request.env['rack.attack.match_data']
       now = match_data[:epoch_time]
 
-      if Settings.throttling.notify_honeybadger && (
-        ((match_data[:limit] - match_data[:count]) < 5) || (match_data[:count] % 10).zero?
-      )
+      if ((match_data[:limit] - match_data[:count]) < 5) || (match_data[:count] % 10).zero?
         Honeybadger.notify('Throttling request', context: { ip: request.ip, path: request.path }.merge(match_data))
       end
 
