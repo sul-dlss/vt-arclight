@@ -26,10 +26,6 @@ Metrics/BlockLength:
   AllowedMethods:
     - configure_blacklight
 
-Naming/PredicateName:
-  ForbiddenPrefixes:
-    - _is
-
 RSpec/ExampleLength:
   Max: 20
 
