@@ -28,8 +28,9 @@ RSpec.describe "Highlighted search terms in viewer", :js do
     # search results page
     visit "/nuremberg?search_field=all_fields&q=justice"
 
+    sleep 5
     click_on 'Search for "justice" in document text', match: :first
-
+    sleep 5
     # iframe containing sul-embed/mirador viewer
     within_frame do
       # sidebar is open
