@@ -31,11 +31,13 @@ RSpec.describe "Highlighted search terms in viewer", :js do
     click_on 'Search for "justice" in document text', match: :first
 
     # iframe containing sul-embed/mirador viewer
-    within_frame(find('iframe[title="Image viewer"]')) do
+    iframe = find('iframe[title="Image viewer"]')
+    iframe.scroll_to(:center)
+    within_frame(iframe) do
       # sidebar is open
       page.find('.mirador-companion-area-left')
       # input is populated with the search term
-      # page.find('input[value="justice"]')
+      page.find('input[value="justice"]')
       # buttons are present
       expect(page.find('h3')).to have_text 'Search'
       expect(page.find('h3')).to have_text 'clear'
