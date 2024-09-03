@@ -32,13 +32,14 @@ RSpec.describe "Highlighted search terms in viewer", :js do
       click_on 'Search for "justice" in document text'
     end
 
+    # Viewer is taking a long time to load?
+    sleep 10
+
     # iframe containing sul-embed/mirador viewer
     within_frame do
       # sidebar is open
       page.find('.mirador-companion-area-left')
       # input is populated with the search term
-      # Checking if this passes normally.
-      sleep 2
       page.find('input[value="justice"]')
       # buttons are present
       expect(page.find('h3')).to have_text 'Search'
