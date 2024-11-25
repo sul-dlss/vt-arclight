@@ -97,9 +97,9 @@ arclight@^1.0.0:
   integrity sha512-a8WGQHWTAg+CbR+1QL4GfDuEwlyEDeeesKe4HjDhaRS5uW3luMW+1FVLtnU79USxjepMkx/stOCQD4KPYVED+g==
 
 blacklight-frontend@^8.2.2:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/blacklight-frontend/-/blacklight-frontend-8.4.0.tgz#e7ac18411c98b6e3f3f7362eba828757b5a939c9"
-  integrity sha512-xycmoUUr8laqqRM9i8tIhzbow9ww/zMqXFVkaZjGhh5ntBNucUYTDfCHOIdOsaEKR+F5IPG5mm2wve5Uyds7kQ==
+  version "8.6.1"
+  resolved "https://registry.yarnpkg.com/blacklight-frontend/-/blacklight-frontend-8.6.1.tgz#27c1c0f3c2797a05d6289511c1a6b65dedc27e38"
+  integrity sha512-g5+hkN4rUMPrzCLBcHNoo/Wwrty/s5SCLn/+6H5VL6z1Ht/Q+8SqX/oLbSU0L9nr2AnyM3gSF3Fi0u0xqqONgw==
   dependencies:
     bootstrap ">=4.3.1 <6.0.0"
 
@@ -135,9 +135,9 @@ fill-range@^7.1.1:
     to-regex-range "^5.0.1"
 
 immutable@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/immutable/-/immutable-5.0.2.tgz#bb8a987349a73efbe6b3b292a9cbaf1b530d296b"
-  integrity sha512-1NU7hWZDkV7hJ4PJ9dur9gTNQ4ePNPN4k9/0YhwjzykTi/+3Q5pF93YU5QoVj8BuOnhLgaY8gs0U2pj4kSYVcw==
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-5.0.3.tgz#aa037e2313ea7b5d400cd9298fa14e404c933db1"
+  integrity sha512-P8IdPQHq3lA1xVeBRi5VPqUm5HDgKnx0Ru51wZz5mjxHr5n3RWhjIpOFU7ybkUxfB+5IToy+OLaHYDBIWsv+uw==
 
 is-extglob@^2.1.1:
   version "2.1.1"
