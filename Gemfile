@@ -63,7 +63,7 @@ end
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri mingw x64_mingw]
-  gem 'rspec-rails', '~> 6.0'
+  gem 'rspec-rails', '~> 7.1'
   gem "rubocop-rails", "~> 2.16", require: false
   gem "rubocop-rspec", "~> 2.13", require: false
   gem "solr_wrapper", ">= 0.3"
