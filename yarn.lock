@@ -97,9 +97,9 @@ arclight@^1.0.0:
   integrity sha512-a8WGQHWTAg+CbR+1QL4GfDuEwlyEDeeesKe4HjDhaRS5uW3luMW+1FVLtnU79USxjepMkx/stOCQD4KPYVED+g==
 
 blacklight-frontend@^8.2.2:
-  version "8.6.1"
-  resolved "https://registry.yarnpkg.com/blacklight-frontend/-/blacklight-frontend-8.6.1.tgz#27c1c0f3c2797a05d6289511c1a6b65dedc27e38"
-  integrity sha512-g5+hkN4rUMPrzCLBcHNoo/Wwrty/s5SCLn/+6H5VL6z1Ht/Q+8SqX/oLbSU0L9nr2AnyM3gSF3Fi0u0xqqONgw==
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/blacklight-frontend/-/blacklight-frontend-8.7.0.tgz#4ef0d5c984ea41addf42914dd37157f7eee3f3f5"
+  integrity sha512-iDPNfD+QQo5+ZoLLl4uRXtgzvPFup4JnzAa1MnxdP+7cxkHm24cidJ+c/9UBZjk9mrOOnFdlMfWZnbX+zG+mkQ==
   dependencies:
     bootstrap ">=4.3.1 <6.0.0"
 
@@ -180,9 +180,9 @@ readdirp@^4.0.1:
   integrity sha512-yDMz9g+VaZkqBYS/ozoBJwaBhTbZo3UNYQHNRw1D3UFQB8oHB4uS/tAODO+ZLjGWmUbKnIlOWO+aaIiAxrUWHA==
 
 sass@^1.55.0:
-  version "1.81.0"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.81.0.tgz#a9010c0599867909dfdbad057e4a6fbdd5eec941"
-  integrity sha512-Q4fOxRfhmv3sqCLoGfvrC9pRV8btc0UtqL9mN6Yrv6Qi9ScL55CVH1vlPP863ISLEEMNLLuu9P+enCeGHlnzhA==
+  version "1.82.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.82.0.tgz#30da277af3d0fa6042e9ceabd0d984ed6d07df70"
+  integrity sha512-j4GMCTa8elGyN9A7x7bEglx0VgSpNUG4W4wNedQ33wSMdnkqQCT8HTwOaVSV4e6yQovcu/3Oc4coJP/l0xhL2Q==
   dependencies:
     chokidar "^4.0.0"
     immutable "^5.0.2"
