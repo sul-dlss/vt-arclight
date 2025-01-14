@@ -58,11 +58,14 @@ main {
   padding: 1.25rem 0;
 }
 
-.al-masthead, .navbar-search {
-  background: rgb(213,213,212);
-  background: linear-gradient(145deg,
-    rgba(213,213,212,0.464005585144214) 10%,
-    rgba(244,244,244,1) 95%);
+.al-masthead,
+.navbar-search {
+  background: rgb(213, 213, 212);
+  background: linear-gradient(
+    145deg,
+    rgba(213, 213, 212, 0.464005585144214) 10%,
+    rgba(244, 244, 244, 1) 95%
+  );
 }
 
 .al-masthead + .navbar-search {
@@ -70,18 +73,11 @@ main {
   border-bottom: 1px solid $stanford-black-20;
 }
 
-.al-masthead .navbar-nav .nav-link {
-  color: $link-color;
-  font-size: 1rem;
-  font-weight: 600;
-  padding-bottom: 1rem;
-}
-
 .navbar-search {
   padding-bottom: 1.5rem;
 
   > .container {
-    justify-content: space-around;  // center the search box
+    justify-content: space-around; // center the search box
   }
 
   .search_field {
@@ -108,12 +104,12 @@ main {
       width: auto;
 
       &::after {
-        content: '⸱';
-        padding-left: calc(var(--bs-gutter-x) * .5);
+        content: "⸱";
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
       }
 
       &:last-of-type::after {
-        content: '';
+        content: "";
       }
     }
 
@@ -154,7 +150,7 @@ main {
 }
 
 .facet-values li .selected {
-  color: $stanford-digital-green !important;
+  color: var(--stanford-digital-green) !important;
 }
 
 .grecaptcha-badge {
