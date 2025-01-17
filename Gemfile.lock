@@ -429,9 +429,9 @@ GEM
       ostruct
       retriable
       ruby-progressbar
-    sqlite3 (1.7.3-arm64-darwin)
-    sqlite3 (1.7.3-x86_64-darwin)
-    sqlite3 (1.7.3-x86_64-linux)
+    sqlite3 (2.5.0-arm64-darwin)
+    sqlite3 (2.5.0-x86_64-darwin)
+    sqlite3 (2.5.0-x86_64-linux-gnu)
     sshkit (1.23.2)
       base64
       net-scp (>= 1.1.2)
@@ -495,6 +495,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  arm64-darwin-24
   x86_64-darwin-22
   x86_64-linux
 
@@ -527,7 +528,7 @@ DEPENDENCIES
   rubocop-rspec (~> 2.13)
   selenium-webdriver
   solr_wrapper (>= 0.3)
-  sqlite3 (~> 1.4)
+  sqlite3 (~> 2.5)
   stimulus-rails
   turbo-rails
   tzinfo-data
