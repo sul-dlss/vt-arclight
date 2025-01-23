@@ -4,7 +4,6 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrapOverrides';
 
-$logo-image: url(StanfordLibraries-logo-whitetext.svg);
 $logo-width: 200px;
 $logo-height: 35px;
 
@@ -35,6 +34,23 @@ main {
   .constraints-container {
     display: none; // Never show "back to search" or "start over" on an item show page.
   }
+}
+
+// Adds the new library logo to the header & footer
+// until we can update VT to use the component library
+.navbar-logo, .prefooter-logo {
+  background-color: white;
+  mask-image: url("https://cdn.jsdelivr.net/gh/sul-dlss/component-library@v2025-01-10/styles/StanfordLibraries-logo.svg");
+  mask-repeat: no-repeat;
+  mask-position: 0 center;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.prefooter-logo {
+  background-color: black;
+  width: 280px;
 }
 
 .al-masthead h1,
