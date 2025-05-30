@@ -18,6 +18,9 @@ module Rack
     # Throttle all requests by IP (60rpm)
     #
     # Key: "rack::attack:#{Time.now.to_i/:period}:req/ip:#{req.ip}"
+
+    Rack::Attack.cache.store = ActiveSupport::Cache::RedisCacheStore.new(url: ENV["REDIS_URL"]) if ENV.key?("REDIS_URL")
+
     throttle('req/ip', limit: 300, period: 5.minutes, &:ip)
 
     # Throttle search requests by IP (15rpm)
