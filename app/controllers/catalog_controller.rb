@@ -5,6 +5,16 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
   include Blacklight::Catalog
   include Arclight::Catalog
 
+  # Protect searches with bot_challenge_page & turnstile
+  # See: https://github.com/samvera-labs/bot_challenge_page
+  #
+  # We protect requests for searches, but not for show pages, so we can still
+  # crawl ourselves and let well-behaved search engines index our content via
+  # the sitemap.
+  before_action only: :index do |controller|
+    BotChallengePage::BotChallengePageController.bot_challenge_enforce_filter(controller, immediate: true)
+  end
+
   configure_blacklight do |config|
     config.logo_link = 'https://library.stanford.edu/'
 

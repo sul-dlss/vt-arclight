@@ -29,4 +29,7 @@ Rails.application.routes.draw do
   end
 
   resource :feedback, only: :create
+
+  # Cloudflare turnstile bot challenges via bot_challenge_page gem
+  post "/challenge", to: "bot_challenge_page/bot_challenge_page#verify_challenge", as: :bot_detect_challenge
 end
