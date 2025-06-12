@@ -76,6 +76,7 @@ group :deployment do
 end
 
 gem 'arclight', '>= 1.1.3', '< 2.0'
+gem "bot_challenge_page", "~> 0.4.0"
 gem "cssbundling-rails", "~> 1.1"
 gem "devise", "~> 4.8"
 gem "devise-guests", "~> 0.8"
@@ -86,6 +87,5 @@ gem "rsolr", ">= 1.0", "< 3"
 gem "honeybadger", "~> 5.0"
 gem "okcomputer", "~> 1.18"
 
-gem "rack-attack"
 gem "recaptcha", "~> 5.12"
 gem "redis", ">= 4.0.1"
