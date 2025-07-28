@@ -1,1 +1,30 @@
 # See https://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+
+Sitemap: https://virtualtribunals.stanford.edu/sitemap.xml
+
+Crawl-delay: 10
+Disallow: /?q=*
+Disallow: /?*&q=
+Disallow: /catalog?q=*
+Disallow: /catalog?*&q=
+Disallow: /catalog.html?q=*
+Disallow: /catalog.html?*&q=
+Disallow: /?f[*
+Disallow: /?*&f[*
+Disallow: /?f%5B*
+Disallow: /?*&f%5B*
+Disallow: /catalog?f[*
+Disallow: /catalog?*&f[*
+Disallow: /catalog?f%5B*
+Disallow: /catalog?*&f%5B*
+Disallow: /catalog.html?f[*
+Disallow: /catalog.html?*&f[*
+Disallow: /catalog.html?f%5B*
+Disallow: /catalog.html?*&f%5B*
+Disallow: /catalog/range_limit
+Disallow: /catalog/facet
+Disallow: /catalog.rss
+Disallow: /catalog.atom
+Disallow: /suggest
+Disallow: /search_history
+Disallow: /bookmarks
