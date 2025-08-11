@@ -542,7 +542,7 @@ PLATFORMS
 
 DEPENDENCIES
   arclight (>= 1.1.3, < 2.0)
-  blacklight (~> 8.11.0)
+  blacklight (~> 8.2)
   bootsnap
   bot_challenge_page (~> 0.4.0)
   capistrano-passenger
