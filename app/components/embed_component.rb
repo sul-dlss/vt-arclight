@@ -9,7 +9,6 @@ class EmbedComponent < Arclight::EmbedComponent
 
   def initialize(document:, presenter:, **)
     super
-
     # Save the search so we can pass it to the viewer for highlighting
     @query_param = presenter.view_context.search_state.query_param
   end

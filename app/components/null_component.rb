@@ -2,6 +2,11 @@
 
 # Renders nothing
 class NullComponent < ViewComponent::Base
+  def initialize(**)
+    # Accept and ignore any keyword args
+    super()
+  end
+
   def render?
     false
   end
