@@ -41,7 +41,7 @@
           </div>
           <div class="mb-3 row">
             <div class="col-md-9 offset-md-3">
-              <%= recaptcha_v3(action: 'feedback') %>
+              <%= helpers.recaptcha_v3(action: 'feedback') %>
               <script type="text/javascript">
               document.forms.feedback_form.addEventListener('submit', async function(e) {
                 e.preventDefault();

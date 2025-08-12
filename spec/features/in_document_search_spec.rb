@@ -28,7 +28,9 @@ RSpec.describe "Highlighted search terms in viewer", :js do
     # search results page
     visit "/nuremberg?search_field=all_fields&q=justice"
 
-    within first('article') do
+    article = find('article .full-text', match: :first).ancestor('article')
+
+    within article do
       click_on 'Search for "justice" in document text'
     end
 

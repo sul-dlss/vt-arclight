@@ -7,7 +7,7 @@ class ExploreFacetComponent < ViewComponent::Base
     @image = image
     @values = values
     @more = more
-    super
+    super()
   end
 
   attr_reader :facet, :image, :values

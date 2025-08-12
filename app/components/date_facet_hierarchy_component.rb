@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+# This require seems to be needed in order for ViewComponent::VERSION
+# to be available in CI:
+# https://github.com/projectblacklight/blacklight/blob/b1249e0e5947ea146e5dfcc903f70e5647da29e3/lib/blacklight/component.rb#L14
+require 'view_component/version'
+
 # Display the date facet in a tree hierarchy
 class DateFacetHierarchyComponent < Blacklight::FacetFieldListComponent
   def facet_item_presenters
