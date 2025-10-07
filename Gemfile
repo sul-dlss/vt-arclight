@@ -87,5 +87,6 @@ gem "rsolr", ">= 1.0", "< 3"
 gem "honeybadger", "~> 5.0"
 gem "okcomputer", "~> 1.18"
 
+gem "blacklight_dynamic_sitemap"
 gem "recaptcha", "~> 5.12"
 gem "redis", ">= 4.0.1"

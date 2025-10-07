@@ -81,3 +81,8 @@ to_field 'date_hierarchy_ssim', extract_xpath('./did/unitdate/@normal') do |_rec
 
   accumulator.replace(facet_data.uniq)
 end
+
+each_record do |_record, context|
+  # Store a hashed version of the id for blacklight dynamic sitemaps
+  context.output_hash['hashed_id_ssi'] = [Digest::MD5.hexdigest(context.output_hash['id'].first)]
+end

@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   mount Blacklight::Engine => '/'
   mount Arclight::Engine => '/'
+  mount BlacklightDynamicSitemap::Engine => '/'
 
   root to: "virtual_tribunals#index"
   concern :searchable, Blacklight::Routes::Searchable.new
