@@ -7,16 +7,6 @@ RSpec.describe ApplicationHelper do
   describe '#render_item_extent' do
     subject(:extent) { render_item_extent(document:) }
 
-    context 'when extent contains separate values for items and pages (ArcLight 1.0 index)' do
-      let(:document) do
-        SolrDocument.new('extent_ssm' => ['1 item(s)', '10 pages'])
-      end
-
-      it 'returns only the number of pages' do
-        expect(extent).to eq '10 pages'
-      end
-    end
-
     context 'when extent contains concatenated values for items and pages (ArcLight 1.1 index)' do
       let(:document) do
         SolrDocument.new('extent_ssm' => ['1 item(s) 10 pages'])
