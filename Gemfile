@@ -90,3 +90,5 @@ gem "okcomputer", "~> 1.18"
 gem "blacklight_dynamic_sitemap"
 gem "recaptcha", "~> 5.12"
 gem "redis", ">= 4.0.1"
+
+gem 'connection_pool', '~> 2.5' # pinned until fix for https://github.com/rails/rails/issues/56291 is released
