@@ -1,33 +1,24 @@
-# This workflow uses actions that are not certified by GitHub.  They are
-# provided by a third-party and are governed by separate terms of service,
-# privacy policy, and support documentation.
-#
-# This workflow will install a prebuilt Ruby version, install dependencies, and
-# run tests and linters.
-name: "Ruby on Rails CI"
+name: CI
+
 on:
   push:
-    branches: ["main"]
+    branches: [main]
   pull_request:
-    branches: ["main"]
+    branches: [main]
+
 jobs:
-  test:
+  tests:
     runs-on: ubuntu-latest
-    env:
-      RAILS_ENV: test
+    strategy:
+      matrix:
+        ruby: ["3.4", "4.0"]
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-      # Add or replace dependency steps here
-      - name: Install Ruby and gems
+      - uses: actions/checkout@v6
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
-          ruby-version: 3.4
-      # Add or replace database setup steps here
-      - name: Set up database schema
-        run: bin/rails db:schema:load
-      # Add or replace test runners here
       - name: Run tests
         run: bin/rake ci
 
