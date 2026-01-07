@@ -53,6 +53,13 @@
   }
 }
 
+.home-heading {
+  border-bottom: 1px solid $stanford-black-20;
+  margin-bottom: 0.75rem;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
 #feedback {
   label {
     font-weight: $font-weight-semibold;
