@@ -13,7 +13,7 @@
     color: $stanford-cool-grey;
     margin-right: 1.5rem;
 
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       display: none;
     }
   }
@@ -42,7 +42,7 @@
 
     .badge {
       background-color: $stanford-black-20;
-      color: $stanford-black;
+      color: var(--stanford-black);
       font-weight: 500;
     }
 
@@ -70,4 +70,3 @@
     }
   }
 }
- 
