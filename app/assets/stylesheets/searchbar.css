@@ -1,0 +1,31 @@
+.navbar-search {
+  background-color: var(--stanford-80-black);
+  border-top: 0
+}
+
+@media (min-width: 992px) {
+  .navbar-search .search-query-form {
+    width: 50%
+  }
+}
+
+.search-query-form {
+  padding: 0.5rem;
+
+  .input-group {
+    input::placeholder {
+      font-style: italic;
+    }
+  }
+
+  .search-btn {
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  /* hide magnifying glass icon when the word 'Search' is also present */
+  #search > span.blacklight-icons.blacklight-icons-search > svg {
+    display: none;
+  }
+}

@@ -59,7 +59,7 @@ class CatalogController < ApplicationController # rubocop:disable Metrics/ClassL
       'collection.rows': 1
     }
 
-    config.header_component = HeaderComponent
+    config.header_component = Header::HeaderComponent
     config.add_results_document_tool(:arclight_bookmark_control, component: Arclight::BookmarkComponent)
     config.add_results_collection_tool(:sort_widget)
     config.add_results_collection_tool(:per_page_widget)

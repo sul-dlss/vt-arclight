@@ -29,25 +29,4 @@
   .show-document h1 {
     @extend .h3;
   }
-
-  // Adjustments for sidebar styling that are only applicable
-  // when the sidebar is *not* collapsed (as it is on mobile).
-  @media (min-width: 992px) {
-    .al-masthead + .navbar-search {
-      margin-bottom: 0;
-    }
-
-    > .container {
-      margin-top: 0 !important;
-    }
-
-    .show-document,
-    .collection-sidebar {
-      padding-top: 2rem;
-    }
-
-    .show-document {
-      padding-left: 2rem !important;
-    }
-  }
 }

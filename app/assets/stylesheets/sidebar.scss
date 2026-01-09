@@ -29,4 +29,16 @@
     padding-bottom: 0.125rem !important;
     padding-top: 0.125rem !important;
   }
+
+  .al-collection-context-actions .btn {
+    display: flex;
+    align-items: center;
+  }
+  .al-collection-context-actions .btn a > * {
+    margin: 0 .5rem;
+  }
+}
+
+.al-show-actions-box-info .dropdown-toggle:after {
+  margin-left: 0.25rem;
 }

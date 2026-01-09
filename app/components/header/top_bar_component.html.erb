@@ -1,0 +1,81 @@
+<nav id="skip-link" class="visually-hidden-focusable" aria-label="Skip links">
+  <div class="container-xl">
+    <a class="d-inline-flex m-1 py-2 px-3" href="#search_field">Skip to search</a>
+    <a class="d-inline-flex m-1 py-2 px-3" href="#main-container">Skip to main content</a>
+    <a class="d-inline-flex m-1 py-2 px-3" href="#documents">Skip to first result</a>
+  </div>
+</nav>
+<header>
+  <div class="identity-bar">
+    <div class="container">
+      <a class="su-brand-bar__logo" href="https://www.stanford.edu">Stanford University</a>
+    </div>
+  </div>
+  <div data-controller="feedback analytics">
+    <nav class="navbar navbar-expand-md bg-dark cardinal-dark">
+      <div class="container">
+        <a class="mb-0 navbar-brand navbar-logo" href="https://library.stanford.edu" aria-label="Stanford University Libraries"></a>
+        <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#user-util-collapse" data-bs-target="#user-util-collapse" aria-controls="user-util-collapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-md-block d-none">
+          <ul class="navbar-nav">
+            <%= render Header::UserUtilLinksComponent.new(mode: @mode) %>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div data-feedback-target="container" id="feedback" class="collapse">
+      <div class="container mt-3">
+        <div class="row justify-content-center">
+          <%= form_with url: feedback_path, method: :post, class: 'col-md-8', html: { name: 'feedback_form' } do |f| %>
+            <%= f.hidden_field :reporting_from, value: request.original_url %>
+            <div class="alert alert-info" role="alert">
+              <%= t('feedbacks.reporting_from', url: request.original_url) %>
+            </div>
+            <div class="mb-3 row">
+              <%= f.label :message, class: "col-md-3 col-form-label" %>
+              <div class="col-md-9">
+                <%= f.text_area :message, class: 'form-control', rows: 5, required: true, :data => helpers.dashlane_ignore %>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <%= f.label :name, class: "col-md-3 col-form-label" %>
+              <div class="col-md-9">
+                <%= f.text_field :name, class: 'form-control', required: true, :data => helpers.dashlane_ignore %>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <%= f.label :email, class: "col-md-3 col-form-label" %>
+              <div class="col-md-9">
+                <%= f.email_field :email, class: 'form-control', required: true, :data => helpers.dashlane_ignore %>
+                <p class="text-secondary mt-2 mb-0">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</p>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <div class="col-md-9 offset-md-3">
+                <%= helpers.recaptcha_v3(action: 'feedback') %>
+                <script type="text/javascript">
+                  document.forms.feedback_form.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    const response = await window.executeRecaptchaForFeedbackAsync();
+                    if (response) {
+                      setInputWithRecaptchaResponseTokenForFeedback('g-recaptcha-response-data-feedback', response);
+                    }
+                    this.submit();
+                  });
+                </script>
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <div class="col-md-9 offset-md-3">
+                <%= f.submit class: 'btn btn-primary' %>
+                <%= button_tag "Cancel", type: :button, data: { bs_toggle: 'collapse', bs_target: '#feedback' }, class: 'btn btn-link' %>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

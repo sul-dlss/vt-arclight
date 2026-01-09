@@ -14,6 +14,7 @@
 @import "home";
 @import "sidebar";
 @import "component";
+@import "searchbar";
 
 body {
   display: flex;
@@ -26,6 +27,11 @@ main {
   @extend .mt-4;
 }
 
+.cardinal-dark {
+  --bs-dark-rgb: var(--stanford-cardinal-dark-rgb);
+  color: white;
+}
+
 .search-widgets {
   width: auto; // Allows the pagination to drop onto the same line as the sort and per page widgets
 }
@@ -33,47 +39,6 @@ main {
 .blacklight-catalog-show {
   .constraints-container {
     display: none; // Never show "back to search" or "start over" on an item show page.
-  }
-}
-
-.prefooter-logo {
-  background-color: black;
-  width: 280px;
-}
-
-.al-masthead h1,
-.al-masthead .h1 {
-  padding: 1.25rem 0;
-}
-
-.al-masthead,
-.navbar-search {
-  background: rgb(213, 213, 212);
-  background: linear-gradient(
-    145deg,
-    rgba(213, 213, 212, 0.464005585144214) 10%,
-    rgba(244, 244, 244, 1) 95%
-  );
-}
-
-.al-masthead + .navbar-search {
-  border: 0; // overriding the style from arclight
-  border-bottom: 1px solid var(--stanford-20-black);
-}
-
-.navbar-search {
-  padding-bottom: 1.5rem;
-
-  > .container {
-    justify-content: space-around; // center the search box
-  }
-
-  .search_field {
-    flex: none;
-  }
-
-  auto-complete {
-    flex: auto;
   }
 }
 
@@ -151,13 +116,4 @@ main {
 
 .tooltip-inner {
   text-align: left;
-}
-
-// This style comes from Blacklight::SearchBarComponent and breaks our header styles
-.bg-light {
-  --bs-bg-opacity: unset;
-}
-
-.navbar .search-query-form button {
-  align-items: center;
 }
