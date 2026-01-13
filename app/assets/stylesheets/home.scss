@@ -1,6 +1,6 @@
 .warning {
-  background-color: $cyan-blue-light;
-  border-color: $stanford-black-20;
+  background-color: var(--stanford-fog-light);
+  border-color: var(--stanford-20-black);
   font-size: $font-size-sm;
   padding: 0.75rem;
 
@@ -10,7 +10,7 @@
   }
 
   .warning-icon {
-    color: $stanford-cool-grey;
+    color: var(--stanford-cool-grey);
     margin-right: 1.5rem;
 
     @media (max-width: 767px) {
@@ -25,12 +25,12 @@
 
 .explore {
   .card {
-    background-color: $cyan-blue-light;
-    border-color: $stanford-black-20;
+    background-color: var(--stanford-fog-light);
+    border-color: var(--stanford-20-black);
     text-align: center;
 
     .card-body {
-      border-top: 1px solid $stanford-black-20;
+      border-top: 1px solid var(--stanford-20-black);
     }
 
     .facet-links {
@@ -41,7 +41,7 @@
     }
 
     .badge {
-      background-color: $stanford-black-20;
+      background-color: var(--stanford-20-black);
       color: var(--stanford-black);
       font-weight: 500;
     }
@@ -54,7 +54,7 @@
 }
 
 .home-heading {
-  border-bottom: 1px solid $stanford-black-20;
+  border-bottom: 1px solid var(--stanford-20-black);
   margin-bottom: 0.75rem;
   margin-top: 2rem;
   padding-bottom: 0.5rem;

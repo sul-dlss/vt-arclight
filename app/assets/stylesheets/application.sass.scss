@@ -1,14 +1,19 @@
 // Entry point for your Sass build
-@import 'palette';
-@import 'bootstrapVariables';
-@import 'bootstrap/scss/bootstrap';
-@import 'bootstrapOverrides';
-@import 'blacklight/blacklight';
-@import 'arclight/application';
-@import 'landingPage';
-@import 'home';
-@import 'sidebar';
-@import 'component';
+
+:root {
+  // https://identity.stanford.edu/design-elements/color/primary-colors/
+  --stanford-cool-grey: #53565a; // used in SDR header (not yet added)
+}
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrapVariables";
+@import "bootstrapOverrides";
+@import "blacklight/blacklight";
+@import "arclight/application";
+@import "landingPage";
+@import "home";
+@import "sidebar";
+@import "component";
 
 body {
   display: flex;
@@ -53,7 +58,7 @@ main {
 
 .al-masthead + .navbar-search {
   border: 0; // overriding the style from arclight
-  border-bottom: 1px solid $stanford-black-20;
+  border-bottom: 1px solid var(--stanford-20-black);
 }
 
 .navbar-search {
@@ -121,7 +126,7 @@ main {
       }
 
       .full-text-snippet {
-        border-left: 1px solid $stanford-black-20;
+        border-left: 1px solid var(--stanford-20-black);
         padding-left: 1rem;
       }
     }
@@ -129,7 +134,7 @@ main {
 }
 
 .facet-limit-active .card-header {
-  background-color: $stanford-black-20 !important;
+  background-color: var(--stanford-20-black) !important;
 }
 
 .facet-values li .selected {
@@ -151,7 +156,7 @@ main {
 // This style comes from Blacklight::SearchBarComponent and breaks our header styles
 .bg-light {
   --bs-bg-opacity: unset;
-} 
+}
 
 .navbar .search-query-form button {
   align-items: center;

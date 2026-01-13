@@ -1,0 +1,35 @@
+/* Modals */
+.modal {
+  --bs-modal-bg: white;
+}
+.modal-backdrop {
+  --bs-modal-backdrop-opacity: 0.8;
+}
+
+/* Tables */
+.table {
+  // See https://github.com/projectblacklight/blacklight/issues/2848 Could be removed in blacklight-frontend 8
+  --bs-table-border-color: var(--stanford-30-black);
+  --bs-table-group-separator-color: var(--stanford-30-black);
+}
+
+/* Breadcrumbs */
+.breadcrumb-chevron {
+  --bs-breadcrumb-divider: quote("»");
+}
+
+/* Cards */
+.card {
+  --bs-card-cap-bg: var(--stanford-fog-light);
+  --bs-card-border-color: var(--stanford-20-black);
+}
+
+/* Off-canvas */
+.offcanvas {
+  --bs-offcanvas-bg: var(--stanford-10-black);
+}
+
+:root {
+  /* Borders */
+  --bs-border-color: var(--stanford-20-black);
+}
