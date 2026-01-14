@@ -8,7 +8,7 @@
 
 /* Tables */
 .table {
-  // See https://github.com/projectblacklight/blacklight/issues/2848 Could be removed in blacklight-frontend 8
+  /* See https://github.com/projectblacklight/blacklight/issues/2848 Could be removed in blacklight-frontend 8 */
   --bs-table-border-color: var(--stanford-30-black);
   --bs-table-group-separator-color: var(--stanford-30-black);
 }
