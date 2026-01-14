@@ -9,7 +9,7 @@
   }
 
   .al-collection-content-icon {
-    fill: $stanford-cool-grey;
+    fill: var(--stanford-cool-grey);
   }
 
   .al-show-sub-heading {
@@ -17,13 +17,13 @@
   }
 
   .al-number-of-children-badge {
-    background-color: $cyan-blue-light !important;
-    border: 0.75px solid $stanford-black-20;
-    color: $stanford-cool-grey;
+    background-color: var(--stanford-fog-light) !important;
+    border: 0.75px solid var(--stanford-20-black);
+    color: var(--stanford-cool-grey);
   }
 
   .dl-invert dt {
-    color: $stanford-cool-grey;
+    color: var(--stanford-cool-grey);
   }
 
   .show-document h1 {

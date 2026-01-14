@@ -1,11 +1,11 @@
 .vt-landing-page {
   h2 {
-    border-bottom: 1px solid $stanford-stone-light;
+    border-bottom: 1px solid var(--stanford-stone-light);
     @extend .pb-2;
   }
 
   .item-image {
-    border: 1px solid $silver-sand;
+    border: 1px solid var(--stanford-30-black);
     height: 100%;
     max-width: 300px;
   }
@@ -17,7 +17,7 @@
     .item-image {
       @extend .me-3;
       flex-shrink: 0;
-      
+
       @media (max-width: 767px) {
         display: none;
       }
