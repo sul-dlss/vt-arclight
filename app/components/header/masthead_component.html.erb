@@ -1,0 +1,29 @@
+  
+<div class="masthead bg-dark cardinal-dark">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-end pt-3 pb-1 pb-md-3 gap-2">
+      <div class="d-flex align-items-end gap-2 flex-grow-1">
+        <span class="rosette-logo me-1 align-self-start flex-shrink-0" aria-hidden="true"></span>
+        <div class="me-1 flex-grow-1">
+          <div class="h1 my-0">
+            <%= title %>
+          </div>
+        </div>
+      </div>
+      <div class="navbars ms-md-auto bg-dark">
+        <nav class="collapse navbar-collapse align-items-start justify-content-md-end navbar-expand-md d-md-flex flex-column flex-md-row" aria-label="browse" id="user-util-collapse">
+          <% if @mode != :vt %>
+            <hr class="d-md-none text-white vw-100 my-0">
+            <ul class="navbar-nav justify-content-md-end gap-0 gap-md-4 w-100 fw-semibold">
+              <%= render Header::NavigationLinksComponent.new %>
+            </ul>
+          <% end %>
+          <hr class="d-md-none text-white vw-100 my-0">
+          <ul class="navbar-nav d-md-none gap-0 w-100">
+            <%= render Header::UserUtilLinksComponent.new(mode: @mode) %>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
