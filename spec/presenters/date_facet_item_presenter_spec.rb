@@ -8,10 +8,8 @@ RSpec.describe DateFacetItemPresenter do
   let(:facet_item) { Blacklight::Solr::Response::Facets::FacetItem.new(hits: 10, value:) }
 
   let(:facet_config) { CatalogController.blacklight_config.facet_fields['date_hierarchy'] }
-  # rubocop:disable RSpec/VerifiedDoubles
   let(:view_context) { double(search_state: instance_double(Blacklight::SearchState)) }
   let(:facet_field) { double }
-  # rubocop:enable RSpec/VerifiedDoubles
 
   context 'with year granularity' do
     let(:value) { '2019' }
