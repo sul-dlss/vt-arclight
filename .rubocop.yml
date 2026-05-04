@@ -285,7 +285,7 @@ RSpec/VerifiedDoubleReference: # new in 2.10.0
   Enabled: true
 Capybara/SpecificFinders: # new in 2.13
   Enabled: true
-Capybara/SpecificMatcher: # new in 2.12
+Capybara/RSpec/SpecificMatcher: # new in 2.12
   Enabled: true
 FactoryBot/SyntaxMethods: # new in 2.7
   Enabled: true
@@ -307,7 +307,7 @@ Rails/WhereNotWithMultipleConditions: # new in 2.17
   Enabled: true
 RSpec/SortMetadata: # new in 2.14
   Enabled: true
-Capybara/NegationMatcher: # new in 2.14
+Capybara/RSpec/NegationMatcher: # new in 2.14
   Enabled: true
 Capybara/SpecificActions: # new in 2.14
   Enabled: true
@@ -351,7 +351,7 @@ Style/RedundantHeredocDelimiterQuotes: # new in 1.45
   Enabled: true
 Rails/ResponseParsedBody: # new in 2.18
   Enabled: true
-Capybara/MatchStyle: # new in 2.17
+Capybara/RSpec/MatchStyle: # new in 2.17
   Enabled: true
 RSpec/RedundantAround: # new in 2.19
   Enabled: true
