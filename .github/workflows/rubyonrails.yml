@@ -20,7 +20,7 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
       - name: Run tests
-        run: bin/rake ci
+        run: bin/ci
 
   lint:
     runs-on: ubuntu-latest
