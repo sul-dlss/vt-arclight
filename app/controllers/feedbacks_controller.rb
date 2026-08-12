@@ -4,7 +4,7 @@
 class FeedbacksController < ApplicationController
   # rubocop:disable Metrics/AbcSize
   def create
-    if verify_recaptcha(action: 'feedback')
+    if verify_recaptcha(action: 'feedback', minimum_score: 0.5)
       FeedbackMailer.submit_feedback(name: params[:name], email: params[:email],
                                      reporting_from: params[:reporting_from],
                                      message: params[:message]).deliver_now
