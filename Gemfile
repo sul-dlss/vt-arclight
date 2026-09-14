@@ -84,6 +84,7 @@ gem "bot_challenge_page", "~> 0.4.0"
 gem "cssbundling-rails", "~> 1.1"
 gem "devise", "~> 4.8"
 gem "devise-guests", "~> 0.8"
+gem 'json', '~> 2.0' # remove once https://github.com/rails/rails/issues/56291 is fixed
 gem "pg", "~> 1.4"
 gem "propshaft", "~> 0.6.4"
 gem "rsolr", ">= 1.0", "< 3"
