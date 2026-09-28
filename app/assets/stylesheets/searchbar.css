@@ -10,18 +10,11 @@
 }
 
 .search-query-form {
-  padding: 0.5rem;
-
-  .input-group {
-    input::placeholder {
-      font-style: italic;
-    }
-  }
-
-  .search-btn {
-    align-items: center;
+  .form-control {
+    --bs-border-width: 0;
   }
 }
+
 
 @media (min-width: 576px) {
   /* hide magnifying glass icon when the word 'Search' is also present */
