@@ -1,7 +1,7 @@
 <% # this view overrides the Arclight provided view so that we can see the home page text %>
 
 <% content_for(:sidebar) do %>
-  <% cache search_state.to_hash do %>
+  <% cache_unless search_state.query_param.present?, search_state.to_hash, expires_in: 12.hours do %>
     <% conf = blacklight_config.view_config(document_index_view_type) %>
     <%= render conf.sidebar_component.new(blacklight_config: blacklight_config,
                                           response: @response,
