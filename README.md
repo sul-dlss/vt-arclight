@@ -11,10 +11,22 @@ yarn
 
 
 ## Start solr
-First start solr.
+First start solr with Docker:
 ```shell
-bundle exec solr_wrapper
+docker compose up -d solr
 ```
+This creates a `blacklight-core` core from `solr/conf` on port 8983. If something else is already using that port, set `SOLR_PORT`, and point the app at it with `SOLR_URL`:
+```shell
+SOLR_PORT=8984 docker compose up -d solr
+export SOLR_URL=http://127.0.0.1:8984/solr/blacklight-core
+```
+Stop it with `docker compose stop solr`.
+
+## Run the tests
+```shell
+bin/rake ci
+```
+This starts Solr with Docker (or with solr_wrapper if Docker isn't running), runs the specs, and stops Solr.
 ## Index seed data
 You can seed the index with `rake vt:seed`. This loads data from our `spec/fixtures` directory. It is a vastly reduced (200K vs 1K lines of XML) version of the collection EAD file, which should be representative of different media types, series, subseries, date formats, etc. The fulltext transcript files associated with the items in `seed.xml` are also stored in our fixtures; these files will be indexed for fulltext search.
 
@@ -88,10 +100,3 @@ Then in another terminal, start the app:
 bin/dev
 ```
 A server will start with the application on port 3000.
-
-### OR with Docker
-You can start the application by running:
-```
-docker compose up
-```
-Then point your browser at http://localhost:3000/
