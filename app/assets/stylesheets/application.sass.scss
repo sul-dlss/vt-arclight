@@ -117,3 +117,22 @@ main {
 .tooltip-inner {
   text-align: left;
 }
+
+// Blacklight overrides
+.navbar-logo {
+  background-size: inherit;
+}
+
+.blacklight-icons-search {
+  display: none;
+}
+
+.search-btn span {
+  margin-right: 0!important;
+}
+
+@media (width >= 576px) {
+  .input-group > .search-autocomplete-wrapper .search-q {
+    border-inline-start: var(--search-q-border);
+  }
+}
